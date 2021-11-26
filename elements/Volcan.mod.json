@@ -1,0 +1,118 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Volcan",
+    "groundBlock": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.BLACKSTONE"
+    },
+    "airColor": {
+      "value": -13343645,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16545518,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16619008,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16484243,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -15840700,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.4,
+    "biomeType": "DESERT",
+    "spawnBiome": true,
+    "biomeWeight": 15,
+    "biomeDictionaryTypes": [
+      "MOUNTAIN"
+    ],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 1,
+    "flowersPerChunk": 2,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 5,
+    "treeStem": {
+      "value": "Blocks.COAL_BLOCK"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Fossils",
+      "Caves",
+      "Ores",
+      "ExtraGoldOre"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityCreature"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

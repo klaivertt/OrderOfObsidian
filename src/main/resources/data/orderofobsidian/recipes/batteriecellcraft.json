@@ -1,0 +1,42 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "1": {
+      "item": "orderofobsidian:wirecoil_copper"
+    },
+    "2": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "3": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "4": {
+      "item": "orderofobsidian:wirecoil_copper"
+    },
+    "5": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "6": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "7": {
+      "item": "orderofobsidian:wirecoil_copper"
+    },
+    "8": {
+      "item": "orderofobsidian:aluminium_plate"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:batterie_cell",
+    "count": 1
+  }
+}

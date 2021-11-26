@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "orderofobsidian:blocks/end_nylium_planks",
+    "top": "orderofobsidian:blocks/end_nylium_planks",
+    "side": "orderofobsidian:blocks/end_nylium_planks"
+  }
+}

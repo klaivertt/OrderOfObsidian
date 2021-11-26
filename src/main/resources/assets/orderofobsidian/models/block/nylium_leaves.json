@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/flowering_nylium_leaves",
+    "up": "orderofobsidian:blocks/flowering_nylium_leaves",
+    "north": "orderofobsidian:blocks/flowering_nylium_leaves",
+    "east": "orderofobsidian:blocks/flowering_nylium_leaves",
+    "south": "orderofobsidian:blocks/flowering_nylium_leaves",
+    "west": "orderofobsidian:blocks/flowering_nylium_leaves",
+    "particle": "orderofobsidian:blocks/flowering_nylium_leaves"
+  }
+}

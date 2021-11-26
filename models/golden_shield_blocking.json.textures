@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "gold_shield"
+      },
+      "name": "default"
+    }
+  }
+}

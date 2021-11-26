@@ -1,0 +1,7 @@
+newmtl Enderdragon
+Ka 1.0 1.0 1.0
+Kd 0.588235 0.588235 0.588235
+Ks 0.0 0.0 0.0
+map_Kd orderofobsidian:blocks/
+Ns 18.000006
+d 1.0

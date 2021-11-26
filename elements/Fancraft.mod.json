@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:WirecoilCopper"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:CopperGear"
+      },
+      {
+        "value": "CUSTOM:BatterieCell"
+      },
+      {
+        "value": "CUSTOM:CopperGear"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:WirecoilCopper"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Fan"
+    },
+    "name": "fancraft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:NyliumWood"
+      },
+      {
+        "value": "CUSTOM:NyliumLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "nylium_log",
+    "namespace": "forge"
+  }
+}

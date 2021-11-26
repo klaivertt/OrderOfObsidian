@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "orderofobsidian:block/netherite_golem_head"
+    },
+    "facing=east": {
+      "model": "orderofobsidian:block/netherite_golem_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "orderofobsidian:block/netherite_golem_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orderofobsidian:block/netherite_golem_head",
+      "y": 270
+    }
+  }
+}

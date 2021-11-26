@@ -1,0 +1,26 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:nylium_log"
+    },
+    "1": {
+      "item": "orderofobsidian:nylium_log"
+    },
+    "2": {
+      "item": "orderofobsidian:nylium_log"
+    },
+    "3": {
+      "item": "orderofobsidian:nylium_log"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:nylium_wood",
+    "count": 3
+  }
+}

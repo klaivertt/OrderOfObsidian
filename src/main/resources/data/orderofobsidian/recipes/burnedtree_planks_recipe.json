@@ -1,0 +1,13 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:burnedtree_log"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:burnedtree_planks",
+    "count": 4
+  }
+}

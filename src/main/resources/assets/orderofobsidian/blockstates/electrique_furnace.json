@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "orderofobsidian:block/electrique_furnace"
+    },
+    "facing=east": {
+      "model": "orderofobsidian:block/electrique_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "orderofobsidian:block/electrique_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orderofobsidian:block/electrique_furnace",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "orderofobsidian:blocks/oxysore",
+    "particle": "orderofobsidian:blocks/oxysore"
+  }
+}

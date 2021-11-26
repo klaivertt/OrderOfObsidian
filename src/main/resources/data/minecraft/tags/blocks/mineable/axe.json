@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "orderofobsidian:burnedtree_wood",
+    "orderofobsidian:burnedtree_log",
+    "orderofobsidian:burnedtree_planks",
+    "orderofobsidian:nylium_wood",
+    "orderofobsidian:nylium_log",
+    "orderofobsidian:nylium_planks"
+  ]
+}

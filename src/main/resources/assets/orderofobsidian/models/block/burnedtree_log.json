@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/burned_stem_top",
+    "up": "orderofobsidian:blocks/burned_stem_top",
+    "north": "orderofobsidian:blocks/11",
+    "east": "orderofobsidian:blocks/11",
+    "south": "orderofobsidian:blocks/11",
+    "west": "orderofobsidian:blocks/11",
+    "particle": "orderofobsidian:blocks/burned_stem_top"
+  }
+}

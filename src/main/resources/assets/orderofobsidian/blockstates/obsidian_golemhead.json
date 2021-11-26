@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "orderofobsidian:block/obsidian_golemhead"
+    },
+    "facing=east": {
+      "model": "orderofobsidian:block/obsidian_golemhead",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "orderofobsidian:block/obsidian_golemhead",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orderofobsidian:block/obsidian_golemhead",
+      "y": 270
+    }
+  }
+}

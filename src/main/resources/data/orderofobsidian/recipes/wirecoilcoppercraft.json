@@ -1,0 +1,30 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "orderofobsidian:ironplate"
+    },
+    "3": {
+      "item": "minecraft:copper_ingot"
+    },
+    "4": {
+      "item": "minecraft:copper_ingot"
+    },
+    "5": {
+      "item": "minecraft:copper_ingot"
+    },
+    "7": {
+      "item": "orderofobsidian:ironplate"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:wirecoil_copper",
+    "count": 1
+  }
+}

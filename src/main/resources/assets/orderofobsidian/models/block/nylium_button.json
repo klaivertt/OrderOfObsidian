@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "orderofobsidian:blocks/end_nylium_planks"
+  }
+}

@@ -1,0 +1,4189 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Oxysapple",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxysapple",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysappleFoodEaten",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxysapple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/oxys"
+    },
+    {
+      "name": "Saddle",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saddle",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "NetherackarmorArmor",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherackarmor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/netherack"
+    },
+    {
+      "name": "NetherackarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherackarmor_armor_helmet_recipe",
+      "path": "~/netherack"
+    },
+    {
+      "name": "NetherackarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherackarmor_armor_body_recipe",
+      "path": "~/netherack"
+    },
+    {
+      "name": "NetherackarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherackarmor_armor_leggings_recipe",
+      "path": "~/netherack"
+    },
+    {
+      "name": "NetherackarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherackarmor_armor_boots_recipe",
+      "path": "~/netherack"
+    },
+    {
+      "name": "Spirit",
+      "type": "tab",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spirit",
+      "path": "~/CreativeInventorieTab"
+    },
+    {
+      "name": "Obsidian_armorArmor",
+      "type": "armor",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_armor_helmet_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_armor_body_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_armor_leggings_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_armor_boots_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_pickaxe_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolAxeRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_axe_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolSwordRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_sword_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolShovelRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_shovel_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolHoeRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_hoe_recipe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "DiamondApple",
+      "type": "food",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_apple",
+      "path": "~/food"
+    },
+    {
+      "name": "DiamondAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/food"
+    },
+    {
+      "name": "DimondApple",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimond_apple",
+      "path": "~/food"
+    },
+    {
+      "name": "OxysApples",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_apples",
+      "path": "~/oxys"
+    },
+    {
+      "name": "IgnitionProcedure",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignition_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Ignition",
+      "type": "enchantment",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ignition",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Propelling",
+      "type": "enchantment",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "propelling",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "PropelingProcedure",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "propeling_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Oxys",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysOre",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_ore",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysBlock",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_block",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_ore_block_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_block_ore_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysOreSmelting",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_ore_smelting",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysPickaxe",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_pickaxe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysAxe",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_axe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysSword",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_sword",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysShovel",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_shovel",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysHoe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_hoe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_pickaxe_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysAxeRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_axe_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysSwordRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_sword_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysShovelRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_shovel_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysHoeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_hoe_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysArmor",
+      "type": "armor",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_armor_helmet_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_armor_body_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_armor_leggings_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_armor_boots_recipe",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysStick",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_stick",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysStickcraft",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_stickcraft",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysBow",
+      "type": "rangeditem",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_bow",
+      "path": "~/oxys"
+    },
+    {
+      "name": "OxysBowCraft",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_bow_craft",
+      "path": "~/oxys"
+    },
+    {
+      "name": "Volcan",
+      "type": "biome",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcan",
+      "path": "~/biome"
+    },
+    {
+      "name": "Pikeperchhill",
+      "type": "biome",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pikeperchhill",
+      "path": "~/biome"
+    },
+    {
+      "name": "Obsidianlavalake",
+      "type": "structure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianlavalake",
+      "path": "~/structure"
+    },
+    {
+      "name": "BurnedtreeWood",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_wood",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeLog",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_log",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreePlanks",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_planks",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeLeaves",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_leaves",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeStairs",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeSlab",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeFence",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_fence",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeFenceGate",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_fence_gate",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreePressurePlate",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_pressure_plate",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeButton",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_button",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeItemsTag",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_items_tag",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeWoodRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_wood_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreePlanksRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_planks_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeStairsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_stairs_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeSlabRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_slab_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeFenceRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_fence_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_fence_gate_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_pressure_plate_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeButtonRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_button_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "BurnedtreeStickRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "burnedtree_stick_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "Wooden_armorArmor",
+      "type": "armor",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Wooden_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_armor_helmet_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Wooden_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_armor_body_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Wooden_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_armor_leggings_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Wooden_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_armor_armor_boots_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Obsidian_toolPickaxe",
+      "type": "tool",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_pickaxe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolAxe",
+      "type": "tool",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_axe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolSword",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_sword",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolShovel",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_shovel",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "Obsidian_toolHoe",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_tool_hoe",
+      "path": "~/obsidian"
+    },
+    {
+      "name": "LighthouseMedieval",
+      "type": "structure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lighthouse_medieval",
+      "path": "~/structure"
+    },
+    {
+      "name": "MedievalTent",
+      "type": "structure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medieval_tent",
+      "path": "~/structure"
+    },
+    {
+      "name": "Smallchaletwithgarden",
+      "type": "structure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smallchaletwithgarden",
+      "path": "~/structure"
+    },
+    {
+      "name": "Medievaltent1",
+      "type": "structure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medievaltent_1",
+      "path": "~/structure"
+    },
+    {
+      "name": "Medievaltent2",
+      "type": "structure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medievaltent_2",
+      "path": "~/structure"
+    },
+    {
+      "name": "Medievaltent3",
+      "type": "structure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medievaltent_3",
+      "path": "~/structure"
+    },
+    {
+      "name": "Ultimatesword",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimatesword"
+    },
+    {
+      "name": "Blueghast",
+      "type": "livingentity",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueghast",
+      "path": "~/mob"
+    },
+    {
+      "name": "Endermanblaze",
+      "type": "livingentity",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endermanblaze",
+      "path": "~/mob"
+    },
+    {
+      "name": "ObsidianGolem",
+      "type": "livingentity",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_golem",
+      "path": "~/mob"
+    },
+    {
+      "name": "Netheritegolem",
+      "type": "livingentity",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netheritegolem",
+      "path": "~/mob"
+    },
+    {
+      "name": "ObsidianGolemheadUpdateTick",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_golemhead_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mob"
+    },
+    {
+      "name": "ObsidianGolemhead",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_golemhead",
+      "path": "~/mob"
+    },
+    {
+      "name": "Obsidiangolemheadcraft",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidiangolemheadcraft",
+      "path": "~/mob"
+    },
+    {
+      "name": "NetheriteGolemHead",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_golem_head",
+      "path": "~/mob"
+    },
+    {
+      "name": "NetheriteGolemHeadUpdateTick",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_golem_head_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mob"
+    },
+    {
+      "name": "Netheritegolemheadcraft",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netheritegolemheadcraft",
+      "path": "~/mob"
+    },
+    {
+      "name": "DubiousOre",
+      "type": "achievement",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dubious_ore",
+      "path": "~/achivement"
+    },
+    {
+      "name": "DrowneHorse",
+      "type": "livingentity",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drowne_horse",
+      "path": "~/mob"
+    },
+    {
+      "name": "EndCreeper",
+      "type": "livingentity",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_creeper",
+      "path": "~/mob"
+    },
+    {
+      "name": "NetherCreeper",
+      "type": "livingentity",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_creeper",
+      "path": "~/mob"
+    },
+    {
+      "name": "Dimondhammer",
+      "type": "tool",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondhammer",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Tools",
+      "type": "tab",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tools",
+      "path": "~/CreativeInventorieTab"
+    },
+    {
+      "name": "DimondhammerBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimondhammer_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "IronHammer",
+      "type": "tool",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_hammer",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "GoldHammer",
+      "type": "tool",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_hammer",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "NetheriteHammer",
+      "type": "tool",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_hammer",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "StoneHammer",
+      "type": "tool",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_hammer",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "WoodHammer",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_hammer",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Dimondhammercraft",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimondhammercraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Ironhammercraft",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironhammercraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Netheritehammercraft",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netheritehammercraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Goldhammercraft",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldhammercraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Stoneshammercraft",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stoneshammercraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Woodhammercraft",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodhammercraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "items",
+      "path": "~/CreativeInventorieTab"
+    },
+    {
+      "name": "Forge",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge",
+      "path": "~/machine"
+    },
+    {
+      "name": "Forgegui",
+      "type": "gui",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgegui",
+      "path": "~/machine"
+    },
+    {
+      "name": "ForgeUpdateTick",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Showfiregui",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "showfiregui",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Forgefurnace",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgefurnace",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "CopperGear",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_gear",
+      "path": "~/item"
+    },
+    {
+      "name": "Coppergearcraft",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppergearcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Forgecraft",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgecraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "GuiFour",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_four",
+      "path": "~/machine"
+    },
+    {
+      "name": "FourUpdateTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Animfeu",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "animfeu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "TestFeu1",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_feu_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "TestFeu2",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_feu_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "TestFeu3",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_feu_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Barre0",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barre_0",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Barre1",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barre_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Barre2",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barre_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Barre3",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barre_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Barre4",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barre_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "InvisibleUpdateTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "invisible_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Invisible",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "invisible",
+      "path": "~/machine"
+    },
+    {
+      "name": "Forgeon",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgeon",
+      "path": "~/machine"
+    },
+    {
+      "name": "SolarpanelUpdateTick",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solarpanel_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "EnergyMetterRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_metter_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "EnergyMetter",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_metter",
+      "path": "~/machine"
+    },
+    {
+      "name": "Batterie1",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batterie_1",
+      "path": "~/machine"
+    },
+    {
+      "name": "BatterietierIUpdateTick",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batterietier_i_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "SolarPannelTierI",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solar_pannel_tier_i",
+      "path": "~/machine"
+    },
+    {
+      "name": "Fan",
+      "type": "block",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fan",
+      "path": "~/machine"
+    },
+    {
+      "name": "FanUpdateTick",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fan_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Goldenchield",
+      "type": "tool",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldenchield",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "GoldenchielblokingToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldenchielbloking_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "GoldenchieldRightClickedInAir",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldenchield_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Goldenchielbloking",
+      "type": "tool",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldenchielbloking",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Whenplayerattackedholdingshield",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whenplayerattackedholdingshield",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Shieldonplayertickupdate",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shieldonplayertickupdate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Goldenchieldcraft",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldenchieldcraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "LeadDust",
+      "type": "item",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_dust",
+      "path": "~/item"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "LeadPlate",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_plate",
+      "path": "~/item"
+    },
+    {
+      "name": "WirecoilCopper",
+      "type": "item",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wirecoil_copper",
+      "path": "~/item"
+    },
+    {
+      "name": "BatterieCell",
+      "type": "item",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batterie_cell",
+      "path": "~/item"
+    },
+    {
+      "name": "Ironplate",
+      "type": "item",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironplate",
+      "path": "~/item"
+    },
+    {
+      "name": "Leaddustcraft",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaddustcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Leadingotcraft",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadingotcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Leadplatecraft",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadplatecraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Ironplatecraft",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironplatecraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Wirecoilcoppercraft",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wirecoilcoppercraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Batteriecellcraft",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batteriecellcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Betterietier1craft",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "betterietier_1craft",
+      "path": "~/machine"
+    },
+    {
+      "name": "Solarpannelcraft",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solarpannelcraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "Energymettercraft",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energymettercraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "Fancraft",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "Electriquefurnaceupdate",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electriquefurnaceupdate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "ElectriqueFurnace",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrique_furnace",
+      "path": "~/machine"
+    },
+    {
+      "name": "SteelDust",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_dust",
+      "path": "~/item"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "SteelPlate",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_plate",
+      "path": "~/item"
+    },
+    {
+      "name": "CopperPlate",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_plate",
+      "path": "~/item"
+    },
+    {
+      "name": "ProcesseurTierI",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processeur_tier_i",
+      "path": "~/item"
+    },
+    {
+      "name": "ProcesseurTierII",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processeur_tier_ii",
+      "path": "~/item"
+    },
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "AluminiumPlate",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_plate",
+      "path": "~/item"
+    },
+    {
+      "name": "SteelDustCraft",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_dust_craft",
+      "path": "~/item"
+    },
+    {
+      "name": "SmeltingSteelDust",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_steel_dust",
+      "path": "~/item"
+    },
+    {
+      "name": "SteelPlatecraft",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_platecraft",
+      "path": "~/item"
+    },
+    {
+      "name": "AluminiumPlatecraft",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_platecraft",
+      "path": "~/item"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_helmet_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "SteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_body_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_leggings_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_boots_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_pickaxe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_axe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_shovel",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hoe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_pickaxe_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_axe_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_shovel_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hoe_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "AluminiumOre",
+      "type": "block",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "Aluminiumoresmelting",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminiumoresmelting",
+      "path": "~/block"
+    },
+    {
+      "name": "ProcesseurTierIcraft",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processeur_tier_icraft",
+      "path": "~/item"
+    },
+    {
+      "name": "ProcesseurTierIIcraft",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processeur_tier_i_icraft",
+      "path": "~/item"
+    },
+    {
+      "name": "ElectriqueFurnaceCraft",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrique_furnace_craft",
+      "path": "~/machine"
+    },
+    {
+      "name": "FaradayArmor",
+      "type": "armor",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faraday_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "FaradayArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faraday_armor_helmet_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "FaradayArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faraday_armor_body_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "FaradayArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faraday_armor_leggings_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "FaradayArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faraday_armor_boots_recipe",
+      "path": "~/armor"
+    },
+    {
+      "name": "Machine",
+      "type": "tab",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "machine",
+      "path": "~/CreativeInventorieTab"
+    },
+    {
+      "name": "BlocK",
+      "type": "tab",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_k",
+      "path": "~/CreativeInventorieTab"
+    },
+    {
+      "name": "NyliumWood",
+      "type": "block",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_wood",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumLog",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_log",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumPlanks",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_planks",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumLeaves",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_leaves",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumStairs",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumSlab",
+      "type": "block",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumFence",
+      "type": "block",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_fence",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumFenceGate",
+      "type": "block",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_fence_gate",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumPressurePlate",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_pressure_plate",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumButton",
+      "type": "block",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_button",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumItemsTag",
+      "type": "tag",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_items_tag",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumWoodRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_wood_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumPlanksRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_planks_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumStairsRecipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_stairs_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumSlabRecipe",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_slab_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumFenceRecipe",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_fence_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_fence_gate_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_pressure_plate_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumButtonRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_button_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumStickRecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_stick_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "NyliumForest",
+      "type": "biome",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nylium_forest",
+      "path": "~/biome"
+    },
+    {
+      "name": "IronSpear",
+      "type": "tool",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear",
+      "path": "~/tools"
+    },
+    {
+      "name": "GoldSpear",
+      "type": "tool",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_spear",
+      "path": "~/tools"
+    },
+    {
+      "name": "DiamondSpear",
+      "type": "tool",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_spear",
+      "path": "~/tools"
+    },
+    {
+      "name": "ObsidianSpear",
+      "type": "tool",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_spear",
+      "path": "~/tools"
+    },
+    {
+      "name": "Obsidianspearcraft",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianspearcraft",
+      "path": "~/tools"
+    },
+    {
+      "name": "OxysSpear",
+      "type": "tool",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_spear",
+      "path": "~/oxys"
+    },
+    {
+      "name": "Diamondspearcraft",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondspearcraft",
+      "path": "~/tools"
+    },
+    {
+      "name": "IronSpearCraft",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear_craft",
+      "path": "~/tools"
+    },
+    {
+      "name": "Goldspearcraft",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldspearcraft",
+      "path": "~/tools"
+    },
+    {
+      "name": "OxysSpearcraft",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_spearcraft",
+      "path": "~/oxys"
+    },
+    {
+      "name": "DiamondBattleAxe",
+      "type": "tool",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_battle_axe",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "GoldBattleAxe",
+      "type": "tool",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_battle_axe",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "IronBattleAxe",
+      "type": "tool",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_battle_axe",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "StoneBattleAxe",
+      "type": "tool",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_battle_axe",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "WoodBattleAxe",
+      "type": "tool",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_battle_axe",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "DimondBattleaxecraft",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimond_battleaxecraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Goldbattleaxecraft",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldbattleaxecraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "IronBattleaxecraft",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_battleaxecraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "StoneBattleAxeCraft",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_battle_axe_craft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "WoodBattleAxeCraft",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_battle_axe_craft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "DiamondKatana",
+      "type": "tool",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_katana",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "GoldKatana",
+      "type": "tool",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_katana",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "IronKatana",
+      "type": "tool",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_katana",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "StoneKatana",
+      "type": "tool",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_katana",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "WoodKatana",
+      "type": "tool",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_katana",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Diamondkatanacraft",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondkatanacraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "GoldKatanacraft",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_katanacraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "IronKatanacraft",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_katanacraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "Ironbarre",
+      "type": "item",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironbarre",
+      "path": "~/item"
+    },
+    {
+      "name": "IronBarrecraft",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_barrecraft",
+      "path": "~/item"
+    },
+    {
+      "name": "StoneKatanacraft",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_katanacraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "WoodKatanaraft",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_katanaraft",
+      "path": "~/outilvanilla"
+    },
+    {
+      "name": "HeavyNetherite",
+      "type": "armor",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_netherite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyNetheriteHelmet",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_netherite_helmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavieNetheritebody",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavie_netheritebody",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyNetheriteLeggings",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_netherite_leggings",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyNetheriteBoots",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_netherite_boots",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyDiamond",
+      "type": "armor",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_diamond",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyGold",
+      "type": "armor",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_gold",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyIron",
+      "type": "armor",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_iron",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyLather",
+      "type": "armor",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_lather",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Heavydiamondbody",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavydiamondbody",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavydiamondHelmet",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavydiamond_helmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "Heavydiamondleggings",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavydiamondleggings",
+      "path": "~/armor"
+    },
+    {
+      "name": "Heavydiamondboots",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavydiamondboots",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyGoldHelmet",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_gold_helmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyGoldbody",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_goldbody",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyGoldleggings",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_goldleggings",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyGoldBoots",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_gold_boots",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyIronHelmet",
+      "type": "recipe",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_iron_helmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyIronBody",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_iron_body",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyIronLeggings",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_iron_leggings",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyIronboots",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_ironboots",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyLeatherHelmet",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_leather_helmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyLeatherBody",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_leather_body",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyLeatherLeggings",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_leather_leggings",
+      "path": "~/armor"
+    },
+    {
+      "name": "HeavyLeatherBoots",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_leather_boots",
+      "path": "~/armor"
+    },
+    {
+      "name": "Chainmailhelmet",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmailhelmet",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Chainmailchestplate",
+      "type": "recipe",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmailchestplate",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Chainmailboots",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmailboots",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Chainmailleggings",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainmailleggings",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Growth",
+      "type": "enchantment",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "growth",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Growthenchantementprocedure",
+      "type": "procedure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "growthenchantementprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Fireresistance",
+      "type": "enchantment",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fireresistance",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "FireResistancProcedure",
+      "type": "procedure",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_resistanc_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Speed",
+      "type": "enchantment",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Autosmeltprocedure",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "autosmeltprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "AutoSmelt",
+      "type": "enchantment",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_smelt",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Wither",
+      "type": "enchantment",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "WitherEnchantementProcedure",
+      "type": "procedure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_enchantement_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "CurseOfBackfire",
+      "type": "enchantment",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_backfire",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "CurseOfBackfireEnchantementprocedure",
+      "type": "procedure",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_backfire_enchantementprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "SpeedEnchantemement",
+      "type": "procedure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_enchantemement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "IceAspect",
+      "type": "enchantment",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_aspect",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "IceAspectEnchantement",
+      "type": "procedure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_aspect_enchantement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "LifeSteal",
+      "type": "enchantment",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "LifeStealEnchantement",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal_enchantement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "NightVision",
+      "type": "enchantment",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_vision",
+      "path": "~/enchantement"
+    },
+    {
+      "name": "NightVisionEnchantement",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_vision_enchantement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantement"
+    },
+    {
+      "name": "Chips",
+      "type": "food",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chips",
+      "path": "~/food"
+    },
+    {
+      "name": "Sushi",
+      "type": "food",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sushi",
+      "path": "~/food"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "anim",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.orderofobsidian.drowne_horse": "Drowne Horse",
+      "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
+      "item.orderofobsidian.stone_hammer": "Stone Hammer",
+      "item.spiritforge.oxys_hoe": "Oxys Hoe",
+      "item.orderofobsidian.lead_ingot": "Lead Ingot",
+      "enchantment.orderofobsidian.wither": "Wither",
+      "item.orderofobsidian.heavy_lather_boots": "Heavy Lather Boots",
+      "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
+      "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
+      "item.orderofobsidian.steel_dust": "Steel Dust",
+      "block.orderofobsidian.nylium_wood": "Nylium Wood",
+      "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
+      "item.spiritforge.oxys_shovel": "Oxys Shovel",
+      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
+      "item.orderofobsidian.heavy_lather_helmet": "Heavy Lather Helmet",
+      "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
+      "item.orderofobsidian.heavy_netherite_leggings": "Heavy Netherite Leggings",
+      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
+      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
+      "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
+      "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
+      "item.orderofobsidian.heavy_gold_leggings": "Heavy Gold Leggings",
+      "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
+      "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
+      "block.orderofobsidian.forgeon": "Forge",
+      "item.orderofobsidian.wood_hammer": "Wood Hammer",
+      "item.orderofobsidian.batterie_cell": "Batterie Cell",
+      "item.orderofobsidian.steel_armor_boots": "Steel Boots",
+      "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
+      "advancements.dubious_ore.title": "Dubious Ore",
+      "enchantment.orderofobsidian.ignition": "Ignition",
+      "item.orderofobsidian.steel_hoe": "Steel Hoe",
+      "item.orderofobsidian.heavy_gold_chestplate": "Heavy Gold Body",
+      "block.spiritforge.oxys_block": "Block of Oxys",
+      "item.orderofobsidian.iron_hammer": "Iron Hammer",
+      "advancements.dubious_ore.descr": "but what is this dubious mineral",
+      "enchantment.spiritforge.propelling": "Propelling",
+      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
+      "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
+      "item.spiritforge.oxys_sword": "Oxys Sword",
+      "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
+      "entity.orderofobsidian.end_creeper": "End Creeper",
+      "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
+      "block.orderofobsidian.burnedtree_leaves": "Burnedtree",
+      "item.orderofobsidian.oxys_stick": "Oxys Stick",
+      "item.orderofobsidian.gold_hammer": "Gold Hammer",
+      "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
+      "block.orderofobsidian.burnedtree_log": "Burnedtree Log",
+      "enchantment.orderofobsidian.auto_smelt": "Auto Smelt",
+      "item.orderofobsidian.heavy_gold_boots": "Heavy Gold Boots",
+      "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
+      "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
+      "block.orderofobsidian.oxys_block": "Block of Oxys",
+      "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
+      "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
+      "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
+      "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
+      "block.orderofobsidian.nylium_slab": "Nylium Slab",
+      "item.orderofobsidian.heavy_lather_leggings": "Heavy Lather Leggings",
+      "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
+      "item.orderofobsidian.end_creeper_spawn_egg": "End Creeper Spawn Egg",
+      "item.orderofobsidian.oxys": "Oxys",
+      "item.orderofobsidian.sushi": "Sushi",
+      "item.orderofobsidian.steel_sword": "Steel Sword",
+      "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
+      "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
+      "item.orderofobsidian.heavy_diamond_helmet": "Heavy Diamond Helmet",
+      "item.orderofobsidian.heavy_diamond_leggings": "Heavy Diamond Leggings",
+      "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
+      "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
+      "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
+      "item.orderofobsidian.heavy_diamond_boots": "Heavy Diamond Boots",
+      "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
+      "item.spiritforge.oxys_bow": "Oxys Bow",
+      "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
+      "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
+      "item.orderofobsidian.netherackarmor_armor_helmet": "Netherackarmor Helmet",
+      "item.orderofobsidian.steel_shovel": "Steel Shovel",
+      "item.orderofobsidian.gold_spear": "Gold Spear",
+      "item.orderofobsidian.diamond_katana": "Diamond Katana",
+      "item.orderofobsidian.goldenchielbloking": "Golden Shield",
+      "item.orderofobsidian.goldenchield": "Goldenchield",
+      "biome.orderofobsidian.nylium_forest": "Nylium Forest",
+      "item.spiritforge.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
+      "item.spiritforge.oxys_armor_leggings": "Oxys Leggings",
+      "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
+      "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
+      "item.orderofobsidian.iron_katana": "Iron Katana",
+      "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
+      "block.orderofobsidian.obsidian_golemhead": "Obsidian Golem head",
+      "item.spiritforge.diamond_apple": "Diamond Apple",
+      "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
+      "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
+      "item.orderofobsidian.heavy_iron_leggings": "Heavy Iron Leggings",
+      "enchantment.orderofobsidian.speed": "Speed",
+      "block.orderofobsidian.oxys_ore": "Oxys Ore",
+      "itemGroup.tabmachine": "Machine",
+      "item.orderofobsidian.energy_metter": "Energy Metter",
+      "item.orderofobsidian.heavy_iron_chestplate": "Heavy Iron Body",
+      "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
+      "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
+      "item.orderofobsidian.oxys_axe": "Oxys Axe",
+      "block.orderofobsidian.batterie_1": "Batterie tier I",
+      "item.orderofobsidian.steel_pickaxe": "Steel Pickaxe",
+      "biome.orderofobsidian.volcan": "Volcan",
+      "item.orderofobsidian.oxys_armor_helmet": "Oxys Helmet",
+      "item.orderofobsidian.diamond_spear": "Diamond Spear",
+      "item.orderofobsidian.steel_axe": "Steel Axe",
+      "block.spiritforge.oxys_ore": "Oxys Ore",
+      "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
+      "enchantment.orderofobsidian.ice_aspect": "Ice Aspect",
+      "item.orderofobsidian.oxysapple": "Oxysapple",
+      "item.orderofobsidian.faraday_armor_leggings": "Faraday Leggings",
+      "item.orderofobsidian.wood_katana": "Wood Katana",
+      "item.orderofobsidian.drowne_horse_spawn_egg": "Drowne Horse Spawn Egg",
+      "item.orderofobsidian.oxys_pickaxe": "Oxys Pickaxe",
+      "item.orderofobsidian.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
+      "item.orderofobsidian.chips": "Chips",
+      "item.orderofobsidian.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
+      "item.spiritforge.oxys": "Oxys",
+      "item.orderofobsidian.heavy_gold_helmet": "Heavy Gold Helmet",
+      "item.orderofobsidian.ultimatesword": "Ultimatesword",
+      "block.orderofobsidian.nylium_log": "Nylium Log",
+      "item.orderofobsidian.steel_armor_chestplate": "Steel Chestplate",
+      "item.orderofobsidian.blueghast_spawn_egg": "Blueghast Spawn Egg",
+      "block.orderofobsidian.forge": "Forge",
+      "itemGroup.tabbloc_k": "Block",
+      "biome.spiritforge.volcan": "Volcan",
+      "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
+      "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
+      "item.orderofobsidian.nether_creeper_spawn_egg": "Nether Creeper Spawn Egg",
+      "block.orderofobsidian.electrique_furnace": "Electrique Furnace",
+      "enchantment.orderofobsidian.growth": "Heal Boost",
+      "item.orderofobsidian.copper_plate": "Copper Plate",
+      "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "itemGroup.tabtools": "Tools",
+      "item.orderofobsidian.stone_katana": "Stone Katana",
+      "item.orderofobsidian.ironbarre": "Iron Barre",
+      "item.spiritforge.oxys_pickaxe": "Oxys Pickaxe",
+      "item.orderofobsidian.heavy_netherite_boots": "Heavy Netherite Boots",
+      "block.orderofobsidian.burnedtree_planks": "Burnedtree Planks",
+      "block.orderofobsidian.solar_pannel_tier_i": "Solar Pannel Tier I",
+      "entity.orderofobsidian.nether_creeper": "Nether Creeper",
+      "item.orderofobsidian.copper_gear": "Copper Gear",
+      "entity.orderofobsidian.endermanblaze": "Endermanblaze",
+      "item.orderofobsidian.obsidian_golem_spawn_egg": "Obsidian Golem Spawn Egg",
+      "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
+      "item.orderofobsidian.iron_spear": "Iron Spear",
+      "item.spiritforge.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
+      "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
+      "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
+      "item.orderofobsidian.wooden_armor_armor_helmet": "Wooden_armor Helmet",
+      "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
+      "enchantment.spiritforge.ignition": "Ignition",
+      "entity.orderofobsidian.blueghast": "Blueghast",
+      "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
+      "item.spiritforge.oxys_armor_boots": "Oxys Boots",
+      "item.orderofobsidian.heavy_netherite_helmet": "Heavy Netherite Helmet",
+      "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
+      "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
+      "itemGroup.tabspirit": "Weapon and Armor",
+      "item.spiritforge.oxysapple": "Oxysapple",
+      "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
+      "item.orderofobsidian.heavy_iron_helmet": "Heavy Iron Helmet",
+      "item.orderofobsidian.iron_battle_axe": "Iron Battle Axe",
+      "item.orderofobsidian.diamond_apple": "Diamond Apple",
+      "biome.spiritforge.pikeperchhill": "Pikeperchhill",
+      "entity.orderofobsidian.netheritegolem": "netherite Golem",
+      "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
+      "block.orderofobsidian.nylium_planks": "Nylium Planks",
+      "item.orderofobsidian.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
+      "item.orderofobsidian.diamondhammer": "Diamond Hammer",
+      "block.orderofobsidian.fan": "Fan",
+      "item.orderofobsidian.oxys_armor_boots": "Oxys Boots",
+      "block.orderofobsidian.nylium_button": "Nylium Button",
+      "item.spiritforge.obsidian_tool_sword": "Obsidian_tool Sword",
+      "item.orderofobsidian.oxys_armor_leggings": "Oxys Leggings",
+      "block.orderofobsidian.nylium_fence": "Nylium Fence",
+      "item.orderofobsidian.lead_plate": "Lead Plate",
+      "item.orderofobsidian.obsidian_tool_shovel": "Obsidian_tool Shovel",
+      "item.orderofobsidian.netheritegolem_spawn_egg": "netherite Golem Spawn Egg",
+      "item.orderofobsidian.oxys_bow": "Oxys Bow",
+      "item.orderofobsidian.obsidian_tool_axe": "Obsidian_tool Axe",
+      "item.orderofobsidian.wooden_armor_armor_boots": "Wooden_armor Boots",
+      "item.orderofobsidian.steel_ingot": "Steel Ingot",
+      "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
+      "item.orderofobsidian.steel_armor_leggings": "Steel Leggings",
+      "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
+      "item.orderofobsidian.stone_battle_axe": "Stone Battle Axe",
+      "item.orderofobsidian.gold_katana": "Gold Katana",
+      "enchantment.orderofobsidian.night_vision": "Nigh Vision",
+      "itemGroup.tabitems": "Items",
+      "item.orderofobsidian.steel_armor_helmet": "Steel Helmet",
+      "item.orderofobsidian.lead_dust": "Lead Dust",
+      "enchantment.orderofobsidian.life_steal": "Life Steal",
+      "item.orderofobsidian.oxys_spear": "Iron Spear",
+      "item.spiritforge.oxys_stick": "Oxys Stick",
+      "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
+      "item.orderofobsidian.endermanblaze_spawn_egg": "Endermanblaze Spawn Egg",
+      "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
+      "item.orderofobsidian.heavy_netherite_chestplate": "Heavy Netherite Body",
+      "item.orderofobsidian.oxys_sword": "Oxys Sword",
+      "block.orderofobsidian.invisible": "Invisible",
+      "item.orderofobsidian.ironplate": "Ironplate",
+      "item.orderofobsidian.steel_plate": "Steel Plate",
+      "enchantment.orderofobsidian.propelling": "Propelling",
+      "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
+      "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
+      "item.spiritforge.oxys_axe": "Oxys Axe",
+      "item.orderofobsidian.heavy_lather_chestplate": "Heavy Lather Body"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "oxys",
+        "children": []
+      },
+      {
+        "name": "block",
+        "children": []
+      },
+      {
+        "name": "achivement",
+        "children": []
+      },
+      {
+        "name": "craft_vanilla",
+        "children": []
+      },
+      {
+        "name": "netherack",
+        "children": []
+      },
+      {
+        "name": "obsidian",
+        "children": []
+      },
+      {
+        "name": "food",
+        "children": []
+      },
+      {
+        "name": "enchantement",
+        "children": []
+      },
+      {
+        "name": "biome",
+        "children": []
+      },
+      {
+        "name": "structure",
+        "children": []
+      },
+      {
+        "name": "mob",
+        "children": []
+      },
+      {
+        "name": "outilvanilla",
+        "children": []
+      },
+      {
+        "name": "CreativeInventorieTab",
+        "children": []
+      },
+      {
+        "name": "machine",
+        "children": []
+      },
+      {
+        "name": "item",
+        "children": []
+      },
+      {
+        "name": "armor",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "orderofobsidian",
+    "modName": "OrderofObsidian",
+    "version": "0.0.1",
+    "author": "Scryl, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.orderofobsidian",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100347317
+}

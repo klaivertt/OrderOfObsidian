@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "orderofobsidian:blocks/11",
+    "particle": "orderofobsidian:blocks/11"
+  }
+}

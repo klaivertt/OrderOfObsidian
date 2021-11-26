@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:WirecoilCopper"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:CopperPlate"
+      },
+      {
+        "value": "CUSTOM:ProcesseurTierI"
+      },
+      {
+        "value": "CUSTOM:CopperPlate"
+      },
+      {
+        "value": "CUSTOM:AluminiumPlate"
+      },
+      {
+        "value": "CUSTOM:CopperPlate"
+      },
+      {
+        "value": "CUSTOM:AluminiumPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ProcesseurTierII"
+    },
+    "name": "processeur_tier_i_icraft",
+    "namespace": "mod"
+  }
+}

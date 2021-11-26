@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "orderofobsidian:block/burnedtree_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "orderofobsidian:block/burnedtree_wood"
+    },
+    "axis=z": {
+      "model": "orderofobsidian:block/burnedtree_wood",
+      "x": 90
+    }
+  }
+}

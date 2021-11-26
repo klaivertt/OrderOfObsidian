@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "orderofobsidian:blocks/end_nylium_planks"
+  }
+}

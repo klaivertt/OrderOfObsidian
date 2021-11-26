@@ -1,0 +1,24 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "6": {
+      "item": "orderofobsidian:ironbarre"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:diamond_katana",
+    "count": 1
+  }
+}

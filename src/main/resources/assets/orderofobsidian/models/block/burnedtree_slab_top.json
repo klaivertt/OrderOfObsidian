@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "orderofobsidian:blocks/burned_planks",
+    "top": "orderofobsidian:blocks/burned_planks",
+    "side": "orderofobsidian:blocks/burned_planks"
+  }
+}

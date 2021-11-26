@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "orderofobsidian:blocks/end_nylium_planks",
+    "particle": "orderofobsidian:blocks/end_nylium_planks"
+  }
+}

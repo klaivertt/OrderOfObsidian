@@ -1,0 +1,7 @@
+{
+  "parent": "orderofobsidian:custom/golden_shield",
+  "textures": {
+    "texture": "orderofobsidian:blocks/gold_shield",
+    "particle": "orderofobsidian:items/gold_shield"
+  }
+}

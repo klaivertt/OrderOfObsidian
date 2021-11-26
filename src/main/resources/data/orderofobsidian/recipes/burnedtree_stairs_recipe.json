@@ -1,0 +1,33 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:burnedtree_planks"
+    },
+    "3": {
+      "item": "orderofobsidian:burnedtree_planks"
+    },
+    "4": {
+      "item": "orderofobsidian:burnedtree_planks"
+    },
+    "6": {
+      "item": "orderofobsidian:burnedtree_planks"
+    },
+    "7": {
+      "item": "orderofobsidian:burnedtree_planks"
+    },
+    "8": {
+      "item": "orderofobsidian:burnedtree_planks"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:burnedtree_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "orderofobsidian:block/forge"
+    },
+    "facing=east": {
+      "model": "orderofobsidian:block/forge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "orderofobsidian:block/forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orderofobsidian:block/forge",
+      "y": 270
+    }
+  }
+}

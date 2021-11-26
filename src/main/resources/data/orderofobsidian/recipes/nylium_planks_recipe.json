@@ -1,0 +1,13 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:nylium_log"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:nylium_planks",
+    "count": 4
+  }
+}

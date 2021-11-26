@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/furnace_top",
+    "up": "orderofobsidian:blocks/furnace_bottom",
+    "north": "orderofobsidian:blocks/furnaceanimfront",
+    "east": "orderofobsidian:blocks/furnace_side",
+    "south": "orderofobsidian:blocks/furnace_side",
+    "west": "orderofobsidian:blocks/furnace_side",
+    "particle": "orderofobsidian:blocks/furnace_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "orderofobsidian:blocks/burned_planks",
+    "particle": "orderofobsidian:blocks/burned_planks"
+  }
+}

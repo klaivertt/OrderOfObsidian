@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "orderofobsidian:blocks/burned_planks"
+  }
+}

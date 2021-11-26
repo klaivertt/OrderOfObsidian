@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orderofobsidian:block/nylium_slab"
+    },
+    "type=top": {
+      "model": "orderofobsidian:block/nylium_slab_top"
+    },
+    "type=double": {
+      "model": "orderofobsidian:block/nylium_slab_full"
+    }
+  }
+}

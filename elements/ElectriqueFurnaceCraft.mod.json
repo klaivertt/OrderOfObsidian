@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:ProcesseurTierI"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:BatterieCell"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElectriqueFurnace"
+    },
+    "name": "electrique_furnace_craft",
+    "namespace": "mod"
+  }
+}

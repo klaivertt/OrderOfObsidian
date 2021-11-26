@@ -1,0 +1,12 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:smelting",
+  "experience": 1.75,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "orderofobsidian:oxys_ore"
+  },
+  "result": {
+    "item": "orderofobsidian:oxys"
+  }
+}

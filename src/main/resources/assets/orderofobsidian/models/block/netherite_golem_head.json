@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/netheriteblock",
+    "up": "orderofobsidian:blocks/netheriteblock",
+    "north": "orderofobsidian:blocks/netheritegolemhead",
+    "east": "orderofobsidian:blocks/netheriteblock",
+    "south": "orderofobsidian:blocks/netheriteblock",
+    "west": "orderofobsidian:blocks/netheriteblock",
+    "particle": "orderofobsidian:blocks/netheriteblock"
+  }
+}

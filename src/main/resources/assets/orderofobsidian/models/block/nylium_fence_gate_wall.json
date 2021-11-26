@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "orderofobsidian:blocks/end_nylium_planks"
+  }
+}

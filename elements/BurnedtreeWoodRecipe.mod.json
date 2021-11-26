@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BurnedtreeLog"
+      },
+      {
+        "value": "CUSTOM:BurnedtreeLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BurnedtreeLog"
+      },
+      {
+        "value": "CUSTOM:BurnedtreeLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BurnedtreeWood"
+    },
+    "name": "burnedtree_wood_recipe",
+    "namespace": "mod"
+  }
+}

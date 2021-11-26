@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/obsidian",
+    "up": "orderofobsidian:blocks/obsidian",
+    "north": "orderofobsidian:blocks/obsidiangolemhead",
+    "east": "orderofobsidian:blocks/obsidian",
+    "south": "orderofobsidian:blocks/obsidian",
+    "west": "orderofobsidian:blocks/obsidian",
+    "particle": "orderofobsidian:blocks/obsidian"
+  }
+}

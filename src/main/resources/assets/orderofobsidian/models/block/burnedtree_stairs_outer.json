@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "orderofobsidian:blocks/burned_planks",
+    "top": "orderofobsidian:blocks/burned_planks",
+    "side": "orderofobsidian:blocks/burned_planks"
+  }
+}

@@ -3868,6 +3868,16 @@
       "ids": {},
       "registry_name": "sushi",
       "path": "~/food"
+    },
+    {
+      "name": "ChipsCraft",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chips_craft",
+      "path": "~/food"
     }
   ],
   "variable_elements": [

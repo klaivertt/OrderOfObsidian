@@ -7,17 +7,17 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 
-public class SushiItem extends Item {
-	public SushiItem() {
+public class CookedRiceItem extends Item {
+	public CookedRiceItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.6f)
+				.food((new FoodProperties.Builder()).nutrition(3).saturationMod(0.3f)
 
 						.build()));
-		setRegistryName("sushi");
+		setRegistryName("cooked_rice");
 	}
 
 	@Override
 	public int getUseDuration(ItemStack stack) {
-		return 15;
+		return 20;
 	}
 }

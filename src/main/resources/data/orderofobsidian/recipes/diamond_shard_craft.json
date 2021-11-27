@@ -1,0 +1,16 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:diamond_shard",
+    "count": 4
+  }
+}

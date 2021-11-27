@@ -17,6 +17,7 @@ import net.mcreator.orderofobsidian.block.SolarPannelTierIVBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIIIBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTier2Block;
+import net.mcreator.orderofobsidian.block.SilverOreBlock;
 import net.mcreator.orderofobsidian.block.RiceStage7Block;
 import net.mcreator.orderofobsidian.block.RiceStage6Block;
 import net.mcreator.orderofobsidian.block.RiceStage5Block;
@@ -40,6 +41,7 @@ import net.mcreator.orderofobsidian.block.NyliumFenceBlock;
 import net.mcreator.orderofobsidian.block.NyliumButtonBlock;
 import net.mcreator.orderofobsidian.block.NetheriteGolemHeadBlock;
 import net.mcreator.orderofobsidian.block.InvisibleBlock;
+import net.mcreator.orderofobsidian.block.GraphiteOreBlock;
 import net.mcreator.orderofobsidian.block.ForgeonBlock;
 import net.mcreator.orderofobsidian.block.ForgeBlock;
 import net.mcreator.orderofobsidian.block.FanBlock;
@@ -107,6 +109,8 @@ public class OrderofobsidianModBlocks {
 	public static final Block RICE_STAGE_5 = register(new RiceStage5Block());
 	public static final Block RICE_STAGE_6 = register(new RiceStage6Block());
 	public static final Block RICE_STAGE_7 = register(new RiceStage7Block());
+	public static final Block SILVER_ORE = register(new SilverOreBlock());
+	public static final Block GRAPHITE_ORE = register(new GraphiteOreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

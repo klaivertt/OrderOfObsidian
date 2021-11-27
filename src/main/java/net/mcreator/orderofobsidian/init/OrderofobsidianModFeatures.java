@@ -16,7 +16,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.orderofobsidian.world.features.ores.SilverOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.OxysOreFeature;
+import net.mcreator.orderofobsidian.world.features.ores.GraphiteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.AluminiumOreFeature;
 import net.mcreator.orderofobsidian.world.features.SmallchaletwithgardenFeature;
 import net.mcreator.orderofobsidian.world.features.ObsidianlavalakeFeature;
@@ -52,6 +54,10 @@ public class OrderofobsidianModFeatures {
 				Medievaltent3Feature.GENERATE_BIOMES, Medievaltent3Feature.CONFIGURED_FEATURE));
 		REGISTRY.put(AluminiumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				AluminiumOreFeature.GENERATE_BIOMES, AluminiumOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(SilverOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SilverOreFeature.GENERATE_BIOMES,
+				SilverOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(GraphiteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				GraphiteOreFeature.GENERATE_BIOMES, GraphiteOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/graphite_ore",
+    "up": "orderofobsidian:blocks/graphite_ore",
+    "north": "orderofobsidian:blocks/graphite_ore",
+    "east": "orderofobsidian:blocks/graphite_ore",
+    "south": "orderofobsidian:blocks/graphite_ore",
+    "west": "orderofobsidian:blocks/graphite_ore",
+    "particle": "orderofobsidian:blocks/graphite_ore"
+  }
+}

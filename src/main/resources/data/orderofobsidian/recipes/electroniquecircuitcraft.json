@@ -1,0 +1,36 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "orderofobsidian:wirecoil_copper"
+    },
+    "3": {
+      "item": "minecraft:green_dye"
+    },
+    "4": {
+      "item": "orderofobsidian:wirecoil_copper"
+    },
+    "5": {
+      "item": "minecraft:green_dye"
+    },
+    "6": {
+      "item": "orderofobsidian:plastique"
+    },
+    "7": {
+      "item": "orderofobsidian:plastique"
+    },
+    "8": {
+      "item": "orderofobsidian:plastique"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:electronique_circuit",
+    "count": 1
+  }
+}

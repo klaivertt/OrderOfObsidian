@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WirecoilCopper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#2"
+      },
+      {
+        "value": "CUSTOM:WirecoilCopper"
+      },
+      {
+        "value": "Items.DYE#2"
+      },
+      {
+        "value": "CUSTOM:Plastique"
+      },
+      {
+        "value": "CUSTOM:Plastique"
+      },
+      {
+        "value": "CUSTOM:Plastique"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElectroniqueCircuit"
+    },
+    "name": "electroniquecircuitcraft",
+    "namespace": "mod"
+  }
+}

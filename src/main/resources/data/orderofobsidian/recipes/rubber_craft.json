@@ -1,0 +1,42 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "1": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "2": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "3": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "4": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "5": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "6": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "7": {
+      "item": "orderofobsidian:tiny_rubber"
+    },
+    "8": {
+      "item": "orderofobsidian:tiny_rubber"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:rubber",
+    "count": 1
+  }
+}

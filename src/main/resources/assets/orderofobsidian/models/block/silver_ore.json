@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/silverore",
+    "up": "orderofobsidian:blocks/silverore",
+    "north": "orderofobsidian:blocks/silverore",
+    "east": "orderofobsidian:blocks/silverore",
+    "south": "orderofobsidian:blocks/silverore",
+    "west": "orderofobsidian:blocks/silverore",
+    "particle": "orderofobsidian:blocks/silverore"
+  }
+}

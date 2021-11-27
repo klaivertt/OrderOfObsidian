@@ -1,0 +1,10 @@
+{
+  "parent": "orderofobsidian:custom/solarpanneltiers3",
+  "textures": {
+    "all": "orderofobsidian:blocks/topsolarpanel3",
+    "particle": "orderofobsidian:blocks/topsolarpanel3",
+    "3": "orderofobsidian:blocks/base1",
+    "4": "orderofobsidian:blocks/botomsolarpanel1",
+    "5": "orderofobsidian:blocks/topsolarpanel3"
+  }
+}

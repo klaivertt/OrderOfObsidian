@@ -12,7 +12,19 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.orderofobsidian.block.SolarPannelTierVBlock;
+import net.mcreator.orderofobsidian.block.SolarPannelTierIVBlock;
+import net.mcreator.orderofobsidian.block.SolarPannelTierIIIBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIBlock;
+import net.mcreator.orderofobsidian.block.SolarPannelTier2Block;
+import net.mcreator.orderofobsidian.block.RiceStage7Block;
+import net.mcreator.orderofobsidian.block.RiceStage6Block;
+import net.mcreator.orderofobsidian.block.RiceStage5Block;
+import net.mcreator.orderofobsidian.block.RiceStage4Block;
+import net.mcreator.orderofobsidian.block.RiceStage3Block;
+import net.mcreator.orderofobsidian.block.RiceStage2Block;
+import net.mcreator.orderofobsidian.block.RiceStage1Block;
+import net.mcreator.orderofobsidian.block.RiceStage0Block;
 import net.mcreator.orderofobsidian.block.OxysOreBlock;
 import net.mcreator.orderofobsidian.block.OxysBlockBlock;
 import net.mcreator.orderofobsidian.block.ObsidianGolemheadBlock;
@@ -83,6 +95,18 @@ public class OrderofobsidianModBlocks {
 	public static final Block NYLIUM_FENCE_GATE = register(new NyliumFenceGateBlock());
 	public static final Block NYLIUM_PRESSURE_PLATE = register(new NyliumPressurePlateBlock());
 	public static final Block NYLIUM_BUTTON = register(new NyliumButtonBlock());
+	public static final Block SOLAR_PANNEL_TIER_2 = register(new SolarPannelTier2Block());
+	public static final Block SOLAR_PANNEL_TIER_III = register(new SolarPannelTierIIIBlock());
+	public static final Block SOLAR_PANNEL_TIER_IV = register(new SolarPannelTierIVBlock());
+	public static final Block SOLAR_PANNEL_TIER_V = register(new SolarPannelTierVBlock());
+	public static final Block RICE_STAGE_0 = register(new RiceStage0Block());
+	public static final Block RICE_STAGE_1 = register(new RiceStage1Block());
+	public static final Block RICE_STAGE_2 = register(new RiceStage2Block());
+	public static final Block RICE_STAGE_3 = register(new RiceStage3Block());
+	public static final Block RICE_STAGE_4 = register(new RiceStage4Block());
+	public static final Block RICE_STAGE_5 = register(new RiceStage5Block());
+	public static final Block RICE_STAGE_6 = register(new RiceStage6Block());
+	public static final Block RICE_STAGE_7 = register(new RiceStage7Block());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -101,6 +125,18 @@ public class OrderofobsidianModBlocks {
 			InvisibleBlock.registerRenderLayer();
 			SolarPannelTierIBlock.registerRenderLayer();
 			NyliumLeavesBlock.registerRenderLayer();
+			SolarPannelTier2Block.registerRenderLayer();
+			SolarPannelTierIIIBlock.registerRenderLayer();
+			SolarPannelTierIVBlock.registerRenderLayer();
+			SolarPannelTierVBlock.registerRenderLayer();
+			RiceStage0Block.registerRenderLayer();
+			RiceStage1Block.registerRenderLayer();
+			RiceStage2Block.registerRenderLayer();
+			RiceStage3Block.registerRenderLayer();
+			RiceStage4Block.registerRenderLayer();
+			RiceStage5Block.registerRenderLayer();
+			RiceStage6Block.registerRenderLayer();
+			RiceStage7Block.registerRenderLayer();
 		}
 	}
 }

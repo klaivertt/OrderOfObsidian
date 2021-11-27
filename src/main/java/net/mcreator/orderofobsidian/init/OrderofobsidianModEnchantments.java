@@ -17,7 +17,6 @@ import net.mcreator.orderofobsidian.enchantment.NightVisionEnchantment;
 import net.mcreator.orderofobsidian.enchantment.LifeStealEnchantment;
 import net.mcreator.orderofobsidian.enchantment.IgnitionEnchantment;
 import net.mcreator.orderofobsidian.enchantment.IceAspectEnchantment;
-import net.mcreator.orderofobsidian.enchantment.GrowthEnchantment;
 import net.mcreator.orderofobsidian.enchantment.FireresistanceEnchantment;
 import net.mcreator.orderofobsidian.enchantment.CurseOfBackfireEnchantment;
 import net.mcreator.orderofobsidian.enchantment.AutoSmeltEnchantment;
@@ -30,7 +29,6 @@ public class OrderofobsidianModEnchantments {
 	private static final List<Enchantment> REGISTRY = new ArrayList<>();
 	public static final Enchantment IGNITION = register("orderofobsidian:ignition", new IgnitionEnchantment());
 	public static final Enchantment PROPELLING = register("orderofobsidian:propelling", new PropellingEnchantment());
-	public static final Enchantment GROWTH = register("orderofobsidian:growth", new GrowthEnchantment());
 	public static final Enchantment FIRERESISTANCE = register("orderofobsidian:fireresistance", new FireresistanceEnchantment());
 	public static final Enchantment SPEED = register("orderofobsidian:speed", new SpeedEnchantment());
 	public static final Enchantment AUTO_SMELT = register("orderofobsidian:auto_smelt", new AutoSmeltEnchantment());

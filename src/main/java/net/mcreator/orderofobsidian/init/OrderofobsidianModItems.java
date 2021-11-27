@@ -33,6 +33,9 @@ import net.mcreator.orderofobsidian.item.SteelHoeItem;
 import net.mcreator.orderofobsidian.item.SteelDustItem;
 import net.mcreator.orderofobsidian.item.SteelAxeItem;
 import net.mcreator.orderofobsidian.item.SteelArmorItem;
+import net.mcreator.orderofobsidian.item.SlimeItem;
+import net.mcreator.orderofobsidian.item.RiceSeedItem;
+import net.mcreator.orderofobsidian.item.RiceItem;
 import net.mcreator.orderofobsidian.item.ProcesseurTierIItem;
 import net.mcreator.orderofobsidian.item.ProcesseurTierIIItem;
 import net.mcreator.orderofobsidian.item.OxysappleItem;
@@ -256,6 +259,24 @@ public class OrderofobsidianModItems {
 	public static final Item HEAVY_LATHER_BOOTS = register(new HeavyLatherItem.Boots());
 	public static final Item CHIPS = register(new ChipsItem());
 	public static final Item SUSHI = register(new SushiItem());
+	public static final Item RICE_SEED = register(new RiceSeedItem());
+	public static final Item SOLAR_PANNEL_TIER_2 = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_2, OrderofobsidianModTabs.TAB_MACHINE);
+	public static final Item SOLAR_PANNEL_TIER_III = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_III, OrderofobsidianModTabs.TAB_MACHINE);
+	public static final Item SOLAR_PANNEL_TIER_IV = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_IV, OrderofobsidianModTabs.TAB_MACHINE);
+	public static final Item SOLAR_PANNEL_TIER_V = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_V, OrderofobsidianModTabs.TAB_MACHINE);
+	public static final Item SLIME_HELMET = register(new SlimeItem.Helmet());
+	public static final Item SLIME_CHESTPLATE = register(new SlimeItem.Chestplate());
+	public static final Item SLIME_LEGGINGS = register(new SlimeItem.Leggings());
+	public static final Item SLIME_BOOTS = register(new SlimeItem.Boots());
+	public static final Item RICE_STAGE_0 = register(OrderofobsidianModBlocks.RICE_STAGE_0, null);
+	public static final Item RICE_STAGE_1 = register(OrderofobsidianModBlocks.RICE_STAGE_1, null);
+	public static final Item RICE_STAGE_2 = register(OrderofobsidianModBlocks.RICE_STAGE_2, null);
+	public static final Item RICE_STAGE_3 = register(OrderofobsidianModBlocks.RICE_STAGE_3, null);
+	public static final Item RICE_STAGE_4 = register(OrderofobsidianModBlocks.RICE_STAGE_4, null);
+	public static final Item RICE_STAGE_5 = register(OrderofobsidianModBlocks.RICE_STAGE_5, null);
+	public static final Item RICE_STAGE_6 = register(OrderofobsidianModBlocks.RICE_STAGE_6, null);
+	public static final Item RICE_STAGE_7 = register(OrderofobsidianModBlocks.RICE_STAGE_7, null);
+	public static final Item RICE = register(new RiceItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

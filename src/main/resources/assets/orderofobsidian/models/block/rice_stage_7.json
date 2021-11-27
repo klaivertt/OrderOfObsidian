@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "orderofobsidian:blocks/rice_stage7",
+    "particle": "orderofobsidian:blocks/rice_stage7"
+  }
+}

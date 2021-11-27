@@ -13,7 +13,7 @@
         "value": "CUSTOM:LeadPlate"
       },
       {
-        "value": "CUSTOM:ProcesseurTierI"
+        "value": "CUSTOM:BatterieCell"
       },
       {
         "value": "CUSTOM:LeadPlate"
@@ -22,7 +22,7 @@
         "value": "CUSTOM:SteelPlate"
       },
       {
-        "value": "CUSTOM:BatterieCell"
+        "value": "CUSTOM:ProcesseurTierII"
       },
       {
         "value": "CUSTOM:SteelPlate"

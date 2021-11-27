@@ -13,7 +13,7 @@
         "value": "CUSTOM:LeadPlate"
       },
       {
-        "value": "CUSTOM:WirecoilCopper"
+        "value": "CUSTOM:BatterieCell"
       },
       {
         "value": "CUSTOM:LeadPlate"
@@ -22,7 +22,7 @@
         "value": "CUSTOM:CopperGear"
       },
       {
-        "value": "CUSTOM:BatterieCell"
+        "value": "CUSTOM:ProcesseurTierI"
       },
       {
         "value": "CUSTOM:CopperGear"

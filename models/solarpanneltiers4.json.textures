@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "base1",
+        "4": "botomsolarpanel1",
+        "5": "topsolarpanel4"
+      },
+      "name": "default"
+    }
+  }
+}

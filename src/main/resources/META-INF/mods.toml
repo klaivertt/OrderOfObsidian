@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="Academic Free License v3.0"
+license="OrderOfObsidian"
 
 [[mods]]
 modId="orderofobsidian"
-version="0.0.1"
+version="0.0.2"
 displayName="OrderofObsidian"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"

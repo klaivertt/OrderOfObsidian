@@ -23,8 +23,7 @@ public class LighthouseMedievalFeature extends Feature<NoneFeatureConfiguration>
 	public static final LighthouseMedievalFeature FEATURE = (LighthouseMedievalFeature) new LighthouseMedievalFeature()
 			.setRegistryName("orderofobsidian:lighthouse_medieval");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE.configured(FeatureConfiguration.NONE);
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("badlands"), new ResourceLocation("desert_hills"),
-			new ResourceLocation("badlands_plateau"), new ResourceLocation("desert_lakes"), new ResourceLocation("desert"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private StructureTemplate template = null;
 
 	public LighthouseMedievalFeature() {
@@ -43,7 +42,7 @@ public class LighthouseMedievalFeature extends Feature<NoneFeatureConfiguration>
 			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("orderofobsidian", "pharemedieval"));
 		if (template == null)
 			return false;
-		if ((context.random().nextInt(1000000) + 1) <= 700) {
+		if ((context.random().nextInt(1000000) + 1) <= 100) {
 			boolean anyPlaced = false;
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {

@@ -16,23 +16,7 @@
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [
-      {
-        "value": "redwood_taiga"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "taiga_cold"
-      },
-      {
-        "value": "taiga_hills"
-      },
-      {
-        "value": "taiga_cold"
-      }
-    ],
+    "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

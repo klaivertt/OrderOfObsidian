@@ -23,8 +23,7 @@ public class SmallchaletwithgardenFeature extends Feature<NoneFeatureConfigurati
 	public static final SmallchaletwithgardenFeature FEATURE = (SmallchaletwithgardenFeature) new SmallchaletwithgardenFeature()
 			.setRegistryName("orderofobsidian:smallchaletwithgarden");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE.configured(FeatureConfiguration.NONE);
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("snowy_tundra"), new ResourceLocation("giant_tree_taiga"),
-			new ResourceLocation("taiga_hills"), new ResourceLocation("snowy_taiga"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private StructureTemplate template = null;
 
 	public SmallchaletwithgardenFeature() {

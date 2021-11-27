@@ -5,7 +5,7 @@
     "structure": "pharemedieval",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 700,
+    "spawnProbability": 100,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -16,23 +16,7 @@
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [
-      {
-        "value": "badlands"
-      },
-      {
-        "value": "badlands_plateau"
-      },
-      {
-        "value": "desert"
-      },
-      {
-        "value": "desert_hills"
-      },
-      {
-        "value": "mutated_desert"
-      }
-    ],
+    "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

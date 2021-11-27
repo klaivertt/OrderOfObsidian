@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "heavy_leather_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Spirit"
     },
     "armorTextureFile": "heavy_leather_",
-    "helmetName": "Heavy Lather Helmet",
-    "bodyName": "Heavy Lather Body",
-    "leggingsName": "Heavy Lather Leggings",
-    "bootsName": "Heavy Lather Boots",
+    "helmetName": "Heavy Leather Helmet",
+    "bodyName": "Heavy Leather Body",
+    "leggingsName": "Heavy Leather Leggings",
+    "bootsName": "Heavy leather Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

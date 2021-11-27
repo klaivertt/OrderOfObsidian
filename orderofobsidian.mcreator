@@ -3897,7 +3897,7 @@
       "item.spiritforge.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.lead_ingot": "Lead Ingot",
       "enchantment.orderofobsidian.wither": "Wither",
-      "item.orderofobsidian.heavy_lather_boots": "Heavy Lather Boots",
+      "item.orderofobsidian.heavy_lather_boots": "Heavy leather Boots",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
@@ -3905,7 +3905,7 @@
       "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
-      "item.orderofobsidian.heavy_lather_helmet": "Heavy Lather Helmet",
+      "item.orderofobsidian.heavy_lather_helmet": "Heavy Leather Helmet",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.heavy_netherite_leggings": "Heavy Netherite Leggings",
       "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
@@ -3949,7 +3949,7 @@
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",
-      "item.orderofobsidian.heavy_lather_leggings": "Heavy Lather Leggings",
+      "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
       "item.orderofobsidian.end_creeper_spawn_egg": "End Creeper Spawn Egg",
       "item.orderofobsidian.oxys": "Oxys",
@@ -4087,7 +4087,7 @@
       "item.orderofobsidian.steel_armor_helmet": "Steel Helmet",
       "item.orderofobsidian.lead_dust": "Lead Dust",
       "enchantment.orderofobsidian.life_steal": "Life Steal",
-      "item.orderofobsidian.oxys_spear": "Iron Spear",
+      "item.orderofobsidian.oxys_spear": "Oxys Spear",
       "item.spiritforge.oxys_stick": "Oxys Stick",
       "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
       "item.orderofobsidian.endermanblaze_spawn_egg": "Endermanblaze Spawn Egg",
@@ -4101,7 +4101,7 @@
       "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
       "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
       "item.spiritforge.oxys_axe": "Oxys Axe",
-      "item.orderofobsidian.heavy_lather_chestplate": "Heavy Lather Body"
+      "item.orderofobsidian.heavy_lather_chestplate": "Heavy Leather Body"
     }
   },
   "foldersRoot": {

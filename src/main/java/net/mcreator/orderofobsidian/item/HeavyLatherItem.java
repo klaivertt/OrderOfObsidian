@@ -7,13 +7,14 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.orderofobsidian.init.OrderofobsidianModTabs;
 
 public abstract class HeavyLatherItem extends ArmorItem {
 	public HeavyLatherItem(EquipmentSlot slot, Item.Properties properties) {
@@ -62,7 +63,7 @@ public abstract class HeavyLatherItem extends ArmorItem {
 
 	public static class Helmet extends HeavyLatherItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
 			setRegistryName("heavy_lather_helmet");
 		}
 
@@ -74,7 +75,7 @@ public abstract class HeavyLatherItem extends ArmorItem {
 
 	public static class Chestplate extends HeavyLatherItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
 			setRegistryName("heavy_lather_chestplate");
 		}
 
@@ -86,7 +87,7 @@ public abstract class HeavyLatherItem extends ArmorItem {
 
 	public static class Leggings extends HeavyLatherItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
 			setRegistryName("heavy_lather_leggings");
 		}
 
@@ -98,7 +99,7 @@ public abstract class HeavyLatherItem extends ArmorItem {
 
 	public static class Boots extends HeavyLatherItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
 			setRegistryName("heavy_lather_boots");
 		}
 

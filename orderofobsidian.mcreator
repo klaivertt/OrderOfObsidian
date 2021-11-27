@@ -4427,7 +4427,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rice_stage_7loot",
-      "path": "~/culture"
+      "path": "~/Loottable"
     }
   ],
   "variable_elements": [
@@ -4469,7 +4469,7 @@
       "block.orderofobsidian.forgeon": "Forge",
       "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
       "item.orderofobsidian.wood_hammer": "Wood Hammer",
-      "block.orderofobsidian.solar_pannel_tier_iv": "Solar Pannel Tier II",
+      "block.orderofobsidian.solar_pannel_tier_iv": "Solar Pannel Tier IV",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
       "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
@@ -4548,7 +4548,7 @@
       "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
-      "block.orderofobsidian.solar_pannel_tier_iii": "Solar Pannel Tier II",
+      "block.orderofobsidian.solar_pannel_tier_iii": "Solar Pannel Tier III",
       "block.orderofobsidian.batterie_1": "Batterie tier I",
       "item.orderofobsidian.steel_pickaxe": "Steel Pickaxe",
       "biome.orderofobsidian.volcan": "Volcan",
@@ -4601,7 +4601,7 @@
       "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
       "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
       "item.orderofobsidian.wooden_armor_armor_helmet": "Wooden_armor Helmet",
-      "block.orderofobsidian.solar_pannel_tier_v": "Solar Pannel Tier II",
+      "block.orderofobsidian.solar_pannel_tier_v": "Solar Pannel Tier V",
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
       "enchantment.spiritforge.ignition": "Ignition",
       "entity.orderofobsidian.blueghast": "Blueghast",
@@ -4744,6 +4744,10 @@
       },
       {
         "name": "culture",
+        "children": []
+      },
+      {
+        "name": "Loottable",
         "children": []
       }
     ]

@@ -5,15 +5,15 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.mcreator.orderofobsidian.procedures.OxysappleFoodEatenProcedure;
-import net.mcreator.orderofobsidian.init.OrderofobsidianModTabs;
 
 public class OxysappleItem extends Item {
 	public OxysappleItem() {
-		super(new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).stacksTo(64).rarity(Rarity.EPIC)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.EPIC)
 				.food((new FoodProperties.Builder()).nutrition(8).saturationMod(2f)
 
 						.build()));

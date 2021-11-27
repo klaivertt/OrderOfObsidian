@@ -8,6 +8,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -42,10 +43,12 @@ import net.mcreator.orderofobsidian.block.NyliumButtonBlock;
 import net.mcreator.orderofobsidian.block.NetheriteGolemHeadBlock;
 import net.mcreator.orderofobsidian.block.InvisibleBlock;
 import net.mcreator.orderofobsidian.block.GraphiteOreBlock;
+import net.mcreator.orderofobsidian.block.GraphiteGlassBlock;
 import net.mcreator.orderofobsidian.block.ForgeonBlock;
 import net.mcreator.orderofobsidian.block.ForgeBlock;
 import net.mcreator.orderofobsidian.block.FanBlock;
 import net.mcreator.orderofobsidian.block.ElectriqueFurnaceBlock;
+import net.mcreator.orderofobsidian.block.DiamondGlassBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeWoodBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeStairsBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeSlabBlock;
@@ -111,6 +114,8 @@ public class OrderofobsidianModBlocks {
 	public static final Block RICE_STAGE_7 = register(new RiceStage7Block());
 	public static final Block SILVER_ORE = register(new SilverOreBlock());
 	public static final Block GRAPHITE_ORE = register(new GraphiteOreBlock());
+	public static final Block DIAMOND_GLASS = register(new DiamondGlassBlock());
+	public static final Block GRAPHITE_GLASS = register(new GraphiteGlassBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -141,6 +146,13 @@ public class OrderofobsidianModBlocks {
 			RiceStage5Block.registerRenderLayer();
 			RiceStage6Block.registerRenderLayer();
 			RiceStage7Block.registerRenderLayer();
+			DiamondGlassBlock.registerRenderLayer();
+			GraphiteGlassBlock.registerRenderLayer();
+		}
+
+		@SubscribeEvent
+		public static void blockColorLoad(ColorHandlerEvent.Block event) {
+			GraphiteGlassBlock.blockColorLoad(event);
 		}
 	}
 }

@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GLASS"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondShard"
       },
       {
         "value": "Blocks.GLASS"
       },
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:DiamondShard"
       },
       {
-        "value": "Items.DYE#4"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BatterieCell"
+        "value": "CUSTOM:DiamondShard"
       },
       {
-        "value": "Items.DYE#4"
-      },
-      {
-        "value": "CUSTOM:LeadIngot"
-      },
-      {
-        "value": "CUSTOM:LeadIngot"
-      },
-      {
-        "value": "CUSTOM:LeadIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarPannelTierI"
+      "value": "CUSTOM:DiamondGlass"
     },
-    "name": "solarpannelcraft",
+    "name": "diamond_glass_craft",
     "namespace": "mod"
   }
 }

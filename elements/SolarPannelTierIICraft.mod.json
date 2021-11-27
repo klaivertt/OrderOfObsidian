@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarPannelTierIII"
+      "value": "CUSTOM:SolarPannelTier2"
     },
     "name": "solar_pannel_tier_ii_craft",
     "namespace": "mod"

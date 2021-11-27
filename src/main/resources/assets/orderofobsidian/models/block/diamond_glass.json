@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/dimondglass",
+    "up": "orderofobsidian:blocks/dimondglass",
+    "north": "orderofobsidian:blocks/dimondglass",
+    "east": "orderofobsidian:blocks/dimondglass",
+    "south": "orderofobsidian:blocks/dimondglass",
+    "west": "orderofobsidian:blocks/dimondglass",
+    "particle": "orderofobsidian:blocks/dimondglass"
+  }
+}

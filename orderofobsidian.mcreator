@@ -4668,6 +4668,76 @@
       "ids": {},
       "registry_name": "suchi_craft",
       "path": "~/food"
+    },
+    {
+      "name": "DiamondGlass",
+      "type": "block",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_glass",
+      "path": "~/block"
+    },
+    {
+      "name": "DiamondGlassCraft",
+      "type": "recipe",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_glass_craft",
+      "path": "~/block"
+    },
+    {
+      "name": "SolarPannelTierIIIcraft",
+      "type": "recipe",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solar_pannel_tier_ii_icraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "SolarPannelTierIVcraft",
+      "type": "recipe",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solar_pannel_tier_i_vcraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "SolarPannelTierVcraft",
+      "type": "recipe",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solar_pannel_tier_vcraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "GraphiteGlass",
+      "type": "block",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graphite_glass",
+      "path": "~/block"
+    },
+    {
+      "name": "GraphiteGlassCraft",
+      "type": "recipe",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graphite_glass_craft",
+      "path": "~/block"
     }
   ],
   "variable_elements": [
@@ -4761,6 +4831,7 @@
       "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
       "item.orderofobsidian.heavy_diamond_boots": "Heavy Diamond Boots",
       "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
+      "block.orderofobsidian.diamond_glass": "Diamond Glass",
       "item.spiritforge.oxys_bow": "Oxys Bow",
       "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
@@ -4876,6 +4947,7 @@
       "block.orderofobsidian.fan": "Fan",
       "item.orderofobsidian.oxys_armor_boots": "Oxys Boots",
       "block.orderofobsidian.nylium_button": "Nylium Button",
+      "block.orderofobsidian.graphite_glass": "Graphite Glass",
       "item.spiritforge.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.oxys_armor_leggings": "Oxys Leggings",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",

@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:DiamondGlass"
       },
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:DiamondGlass"
       },
       {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:DiamondGlass"
       },
       {
         "value": "CUSTOM:BatterieCell"
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:ElectroniqueCircuit"
+      },
+      {
+        "value": "CUSTOM:BatterieCell"
       },
       {
         "value": "CUSTOM:LeadIngot"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarPannelTierI"
+      "value": "CUSTOM:SolarPannelTierIII"
     },
-    "name": "solarpannelcraft",
+    "name": "solar_pannel_tier_ii_icraft",
     "namespace": "mod"
   }
 }

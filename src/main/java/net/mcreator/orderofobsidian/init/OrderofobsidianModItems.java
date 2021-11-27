@@ -299,6 +299,8 @@ public class OrderofobsidianModItems {
 	public static final Item RUBBER = register(new RubberItem());
 	public static final Item PLASTIQUE = register(new PlastiqueItem());
 	public static final Item COOKED_RICE = register(new CookedRiceItem());
+	public static final Item DIAMOND_GLASS = register(OrderofobsidianModBlocks.DIAMOND_GLASS, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item GRAPHITE_GLASS = register(OrderofobsidianModBlocks.GRAPHITE_GLASS, OrderofobsidianModTabs.TAB_SPIRIT);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

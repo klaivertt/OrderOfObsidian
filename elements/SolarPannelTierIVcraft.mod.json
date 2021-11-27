@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:SilverPlate"
       },
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:DiamondGlass"
       },
       {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:SilverPlate"
       },
       {
         "value": "CUSTOM:BatterieCell"
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:ElectroniqueCircuit"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:BatterieCell"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:LeadPlate"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarPannelTierI"
+      "value": "CUSTOM:SolarPannelTierIV"
     },
-    "name": "solarpannelcraft",
+    "name": "solar_pannel_tier_i_vcraft",
     "namespace": "mod"
   }
 }

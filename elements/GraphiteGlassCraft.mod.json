@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GLASS"
+        "value": ""
       },
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:GraphiteIngot"
       },
       {
-        "value": "Blocks.GLASS"
+        "value": ""
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:GraphiteIngot"
       },
       {
-        "value": "CUSTOM:BatterieCell"
+        "value": "CUSTOM:DiamondGlass"
       },
       {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:GraphiteIngot"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:GraphiteIngot"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarPannelTierI"
+      "value": "CUSTOM:GraphiteGlass"
     },
-    "name": "solarpannelcraft",
+    "name": "graphite_glass_craft",
     "namespace": "mod"
   }
 }

@@ -8,22 +8,22 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:glass"
+      "item": "orderofobsidian:diamond_glass"
     },
     "1": {
-      "item": "minecraft:glass"
+      "item": "orderofobsidian:diamond_glass"
     },
     "2": {
-      "item": "minecraft:glass"
+      "item": "orderofobsidian:diamond_glass"
     },
     "3": {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "4": {
       "item": "orderofobsidian:batterie_cell"
     },
+    "4": {
+      "item": "orderofobsidian:electronique_circuit"
+    },
     "5": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "orderofobsidian:batterie_cell"
     },
     "6": {
       "item": "orderofobsidian:lead_ingot"
@@ -36,7 +36,7 @@
     }
   },
   "result": {
-    "item": "orderofobsidian:solar_pannel_tier_i",
+    "item": "orderofobsidian:solar_pannel_tier_iii",
     "count": 1
   }
 }

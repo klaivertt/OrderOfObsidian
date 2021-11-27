@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "silverore",
+    "texture": "tinted_diamondglass",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,9 +15,9 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "No tint",
+    "tintType": "Grass",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Silver Ore",
+    "name": "Graphite Glass",
     "specialInfo": [],
-    "hardness": 1.8,
-    "resistance": 15.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:BlocK"
+      "value": "CUSTOM:Spirit"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,18 +121,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 9,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 34
+    "maxGenerateHeight": 64
   }
 }

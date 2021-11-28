@@ -18,7 +18,7 @@ public class StickswordItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 0f;
+				return 2f;
 			}
 
 			public float getAttackDamageBonus() {

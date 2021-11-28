@@ -127,6 +127,9 @@
     "onNeighbourBlockChanges": {
       "name": "XPberryStage0NeighbourBlockChanges"
     },
+    "onEntityCollides": {
+      "name": "XPberryStage0EntityCollidesInTheBlock"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

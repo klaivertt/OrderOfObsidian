@@ -17,6 +17,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
@@ -26,6 +27,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.orderofobsidian.procedures.XpberyFullOnBlockRightClickedProcedure;
 import net.mcreator.orderofobsidian.procedures.XPberryStage0NeighbourBlockChangesProcedure;
+import net.mcreator.orderofobsidian.procedures.XPberryStage0EntityCollidesInTheBlockProcedure;
 import net.mcreator.orderofobsidian.init.OrderofobsidianModBlocks;
 
 import java.util.List;
@@ -68,6 +70,12 @@ public class XpberyFullBlock extends Block {
 		XPberryStage0NeighbourBlockChangesProcedure.execute(
 
 		);
+	}
+
+	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
+		super.entityInside(blockstate, world, pos, entity);
+		XPberryStage0EntityCollidesInTheBlockProcedure.execute(entity);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class XpberyFullOnBlockRightClickedProcedure {
 				_level.addFreshEntity(entityToSpawn);
 			}
 		} else {
-			if (Math.random() < 0.8) {
+			if (Math.random() < 0.95) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(OrderofobsidianModBlocks.XPBUSH_STAGE_0));
 					entityToSpawn.setPickUpDelay(10);

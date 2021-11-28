@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
@@ -22,6 +23,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.orderofobsidian.procedures.XpBush1UpdateTickProcedure;
 import net.mcreator.orderofobsidian.procedures.XPberryStage0NeighbourBlockChangesProcedure;
+import net.mcreator.orderofobsidian.procedures.XPberryStage0EntityCollidesInTheBlockProcedure;
 import net.mcreator.orderofobsidian.init.OrderofobsidianModBlocks;
 
 import java.util.Random;
@@ -75,6 +77,12 @@ public class XpBush1Block extends Block {
 		int z = pos.getZ();
 
 		XpBush1UpdateTickProcedure.execute(world, x, y, z);
+	}
+
+	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
+		super.entityInside(blockstate, world, pos, entity);
+		XPberryStage0EntityCollidesInTheBlockProcedure.execute(entity);
 	}
 
 	@OnlyIn(Dist.CLIENT)

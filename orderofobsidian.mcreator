@@ -4995,6 +4995,24 @@
         ]
       },
       "path": "~/item"
+    },
+    {
+      "name": "XPberryStage0EntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "x_pberry_stage_0_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/culture"
     }
   ],
   "variable_elements": [

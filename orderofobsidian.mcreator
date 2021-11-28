@@ -4788,6 +4788,36 @@
       "ids": {},
       "registry_name": "chickenwing",
       "path": "~/food"
+    },
+    {
+      "name": "Horsearmor",
+      "type": "recipe",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horsearmor",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Amureorhorse",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amureorhorse",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Armurediamshorse",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armurediamshorse",
+      "path": "~/craft_vanilla"
     }
   ],
   "variable_elements": [

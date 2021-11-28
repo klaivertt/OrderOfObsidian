@@ -1,0 +1,30 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "orderofobsidian:oxys"
+    },
+    "2": {
+      "item": "orderofobsidian:oxys"
+    },
+    "4": {
+      "item": "orderofobsidian:oxys"
+    },
+    "5": {
+      "item": "orderofobsidian:oxys"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:oxysstove",
+    "count": 1
+  }
+}

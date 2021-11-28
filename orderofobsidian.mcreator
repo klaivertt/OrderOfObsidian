@@ -1184,7 +1184,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamondhammer",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Tools",
@@ -1228,7 +1228,7 @@
           }
         ]
       },
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "IronHammer",
@@ -1238,7 +1238,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_hammer",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "GoldHammer",
@@ -1248,7 +1248,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gold_hammer",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "NetheriteHammer",
@@ -1258,7 +1258,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherite_hammer",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "StoneHammer",
@@ -1268,7 +1268,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_hammer",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "WoodHammer",
@@ -1278,7 +1278,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_hammer",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Dimondhammercraft",
@@ -1288,7 +1288,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dimondhammercraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Ironhammercraft",
@@ -1298,7 +1298,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironhammercraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Netheritehammercraft",
@@ -1308,7 +1308,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netheritehammercraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Goldhammercraft",
@@ -1318,7 +1318,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldhammercraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Stoneshammercraft",
@@ -1328,7 +1328,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stoneshammercraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Woodhammercraft",
@@ -1338,7 +1338,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "woodhammercraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/hammer"
     },
     {
       "name": "Items",
@@ -2023,7 +2023,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldenchield",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "GoldenchielblokingToolInInventoryTick",
@@ -2045,7 +2045,7 @@
           }
         ]
       },
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "GoldenchieldRightClickedInAir",
@@ -2067,7 +2067,7 @@
           }
         ]
       },
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "Goldenchielbloking",
@@ -2077,7 +2077,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldenchielbloking",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "Whenplayerattackedholdingshield",
@@ -2095,7 +2095,7 @@
           }
         ]
       },
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "Shieldonplayertickupdate",
@@ -2113,7 +2113,7 @@
           }
         ]
       },
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "Goldenchieldcraft",
@@ -2123,7 +2123,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldenchieldcraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/chield"
     },
     {
       "name": "LeadDust",
@@ -3045,7 +3045,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_battle_axe",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "GoldBattleAxe",
@@ -3055,7 +3055,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gold_battle_axe",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "IronBattleAxe",
@@ -3065,7 +3065,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_battle_axe",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "StoneBattleAxe",
@@ -3075,7 +3075,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_battle_axe",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "WoodBattleAxe",
@@ -3085,7 +3085,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_battle_axe",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "DimondBattleaxecraft",
@@ -3095,7 +3095,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dimond_battleaxecraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "Goldbattleaxecraft",
@@ -3105,7 +3105,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldbattleaxecraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "IronBattleaxecraft",
@@ -3115,7 +3115,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_battleaxecraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "StoneBattleAxeCraft",
@@ -3125,7 +3125,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_battle_axe_craft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "WoodBattleAxeCraft",
@@ -3135,7 +3135,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_battle_axe_craft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/battle axe"
     },
     {
       "name": "DiamondKatana",
@@ -3145,7 +3145,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_katana",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "GoldKatana",
@@ -3155,7 +3155,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gold_katana",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "IronKatana",
@@ -3165,7 +3165,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_katana",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "StoneKatana",
@@ -3175,7 +3175,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_katana",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "WoodKatana",
@@ -3185,7 +3185,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_katana",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "Diamondkatanacraft",
@@ -3195,7 +3195,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamondkatanacraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "GoldKatanacraft",
@@ -3205,7 +3205,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gold_katanacraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "IronKatanacraft",
@@ -3215,7 +3215,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_katanacraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "Ironbarre",
@@ -3245,7 +3245,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_katanacraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "WoodKatanaraft",
@@ -3255,7 +3255,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_katanaraft",
-      "path": "~/outilvanilla"
+      "path": "~/outilvanilla/katana"
     },
     {
       "name": "HeavyNetherite",
@@ -4878,6 +4878,126 @@
       "ids": {},
       "registry_name": "craftsticksword",
       "path": "~/outilvanilla"
+    },
+    {
+      "name": "StoneStove",
+      "type": "tool",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_stove",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "Ironstove",
+      "type": "tool",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironstove",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "Goldstove",
+      "type": "tool",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldstove",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "Diamondstove",
+      "type": "tool",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondstove",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "Netheritestove",
+      "type": "tool",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netheritestove",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "Oxysstove",
+      "type": "tool",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxysstove",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "StoneStoveCraft",
+      "type": "recipe",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_stove_craft",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "IronStoveCraft",
+      "type": "recipe",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_stove_craft",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "GoldStoveCraft",
+      "type": "recipe",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_stove_craft",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "DiamondStoveCraft",
+      "type": "recipe",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_stove_craft",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "NetheritStoveCraft",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherit_stove_craft",
+      "path": "~/outilvanilla/stove"
+    },
+    {
+      "name": "OxysStoneCraft",
+      "type": "recipe",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxys_stone_craft",
+      "path": "~/outilvanilla/stove"
     }
   ],
   "variable_elements": [
@@ -4902,28 +5022,30 @@
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.silver_ingot": "Silver Ingot",
-      "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
-      "block.orderofobsidian.nylium_wood": "Nylium Wood",
+      "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
+      "block.orderofobsidian.nylium_wood": "Nylium Wood",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.orderofobsidian.heavy_lather_helmet": "Heavy Leather Helmet",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.heavy_netherite_leggings": "Heavy Netherite Leggings",
-      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
+      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.slime_boots": "Slime Boots",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.orderofobsidian.heavy_gold_leggings": "Heavy Gold Leggings",
       "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "block.orderofobsidian.forgeon": "Forge",
       "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
+      "block.orderofobsidian.forgeon": "Forge",
+      "item.orderofobsidian.oxysstove": "Oxis Stove",
       "item.orderofobsidian.wood_hammer": "Wood Hammer",
       "block.orderofobsidian.solar_pannel_tier_iv": "Solar Pannel Tier IV",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
+      "item.orderofobsidian.diamondstove": "diamond Stove",
       "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
       "advancements.dubious_ore.title": "Dubious Ore",
       "enchantment.orderofobsidian.ignition": "Ignition",
@@ -4935,8 +5057,8 @@
       "enchantment.spiritforge.propelling": "Propelling",
       "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
-      "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.spiritforge.oxys_sword": "Oxys Sword",
+      "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "entity.orderofobsidian.end_creeper": "End Creeper",
       "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
       "block.orderofobsidian.burnedtree_leaves": "Burnedtree",
@@ -4947,6 +5069,7 @@
       "item.orderofobsidian.flour": "Flour",
       "block.orderofobsidian.burnedtree_log": "Burnedtree Log",
       "enchantment.orderofobsidian.auto_smelt": "Auto Smelt",
+      "item.orderofobsidian.ironstove": "iron Stove",
       "item.orderofobsidian.heavy_gold_boots": "Heavy Gold Boots",
       "item.orderofobsidian.graphite_dust": "Graphite Dust",
       "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
@@ -4957,13 +5080,14 @@
       "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
-      "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",
+      "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
       "item.orderofobsidian.end_creeper_spawn_egg": "End Creeper Spawn Egg",
       "item.orderofobsidian.oxys": "Oxys",
       "item.orderofobsidian.sushi": "Sushi",
       "item.orderofobsidian.steel_sword": "Steel Sword",
+      "item.orderofobsidian.stone_stove": "Stone Stove",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
       "item.orderofobsidian.heavy_diamond_helmet": "Heavy Diamond Helmet",
@@ -4999,10 +5123,12 @@
       "item.orderofobsidian.slime_helmet": "Slime Helmet",
       "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
       "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
+      "item.orderofobsidian.netheritestove": "netherit Stove",
       "item.orderofobsidian.heavy_iron_leggings": "Heavy Iron Leggings",
       "enchantment.orderofobsidian.speed": "Speed",
       "block.orderofobsidian.oxys_ore": "Oxys Ore",
       "itemGroup.tabmachine": "Machine",
+      "item.orderofobsidian.goldstove": "gold Stove",
       "item.orderofobsidian.diamond_shard": "Diamond Shard",
       "item.orderofobsidian.energy_metter": "Energy Metter",
       "item.orderofobsidian.heavy_iron_chestplate": "Heavy Iron Body",
@@ -5209,7 +5335,28 @@
       },
       {
         "name": "outilvanilla",
-        "children": []
+        "children": [
+          {
+            "name": "hammer",
+            "children": []
+          },
+          {
+            "name": "chield",
+            "children": []
+          },
+          {
+            "name": "battle axe",
+            "children": []
+          },
+          {
+            "name": "katana",
+            "children": []
+          },
+          {
+            "name": "stove",
+            "children": []
+          }
+        ]
       },
       {
         "name": "achivement",

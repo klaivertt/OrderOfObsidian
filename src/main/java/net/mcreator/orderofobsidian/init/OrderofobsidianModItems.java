@@ -65,6 +65,7 @@ import net.mcreator.orderofobsidian.item.Obsidian_toolHoeItem;
 import net.mcreator.orderofobsidian.item.Obsidian_toolAxeItem;
 import net.mcreator.orderofobsidian.item.Obsidian_armorArmorItem;
 import net.mcreator.orderofobsidian.item.ObsidianSpearItem;
+import net.mcreator.orderofobsidian.item.NtehritAppleItem;
 import net.mcreator.orderofobsidian.item.NetheritestoveItem;
 import net.mcreator.orderofobsidian.item.NetheriteHammerItem;
 import net.mcreator.orderofobsidian.item.NetherackarmorArmorItem;
@@ -328,6 +329,7 @@ public class OrderofobsidianModItems {
 	public static final Item DIAMONDSTOVE = register(new DiamondstoveItem());
 	public static final Item NETHERITESTOVE = register(new NetheritestoveItem());
 	public static final Item OXYSSTOVE = register(new OxysstoveItem());
+	public static final Item NTEHRIT_APPLE = register(new NtehritAppleItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

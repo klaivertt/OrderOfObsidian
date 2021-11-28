@@ -5193,6 +5193,44 @@
       "ids": {},
       "registry_name": "xp_bush_1",
       "path": "~/culture"
+    },
+    {
+      "name": "DiamondNetherit",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_netherit",
+      "path": "~/craft_vanilla"
+    },
+    {
+      "name": "NtehritApple",
+      "type": "food",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ntehrit_apple",
+      "path": "~/food"
+    },
+    {
+      "name": "NtehritAppleFood",
+      "type": "procedure",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ntehrit_apple_food",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/food"
     }
   ],
   "variable_elements": [
@@ -5207,6 +5245,7 @@
   "language_map": {
     "en_us": {
       "entity.orderofobsidian.drowne_horse": "Drowne Horse",
+      "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
       "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
       "item.orderofobsidian.stone_hammer": "Stone Hammer",
       "item.spiritforge.oxys_hoe": "Oxys Hoe",

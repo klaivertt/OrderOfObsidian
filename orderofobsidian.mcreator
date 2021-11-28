@@ -5081,6 +5081,7 @@
     "modName": "OrderofObsidian",
     "version": "0.0.2",
     "author": "Scryl, MCreator",
+    "websiteURL": "https://mcreator.net",
     "license": "OrderOfObsidian",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -5089,6 +5090,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.orderofobsidian",
     "lockBaseModFiles": false
   },

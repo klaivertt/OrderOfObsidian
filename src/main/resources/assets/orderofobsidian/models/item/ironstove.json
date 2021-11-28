@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "orderofobsidian:items/stove"
+    "layer0": "orderofobsidian:items/48px-grid_frying_pan_tinkers_construct"
   }
 }

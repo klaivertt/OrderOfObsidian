@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rice_seeds",
+    "texture": "flour",
     "customModelName": "Normal",
-    "name": "Rice Seed",
+    "name": "Flour",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -29,9 +29,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "RiceSeedRightClickedOnBlock"
-    },
     "hasDispenseBehavior": false
   }
 }

@@ -85,6 +85,8 @@ import net.mcreator.orderofobsidian.item.GoldSpearItem;
 import net.mcreator.orderofobsidian.item.GoldKatanaItem;
 import net.mcreator.orderofobsidian.item.GoldHammerItem;
 import net.mcreator.orderofobsidian.item.GoldBattleAxeItem;
+import net.mcreator.orderofobsidian.item.FriedEggItem;
+import net.mcreator.orderofobsidian.item.FlourItem;
 import net.mcreator.orderofobsidian.item.FaradayArmorItem;
 import net.mcreator.orderofobsidian.item.EnergyMetterItem;
 import net.mcreator.orderofobsidian.item.ElectroniqueCircuitItem;
@@ -98,6 +100,7 @@ import net.mcreator.orderofobsidian.item.CopperPlateItem;
 import net.mcreator.orderofobsidian.item.CopperGearItem;
 import net.mcreator.orderofobsidian.item.CookedRiceItem;
 import net.mcreator.orderofobsidian.item.ChipsItem;
+import net.mcreator.orderofobsidian.item.ChickenwingItem;
 import net.mcreator.orderofobsidian.item.BatterieCellItem;
 import net.mcreator.orderofobsidian.item.AluminiumPlateItem;
 import net.mcreator.orderofobsidian.item.AluminiumIngotItem;
@@ -299,8 +302,11 @@ public class OrderofobsidianModItems {
 	public static final Item RUBBER = register(new RubberItem());
 	public static final Item PLASTIQUE = register(new PlastiqueItem());
 	public static final Item COOKED_RICE = register(new CookedRiceItem());
-	public static final Item DIAMOND_GLASS = register(OrderofobsidianModBlocks.DIAMOND_GLASS, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item DIAMOND_GLASS = register(OrderofobsidianModBlocks.DIAMOND_GLASS, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item GRAPHITE_GLASS = register(OrderofobsidianModBlocks.GRAPHITE_GLASS, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item FRIED_EGG = register(new FriedEggItem());
+	public static final Item FLOUR = register(new FlourItem());
+	public static final Item CHICKENWING = register(new ChickenwingItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

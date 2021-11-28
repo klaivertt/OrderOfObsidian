@@ -3,23 +3,23 @@
   "_type": "block",
   "definition": {
     "texture": "dimondglass",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "textureTop": "dimondglass",
+    "textureLeft": "dimondglass",
+    "textureFront": "dimondglass",
+    "textureRight": "dimondglass",
+    "textureBack": "dimondglass",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "displayFluidOverlay": false,
+    "displayFluidOverlay": true,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "connectedSides": true,
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Spirit"
+      "value": "CUSTOM:BlocK"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

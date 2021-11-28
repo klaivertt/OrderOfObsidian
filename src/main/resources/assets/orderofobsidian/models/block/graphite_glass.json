@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "orderofobsidian:blocks/tinted_diamondglass",
-    "up": "orderofobsidian:blocks/tinted_diamondglass",
-    "north": "orderofobsidian:blocks/tinted_diamondglass",
-    "east": "orderofobsidian:blocks/tinted_diamondglass",
-    "south": "orderofobsidian:blocks/tinted_diamondglass",
-    "west": "orderofobsidian:blocks/tinted_diamondglass",
-    "particle": "orderofobsidian:blocks/tinted_diamondglass"
+    "down": "orderofobsidian:blocks/tinteddiamondglass",
+    "up": "orderofobsidian:blocks/tinteddiamondglass",
+    "north": "orderofobsidian:blocks/tinteddiamondglass",
+    "east": "orderofobsidian:blocks/tinteddiamondglass",
+    "south": "orderofobsidian:blocks/tinteddiamondglass",
+    "west": "orderofobsidian:blocks/tinteddiamondglass",
+    "particle": "orderofobsidian:blocks/tinteddiamondglass"
   }
 }

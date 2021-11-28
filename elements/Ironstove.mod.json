@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "stove",
+    "texture": "48px-grid_frying_pan_tinkers_construct",
     "customModelName": "Normal",
     "name": "iron Stove",
     "specialInfo": [],

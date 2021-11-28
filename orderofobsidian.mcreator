@@ -835,7 +835,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/wooden"
+      "path": "~/armor"
     },
     {
       "name": "Wooden_armorArmorHelmetRecipe",
@@ -845,7 +845,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_armor_armor_helmet_recipe",
-      "path": "~/armor/wooden"
+      "path": "~/armor"
     },
     {
       "name": "Wooden_armorArmorBodyRecipe",
@@ -855,7 +855,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_armor_armor_body_recipe",
-      "path": "~/armor/wooden"
+      "path": "~/armor"
     },
     {
       "name": "Wooden_armorArmorLeggingsRecipe",
@@ -865,7 +865,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_armor_armor_leggings_recipe",
-      "path": "~/armor/wooden"
+      "path": "~/armor"
     },
     {
       "name": "Wooden_armorArmorBootsRecipe",
@@ -875,7 +875,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_armor_armor_boots_recipe",
-      "path": "~/armor/wooden"
+      "path": "~/armor"
     },
     {
       "name": "Obsidian_toolPickaxe",
@@ -2459,7 +2459,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/steel"
+      "path": "~/armor"
     },
     {
       "name": "SteelArmorHelmetRecipe",
@@ -2469,7 +2469,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_helmet_recipe",
-      "path": "~/armor/steel"
+      "path": "~/armor"
     },
     {
       "name": "SteelArmorBodyRecipe",
@@ -2479,7 +2479,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_body_recipe",
-      "path": "~/armor/steel"
+      "path": "~/armor"
     },
     {
       "name": "SteelArmorLeggingsRecipe",
@@ -2489,7 +2489,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_leggings_recipe",
-      "path": "~/armor/steel"
+      "path": "~/armor"
     },
     {
       "name": "SteelArmorBootsRecipe",
@@ -2499,7 +2499,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_boots_recipe",
-      "path": "~/armor/steel"
+      "path": "~/armor"
     },
     {
       "name": "SteelPickaxe",
@@ -2665,7 +2665,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/farday"
+      "path": "~/armor"
     },
     {
       "name": "FaradayArmorHelmetRecipe",
@@ -2675,7 +2675,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "faraday_armor_helmet_recipe",
-      "path": "~/armor/farday"
+      "path": "~/armor"
     },
     {
       "name": "FaradayArmorBodyRecipe",
@@ -2685,7 +2685,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "faraday_armor_body_recipe",
-      "path": "~/armor/farday"
+      "path": "~/armor"
     },
     {
       "name": "FaradayArmorLeggingsRecipe",
@@ -2695,7 +2695,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "faraday_armor_leggings_recipe",
-      "path": "~/armor/farday"
+      "path": "~/armor"
     },
     {
       "name": "FaradayArmorBootsRecipe",
@@ -2705,7 +2705,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "faraday_armor_boots_recipe",
-      "path": "~/armor/farday"
+      "path": "~/armor"
     },
     {
       "name": "Machine",
@@ -3271,7 +3271,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/HeavyNetherite"
+      "path": "~/armor"
     },
     {
       "name": "HeavyNetheriteHelmet",
@@ -3281,7 +3281,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_netherite_helmet",
-      "path": "~/armor/HeavyNetherite"
+      "path": "~/armor"
     },
     {
       "name": "HeavieNetheritebody",
@@ -3291,7 +3291,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavie_netheritebody",
-      "path": "~/armor/HeavyNetherite"
+      "path": "~/armor"
     },
     {
       "name": "HeavyNetheriteLeggings",
@@ -3301,7 +3301,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_netherite_leggings",
-      "path": "~/armor/HeavyNetherite"
+      "path": "~/armor"
     },
     {
       "name": "HeavyNetheriteBoots",
@@ -3311,7 +3311,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_netherite_boots",
-      "path": "~/armor/HeavyNetherite"
+      "path": "~/armor"
     },
     {
       "name": "HeavyDiamond",
@@ -3327,7 +3327,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/heavyDiamond"
+      "path": "~/armor"
     },
     {
       "name": "HeavyGold",
@@ -3343,7 +3343,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/HeavyGold"
+      "path": "~/armor"
     },
     {
       "name": "HeavyIron",
@@ -3359,7 +3359,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/HeavyIron"
+      "path": "~/armor"
     },
     {
       "name": "HeavyLather",
@@ -3375,7 +3375,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/HeavyLeather"
+      "path": "~/armor"
     },
     {
       "name": "Heavydiamondbody",
@@ -3385,7 +3385,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavydiamondbody",
-      "path": "~/armor/heavyDiamond"
+      "path": "~/armor"
     },
     {
       "name": "HeavydiamondHelmet",
@@ -3395,7 +3395,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavydiamond_helmet",
-      "path": "~/armor/heavyDiamond"
+      "path": "~/armor"
     },
     {
       "name": "Heavydiamondleggings",
@@ -3405,7 +3405,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavydiamondleggings",
-      "path": "~/armor/heavyDiamond"
+      "path": "~/armor"
     },
     {
       "name": "Heavydiamondboots",
@@ -3415,7 +3415,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavydiamondboots",
-      "path": "~/armor/heavyDiamond"
+      "path": "~/armor"
     },
     {
       "name": "HeavyGoldHelmet",
@@ -3425,7 +3425,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_gold_helmet",
-      "path": "~/armor/HeavyGold"
+      "path": "~/armor"
     },
     {
       "name": "HeavyGoldbody",
@@ -3435,7 +3435,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_goldbody",
-      "path": "~/armor/HeavyGold"
+      "path": "~/armor"
     },
     {
       "name": "HeavyGoldleggings",
@@ -3445,7 +3445,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_goldleggings",
-      "path": "~/armor/HeavyGold"
+      "path": "~/armor"
     },
     {
       "name": "HeavyGoldBoots",
@@ -3455,7 +3455,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_gold_boots",
-      "path": "~/armor/HeavyGold"
+      "path": "~/armor"
     },
     {
       "name": "HeavyIronHelmet",
@@ -3465,7 +3465,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_iron_helmet",
-      "path": "~/armor/HeavyIron"
+      "path": "~/armor"
     },
     {
       "name": "HeavyIronBody",
@@ -3475,7 +3475,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_iron_body",
-      "path": "~/armor/HeavyIron"
+      "path": "~/armor"
     },
     {
       "name": "HeavyIronLeggings",
@@ -3485,7 +3485,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_iron_leggings",
-      "path": "~/armor/HeavyIron"
+      "path": "~/armor"
     },
     {
       "name": "HeavyIronboots",
@@ -3495,7 +3495,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_ironboots",
-      "path": "~/armor/HeavyIron"
+      "path": "~/armor"
     },
     {
       "name": "HeavyLeatherHelmet",
@@ -3505,7 +3505,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_leather_helmet",
-      "path": "~/armor/HeavyLeather"
+      "path": "~/armor"
     },
     {
       "name": "HeavyLeatherBody",
@@ -3515,7 +3515,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_leather_body",
-      "path": "~/armor/HeavyLeather"
+      "path": "~/armor"
     },
     {
       "name": "HeavyLeatherLeggings",
@@ -3525,7 +3525,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_leather_leggings",
-      "path": "~/armor/HeavyLeather"
+      "path": "~/armor"
     },
     {
       "name": "HeavyLeatherBoots",
@@ -3535,7 +3535,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_leather_boots",
-      "path": "~/armor/HeavyLeather"
+      "path": "~/armor"
     },
     {
       "name": "Chainmailhelmet",
@@ -4035,7 +4035,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/Slime"
+      "path": "~/armor"
     },
     {
       "name": "SlimeBootsTickEvent",
@@ -4053,7 +4053,7 @@
           }
         ]
       },
-      "path": "~/armor/Slime"
+      "path": "~/armor"
     },
     {
       "name": "RiceStage0",
@@ -5233,22 +5233,6 @@
       "path": "~/food"
     },
     {
-      "name": "Stone_armorArmor",
-      "type": "armor",
-      "sortid": 437,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stone_armor_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/Stone"
-    },
-    {
       "name": "Stone_armorArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 438,
@@ -5256,16 +5240,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_armor_armor_helmet_recipe",
-      "path": "~/armor/Stone"
-    },
-    {
-      "name": "Stone_armorArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 439,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stone_armor_armor_body_recipe",
       "path": "~/armor/Stone"
     },
     {
@@ -5286,6 +5260,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stone_armor_armor_boots_recipe",
+      "path": "~/armor/Stone"
+    },
+    {
+      "name": "Stone_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_armor_armor_body_recipe",
+      "path": "~/armor/Stone"
+    },
+    {
+      "name": "Stone_armorArmor",
+      "type": "armor",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
       "path": "~/armor/Stone"
     }
   ],
@@ -5664,11 +5664,11 @@
         "name": "armor",
         "children": [
           {
-            "name": "wooden",
+            "name": "HeavyNetherite",
             "children": []
           },
           {
-            "name": "steel",
+            "name": "HeavyGold",
             "children": []
           },
           {
@@ -5676,15 +5676,7 @@
             "children": []
           },
           {
-            "name": "HeavyNetherite",
-            "children": []
-          },
-          {
             "name": "heavyDiamond",
-            "children": []
-          },
-          {
-            "name": "HeavyGold",
             "children": []
           },
           {
@@ -5696,11 +5688,19 @@
             "children": []
           },
           {
-            "name": "Slime",
+            "name": "Stone",
             "children": []
           },
           {
-            "name": "Stone",
+            "name": "steel",
+            "children": []
+          },
+          {
+            "name": "wooden",
+            "children": []
+          },
+          {
+            "name": "Slime",
             "children": []
           }
         ]

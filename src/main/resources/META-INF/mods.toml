@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="OrderOfObsidian"
+license="Order Of Obsidian"
 
 [[mods]]
 modId="orderofobsidian"
 version="0.0.2"
 displayName="OrderofObsidian"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="texture: Klaivert, Métalex, Model: Klaivert Code:Klaivert, Métalex"
 displayURL="https://mcreator.net"
-authors="Scryl, MCreator"
+logoFile="logo.png"
+authors="Klaivert,Métalex"
 
 [[dependencies.orderofobsidian]]
     modId="minecraft"

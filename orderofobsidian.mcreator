@@ -4857,7 +4857,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craftsticksword",
-      "path": "~/outilvanilla/katana"
+      "path": "~/outilvanilla"
     },
     {
       "name": "Armurediamshorse",
@@ -5610,17 +5610,18 @@
     "modid": "orderofobsidian",
     "modName": "OrderofObsidian",
     "version": "0.0.2",
-    "author": "Scryl, MCreator",
+    "author": "Klaivert,Métalex",
     "websiteURL": "https://mcreator.net",
-    "license": "OrderOfObsidian",
+    "license": "Order Of Obsidian",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "cvpnfuiv_400x400",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "texture: Klaivert, Métalex, Model: Klaivert Code:Klaivert, Métalex",
     "modElementsPackage": "net.mcreator.orderofobsidian",
     "lockBaseModFiles": false
   },

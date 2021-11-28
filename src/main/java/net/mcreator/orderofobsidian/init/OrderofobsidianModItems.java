@@ -25,6 +25,7 @@ import net.mcreator.orderofobsidian.item.SushiItem;
 import net.mcreator.orderofobsidian.item.StoneKatanaItem;
 import net.mcreator.orderofobsidian.item.StoneHammerItem;
 import net.mcreator.orderofobsidian.item.StoneBattleAxeItem;
+import net.mcreator.orderofobsidian.item.StickswordItem;
 import net.mcreator.orderofobsidian.item.SteelSwordItem;
 import net.mcreator.orderofobsidian.item.SteelShovelItem;
 import net.mcreator.orderofobsidian.item.SteelPlateItem;
@@ -309,6 +310,7 @@ public class OrderofobsidianModItems {
 	public static final Item FLOUR = register(new FlourItem());
 	public static final Item CHICKENWING = register(new ChickenwingItem());
 	public static final Item CHIKEN_WHITH_BREADCRUMBS = register(new ChikenWhithBreadcrumbsItem());
+	public static final Item STICKSWORD = register(new StickswordItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

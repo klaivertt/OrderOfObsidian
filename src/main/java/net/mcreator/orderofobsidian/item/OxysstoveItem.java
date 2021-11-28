@@ -1,7 +1,11 @@
 
 package net.mcreator.orderofobsidian.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 
 public class OxysstoveItem extends SwordItem {
 	public OxysstoveItem() {
@@ -29,13 +33,7 @@ public class OxysstoveItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				3, -2.5f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-
+		}, 3, -2.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		setRegistryName("oxysstove");
 	}
-
 }

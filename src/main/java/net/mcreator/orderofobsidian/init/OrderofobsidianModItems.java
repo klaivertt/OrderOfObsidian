@@ -23,6 +23,7 @@ import net.mcreator.orderofobsidian.item.WirecoilCopperItem;
 import net.mcreator.orderofobsidian.item.UltimateswordItem;
 import net.mcreator.orderofobsidian.item.TinyRubberItem;
 import net.mcreator.orderofobsidian.item.SushiItem;
+import net.mcreator.orderofobsidian.item.Stone_armorArmorItem;
 import net.mcreator.orderofobsidian.item.StoneStoveItem;
 import net.mcreator.orderofobsidian.item.StoneKatanaItem;
 import net.mcreator.orderofobsidian.item.StoneHammerItem;
@@ -330,6 +331,10 @@ public class OrderofobsidianModItems {
 	public static final Item NETHERITESTOVE = register(new NetheritestoveItem());
 	public static final Item OXYSSTOVE = register(new OxysstoveItem());
 	public static final Item NTEHRIT_APPLE = register(new NtehritAppleItem());
+	public static final Item STONE_ARMOR_ARMOR_HELMET = register(new Stone_armorArmorItem.Helmet());
+	public static final Item STONE_ARMOR_ARMOR_CHESTPLATE = register(new Stone_armorArmorItem.Chestplate());
+	public static final Item STONE_ARMOR_ARMOR_LEGGINGS = register(new Stone_armorArmorItem.Leggings());
+	public static final Item STONE_ARMOR_ARMOR_BOOTS = register(new Stone_armorArmorItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

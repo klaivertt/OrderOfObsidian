@@ -12,6 +12,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.orderofobsidian.block.XpberyFullBlock;
+import net.mcreator.orderofobsidian.block.XpBush1Block;
+import net.mcreator.orderofobsidian.block.XPberryStage0Block;
 import net.mcreator.orderofobsidian.block.SolarPannelTierVBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIVBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIIIBlock;
@@ -115,6 +118,9 @@ public class OrderofobsidianModBlocks {
 	public static final Block GRAPHITE_ORE = register(new GraphiteOreBlock());
 	public static final Block DIAMOND_GLASS = register(new DiamondGlassBlock());
 	public static final Block GRAPHITE_GLASS = register(new GraphiteGlassBlock());
+	public static final Block XPBUSH_STAGE_0 = register(new XPberryStage0Block());
+	public static final Block XP_BUSH_1 = register(new XpBush1Block());
+	public static final Block XPBERY_FULL = register(new XpberyFullBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -147,6 +153,9 @@ public class OrderofobsidianModBlocks {
 			RiceStage7Block.registerRenderLayer();
 			DiamondGlassBlock.registerRenderLayer();
 			GraphiteGlassBlock.registerRenderLayer();
+			XPberryStage0Block.registerRenderLayer();
+			XpBush1Block.registerRenderLayer();
+			XpberyFullBlock.registerRenderLayer();
 		}
 	}
 }

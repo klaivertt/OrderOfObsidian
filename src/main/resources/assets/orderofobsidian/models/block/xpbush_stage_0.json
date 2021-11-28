@@ -1,0 +1,9 @@
+{
+  "parent": "orderofobsidian:custom/xpberry0",
+  "textures": {
+    "all": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "particle": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "0": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "1": "orderofobsidian:blocks/berry_xp_bush_fancy"
+  }
+}

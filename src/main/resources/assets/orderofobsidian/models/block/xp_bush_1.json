@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "up": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "north": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "east": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "south": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "west": "orderofobsidian:blocks/berry_xp_bush_fancy",
+    "particle": "orderofobsidian:blocks/berry_xp_bush_fancy"
+  }
+}

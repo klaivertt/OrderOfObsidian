@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/xpbushfull",
+    "up": "orderofobsidian:blocks/xpbushfull",
+    "north": "orderofobsidian:blocks/xpbushfull",
+    "east": "orderofobsidian:blocks/xpbushfull",
+    "south": "orderofobsidian:blocks/xpbushfull",
+    "west": "orderofobsidian:blocks/xpbushfull",
+    "particle": "orderofobsidian:blocks/xpbushfull"
+  }
+}

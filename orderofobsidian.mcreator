@@ -4790,13 +4790,13 @@
       "path": "~/food"
     },
     {
-      "name": "Horsearmor",
+      "name": "Cuirearmurehorse",
       "type": "recipe",
-      "sortid": 416,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "horsearmor",
+      "registry_name": "cuirearmurehorse",
       "path": "~/craft_vanilla"
     },
     {
@@ -4820,14 +4820,44 @@
       "path": "~/craft_vanilla"
     },
     {
-      "name": "Cuirearmurehorse",
+      "name": "Horsearmor",
       "type": "recipe",
-      "sortid": 419,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cuirearmurehorse",
+      "registry_name": "horsearmor",
       "path": "~/craft_vanilla"
+    },
+    {
+      "name": "ChikenWhithBreadcrumbs",
+      "type": "item",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiken_whith_breadcrumbs",
+      "path": "~/food"
+    },
+    {
+      "name": "ChikenWhithBreadcrumbsCraft",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiken_whith_breadcrumbs_craft",
+      "path": "~/food"
+    },
+    {
+      "name": "ChikenwingsCraft",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chikenwings_craft",
+      "path": "~/food"
     }
   ],
   "variable_elements": [
@@ -4852,24 +4882,24 @@
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.silver_ingot": "Silver Ingot",
-      "item.orderofobsidian.steel_dust": "Steel Dust",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
-      "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
+      "item.orderofobsidian.steel_dust": "Steel Dust",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
+      "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.orderofobsidian.heavy_lather_helmet": "Heavy Leather Helmet",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.heavy_netherite_leggings": "Heavy Netherite Leggings",
-      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
       "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
+      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
       "item.orderofobsidian.slime_boots": "Slime Boots",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.orderofobsidian.heavy_gold_leggings": "Heavy Gold Leggings",
       "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
       "block.orderofobsidian.forgeon": "Forge",
+      "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
       "item.orderofobsidian.wood_hammer": "Wood Hammer",
       "block.orderofobsidian.solar_pannel_tier_iv": "Solar Pannel Tier IV",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
@@ -4885,8 +4915,8 @@
       "enchantment.spiritforge.propelling": "Propelling",
       "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
-      "item.spiritforge.oxys_sword": "Oxys Sword",
       "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
+      "item.spiritforge.oxys_sword": "Oxys Sword",
       "entity.orderofobsidian.end_creeper": "End Creeper",
       "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
       "block.orderofobsidian.burnedtree_leaves": "Burnedtree",
@@ -4904,10 +4934,11 @@
       "block.orderofobsidian.oxys_block": "Block of Oxys",
       "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
       "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
+      "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
-      "block.orderofobsidian.nylium_slab": "Nylium Slab",
       "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
+      "block.orderofobsidian.nylium_slab": "Nylium Slab",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
       "item.orderofobsidian.end_creeper_spawn_egg": "End Creeper Spawn Egg",
       "item.orderofobsidian.oxys": "Oxys",
@@ -5092,31 +5123,11 @@
     "name": "~",
     "children": [
       {
-        "name": "oxys",
-        "children": []
-      },
-      {
         "name": "block",
         "children": []
       },
       {
-        "name": "achivement",
-        "children": []
-      },
-      {
-        "name": "craft_vanilla",
-        "children": []
-      },
-      {
-        "name": "netherack",
-        "children": []
-      },
-      {
-        "name": "obsidian",
-        "children": []
-      },
-      {
-        "name": "food",
+        "name": "Loottable",
         "children": []
       },
       {
@@ -5124,39 +5135,11 @@
         "children": []
       },
       {
-        "name": "biome",
-        "children": []
-      },
-      {
-        "name": "structure",
-        "children": []
-      },
-      {
-        "name": "mob",
-        "children": []
-      },
-      {
-        "name": "outilvanilla",
-        "children": []
-      },
-      {
-        "name": "CreativeInventorieTab",
-        "children": []
-      },
-      {
         "name": "machine",
         "children": []
       },
       {
-        "name": "item",
-        "children": []
-      },
-      {
-        "name": "armor",
-        "children": []
-      },
-      {
-        "name": "tools",
+        "name": "obsidian",
         "children": []
       },
       {
@@ -5164,7 +5147,55 @@
         "children": []
       },
       {
-        "name": "Loottable",
+        "name": "CreativeInventorieTab",
+        "children": []
+      },
+      {
+        "name": "food",
+        "children": []
+      },
+      {
+        "name": "mob",
+        "children": []
+      },
+      {
+        "name": "structure",
+        "children": []
+      },
+      {
+        "name": "item",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": []
+      },
+      {
+        "name": "craft_vanilla",
+        "children": []
+      },
+      {
+        "name": "biome",
+        "children": []
+      },
+      {
+        "name": "oxys",
+        "children": []
+      },
+      {
+        "name": "netherack",
+        "children": []
+      },
+      {
+        "name": "outilvanilla",
+        "children": []
+      },
+      {
+        "name": "achivement",
+        "children": []
+      },
+      {
+        "name": "armor",
         "children": []
       }
     ]

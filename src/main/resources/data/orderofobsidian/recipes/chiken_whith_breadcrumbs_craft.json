@@ -1,0 +1,30 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "orderofobsidian:flour"
+    },
+    "3": {
+      "item": "orderofobsidian:flour"
+    },
+    "4": {
+      "item": "minecraft:chicken"
+    },
+    "5": {
+      "item": "orderofobsidian:flour"
+    },
+    "7": {
+      "item": "orderofobsidian:flour"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:chiken_whith_breadcrumbs",
+    "count": 1
+  }
+}

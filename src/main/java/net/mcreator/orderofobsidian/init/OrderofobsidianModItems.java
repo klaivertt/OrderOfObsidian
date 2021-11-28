@@ -100,6 +100,7 @@ import net.mcreator.orderofobsidian.item.CopperPlateItem;
 import net.mcreator.orderofobsidian.item.CopperGearItem;
 import net.mcreator.orderofobsidian.item.CookedRiceItem;
 import net.mcreator.orderofobsidian.item.ChipsItem;
+import net.mcreator.orderofobsidian.item.ChikenWhithBreadcrumbsItem;
 import net.mcreator.orderofobsidian.item.ChickenwingItem;
 import net.mcreator.orderofobsidian.item.BatterieCellItem;
 import net.mcreator.orderofobsidian.item.AluminiumPlateItem;
@@ -307,6 +308,7 @@ public class OrderofobsidianModItems {
 	public static final Item FRIED_EGG = register(new FriedEggItem());
 	public static final Item FLOUR = register(new FlourItem());
 	public static final Item CHICKENWING = register(new ChickenwingItem());
+	public static final Item CHIKEN_WHITH_BREADCRUMBS = register(new ChikenWhithBreadcrumbsItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

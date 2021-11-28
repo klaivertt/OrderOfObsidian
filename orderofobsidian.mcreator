@@ -4788,6 +4788,36 @@
       "ids": {},
       "registry_name": "chickenwing",
       "path": "~/food"
+    },
+    {
+      "name": "ChikenWhithBreadcrumbs",
+      "type": "item",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiken_whith_breadcrumbs",
+      "path": "~/food"
+    },
+    {
+      "name": "ChikenWhithBreadcrumbsCraft",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiken_whith_breadcrumbs_craft",
+      "path": "~/food"
+    },
+    {
+      "name": "ChikenwingsCraft",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chikenwings_craft",
+      "path": "~/food"
     }
   ],
   "variable_elements": [
@@ -4864,6 +4894,7 @@
       "block.orderofobsidian.oxys_block": "Block of Oxys",
       "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
       "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
+      "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",

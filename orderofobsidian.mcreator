@@ -4818,6 +4818,16 @@
       "ids": {},
       "registry_name": "armurediamshorse",
       "path": "~/craft_vanilla"
+    },
+    {
+      "name": "Cuirearmurehorse",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuirearmurehorse",
+      "path": "~/craft_vanilla"
     }
   ],
   "variable_elements": [

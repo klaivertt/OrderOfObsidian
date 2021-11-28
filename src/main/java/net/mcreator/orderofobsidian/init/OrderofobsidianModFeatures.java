@@ -16,6 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.orderofobsidian.world.features.ores.XPberryStage0Feature;
 import net.mcreator.orderofobsidian.world.features.ores.SilverOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.OxysOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.GraphiteOreFeature;
@@ -58,6 +59,8 @@ public class OrderofobsidianModFeatures {
 				SilverOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(GraphiteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				GraphiteOreFeature.GENERATE_BIOMES, GraphiteOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(XPberryStage0Feature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				XPberryStage0Feature.GENERATE_BIOMES, XPberryStage0Feature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.orderofobsidian.item.XPberryItem;
 import net.mcreator.orderofobsidian.item.Wooden_armorArmorItem;
 import net.mcreator.orderofobsidian.item.WoodKatanaItem;
 import net.mcreator.orderofobsidian.item.WoodHammerItem;
@@ -309,6 +310,10 @@ public class OrderofobsidianModItems {
 	public static final Item FLOUR = register(new FlourItem());
 	public static final Item CHICKENWING = register(new ChickenwingItem());
 	public static final Item CHIKEN_WHITH_BREADCRUMBS = register(new ChikenWhithBreadcrumbsItem());
+	public static final Item XPBUSH_STAGE_0 = register(OrderofobsidianModBlocks.XPBUSH_STAGE_0, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item X_PBERRY = register(new XPberryItem());
+	public static final Item XP_BUSH_1 = register(OrderofobsidianModBlocks.XP_BUSH_1, null);
+	public static final Item XPBERY_FULL = register(OrderofobsidianModBlocks.XPBERY_FULL, null);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

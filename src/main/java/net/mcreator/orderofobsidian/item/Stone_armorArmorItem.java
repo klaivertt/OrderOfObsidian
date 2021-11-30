@@ -68,7 +68,7 @@ public abstract class Stone_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/stone_armor_layer_1.png";
+			return "orderofobsidian:textures/models/armor/stone_armor__layer_1.png";
 		}
 	}
 
@@ -80,7 +80,7 @@ public abstract class Stone_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/stone_armor_layer_1.png";
+			return "orderofobsidian:textures/models/armor/stone_armor__layer_1.png";
 		}
 	}
 
@@ -92,7 +92,7 @@ public abstract class Stone_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/stone_armor_layer_2.png";
+			return "orderofobsidian:textures/models/armor/stone_armor__layer_2.png";
 		}
 	}
 
@@ -104,7 +104,7 @@ public abstract class Stone_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/stone_armor_layer_1.png";
+			return "orderofobsidian:textures/models/armor/stone_armor__layer_1.png";
 		}
 	}
 }

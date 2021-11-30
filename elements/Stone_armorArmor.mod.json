@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "stone_armor",
+    "armorTextureFile": "stone_armor_",
     "helmetName": "Stone_armor Helmet",
     "bodyName": "Stone_armor Chestplate",
     "leggingsName": "Stone_armor Leggings",

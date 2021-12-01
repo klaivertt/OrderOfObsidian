@@ -14,5 +14,7 @@ public class OrderofobsidianModFuels {
 	public static void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		if (event.getItemStack().getItem() == OrderofobsidianModItems.BAUHERITE_MIXED_COAL)
 			event.setBurnTime(7000);
+		else if (event.getItemStack().getItem() == OrderofobsidianModItems.AVENRONITE_MIXED_COAL)
+			event.setBurnTime(8000);
 	}
 }

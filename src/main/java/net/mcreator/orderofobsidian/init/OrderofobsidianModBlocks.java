@@ -67,6 +67,8 @@ import net.mcreator.orderofobsidian.block.Batterie1Block;
 import net.mcreator.orderofobsidian.block.AvenroniteOreBlock;
 import net.mcreator.orderofobsidian.block.AvenroniteBlockBlock;
 import net.mcreator.orderofobsidian.block.AluminiumOreBlock;
+import net.mcreator.orderofobsidian.block.AikigiteOreBlock;
+import net.mcreator.orderofobsidian.block.AikigiteBlockBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -129,6 +131,8 @@ public class OrderofobsidianModBlocks {
 	public static final Block BAUHERITE_BLOCK = register(new BauheriteBlockBlock());
 	public static final Block AVENRONITE_ORE = register(new AvenroniteOreBlock());
 	public static final Block AVENRONITE_BLOCK = register(new AvenroniteBlockBlock());
+	public static final Block AIKIGITE_ORE = register(new AikigiteOreBlock());
+	public static final Block AIKIGITE_BLOCK = register(new AikigiteBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

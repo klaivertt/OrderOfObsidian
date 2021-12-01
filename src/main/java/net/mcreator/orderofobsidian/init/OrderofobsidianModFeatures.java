@@ -23,6 +23,7 @@ import net.mcreator.orderofobsidian.world.features.ores.GraphiteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.BauheriteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.AvenroniteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.AluminiumOreFeature;
+import net.mcreator.orderofobsidian.world.features.ores.AikigiteOreFeature;
 import net.mcreator.orderofobsidian.world.features.SmallchaletwithgardenFeature;
 import net.mcreator.orderofobsidian.world.features.ObsidianlavalakeFeature;
 import net.mcreator.orderofobsidian.world.features.Medievaltent3Feature;
@@ -67,6 +68,8 @@ public class OrderofobsidianModFeatures {
 				BauheriteOreFeature.GENERATE_BIOMES, BauheriteOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(AvenroniteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				AvenroniteOreFeature.GENERATE_BIOMES, AvenroniteOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(AikigiteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				AikigiteOreFeature.GENERATE_BIOMES, AikigiteOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

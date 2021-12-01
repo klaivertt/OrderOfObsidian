@@ -22,7 +22,7 @@ public class BauheriteSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 9.5f;
 			}
 
 			public int getLevel() {

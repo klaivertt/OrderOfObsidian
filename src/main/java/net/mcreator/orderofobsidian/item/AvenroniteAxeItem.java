@@ -36,7 +36,7 @@ public class AvenroniteAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(OrderofobsidianModItems.AVENRONITE_INGOT));
 			}
-		}, 1, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_TOOLS).fireResistant());
 		setRegistryName("avenronite_axe");
 	}
 }

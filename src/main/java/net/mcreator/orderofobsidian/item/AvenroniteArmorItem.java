@@ -21,17 +21,17 @@ public abstract class AvenroniteArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 67;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{5, 10, 10, 5}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 15;
 			}
 
 			@Override
@@ -51,7 +51,7 @@ public abstract class AvenroniteArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 2.3f;
 			}
 
 			@Override
@@ -63,7 +63,7 @@ public abstract class AvenroniteArmorItem extends ArmorItem {
 
 	public static class Helmet extends AvenroniteArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
 			setRegistryName("avenronite_armor_helmet");
 		}
 
@@ -75,7 +75,7 @@ public abstract class AvenroniteArmorItem extends ArmorItem {
 
 	public static class Chestplate extends AvenroniteArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
 			setRegistryName("avenronite_armor_chestplate");
 		}
 
@@ -87,7 +87,7 @@ public abstract class AvenroniteArmorItem extends ArmorItem {
 
 	public static class Leggings extends AvenroniteArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
 			setRegistryName("avenronite_armor_leggings");
 		}
 
@@ -99,7 +99,7 @@ public abstract class AvenroniteArmorItem extends ArmorItem {
 
 	public static class Boots extends AvenroniteArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
 			setRegistryName("avenronite_armor_boots");
 		}
 

@@ -2509,7 +2509,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_pickaxe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelAxe",
@@ -2519,7 +2519,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_axe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelSword",
@@ -2529,7 +2529,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_sword",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelShovel",
@@ -2539,7 +2539,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_shovel",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelHoe",
@@ -2549,7 +2549,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_hoe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelPickaxeRecipe",
@@ -2559,7 +2559,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_pickaxe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelAxeRecipe",
@@ -2569,7 +2569,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_axe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelSwordRecipe",
@@ -2579,7 +2579,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_sword_recipe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelShovelRecipe",
@@ -2589,7 +2589,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_shovel_recipe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "SteelHoeRecipe",
@@ -2599,7 +2599,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_hoe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/steel"
     },
     {
       "name": "AluminiumOre",
@@ -2945,7 +2945,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_spear",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "GoldSpear",
@@ -2955,7 +2955,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gold_spear",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "DiamondSpear",
@@ -2965,7 +2965,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_spear",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "ObsidianSpear",
@@ -2975,7 +2975,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidian_spear",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "Obsidianspearcraft",
@@ -2985,7 +2985,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidianspearcraft",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "OxysSpear",
@@ -3005,7 +3005,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamondspearcraft",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "IronSpearCraft",
@@ -3015,7 +3015,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_spear_craft",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "Goldspearcraft",
@@ -3025,7 +3025,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldspearcraft",
-      "path": "~/tools"
+      "path": "~/tools/spear"
     },
     {
       "name": "OxysSpearcraft",
@@ -5356,7 +5356,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_pickaxe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteAxe",
@@ -5366,7 +5366,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_axe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteSword",
@@ -5376,7 +5376,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_sword",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteShovel",
@@ -5386,17 +5386,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_shovel",
-      "path": "~/tools"
-    },
-    {
-      "name": "BauheriteHoe",
-      "type": "tool",
-      "sortid": 452,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_hoe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheritePickaxeRecipe",
@@ -5406,7 +5396,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_pickaxe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteAxeRecipe",
@@ -5416,7 +5406,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_axe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteSwordRecipe",
@@ -5426,7 +5416,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_sword_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteShovelRecipe",
@@ -5436,17 +5426,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_shovel_recipe",
-      "path": "~/tools"
-    },
-    {
-      "name": "BauheriteHoeRecipe",
-      "type": "recipe",
-      "sortid": 457,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_hoe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Bauherite"
     },
     {
       "name": "BauheriteArmor",
@@ -5602,7 +5582,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_pickaxe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteAxeRecipe",
@@ -5612,7 +5592,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_axe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteSwordRecipe",
@@ -5622,7 +5602,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_sword_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteShovelRecipe",
@@ -5632,7 +5612,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_shovel_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteHoeRecipe",
@@ -5642,7 +5622,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_hoe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenronitePickaxe",
@@ -5652,7 +5632,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_pickaxe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteAxe",
@@ -5662,7 +5642,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_axe",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteSword",
@@ -5672,7 +5652,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_sword",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteShovel",
@@ -5682,7 +5662,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_shovel",
-      "path": "~/tools"
+      "path": "~/tools/Avenronite"
     },
     {
       "name": "AvenroniteArmor",
@@ -5739,6 +5719,222 @@
       "ids": {},
       "registry_name": "avenronite_armor_boots_recipe",
       "path": "~/armor/Slime"
+    },
+    {
+      "name": "AvenroniteMixedCoal",
+      "type": "item",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_mixed_coal",
+      "path": "~/item"
+    },
+    {
+      "name": "AvenroniteMixedCoalfuel",
+      "type": "fuel",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_mixed_coalfuel",
+      "path": "~/item"
+    },
+    {
+      "name": "AikigiteIngot",
+      "type": "item",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "AikigiteOre",
+      "type": "block",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_ore",
+      "path": "~/block"
+    },
+    {
+      "name": "AikigiteBlock",
+      "type": "block",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_block",
+      "path": "~/block"
+    },
+    {
+      "name": "AikigiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_ore_block_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "AikigiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_block_ore_recipe",
+      "path": "~/block"
+    },
+    {
+      "name": "AikigiteOreSmelting",
+      "type": "recipe",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_ore_smelting",
+      "path": "~/block"
+    },
+    {
+      "name": "AikigiteArmor",
+      "type": "armor",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/Aikigite"
+    },
+    {
+      "name": "AikigiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_armor_helmet_recipe",
+      "path": "~/armor/Aikigite"
+    },
+    {
+      "name": "AikigiteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_armor_body_recipe",
+      "path": "~/armor/Aikigite"
+    },
+    {
+      "name": "AikigiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_armor_leggings_recipe",
+      "path": "~/armor/Aikigite"
+    },
+    {
+      "name": "AikigiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_armor_boots_recipe",
+      "path": "~/armor/Aikigite"
+    },
+    {
+      "name": "AikigitePickaxe",
+      "type": "tool",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_pickaxe",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigiteAxe",
+      "type": "tool",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_axe",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigiteSword",
+      "type": "tool",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_sword",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigiteShovel",
+      "type": "tool",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_shovel",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_pickaxe_recipe",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_axe_recipe",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_sword_recipe",
+      "path": "~/tools/Aikigite"
+    },
+    {
+      "name": "AikigiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aikigite_shovel_recipe",
+      "path": "~/tools/Aikigite"
     }
   ],
   "variable_elements": [
@@ -5833,6 +6029,8 @@
       "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
+      "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
+      "item.orderofobsidian.aikigite_ingot": "Aikigite",
       "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
@@ -5842,7 +6040,6 @@
       "item.orderofobsidian.steel_sword": "Steel Sword",
       "item.orderofobsidian.stone_stove": "Stone Stove",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
-      "item.orderofobsidian.bauherite_hoe": "Bauherite Hoe",
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
       "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
       "item.orderofobsidian.heavy_diamond_helmet": "Heavy Diamond Helmet",
@@ -5877,6 +6074,7 @@
       "item.spiritforge.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
       "item.spiritforge.oxys_armor_leggings": "Oxys Leggings",
       "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
+      "item.orderofobsidian.aikigite_armor_helmet": "Aikigite Helmet",
       "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
       "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.orderofobsidian.iron_katana": "Iron Katana",
@@ -5907,6 +6105,7 @@
       "item.orderofobsidian.oxys_armor_helmet": "Oxys Helmet",
       "item.orderofobsidian.diamond_spear": "Diamond Spear",
       "item.orderofobsidian.steel_axe": "Steel Axe",
+      "item.orderofobsidian.aikigite_armor_boots": "Aikigite Boots",
       "block.spiritforge.oxys_ore": "Oxys Ore",
       "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
       "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
@@ -5914,7 +6113,9 @@
       "enchantment.orderofobsidian.ice_aspect": "Ice Aspect",
       "item.orderofobsidian.oxysapple": "Oxysapple",
       "item.orderofobsidian.faraday_armor_leggings": "Faraday Leggings",
+      "item.orderofobsidian.aikigite_shovel": "Aikigite Shovel",
       "item.orderofobsidian.wood_katana": "Wood Katana",
+      "item.orderofobsidian.aikigite_armor_chestplate": "Aikigite Chestplate",
       "item.orderofobsidian.drowne_horse_spawn_egg": "Drowne Horse Spawn Egg",
       "item.orderofobsidian.oxys_pickaxe": "Oxys Pickaxe",
       "item.orderofobsidian.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
@@ -5932,6 +6133,7 @@
       "biome.spiritforge.volcan": "Volcan",
       "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
       "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
+      "item.orderofobsidian.aikigite_sword": "Aikigite Sword",
       "item.orderofobsidian.nether_creeper_spawn_egg": "Nether Creeper Spawn Egg",
       "block.orderofobsidian.avenronite_block": "Block of Avenronite",
       "block.orderofobsidian.electrique_furnace": "Electrique Furnace",
@@ -5963,6 +6165,7 @@
       "enchantment.spiritforge.ignition": "Ignition",
       "entity.orderofobsidian.blueghast": "Blueghast",
       "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
+      "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
       "item.spiritforge.oxys_armor_boots": "Oxys Boots",
       "item.orderofobsidian.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
@@ -5994,6 +6197,8 @@
       "item.orderofobsidian.avenronite_armor_chestplate": "Avenronite Chestplate",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",
       "item.orderofobsidian.lead_plate": "Lead Plate",
+      "block.orderofobsidian.aikigite_block": "Block of Aikigite",
+      "item.orderofobsidian.avenronite_mixed_coal": "Avenronite Mixed Coal",
       "item.orderofobsidian.obsidian_tool_shovel": "Obsidian_tool Shovel",
       "item.orderofobsidian.netheritegolem_spawn_egg": "netherite Golem Spawn Egg",
       "item.orderofobsidian.oxys_bow": "Oxys Bow",
@@ -6022,12 +6227,14 @@
       "block.orderofobsidian.rice_stage_4": "Rice Stage",
       "item.orderofobsidian.cooked_rice": "Cooked Rice",
       "item.orderofobsidian.bauherite_armor_helmet": "Bauherite Helmet",
+      "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
       "item.orderofobsidian.sticksword": "Stick_sword",
       "item.spiritforge.oxys_stick": "Oxys Stick",
       "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
       "item.orderofobsidian.endermanblaze_spawn_egg": "Endermanblaze Spawn Egg",
       "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
       "item.orderofobsidian.heavy_netherite_chestplate": "Heavy Netherite Body",
+      "item.orderofobsidian.aikigite_axe": "Aikigite Axe",
       "item.orderofobsidian.oxys_sword": "Oxys Sword",
       "block.orderofobsidian.invisible": "Invisible",
       "item.orderofobsidian.ironplate": "Ironplate",
@@ -6089,7 +6296,28 @@
       },
       {
         "name": "tools",
-        "children": []
+        "children": [
+          {
+            "name": "steel",
+            "children": []
+          },
+          {
+            "name": "spear",
+            "children": []
+          },
+          {
+            "name": "Bauherite",
+            "children": []
+          },
+          {
+            "name": "Aikigite",
+            "children": []
+          },
+          {
+            "name": "Avenronite",
+            "children": []
+          }
+        ]
       },
       {
         "name": "craft_vanilla",
@@ -6186,6 +6414,10 @@
           },
           {
             "name": "Avenronite",
+            "children": []
+          },
+          {
+            "name": "Aikigite",
             "children": []
           }
         ]

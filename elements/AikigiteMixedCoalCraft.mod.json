@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AikigiteMixedCoal"
+    },
+    "name": "aikigite_mixed_coal_craft",
+    "namespace": "mod"
+  }
+}

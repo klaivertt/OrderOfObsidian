@@ -1,0 +1,30 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "orderofobsidian:aikigite_ingot"
+    },
+    "3": {
+      "item": "orderofobsidian:aikigite_ingot"
+    },
+    "4": {
+      "tag": "minecraft:coals"
+    },
+    "5": {
+      "item": "orderofobsidian:aikigite_ingot"
+    },
+    "7": {
+      "item": "orderofobsidian:aikigite_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:aikigite_mixed_coal",
+    "count": 2
+  }
+}

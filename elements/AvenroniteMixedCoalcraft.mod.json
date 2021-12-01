@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AvenroniteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AvenroniteIngot"
+      },
+      {
+        "value": "Items.COAL"
+      },
+      {
+        "value": "CUSTOM:AvenroniteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AvenroniteIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AvenroniteMixedCoal"
+    },
+    "name": "avenronite_mixed_coalcraft",
+    "namespace": "mod"
+  }
+}

@@ -132,6 +132,7 @@ import net.mcreator.orderofobsidian.item.AluminiumIngotItem;
 import net.mcreator.orderofobsidian.item.AikigiteSwordItem;
 import net.mcreator.orderofobsidian.item.AikigiteShovelItem;
 import net.mcreator.orderofobsidian.item.AikigitePickaxeItem;
+import net.mcreator.orderofobsidian.item.AikigiteMixedCoalItem;
 import net.mcreator.orderofobsidian.item.AikigiteIngotItem;
 import net.mcreator.orderofobsidian.item.AikigiteAxeItem;
 import net.mcreator.orderofobsidian.item.AikigiteArmorItem;
@@ -390,6 +391,7 @@ public class OrderofobsidianModItems {
 	public static final Item AIKIGITE_AXE = register(new AikigiteAxeItem());
 	public static final Item AIKIGITE_SWORD = register(new AikigiteSwordItem());
 	public static final Item AIKIGITE_SHOVEL = register(new AikigiteShovelItem());
+	public static final Item AIKIGITE_MIXED_COAL = register(new AikigiteMixedCoalItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

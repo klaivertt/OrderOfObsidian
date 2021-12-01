@@ -36,7 +36,7 @@ public class AvenroniteSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(OrderofobsidianModItems.AVENRONITE_INGOT));
 			}
-		}, 3, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ITEMS).fireResistant());
+		}, 3, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
 		setRegistryName("avenronite_sword");
 	}
 }

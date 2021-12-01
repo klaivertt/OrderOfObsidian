@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.orderofobsidian.init.OrderofobsidianModTabs;
 import net.mcreator.orderofobsidian.init.OrderofobsidianModItems;
 
 public class BauheriteShovelItem extends ShovelItem {
@@ -36,7 +36,7 @@ public class BauheriteShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(OrderofobsidianModItems.BAUHERITE_INGOT));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_TOOLS));
 		setRegistryName("bauherite_shovel");
 	}
 }

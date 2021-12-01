@@ -69,7 +69,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/aikigitearmor__layer_1.png";
+			return "orderofobsidian:textures/models/armor/aikigitarmor__layer_1.png";
 		}
 	}
 
@@ -81,7 +81,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/aikigitearmor__layer_1.png";
+			return "orderofobsidian:textures/models/armor/aikigitarmor__layer_1.png";
 		}
 	}
 
@@ -93,7 +93,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/aikigitearmor__layer_2.png";
+			return "orderofobsidian:textures/models/armor/aikigitarmor__layer_2.png";
 		}
 	}
 
@@ -105,7 +105,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/aikigitearmor__layer_1.png";
+			return "orderofobsidian:textures/models/armor/aikigitarmor__layer_1.png";
 		}
 	}
 }

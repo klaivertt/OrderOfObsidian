@@ -26,7 +26,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{4, 10, 11, 5}[slot.getIndex()];
+				return new int[]{6, 11, 11, 6}[slot.getIndex()];
 			}
 
 			@Override

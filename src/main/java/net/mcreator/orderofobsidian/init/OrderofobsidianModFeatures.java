@@ -20,6 +20,8 @@ import net.mcreator.orderofobsidian.world.features.ores.XPberryStage0Feature;
 import net.mcreator.orderofobsidian.world.features.ores.SilverOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.OxysOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.GraphiteOreFeature;
+import net.mcreator.orderofobsidian.world.features.ores.BauheriteOreFeature;
+import net.mcreator.orderofobsidian.world.features.ores.AvenroniteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.AluminiumOreFeature;
 import net.mcreator.orderofobsidian.world.features.SmallchaletwithgardenFeature;
 import net.mcreator.orderofobsidian.world.features.ObsidianlavalakeFeature;
@@ -61,6 +63,10 @@ public class OrderofobsidianModFeatures {
 				GraphiteOreFeature.GENERATE_BIOMES, GraphiteOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(XPberryStage0Feature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				XPberryStage0Feature.GENERATE_BIOMES, XPberryStage0Feature.CONFIGURED_FEATURE));
+		REGISTRY.put(BauheriteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				BauheriteOreFeature.GENERATE_BIOMES, BauheriteOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(AvenroniteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				AvenroniteOreFeature.GENERATE_BIOMES, AvenroniteOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

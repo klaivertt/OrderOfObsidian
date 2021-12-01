@@ -61,7 +61,11 @@ import net.mcreator.orderofobsidian.block.BurnedtreeLeavesBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeFenceGateBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeFenceBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeButtonBlock;
+import net.mcreator.orderofobsidian.block.BauheriteOreBlock;
+import net.mcreator.orderofobsidian.block.BauheriteBlockBlock;
 import net.mcreator.orderofobsidian.block.Batterie1Block;
+import net.mcreator.orderofobsidian.block.AvenroniteOreBlock;
+import net.mcreator.orderofobsidian.block.AvenroniteBlockBlock;
 import net.mcreator.orderofobsidian.block.AluminiumOreBlock;
 
 import java.util.List;
@@ -121,6 +125,10 @@ public class OrderofobsidianModBlocks {
 	public static final Block XPBUSH_STAGE_0 = register(new XPberryStage0Block());
 	public static final Block XP_BUSH_1 = register(new XpBush1Block());
 	public static final Block XPBERY_FULL = register(new XpberyFullBlock());
+	public static final Block BAUHERITE_ORE = register(new BauheriteOreBlock());
+	public static final Block BAUHERITE_BLOCK = register(new BauheriteBlockBlock());
+	public static final Block AVENRONITE_ORE = register(new AvenroniteOreBlock());
+	public static final Block AVENRONITE_BLOCK = register(new AvenroniteBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

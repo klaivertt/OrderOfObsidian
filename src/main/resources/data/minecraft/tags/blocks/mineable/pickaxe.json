@@ -6,6 +6,10 @@
     "orderofobsidian:aluminium_ore",
     "orderofobsidian:silver_ore",
     "orderofobsidian:graphite_ore",
-    "orderofobsidian:diamond_glass"
+    "orderofobsidian:diamond_glass",
+    "orderofobsidian:bauherite_ore",
+    "orderofobsidian:bauherite_block",
+    "orderofobsidian:avenronite_ore",
+    "orderofobsidian:avenronite_block"
   ]
 }

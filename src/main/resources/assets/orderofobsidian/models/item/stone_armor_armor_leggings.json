@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "orderofobsidian:items/stone_armor_leggings"
+    "layer0": "orderofobsidian:items/leggings"
   }
 }

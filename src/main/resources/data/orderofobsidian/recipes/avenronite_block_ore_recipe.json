@@ -1,0 +1,13 @@
+{
+  "group": "orderofobsidian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orderofobsidian:avenronite_block"
+    }
+  ],
+  "result": {
+    "item": "orderofobsidian:avenronite_ingot",
+    "count": 9
+  }
+}

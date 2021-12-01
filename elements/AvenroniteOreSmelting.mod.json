@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.54,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:AvenroniteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:AvenroniteIngot"
+    },
+    "name": "avenronite_ore_smelting",
+    "namespace": "mod"
+  }
+}

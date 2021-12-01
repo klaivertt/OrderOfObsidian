@@ -3,11 +3,11 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "casque_stone",
+    "textureHelmet": "casque",
     "enableBody": true,
-    "textureBody": "stone_armor_body",
+    "textureBody": "body",
     "enableLeggings": true,
-    "textureLeggings": "stone_armor_leggings",
+    "textureLeggings": "leggings",
     "enableBoots": true,
     "textureBoots": "stone_armor_boots",
     "creativeTab": {

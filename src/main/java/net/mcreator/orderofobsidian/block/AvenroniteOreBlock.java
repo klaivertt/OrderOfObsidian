@@ -17,8 +17,7 @@ import java.util.Collections;
 
 public class AvenroniteOreBlock extends Block {
 	public AvenroniteOreBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6.6000000000000005f, 9.395245850262201f).lightLevel(s -> 0)
-				.requiresCorrectToolForDrops());
+		super(Block.Properties.of(Material.STONE).sound(SoundType.STONE).strength(15f, 15f).lightLevel(s -> 0).requiresCorrectToolForDrops());
 		setRegistryName("avenronite_ore");
 	}
 

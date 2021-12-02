@@ -53,7 +53,15 @@ public class AvenroniteOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
+			if (blockAt.getBlock() == Blocks.NETHER_GOLD_ORE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.NETHERRACK)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.NETHER_QUARTZ_ORE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.WARPED_NYLIUM)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.CRIMSON_NYLIUM)
 				blockCriteria = true;
 			return blockCriteria;
 		}

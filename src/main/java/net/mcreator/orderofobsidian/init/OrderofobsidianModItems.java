@@ -335,7 +335,7 @@ public class OrderofobsidianModItems {
 	public static final Item PLASTIQUE = register(new PlastiqueItem());
 	public static final Item COOKED_RICE = register(new CookedRiceItem());
 	public static final Item DIAMOND_GLASS = register(OrderofobsidianModBlocks.DIAMOND_GLASS, OrderofobsidianModTabs.TAB_BLOC_K);
-	public static final Item GRAPHITE_GLASS = register(OrderofobsidianModBlocks.GRAPHITE_GLASS, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item GRAPHITE_GLASS = register(OrderofobsidianModBlocks.GRAPHITE_GLASS, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item FRIED_EGG = register(new FriedEggItem());
 	public static final Item FLOUR = register(new FlourItem());
 	public static final Item CHICKENWING = register(new ChickenwingItem());
@@ -382,7 +382,7 @@ public class OrderofobsidianModItems {
 	public static final Item AVENRONITE_MIXED_COAL = register(new AvenroniteMixedCoalItem());
 	public static final Item AIKIGITE_INGOT = register(new AikigiteIngotItem());
 	public static final Item AIKIGITE_ORE = register(OrderofobsidianModBlocks.AIKIGITE_ORE, OrderofobsidianModTabs.TAB_BLOC_K);
-	public static final Item AIKIGITE_BLOCK = register(OrderofobsidianModBlocks.AIKIGITE_BLOCK, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item AIKIGITE_BLOCK = register(OrderofobsidianModBlocks.AIKIGITE_BLOCK, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item AIKIGITE_ARMOR_HELMET = register(new AikigiteArmorItem.Helmet());
 	public static final Item AIKIGITE_ARMOR_CHESTPLATE = register(new AikigiteArmorItem.Chestplate());
 	public static final Item AIKIGITE_ARMOR_LEGGINGS = register(new AikigiteArmorItem.Leggings());

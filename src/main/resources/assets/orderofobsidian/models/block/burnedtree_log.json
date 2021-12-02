@@ -3,10 +3,10 @@
   "textures": {
     "down": "orderofobsidian:blocks/burned_stem_top",
     "up": "orderofobsidian:blocks/burned_stem_top",
-    "north": "orderofobsidian:blocks/11",
-    "east": "orderofobsidian:blocks/11",
-    "south": "orderofobsidian:blocks/11",
-    "west": "orderofobsidian:blocks/11",
+    "north": "orderofobsidian:blocks/buned_stem",
+    "east": "orderofobsidian:blocks/buned_stem",
+    "south": "orderofobsidian:blocks/buned_stem",
+    "west": "orderofobsidian:blocks/buned_stem",
     "particle": "orderofobsidian:blocks/burned_stem_top"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "orderofobsidian:blocks/end_nylium_stemp",
-    "particle": "orderofobsidian:blocks/end_nylium_stemp"
+    "all": "orderofobsidian:blocks/nylium_stemp",
+    "particle": "orderofobsidian:blocks/nylium_stemp"
   }
 }

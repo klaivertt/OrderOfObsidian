@@ -34,8 +34,8 @@
     ],
     "name": "Avenronite Ore",
     "specialInfo": [],
-    "hardness": 6.6000000000000005,
-    "resistance": 9.395245850262201,
+    "hardness": 15.0,
+    "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -127,7 +127,19 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.WARPED_NYLIUM"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
       }
     ],
     "frequencyPerChunks": 3,

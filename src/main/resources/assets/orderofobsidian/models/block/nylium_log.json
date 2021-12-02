@@ -3,10 +3,10 @@
   "textures": {
     "down": "orderofobsidian:blocks/end_stem_top",
     "up": "orderofobsidian:blocks/end_stem_top",
-    "north": "orderofobsidian:blocks/end_nylium_stemp",
-    "east": "orderofobsidian:blocks/end_nylium_stemp",
-    "south": "orderofobsidian:blocks/end_nylium_stemp",
-    "west": "orderofobsidian:blocks/end_nylium_stemp",
+    "north": "orderofobsidian:blocks/nylium_stemp",
+    "east": "orderofobsidian:blocks/nylium_stemp",
+    "south": "orderofobsidian:blocks/nylium_stemp",
+    "west": "orderofobsidian:blocks/nylium_stemp",
     "particle": "orderofobsidian:blocks/end_stem_top"
   }
 }

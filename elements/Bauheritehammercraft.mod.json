@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Oxys"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Oxys"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:OxysStick"
+      "value": "CUSTOM:Bauheritehammer"
     },
-    "name": "oxys_stickcraft",
+    "name": "bauheritehammercraft",
     "namespace": "mod"
   }
 }

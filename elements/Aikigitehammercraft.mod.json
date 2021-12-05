@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:AikigiteIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Oxys"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Oxys"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:OxysStick"
+      "value": "CUSTOM:Aikigitehammer"
     },
-    "name": "oxys_stickcraft",
+    "name": "aikigitehammercraft",
     "namespace": "mod"
   }
 }

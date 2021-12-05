@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netheritehammer",
+    "texture": "oxyshammer",
     "customModelName": "Normal",
-    "name": "Netherite Hammer",
+    "name": "Oxys Hammer",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Tools"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 4,
-    "efficiency": 2.0,
+    "harvestLevel": 5,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 5.5,
-    "usageCount": 800,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:Oxys"
       }
     ],
     "immuneToFire": true,

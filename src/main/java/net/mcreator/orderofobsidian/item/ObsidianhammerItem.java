@@ -2,11 +2,11 @@
 package net.mcreator.orderofobsidian.item;
 
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
@@ -15,19 +15,19 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.orderofobsidian.procedures.DimondhammerBlockDestroyedWithToolProcedure;
 import net.mcreator.orderofobsidian.init.OrderofobsidianModTabs;
 
-public class NetheriteHammerItem extends PickaxeItem {
-	public NetheriteHammerItem() {
+public class ObsidianhammerItem extends PickaxeItem {
+	public ObsidianhammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 800;
+				return 700;
 			}
 
 			public float getSpeed() {
-				return 2f;
+				return 1.7f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3.5f;
+				return 1f;
 			}
 
 			public int getLevel() {
@@ -39,10 +39,10 @@ public class NetheriteHammerItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.NETHERITE_INGOT));
+				return Ingredient.of(new ItemStack(Blocks.OBSIDIAN));
 			}
-		}, 1, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_TOOLS).fireResistant());
-		setRegistryName("netherite_hammer");
+		}, 1, -3f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_TOOLS));
+		setRegistryName("obsidianhammer");
 	}
 
 	@Override

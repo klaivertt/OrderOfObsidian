@@ -3,28 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netheritehammer",
+    "texture": "bauheritehammer",
     "customModelName": "Normal",
-    "name": "Netherite Hammer",
+    "name": "Bauherite Hammer",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Tools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,
-    "efficiency": 2.0,
+    "efficiency": 1.9,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 5.5,
-    "usageCount": 800,
+    "damageVsEntity": 3.0,
+    "usageCount": 770,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:BauheriteIngot"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onBlockDestroyedWithTool": {

@@ -177,7 +177,7 @@ public class BlueghastEntity extends Skeleton implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		BlueghastProjectileEntity entityarrow = new BlueghastProjectileEntity(OrderofobsidianModEntities.BLUEGHAST_PROJECTILE, this, this.level);
+		BlueghastEntityProjectile entityarrow = new BlueghastEntityProjectile(OrderofobsidianModEntities.BLUEGHAST_PROJECTILE, this, this.level);
 		double d0 = target.getY() + target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - this.getX();
 		double d3 = target.getZ() - this.getZ();

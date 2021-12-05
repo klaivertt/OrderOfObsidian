@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
@@ -17,8 +18,8 @@ import java.util.Collections;
 
 public class NyliumStairsBlock extends StairBlock {
 	public NyliumStairsBlock() {
-		super(() -> new Block(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).lightLevel(s -> 0).dynamicShape())
-				.defaultBlockState(), Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).lightLevel(s -> 0).dynamicShape());
+		super(() -> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).dynamicShape()).defaultBlockState(),
+				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).dynamicShape());
 		setRegistryName("nylium_stairs");
 	}
 

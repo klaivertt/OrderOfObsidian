@@ -12,6 +12,7 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
@@ -27,7 +28,7 @@ public class BauheriteOreFeature extends OreFeature {
 			.setRegistryName("orderofobsidian:bauherite_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
 			.configured(new OreConfiguration(BauheriteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.BAUHERITE_ORE.defaultBlockState(), 2))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(16)))).squared().count(3);
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(2), VerticalAnchor.absolute(30)))).squared().count(4);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public BauheriteOreFeature() {
@@ -35,8 +36,8 @@ public class BauheriteOreFeature extends OreFeature {
 	}
 
 	public boolean place(FeaturePlaceContext<OreConfiguration> context) {
-		Level world = context.level().getLevel();
-		ResourceKey<Level> dimensionType = world.dimension();
+		WorldGenLevel world = context.level();
+		ResourceKey<Level> dimensionType = world.getLevel().dimension();
 		boolean dimensionCriteria = false;
 		if (dimensionType == Level.OVERWORLD)
 			dimensionCriteria = true;

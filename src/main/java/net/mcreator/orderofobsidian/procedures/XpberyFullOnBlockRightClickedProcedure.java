@@ -25,12 +25,12 @@ public class XpberyFullOnBlockRightClickedProcedure {
 		} else {
 			if (Math.random() < 0.95) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(OrderofobsidianModBlocks.XPBUSH_STAGE_0));
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(OrderofobsidianModBlocks.XP_BUSH));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
 		}
-		world.setBlock(new BlockPos((int) x, (int) y, (int) z), OrderofobsidianModBlocks.XP_BUSH_1.defaultBlockState(), 3);
+		world.setBlock(new BlockPos((int) x, (int) y, (int) z), OrderofobsidianModBlocks.XPBUSH_1.defaultBlockState(), 3);
 	}
 }

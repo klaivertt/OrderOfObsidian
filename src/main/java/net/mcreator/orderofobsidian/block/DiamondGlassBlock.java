@@ -8,6 +8,7 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -27,8 +28,8 @@ import java.util.Collections;
 
 public class DiamondGlassBlock extends Block {
 	public DiamondGlassBlock() {
-		super(Block.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(4f, 15f).lightLevel(s -> 0).requiresCorrectToolForDrops()
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(4f, 15f).requiresCorrectToolForDrops().noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("diamond_glass");
 	}
 

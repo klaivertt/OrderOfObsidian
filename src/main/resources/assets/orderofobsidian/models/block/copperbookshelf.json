@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/copper_block",
+    "up": "orderofobsidian:blocks/copper_block",
+    "north": "orderofobsidian:blocks/copperbookshelf",
+    "east": "orderofobsidian:blocks/copperbookshelf",
+    "south": "orderofobsidian:blocks/copperbookshelf",
+    "west": "orderofobsidian:blocks/copperbookshelf",
+    "particle": "orderofobsidian:blocks/copper_block"
+  }
+}

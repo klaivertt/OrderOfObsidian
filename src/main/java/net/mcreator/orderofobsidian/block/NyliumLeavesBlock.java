@@ -7,6 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -25,8 +26,8 @@ import java.util.Collections;
 
 public class NyliumLeavesBlock extends Block {
 	public NyliumLeavesBlock() {
-		super(Block.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.2f, 0.2f).lightLevel(s -> 0).requiresCorrectToolForDrops()
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.2f).requiresCorrectToolForDrops().noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("nylium_leaves");
 	}
 

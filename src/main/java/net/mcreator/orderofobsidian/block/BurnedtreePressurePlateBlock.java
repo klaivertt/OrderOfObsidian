@@ -4,9 +4,9 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.PressurePlateBlock;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class BurnedtreePressurePlateBlock extends PressurePlateBlock {
 	public BurnedtreePressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.4f, 5.1f).lightLevel(s -> 0));
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.4f, 5.1f));
 		setRegistryName("burnedtree_pressure_plate");
 	}
 

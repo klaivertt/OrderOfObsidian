@@ -10,6 +10,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
@@ -31,7 +32,7 @@ import java.util.Collections;
 
 public class RiceStage3Block extends Block {
 	public RiceStage3Block() {
-		super(Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0.1f, 0.1f).lightLevel(s -> 0).noOcclusion().randomTicks()
+		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0.1f).noOcclusion().randomTicks()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("rice_stage_3");
 	}

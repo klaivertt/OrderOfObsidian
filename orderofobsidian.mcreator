@@ -5053,16 +5053,6 @@
       "path": "~/culture"
     },
     {
-      "name": "XPberryStage0",
-      "type": "block",
-      "sortid": 419,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xpbush_stage_0",
-      "path": "~/culture"
-    },
-    {
       "name": "XPberryStage0EntityCollidesInTheBlock",
       "type": "procedure",
       "sortid": 428,
@@ -5145,16 +5135,6 @@
       "path": "~/item"
     },
     {
-      "name": "XpberyFull",
-      "type": "block",
-      "sortid": 422,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xpbery_full",
-      "path": "~/culture"
-    },
-    {
       "name": "XPberryStage0UpdateTick",
       "type": "procedure",
       "sortid": 424,
@@ -5182,16 +5162,6 @@
           }
         ]
       },
-      "path": "~/culture"
-    },
-    {
-      "name": "XpBush1",
-      "type": "block",
-      "sortid": 421,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xp_bush_1",
       "path": "~/culture"
     },
     {
@@ -5975,6 +5945,314 @@
       "ids": {},
       "registry_name": "avenronite_mixed_coalcraft",
       "path": "~/item"
+    },
+    {
+      "name": "Caveblock",
+      "type": "block",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caveblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Caveblockcraft",
+      "type": "recipe",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caveblockcraft",
+      "path": "~/block"
+    },
+    {
+      "name": "CompresedXpBerry",
+      "type": "item",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresed_xp_berry",
+      "path": "~/item"
+    },
+    {
+      "name": "Compresedwpberry",
+      "type": "procedure",
+      "sortid": 526,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresedwpberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "CompactedXPberry",
+      "type": "item",
+      "sortid": 527,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compacted_x_pberry",
+      "path": "~/item"
+    },
+    {
+      "name": "Compactedxpberryprocedure",
+      "type": "procedure",
+      "sortid": 528,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compactedxpberryprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "CompresedXPbery",
+      "type": "recipe",
+      "sortid": 529,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresed_x_pbery",
+      "path": "~/item"
+    },
+    {
+      "name": "CompactedXPbery",
+      "type": "recipe",
+      "sortid": 530,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compacted_x_pbery",
+      "path": "~/item"
+    },
+    {
+      "name": "SteelSnaffle",
+      "type": "tool",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_snaffle",
+      "path": "~/tools/steel"
+    },
+    {
+      "name": "Rubbertinicraft",
+      "type": "recipe",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubbertinicraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Steelsnafflecraft",
+      "type": "recipe",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelsnafflecraft",
+      "path": "~/tools/steel"
+    },
+    {
+      "name": "XpBush",
+      "type": "block",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush",
+      "path": "~/culture"
+    },
+    {
+      "name": "Xpbush1",
+      "type": "block",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpbush_1",
+      "path": "~/culture"
+    },
+    {
+      "name": "XpBush2",
+      "type": "block",
+      "sortid": 535,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_bush_2",
+      "path": "~/culture"
+    },
+    {
+      "name": "Ironbookshelf",
+      "type": "block",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironbookshelf",
+      "path": "~/block"
+    },
+    {
+      "name": "Copperbookshelf",
+      "type": "block",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperbookshelf",
+      "path": "~/block"
+    },
+    {
+      "name": "Goldbookshelf",
+      "type": "block",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldbookshelf",
+      "path": "~/block"
+    },
+    {
+      "name": "Obsidianbookshelf",
+      "type": "block",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianbookshelf",
+      "path": "~/block"
+    },
+    {
+      "name": "Diamondbookshelf",
+      "type": "block",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondbookshelf",
+      "path": "~/block"
+    },
+    {
+      "name": "Emeraldbookshelf",
+      "type": "block",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldbookshelf",
+      "path": "~/block"
+    },
+    {
+      "name": "Ironbookshelfcraft",
+      "type": "recipe",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironbookshelfcraft",
+      "path": "~/block"
+    },
+    {
+      "name": "Copperbookshelfcraft",
+      "type": "recipe",
+      "sortid": 543,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperbookshelfcraft",
+      "path": "~/block"
+    },
+    {
+      "name": "Goldbookshelfcraft",
+      "type": "recipe",
+      "sortid": 544,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldbookshelfcraft",
+      "path": "~/block"
+    },
+    {
+      "name": "Odsidianbookshelfcraft",
+      "type": "recipe",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "odsidianbookshelfcraft",
+      "path": "~/block"
+    },
+    {
+      "name": "Diamondbookshelfcraft",
+      "type": "recipe",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondbookshelfcraft",
+      "path": "~/block"
+    },
+    {
+      "name": "Emeraldbookshelfcraft",
+      "type": "recipe",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldbookshelfcraft",
+      "path": "~/block"
     }
   ],
   "variable_elements": [
@@ -6002,10 +6280,10 @@
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
+      "block.orderofobsidian.xp_bush_2": "Xp Bush",
       "item.orderofobsidian.silver_ingot": "Silver Ingot",
       "item.orderofobsidian.steel_dust": "Steel Dust",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
-      "block.orderofobsidian.xp_bush_1": "Xp Bush",
       "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
@@ -6014,9 +6292,9 @@
       "item.orderofobsidian.heavy_lather_helmet": "Heavy Leather Helmet",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.heavy_netherite_leggings": "Heavy Netherite Leggings",
-      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
-      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
+      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
+      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
       "item.orderofobsidian.slime_boots": "Slime Boots",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
@@ -6040,10 +6318,10 @@
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
       "advancements.dubious_ore.descr": "but what is this dubious mineral",
       "enchantment.spiritforge.propelling": "Propelling",
-      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
-      "item.spiritforge.oxys_sword": "Oxys Sword",
+      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
+      "item.spiritforge.oxys_sword": "Oxys Sword",
       "entity.orderofobsidian.end_creeper": "End Creeper",
       "item.orderofobsidian.stone_armor_armor_chestplate": "Stone_armor Chestplate",
       "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
@@ -6060,8 +6338,10 @@
       "item.orderofobsidian.ironstove": "iron Stove",
       "item.orderofobsidian.heavy_gold_boots": "Heavy Gold Boots",
       "item.orderofobsidian.graphite_dust": "Graphite Dust",
+      "block.orderofobsidian.copperbookshelf": "Copper Book Shelf",
       "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
+      "block.orderofobsidian.xpbush_1": "Xp Bush",
       "block.orderofobsidian.oxys_block": "Block of Oxys",
       "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
       "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
@@ -6070,6 +6350,7 @@
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
       "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
+      "block.orderofobsidian.obsidianbookshelf": "Obsidian Book Shelf",
       "item.orderofobsidian.aikigite_ingot": "Aikigite",
       "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",
@@ -6081,6 +6362,7 @@
       "item.orderofobsidian.stone_stove": "Stone Stove",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
+      "block.orderofobsidian.goldbookshelf": "Gold Book Shelf",
       "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
       "item.orderofobsidian.heavy_diamond_helmet": "Heavy Diamond Helmet",
       "item.orderofobsidian.heavy_diamond_leggings": "Heavy Diamond Leggings",
@@ -6092,8 +6374,8 @@
       "item.orderofobsidian.heavy_diamond_boots": "Heavy Diamond Boots",
       "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
       "block.orderofobsidian.diamond_glass": "Diamond Glass",
-      "block.orderofobsidian.xpbery_full": "Xp Bush",
       "item.spiritforge.oxys_bow": "Oxys Bow",
+      "item.orderofobsidian.compresed_xp_berry": "compresed XP berry",
       "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
       "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
@@ -6123,6 +6405,7 @@
       "item.spiritforge.diamond_apple": "Diamond Apple",
       "item.orderofobsidian.slime_helmet": "Slime Helmet",
       "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
+      "item.orderofobsidian.steel_snaffle": "Steel Snaffle",
       "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
       "item.orderofobsidian.netheritestove": "netherit Stove",
       "item.orderofobsidian.heavy_iron_leggings": "Heavy Iron Leggings",
@@ -6131,7 +6414,6 @@
       "itemGroup.tabmachine": "Machine",
       "item.orderofobsidian.goldstove": "gold Stove",
       "item.orderofobsidian.diamond_shard": "Diamond Shard",
-      "block.orderofobsidian.xpbush_stage_0": "Xp Bush",
       "item.orderofobsidian.energy_metter": "Energy Metter",
       "item.orderofobsidian.heavy_iron_chestplate": "Heavy Iron Body",
       "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
@@ -6145,6 +6427,7 @@
       "item.orderofobsidian.oxys_armor_helmet": "Oxys Helmet",
       "item.orderofobsidian.diamond_spear": "Diamond Spear",
       "item.orderofobsidian.steel_axe": "Steel Axe",
+      "block.orderofobsidian.emeraldbookshelf": "Emerald Book Shelf",
       "item.orderofobsidian.aikigite_armor_boots": "Aikigite Boots",
       "block.spiritforge.oxys_ore": "Oxys Ore",
       "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
@@ -6168,6 +6451,7 @@
       "block.orderofobsidian.nylium_log": "Nylium Log",
       "item.orderofobsidian.steel_armor_chestplate": "Steel Chestplate",
       "item.orderofobsidian.blueghast_spawn_egg": "Blueghast Spawn Egg",
+      "block.orderofobsidian.diamondbookshelf": "Diamond Book Shelf",
       "block.orderofobsidian.forge": "Forge",
       "itemGroup.tabbloc_k": "Block",
       "biome.spiritforge.volcan": "Volcan",
@@ -6178,6 +6462,7 @@
       "block.orderofobsidian.avenronite_block": "Block of Avenronite",
       "block.orderofobsidian.electrique_furnace": "Electrique Furnace",
       "item.orderofobsidian.copper_plate": "Copper Plate",
+      "block.orderofobsidian.xp_bush": "Xp Bush",
       "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
       "itemGroup.tabtools": "Tools",
       "item.orderofobsidian.stone_katana": "Stone Katana",
@@ -6192,6 +6477,7 @@
       "entity.orderofobsidian.endermanblaze": "Endermanblaze",
       "item.orderofobsidian.obsidian_golem_spawn_egg": "Obsidian Golem Spawn Egg",
       "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
+      "block.orderofobsidian.ironbookshelf": "Iron book shelf",
       "item.orderofobsidian.rice": "Rice Seed",
       "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.iron_spear": "Iron Spear",
@@ -6212,6 +6498,7 @@
       "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
       "item.orderofobsidian.silver_plate": "Silver Plate",
       "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
+      "block.orderofobsidian.caveblock": "Caveblock",
       "itemGroup.tabspirit": "Weapon and Armor",
       "item.spiritforge.oxysapple": "Oxysapple",
       "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
@@ -6278,6 +6565,7 @@
       "item.orderofobsidian.aikigite_axe": "Aikigite Axe",
       "item.orderofobsidian.oxys_sword": "Oxys Sword",
       "block.orderofobsidian.invisible": "Invisible",
+      "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
       "item.orderofobsidian.ironplate": "Ironplate",
       "item.orderofobsidian.steel_plate": "Steel Plate",
       "item.orderofobsidian.slime_chestplate": "Slime Body",
@@ -6474,7 +6762,7 @@
     "license": "Order Of Obsidian",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "cvpnfuiv_400x400",
+    "modPicture": "order-of-obsidian",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -6484,5 +6772,5 @@
     "modElementsPackage": "net.mcreator.orderofobsidian",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100347317
+  "mcreatorVersion": 202100349312
 }

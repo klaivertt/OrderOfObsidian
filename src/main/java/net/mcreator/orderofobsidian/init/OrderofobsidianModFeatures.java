@@ -16,7 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
-import net.mcreator.orderofobsidian.world.features.ores.XPberryStage0Feature;
+import net.mcreator.orderofobsidian.world.features.ores.XpBushFeature;
 import net.mcreator.orderofobsidian.world.features.ores.SilverOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.OxysOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.GraphiteOreFeature;
@@ -62,14 +62,14 @@ public class OrderofobsidianModFeatures {
 				SilverOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(GraphiteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				GraphiteOreFeature.GENERATE_BIOMES, GraphiteOreFeature.CONFIGURED_FEATURE));
-		REGISTRY.put(XPberryStage0Feature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
-				XPberryStage0Feature.GENERATE_BIOMES, XPberryStage0Feature.CONFIGURED_FEATURE));
 		REGISTRY.put(BauheriteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				BauheriteOreFeature.GENERATE_BIOMES, BauheriteOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(AvenroniteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				AvenroniteOreFeature.GENERATE_BIOMES, AvenroniteOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(AikigiteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				AikigiteOreFeature.GENERATE_BIOMES, AikigiteOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(XpBushFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, XpBushFeature.GENERATE_BIOMES, XpBushFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

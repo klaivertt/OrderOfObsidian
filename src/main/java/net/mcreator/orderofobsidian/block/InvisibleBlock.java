@@ -10,6 +10,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
@@ -32,7 +33,7 @@ import java.util.Collections;
 
 public class InvisibleBlock extends Block {
 	public InvisibleBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).lightLevel(s -> 15).noCollission().noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).lightLevel(s -> 15).noCollission().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("invisible");
 	}
@@ -81,17 +82,15 @@ public class InvisibleBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		if (true)
-			for (int l = 0; l < 4; ++l) {
-				double d0 = (x + random.nextFloat());
-				double d1 = (y + random.nextFloat());
-				double d2 = (z + random.nextFloat());
-				int i1 = random.nextInt(2) * 2 - 1;
-				double d3 = (random.nextFloat() - 0.5D) * 0.1D;
-				double d4 = (random.nextFloat() - 0.5D) * 0.1D;
-				double d5 = (random.nextFloat() - 0.5D) * 0.1D;
-				world.addParticle(ParticleTypes.FLAME, d0, d1, d2, d3, d4, d5);
-			}
+		for (int l = 0; l < 4; ++l) {
+			double x0 = x + random.nextFloat();
+			double y0 = y + random.nextFloat();
+			double z0 = z + random.nextFloat();
+			double dx = (random.nextFloat() - 0.5D) * 0.1D;
+			double dy = (random.nextFloat() - 0.5D) * 0.1D;
+			double dz = (random.nextFloat() - 0.5D) * 0.1D;
+			world.addParticle(ParticleTypes.FLAME, x0, y0, z0, dx, dy, dz);
+		}
 	}
 
 	@OnlyIn(Dist.CLIENT)

@@ -21,7 +21,7 @@ import net.mcreator.orderofobsidian.entity.NetherCreeperEntity;
 import net.mcreator.orderofobsidian.entity.EndermanblazeEntity;
 import net.mcreator.orderofobsidian.entity.EndCreeperEntity;
 import net.mcreator.orderofobsidian.entity.DrowneHorseEntity;
-import net.mcreator.orderofobsidian.entity.BlueghastProjectileEntity;
+import net.mcreator.orderofobsidian.entity.BlueghastEntityProjectile;
 import net.mcreator.orderofobsidian.entity.BlueghastEntity;
 
 import java.util.List;
@@ -36,9 +36,9 @@ public class OrderofobsidianModEntities {
 	public static final EntityType<BlueghastEntity> BLUEGHAST = register("blueghast",
 			EntityType.Builder.<BlueghastEntity>of(BlueghastEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueghastEntity::new).fireImmune().sized(1f, 1f));
-	public static final EntityType<BlueghastProjectileEntity> BLUEGHAST_PROJECTILE = register("entitybulletblueghast",
-			EntityType.Builder.<BlueghastProjectileEntity>of(BlueghastProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(BlueghastProjectileEntity::new).sized(0.5f, 0.5f));
+	public static final EntityType<BlueghastEntityProjectile> BLUEGHAST_PROJECTILE = register("entitybulletblueghast",
+			EntityType.Builder.<BlueghastEntityProjectile>of(BlueghastEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(BlueghastEntityProjectile::new).sized(0.5f, 0.5f));
 	public static final EntityType<EndermanblazeEntity> ENDERMANBLAZE = register("endermanblaze",
 			EntityType.Builder.<EndermanblazeEntity>of(EndermanblazeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EndermanblazeEntity::new).fireImmune().sized(0.6f, 1.8f));

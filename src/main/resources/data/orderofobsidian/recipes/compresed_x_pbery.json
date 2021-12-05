@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "1": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "2": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "3": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "4": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "5": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "6": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "7": {
+      "item": "orderofobsidian:x_pberry"
+    },
+    "8": {
+      "item": "orderofobsidian:x_pberry"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:compresed_xp_berry",
+    "count": 1
+  }
+}

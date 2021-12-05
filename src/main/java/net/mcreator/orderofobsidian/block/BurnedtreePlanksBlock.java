@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -18,8 +19,7 @@ import java.util.Collections;
 
 public class BurnedtreePlanksBlock extends Block {
 	public BurnedtreePlanksBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.4f, 4.586489375615631f).lightLevel(s -> 0)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.4f, 4.586489375615631f).requiresCorrectToolForDrops());
 		setRegistryName("burnedtree_planks");
 	}
 

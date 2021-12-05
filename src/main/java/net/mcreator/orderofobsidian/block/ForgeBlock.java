@@ -12,6 +12,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Rotation;
@@ -57,7 +58,7 @@ public class ForgeBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public ForgeBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.BASALT).strength(1f, 10f).lightLevel(s -> 0));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BASALT).strength(1f, 10f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 		setRegistryName("forge");
 	}

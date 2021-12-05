@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald"
+    },
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "2": {
+      "item": "minecraft:emerald"
+    },
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:book"
+    },
+    "6": {
+      "item": "minecraft:emerald"
+    },
+    "7": {
+      "item": "minecraft:emerald"
+    },
+    "8": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:emeraldbookshelf",
+    "count": 1
+  }
+}

@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -18,7 +19,7 @@ import java.util.Collections;
 
 public class NyliumPlanksBlock extends Block {
 	public NyliumPlanksBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).lightLevel(s -> 0).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).requiresCorrectToolForDrops());
 		setRegistryName("nylium_planks");
 	}
 

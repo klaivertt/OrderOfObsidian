@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/emerald_block",
+    "up": "orderofobsidian:blocks/emerald_block",
+    "north": "orderofobsidian:blocks/emeraldbookshelf",
+    "east": "orderofobsidian:blocks/emeraldbookshelf",
+    "south": "orderofobsidian:blocks/emeraldbookshelf",
+    "west": "orderofobsidian:blocks/emeraldbookshelf",
+    "particle": "orderofobsidian:blocks/emerald_block"
+  }
+}

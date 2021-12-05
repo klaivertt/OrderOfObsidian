@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "orderofobsidian:items/avenroniteaxe"
+    "layer0": "orderofobsidian:items/avenronite_axe"
   }
 }

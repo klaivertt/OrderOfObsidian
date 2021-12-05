@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.EntityBlock;
@@ -29,7 +30,7 @@ public class Batterie1Block extends Block
 
 			EntityBlock {
 	public Batterie1Block() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).lightLevel(s -> 0));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f));
 		setRegistryName("batterie_1");
 	}
 

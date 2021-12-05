@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -17,7 +18,7 @@ import java.util.Collections;
 
 public class AvenroniteOreBlock extends Block {
 	public AvenroniteOreBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.STONE).strength(15f, 15f).lightLevel(s -> 0).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(15f).requiresCorrectToolForDrops());
 		setRegistryName("avenronite_ore");
 	}
 

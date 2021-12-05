@@ -6,6 +6,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
@@ -29,7 +30,7 @@ public class NetheriteGolemHeadBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public NetheriteGolemHeadBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.SHROOMLIGHT).strength(2f, 16f).lightLevel(s -> 0));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SHROOMLIGHT).strength(2f, 16f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 		setRegistryName("netherite_golem_head");
 	}

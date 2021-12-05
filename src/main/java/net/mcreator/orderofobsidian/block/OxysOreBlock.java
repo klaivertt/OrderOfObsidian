@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -19,7 +20,7 @@ import java.util.Collections;
 
 public class OxysOreBlock extends Block {
 	public OxysOreBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.STONE).strength(8.5f, 17.407f).lightLevel(s -> 0).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(8.5f, 17.407f).requiresCorrectToolForDrops());
 		setRegistryName("oxys_ore");
 	}
 

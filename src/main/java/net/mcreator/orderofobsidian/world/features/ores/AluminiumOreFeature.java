@@ -12,6 +12,7 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
@@ -35,8 +36,8 @@ public class AluminiumOreFeature extends OreFeature {
 	}
 
 	public boolean place(FeaturePlaceContext<OreConfiguration> context) {
-		Level world = context.level().getLevel();
-		ResourceKey<Level> dimensionType = world.dimension();
+		WorldGenLevel world = context.level();
+		ResourceKey<Level> dimensionType = world.getLevel().dimension();
 		boolean dimensionCriteria = false;
 		if (dimensionType == Level.OVERWORLD)
 			dimensionCriteria = true;

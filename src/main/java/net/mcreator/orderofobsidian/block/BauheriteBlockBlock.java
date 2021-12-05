@@ -4,6 +4,7 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
@@ -17,7 +18,7 @@ import java.util.Collections;
 
 public class BauheriteBlockBlock extends Block {
 	public BauheriteBlockBlock() {
-		super(Block.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 0).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 		setRegistryName("bauherite_block");
 	}
 

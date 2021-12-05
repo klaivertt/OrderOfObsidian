@@ -4,10 +4,9 @@ package net.mcreator.orderofobsidian.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FenceGateBlock;
 import net.minecraft.world.level.block.FenceBlock;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
@@ -18,15 +17,8 @@ import java.util.Collections;
 
 public class BurnedtreeFenceBlock extends FenceBlock {
 	public BurnedtreeFenceBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.4f, 5.1f).lightLevel(s -> 0));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.4f, 5.1f));
 		setRegistryName("burnedtree_fence");
-	}
-
-	@Override
-	public boolean connectsTo(BlockState state, boolean checkattach, Direction face) {
-		boolean flag = state.getBlock() instanceof FenceBlock && state.getMaterial() == this.material;
-		boolean flag1 = state.getBlock() instanceof FenceGateBlock && FenceGateBlock.connectsToDirection(state, face);
-		return !isExceptionForConnection(state) && checkattach || flag || flag1;
 	}
 
 	@Override

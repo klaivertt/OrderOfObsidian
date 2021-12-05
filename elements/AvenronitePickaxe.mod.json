@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "avenronitepickaxe",
+    "texture": "avenronite_pickaxe",
     "customModelName": "Normal",
     "name": "Avenronite Pickaxe",
     "specialInfo": [],

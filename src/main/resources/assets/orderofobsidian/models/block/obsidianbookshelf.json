@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/1obsidian",
+    "up": "orderofobsidian:blocks/1obsidian",
+    "north": "orderofobsidian:blocks/odsidianbookshelf",
+    "east": "orderofobsidian:blocks/odsidianbookshelf",
+    "south": "orderofobsidian:blocks/odsidianbookshelf",
+    "west": "orderofobsidian:blocks/odsidianbookshelf",
+    "particle": "orderofobsidian:blocks/1obsidian"
+  }
+}

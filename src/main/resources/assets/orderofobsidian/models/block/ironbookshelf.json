@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/iron_block",
+    "up": "orderofobsidian:blocks/iron_block",
+    "north": "orderofobsidian:blocks/1ironbookshelf",
+    "east": "orderofobsidian:blocks/1ironbookshelf",
+    "south": "orderofobsidian:blocks/1ironbookshelf",
+    "west": "orderofobsidian:blocks/1ironbookshelf",
+    "particle": "orderofobsidian:blocks/iron_block"
+  }
+}

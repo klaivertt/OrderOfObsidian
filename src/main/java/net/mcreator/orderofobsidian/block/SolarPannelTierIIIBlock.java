@@ -10,6 +10,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
@@ -29,7 +30,7 @@ import java.util.Collections;
 
 public class SolarPannelTierIIIBlock extends Block {
 	public SolarPannelTierIIIBlock() {
-		super(Block.Properties.of(Material.STONE).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 0).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GLASS).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("solar_pannel_tier_iii");
 	}

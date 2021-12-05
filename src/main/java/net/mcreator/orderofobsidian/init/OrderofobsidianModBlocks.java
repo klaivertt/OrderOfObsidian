@@ -12,9 +12,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.orderofobsidian.block.XpberyFullBlock;
-import net.mcreator.orderofobsidian.block.XpBush1Block;
-import net.mcreator.orderofobsidian.block.XPberryStage0Block;
+import net.mcreator.orderofobsidian.block.Xpbush1Block;
+import net.mcreator.orderofobsidian.block.XpBushBlock;
+import net.mcreator.orderofobsidian.block.XpBush2Block;
 import net.mcreator.orderofobsidian.block.SolarPannelTierVBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIVBlock;
 import net.mcreator.orderofobsidian.block.SolarPannelTierIIIBlock;
@@ -31,6 +31,7 @@ import net.mcreator.orderofobsidian.block.RiceStage1Block;
 import net.mcreator.orderofobsidian.block.RiceStage0Block;
 import net.mcreator.orderofobsidian.block.OxysOreBlock;
 import net.mcreator.orderofobsidian.block.OxysBlockBlock;
+import net.mcreator.orderofobsidian.block.ObsidianbookshelfBlock;
 import net.mcreator.orderofobsidian.block.ObsidianGolemheadBlock;
 import net.mcreator.orderofobsidian.block.NyliumWoodBlock;
 import net.mcreator.orderofobsidian.block.NyliumStairsBlock;
@@ -43,14 +44,20 @@ import net.mcreator.orderofobsidian.block.NyliumFenceGateBlock;
 import net.mcreator.orderofobsidian.block.NyliumFenceBlock;
 import net.mcreator.orderofobsidian.block.NyliumButtonBlock;
 import net.mcreator.orderofobsidian.block.NetheriteGolemHeadBlock;
+import net.mcreator.orderofobsidian.block.IronbookshelfBlock;
 import net.mcreator.orderofobsidian.block.InvisibleBlock;
 import net.mcreator.orderofobsidian.block.GraphiteOreBlock;
 import net.mcreator.orderofobsidian.block.GraphiteGlassBlock;
+import net.mcreator.orderofobsidian.block.GoldbookshelfBlock;
 import net.mcreator.orderofobsidian.block.ForgeonBlock;
 import net.mcreator.orderofobsidian.block.ForgeBlock;
 import net.mcreator.orderofobsidian.block.FanBlock;
+import net.mcreator.orderofobsidian.block.EmeraldbookshelfBlock;
 import net.mcreator.orderofobsidian.block.ElectriqueFurnaceBlock;
+import net.mcreator.orderofobsidian.block.DiamondbookshelfBlock;
 import net.mcreator.orderofobsidian.block.DiamondGlassBlock;
+import net.mcreator.orderofobsidian.block.CopperbookshelfBlock;
+import net.mcreator.orderofobsidian.block.CaveblockBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeWoodBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeStairsBlock;
 import net.mcreator.orderofobsidian.block.BurnedtreeSlabBlock;
@@ -124,15 +131,22 @@ public class OrderofobsidianModBlocks {
 	public static final Block GRAPHITE_ORE = register(new GraphiteOreBlock());
 	public static final Block DIAMOND_GLASS = register(new DiamondGlassBlock());
 	public static final Block GRAPHITE_GLASS = register(new GraphiteGlassBlock());
-	public static final Block XPBUSH_STAGE_0 = register(new XPberryStage0Block());
-	public static final Block XP_BUSH_1 = register(new XpBush1Block());
-	public static final Block XPBERY_FULL = register(new XpberyFullBlock());
 	public static final Block BAUHERITE_ORE = register(new BauheriteOreBlock());
 	public static final Block BAUHERITE_BLOCK = register(new BauheriteBlockBlock());
 	public static final Block AVENRONITE_ORE = register(new AvenroniteOreBlock());
 	public static final Block AVENRONITE_BLOCK = register(new AvenroniteBlockBlock());
 	public static final Block AIKIGITE_ORE = register(new AikigiteOreBlock());
 	public static final Block AIKIGITE_BLOCK = register(new AikigiteBlockBlock());
+	public static final Block CAVEBLOCK = register(new CaveblockBlock());
+	public static final Block XP_BUSH = register(new XpBushBlock());
+	public static final Block XPBUSH_1 = register(new Xpbush1Block());
+	public static final Block XP_BUSH_2 = register(new XpBush2Block());
+	public static final Block IRONBOOKSHELF = register(new IronbookshelfBlock());
+	public static final Block COPPERBOOKSHELF = register(new CopperbookshelfBlock());
+	public static final Block GOLDBOOKSHELF = register(new GoldbookshelfBlock());
+	public static final Block OBSIDIANBOOKSHELF = register(new ObsidianbookshelfBlock());
+	public static final Block DIAMONDBOOKSHELF = register(new DiamondbookshelfBlock());
+	public static final Block EMERALDBOOKSHELF = register(new EmeraldbookshelfBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -165,9 +179,10 @@ public class OrderofobsidianModBlocks {
 			RiceStage7Block.registerRenderLayer();
 			DiamondGlassBlock.registerRenderLayer();
 			GraphiteGlassBlock.registerRenderLayer();
-			XPberryStage0Block.registerRenderLayer();
-			XpBush1Block.registerRenderLayer();
-			XpberyFullBlock.registerRenderLayer();
+			CaveblockBlock.registerRenderLayer();
+			XpBushBlock.registerRenderLayer();
+			Xpbush1Block.registerRenderLayer();
+			XpBush2Block.registerRenderLayer();
 		}
 	}
 }

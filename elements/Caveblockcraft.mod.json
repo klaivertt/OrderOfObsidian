@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": "CUSTOM:DiamondGlass"
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Caveblock"
+    },
+    "name": "caveblockcraft",
+    "namespace": "mod"
+  }
+}

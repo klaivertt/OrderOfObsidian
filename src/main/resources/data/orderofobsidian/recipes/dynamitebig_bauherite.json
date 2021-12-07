@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:dynamite_bauherite"
+    },
+    "1": {
+      "item": "orderofobsidian:dynamite_bauherite"
+    },
+    "2": {
+      "item": "orderofobsidian:dynamite_bauherite"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:bigdynamite_bauherite",
+    "count": 2
+  }
+}

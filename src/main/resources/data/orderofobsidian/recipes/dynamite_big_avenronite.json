@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:dynamite_avenronite"
+    },
+    "1": {
+      "item": "orderofobsidian:dynamite_avenronite"
+    },
+    "2": {
+      "item": "orderofobsidian:dynamite_avenronite"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:bigdynamite_avenronite",
+    "count": 2
+  }
+}

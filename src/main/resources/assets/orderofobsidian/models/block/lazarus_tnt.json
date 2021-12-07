@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/lazarustnt_bottom",
+    "up": "orderofobsidian:blocks/lazarustnt_top",
+    "north": "orderofobsidian:blocks/lazarustnt_side",
+    "east": "orderofobsidian:blocks/lazarustnt_side",
+    "south": "orderofobsidian:blocks/lazarustnt_side",
+    "west": "orderofobsidian:blocks/lazarustnt_side",
+    "particle": "orderofobsidian:blocks/lazarustnt_bottom"
+  }
+}

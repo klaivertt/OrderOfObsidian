@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "experience": 1.54,
-  "cookingtime": 200,
+  "experience": 0.7,
+  "cookingtime": 400,
   "ingredient": {
     "item": "orderofobsidian:avenronite_ore"
   },

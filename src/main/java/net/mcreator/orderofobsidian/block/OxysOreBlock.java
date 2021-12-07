@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class OxysOreBlock extends Block {
 	public OxysOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(8.5f, 17.407f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(50f, 20f).requiresCorrectToolForDrops());
 		setRegistryName("oxys_ore");
 	}
 

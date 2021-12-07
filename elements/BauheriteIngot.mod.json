@@ -8,7 +8,7 @@
     "name": "Bauherite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Items"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

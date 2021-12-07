@@ -7,11 +7,12 @@
     "orderofobsidian:silver_ore",
     "orderofobsidian:graphite_ore",
     "orderofobsidian:diamond_glass",
+    "orderofobsidian:aikigite_ore",
+    "orderofobsidian:aikigite_block",
     "orderofobsidian:bauherite_ore",
     "orderofobsidian:bauherite_block",
     "orderofobsidian:avenronite_ore",
     "orderofobsidian:avenronite_block",
-    "orderofobsidian:aikigite_ore",
-    "orderofobsidian:aikigite_block"
+    "orderofobsidian:x_pbush_ore"
   ]
 }

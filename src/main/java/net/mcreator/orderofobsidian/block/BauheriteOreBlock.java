@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BauheriteOreBlock extends Block {
 	public BauheriteOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6f, 8.705505632961241f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(25f, 10.406915092523414f).requiresCorrectToolForDrops());
 		setRegistryName("bauherite_ore");
 	}
 
@@ -30,7 +30,7 @@ public class BauheriteOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 4;
+			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}
 

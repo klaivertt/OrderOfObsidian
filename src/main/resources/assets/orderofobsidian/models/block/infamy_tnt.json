@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/infamytnbottom",
+    "up": "orderofobsidian:blocks/infamytnt_top",
+    "north": "orderofobsidian:blocks/infamy_side",
+    "east": "orderofobsidian:blocks/infamy_side",
+    "south": "orderofobsidian:blocks/infamy_side",
+    "west": "orderofobsidian:blocks/infamy_side",
+    "particle": "orderofobsidian:blocks/infamytnbottom"
+  }
+}

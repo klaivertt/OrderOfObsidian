@@ -34,8 +34,8 @@
     ],
     "name": "Oxys Ore",
     "specialInfo": [],
-    "hardness": 8.5,
-    "resistance": 17.407,
+    "hardness": 50.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

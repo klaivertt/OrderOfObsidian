@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:dynamite_oxys"
+    },
+    "1": {
+      "item": "orderofobsidian:dynamite_oxys"
+    },
+    "2": {
+      "item": "orderofobsidian:dynamite_oxys"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:bigdynamite_oxys",
+    "count": 2
+  }
+}

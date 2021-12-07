@@ -27,8 +27,8 @@ public class AvenroniteOreFeature extends OreFeature {
 	public static final AvenroniteOreFeature FEATURE = (AvenroniteOreFeature) new AvenroniteOreFeature()
 			.setRegistryName("orderofobsidian:avenronite_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(AvenroniteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.AVENRONITE_ORE.defaultBlockState(), 1))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(64)))).squared().count(3);
+			.configured(new OreConfiguration(AvenroniteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.AVENRONITE_ORE.defaultBlockState(), 3))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(100)))).squared().count(5);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public AvenroniteOreFeature() {
@@ -54,11 +54,13 @@ public class AvenroniteOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
+			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.NETHER_GOLD_ORE)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.NETHERRACK)
-				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.NETHER_QUARTZ_ORE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.NETHERRACK)
 				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.WARPED_NYLIUM)
 				blockCriteria = true;

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "experience": 1.4,
-  "cookingtime": 200,
+  "experience": 1.75,
+  "cookingtime": 275,
   "ingredient": {
     "item": "orderofobsidian:bauherite_ore"
   },

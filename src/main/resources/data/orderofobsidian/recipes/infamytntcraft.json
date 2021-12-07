@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "1": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "2": {
+      "item": "orderofobsidian:oxys"
+    },
+    "3": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "4": {
+      "item": "orderofobsidian:epilogue_tnt"
+    },
+    "5": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "6": {
+      "item": "orderofobsidian:oxys"
+    },
+    "7": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "8": {
+      "item": "orderofobsidian:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:infamy_tnt",
+    "count": 1
+  }
+}

@@ -20,9 +20,19 @@ import net.mcreator.orderofobsidian.entity.NetheritegolemEntity;
 import net.mcreator.orderofobsidian.entity.NetherCreeperEntity;
 import net.mcreator.orderofobsidian.entity.EndermanblazeEntity;
 import net.mcreator.orderofobsidian.entity.EndCreeperEntity;
+import net.mcreator.orderofobsidian.entity.DynamiteOxysEntity;
+import net.mcreator.orderofobsidian.entity.DynamiteEntity;
+import net.mcreator.orderofobsidian.entity.DynamiteBauheriteEntity;
+import net.mcreator.orderofobsidian.entity.DynamiteAvenroniteEntity;
+import net.mcreator.orderofobsidian.entity.DynamiteAikigiteEntity;
 import net.mcreator.orderofobsidian.entity.DrowneHorseEntity;
 import net.mcreator.orderofobsidian.entity.BlueghastEntityProjectile;
 import net.mcreator.orderofobsidian.entity.BlueghastEntity;
+import net.mcreator.orderofobsidian.entity.BigdynamiteOxysEntity;
+import net.mcreator.orderofobsidian.entity.BigdynamiteBauheriteEntity;
+import net.mcreator.orderofobsidian.entity.BigdynamiteAvenroniteEntity;
+import net.mcreator.orderofobsidian.entity.BigDynamiteEntity;
+import net.mcreator.orderofobsidian.entity.BigDynamiteAikigiteEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -57,6 +67,43 @@ public class OrderofobsidianModEntities {
 	public static final EntityType<NetherCreeperEntity> NETHER_CREEPER = register("nether_creeper",
 			EntityType.Builder.<NetherCreeperEntity>of(NetherCreeperEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NetherCreeperEntity::new).sized(0.6f, 1.7f));
+	public static final EntityType<DynamiteEntity> DYNAMITE = register("entitybulletdynamite",
+			EntityType.Builder.<DynamiteEntity>of(DynamiteEntity::new, MobCategory.MISC).setCustomClientFactory(DynamiteEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BigDynamiteEntity> BIG_DYNAMITE = register("entitybulletbig_dynamite",
+			EntityType.Builder.<BigDynamiteEntity>of(BigDynamiteEntity::new, MobCategory.MISC).setCustomClientFactory(BigDynamiteEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<DynamiteAikigiteEntity> DYNAMITE_AIKIGITE = register("entitybulletdynamite_aikigite",
+			EntityType.Builder.<DynamiteAikigiteEntity>of(DynamiteAikigiteEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(DynamiteAikigiteEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BigDynamiteAikigiteEntity> BIG_DYNAMITE_AIKIGITE = register("entitybulletbig_dynamite_aikigite",
+			EntityType.Builder.<BigDynamiteAikigiteEntity>of(BigDynamiteAikigiteEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(BigDynamiteAikigiteEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<DynamiteBauheriteEntity> DYNAMITE_BAUHERITE = register("entitybulletdynamite_bauherite",
+			EntityType.Builder.<DynamiteBauheriteEntity>of(DynamiteBauheriteEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(DynamiteBauheriteEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BigdynamiteBauheriteEntity> BIGDYNAMITE_BAUHERITE = register("entitybulletbigdynamite_bauherite",
+			EntityType.Builder.<BigdynamiteBauheriteEntity>of(BigdynamiteBauheriteEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(BigdynamiteBauheriteEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<DynamiteAvenroniteEntity> DYNAMITE_AVENRONITE = register("entitybulletdynamite_avenronite",
+			EntityType.Builder.<DynamiteAvenroniteEntity>of(DynamiteAvenroniteEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(DynamiteAvenroniteEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BigdynamiteAvenroniteEntity> BIGDYNAMITE_AVENRONITE = register("entitybulletbigdynamite_avenronite",
+			EntityType.Builder.<BigdynamiteAvenroniteEntity>of(BigdynamiteAvenroniteEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(BigdynamiteAvenroniteEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<DynamiteOxysEntity> DYNAMITE_OXYS = register("entitybulletdynamite_oxys",
+			EntityType.Builder.<DynamiteOxysEntity>of(DynamiteOxysEntity::new, MobCategory.MISC).setCustomClientFactory(DynamiteOxysEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<BigdynamiteOxysEntity> BIGDYNAMITE_OXYS = register("entitybulletbigdynamite_oxys",
+			EntityType.Builder.<BigdynamiteOxysEntity>of(BigdynamiteOxysEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(BigdynamiteOxysEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

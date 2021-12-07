@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:dynamite_aikigite"
+    },
+    "1": {
+      "item": "orderofobsidian:dynamite_aikigite"
+    },
+    "2": {
+      "item": "orderofobsidian:dynamite_aikigite"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:big_dynamite_aikigite",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:gunpowder"
+    },
+    "3": {
+      "item": "orderofobsidian:bauherite_ingot"
+    },
+    "4": {
+      "item": "minecraft:gunpowder"
+    },
+    "5": {
+      "item": "orderofobsidian:bauherite_ingot"
+    },
+    "7": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:dynamite_bauherite",
+    "count": 2
+  }
+}

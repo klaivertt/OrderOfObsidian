@@ -14,7 +14,7 @@ public class IronSpearItem extends SwordItem {
 	public IronSpearItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 500;
+				return 400;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class IronSpearItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3.199999999999999f;
+				return 2.5f;
 			}
 
 			public int getLevel() {
@@ -36,7 +36,7 @@ public class IronSpearItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -1.9f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+		}, 3, -1.8f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
 		setRegistryName("iron_spear");
 	}
 }

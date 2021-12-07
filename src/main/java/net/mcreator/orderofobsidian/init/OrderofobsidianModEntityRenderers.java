@@ -32,5 +32,15 @@ public class OrderofobsidianModEntityRenderers {
 		event.registerEntityRenderer(OrderofobsidianModEntities.DROWNE_HORSE, DrowneHorseRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.END_CREEPER, EndCreeperRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.NETHER_CREEPER, NetherCreeperRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.BIG_DYNAMITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE_AIKIGITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.BIG_DYNAMITE_AIKIGITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE_BAUHERITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.BIGDYNAMITE_BAUHERITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE_AVENRONITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.BIGDYNAMITE_AVENRONITE, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE_OXYS, ThrownItemRenderer::new);
+		event.registerEntityRenderer(OrderofobsidianModEntities.BIGDYNAMITE_OXYS, ThrownItemRenderer::new);
 	}
 }

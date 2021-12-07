@@ -13,12 +13,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.orderofobsidian.init.OrderofobsidianModItems;
+
 import java.util.List;
 import java.util.Collections;
 
 public class AvenroniteOreBlock extends Block {
 	public AvenroniteOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(15f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(40f, 15f).requiresCorrectToolForDrops());
 		setRegistryName("avenronite_ore");
 	}
 
@@ -39,6 +41,6 @@ public class AvenroniteOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(OrderofobsidianModItems.AVENRONITE_INGOT));
 	}
 }

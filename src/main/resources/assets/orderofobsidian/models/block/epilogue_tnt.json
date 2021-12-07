@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/epiloguetntbottom",
+    "up": "orderofobsidian:blocks/epiloguetnt_top",
+    "north": "orderofobsidian:blocks/epilogue_side",
+    "east": "orderofobsidian:blocks/epilogue_side",
+    "south": "orderofobsidian:blocks/epilogue_side",
+    "west": "orderofobsidian:blocks/epilogue_side",
+    "particle": "orderofobsidian:blocks/epiloguetntbottom"
+  }
+}

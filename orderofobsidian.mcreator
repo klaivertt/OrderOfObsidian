@@ -629,7 +629,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_wood",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeLog",
@@ -639,7 +639,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_log",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreePlanks",
@@ -649,7 +649,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_planks",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeLeaves",
@@ -659,7 +659,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_leaves",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeStairs",
@@ -669,7 +669,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_stairs",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeSlab",
@@ -679,7 +679,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_slab",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeFence",
@@ -689,7 +689,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_fence",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeFenceGate",
@@ -699,7 +699,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_fence_gate",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreePressurePlate",
@@ -709,7 +709,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_pressure_plate",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeButton",
@@ -719,7 +719,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_button",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeItemsTag",
@@ -729,7 +729,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_items_tag",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeWoodRecipe",
@@ -739,7 +739,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_wood_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreePlanksRecipe",
@@ -749,7 +749,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_planks_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeStairsRecipe",
@@ -759,7 +759,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_stairs_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeSlabRecipe",
@@ -769,7 +769,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_slab_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeFenceRecipe",
@@ -779,7 +779,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_fence_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeFenceGateRecipe",
@@ -789,7 +789,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_fence_gate_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreePressurePlateRecipe",
@@ -799,7 +799,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_pressure_plate_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeButtonRecipe",
@@ -809,7 +809,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_button_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "BurnedtreeStickRecipe",
@@ -819,7 +819,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "burnedtree_stick_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "Wooden_armorArmor",
@@ -2610,7 +2610,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_ore",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "Aluminiumoresmelting",
@@ -2620,7 +2620,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminiumoresmelting",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "ProcesseurTierIcraft",
@@ -2736,7 +2736,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_wood",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumLog",
@@ -2746,7 +2746,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_log",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumPlanks",
@@ -2756,7 +2756,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_planks",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumLeaves",
@@ -2766,7 +2766,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_leaves",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumStairs",
@@ -2776,7 +2776,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_stairs",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumSlab",
@@ -2786,7 +2786,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_slab",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumFence",
@@ -2796,7 +2796,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_fence",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumFenceGate",
@@ -2806,7 +2806,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_fence_gate",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumPressurePlate",
@@ -2816,7 +2816,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_pressure_plate",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumButton",
@@ -2826,7 +2826,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_button",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumItemsTag",
@@ -2836,7 +2836,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_items_tag",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumWoodRecipe",
@@ -2846,7 +2846,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_wood_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumPlanksRecipe",
@@ -2856,7 +2856,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_planks_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumStairsRecipe",
@@ -2866,7 +2866,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_stairs_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumSlabRecipe",
@@ -2876,7 +2876,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_slab_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumFenceRecipe",
@@ -2886,7 +2886,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_fence_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumFenceGateRecipe",
@@ -2896,7 +2896,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_fence_gate_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumPressurePlateRecipe",
@@ -2906,7 +2906,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_pressure_plate_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumButtonRecipe",
@@ -2916,7 +2916,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_button_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumStickRecipe",
@@ -2926,7 +2926,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nylium_stick_recipe",
-      "path": "~/block"
+      "path": "~/block/wood"
     },
     {
       "name": "NyliumForest",
@@ -2937,16 +2937,6 @@
       "ids": {},
       "registry_name": "nylium_forest",
       "path": "~/biome"
-    },
-    {
-      "name": "IronSpear",
-      "type": "tool",
-      "sortid": 269,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron_spear",
-      "path": "~/tools/spear"
     },
     {
       "name": "GoldSpear",
@@ -4448,7 +4438,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_ore",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "SilverIngot",
@@ -4528,7 +4518,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_ore",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "GraphiteLoot",
@@ -4538,7 +4528,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_loot",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "DiamondShard",
@@ -4678,7 +4668,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_glass",
-      "path": "~/block"
+      "path": "~/block/glass"
     },
     {
       "name": "DiamondGlassCraft",
@@ -4688,7 +4678,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_glass_craft",
-      "path": "~/block"
+      "path": "~/block/glass"
     },
     {
       "name": "SolarPannelTierIIIcraft",
@@ -4728,7 +4718,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_glass",
-      "path": "~/block"
+      "path": "~/block/glass"
     },
     {
       "name": "GraphiteGlassCraft",
@@ -4738,7 +4728,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_glass_craft",
-      "path": "~/block"
+      "path": "~/block/glass"
     },
     {
       "name": "FriedEgg",
@@ -5262,62 +5252,12 @@
     {
       "name": "BauheriteIngot",
       "type": "item",
-      "sortid": 442,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_ingot",
       "path": "~/item"
-    },
-    {
-      "name": "BauheriteOre",
-      "type": "block",
-      "sortid": 443,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_ore",
-      "path": "~/block"
-    },
-    {
-      "name": "BauheriteBlock",
-      "type": "block",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_block",
-      "path": "~/block"
-    },
-    {
-      "name": "BauheriteOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 445,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_ore_block_recipe",
-      "path": "~/block"
-    },
-    {
-      "name": "BauheriteBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 446,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_block_ore_recipe",
-      "path": "~/block"
-    },
-    {
-      "name": "BauheriteOreSmelting",
-      "type": "recipe",
-      "sortid": 447,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bauherite_ore_smelting",
-      "path": "~/block"
     },
     {
       "name": "BauheritePickaxe",
@@ -5488,62 +5428,12 @@
     {
       "name": "AvenroniteIngot",
       "type": "item",
-      "sortid": 466,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_ingot",
       "path": "~/item"
-    },
-    {
-      "name": "AvenroniteOre",
-      "type": "block",
-      "sortid": 467,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "avenronite_ore",
-      "path": "~/block"
-    },
-    {
-      "name": "AvenroniteBlock",
-      "type": "block",
-      "sortid": 468,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "avenronite_block",
-      "path": "~/block"
-    },
-    {
-      "name": "AvenroniteOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 469,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "avenronite_ore_block_recipe",
-      "path": "~/block"
-    },
-    {
-      "name": "AvenroniteBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 470,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "avenronite_block_ore_recipe",
-      "path": "~/block"
-    },
-    {
-      "name": "AvenroniteOreSmelting",
-      "type": "recipe",
-      "sortid": 471,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "avenronite_ore_smelting",
-      "path": "~/block"
     },
     {
       "name": "AvenronitePickaxeRecipe",
@@ -5729,7 +5619,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_ore",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "AikigiteBlock",
@@ -5739,7 +5629,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_block",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "AikigiteOreBlockRecipe",
@@ -5749,7 +5639,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_ore_block_recipe",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "AikigiteBlockOreRecipe",
@@ -5759,7 +5649,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_block_ore_recipe",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "AikigiteOreSmelting",
@@ -5769,7 +5659,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_ore_smelting",
-      "path": "~/block"
+      "path": "~/block/ore"
     },
     {
       "name": "AikigiteArmor",
@@ -5955,7 +5845,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "caveblock",
-      "path": "~/block"
+      "path": "~/block/glass"
     },
     {
       "name": "Caveblockcraft",
@@ -5965,7 +5855,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "caveblockcraft",
-      "path": "~/block"
+      "path": "~/block/glass"
     },
     {
       "name": "CompresedXpBerry",
@@ -6106,16 +5996,6 @@
       "path": "~/tools/steel"
     },
     {
-      "name": "XpBush",
-      "type": "block",
-      "sortid": 533,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xp_bush",
-      "path": "~/culture"
-    },
-    {
       "name": "Xpbush1",
       "type": "block",
       "sortid": 534,
@@ -6143,7 +6023,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironbookshelf",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Copperbookshelf",
@@ -6153,7 +6033,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperbookshelf",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Goldbookshelf",
@@ -6163,7 +6043,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldbookshelf",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Obsidianbookshelf",
@@ -6173,7 +6053,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidianbookshelf",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Diamondbookshelf",
@@ -6183,7 +6063,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamondbookshelf",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Emeraldbookshelf",
@@ -6193,7 +6073,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "emeraldbookshelf",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Ironbookshelfcraft",
@@ -6203,7 +6083,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironbookshelfcraft",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Copperbookshelfcraft",
@@ -6213,7 +6093,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperbookshelfcraft",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Goldbookshelfcraft",
@@ -6223,7 +6103,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldbookshelfcraft",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Odsidianbookshelfcraft",
@@ -6233,7 +6113,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "odsidianbookshelfcraft",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Diamondbookshelfcraft",
@@ -6243,7 +6123,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamondbookshelfcraft",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "Emeraldbookshelfcraft",
@@ -6253,7 +6133,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "emeraldbookshelfcraft",
-      "path": "~/block"
+      "path": "~/block/BooksShelfs"
     },
     {
       "name": "OxysHammer",
@@ -6354,6 +6234,962 @@
       "ids": {},
       "registry_name": "avenronitehammercraft",
       "path": "~/tools/hammer"
+    },
+    {
+      "name": "BauheriteOre",
+      "type": "block",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauherite_ore",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "BauheriteBlock",
+      "type": "block",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauherite_block",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "BauheriteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauherite_ore_block_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "BauheriteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauherite_block_ore_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "BauheriteOreSmelting",
+      "type": "recipe",
+      "sortid": 563,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauherite_ore_smelting",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "AvenroniteOre",
+      "type": "block",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_ore",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "AvenroniteBlock",
+      "type": "block",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_block",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "AvenroniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_ore_block_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "AvenroniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_block_ore_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "AvenroniteOreSmelting",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avenronite_ore_smelting",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "IronSpear",
+      "type": "tool",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_spear",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "DynamiteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "Dynamite",
+      "type": "rangeditem",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteCraft",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_craft",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigDynamiteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_dynamite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigDynamite",
+      "type": "rangeditem",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_dynamite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "Bigdynamitecraft",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamitecraft",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAikigite",
+      "type": "rangeditem",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_aikigite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAikigiteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_aikigite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAikigiteCraft",
+      "type": "recipe",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_aikigite_craft",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigDynamiteAikigite",
+      "type": "rangeditem",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_dynamite_aikigite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigDynamiteAikigiteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_dynamite_aikigite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteBauherite",
+      "type": "rangeditem",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_bauherite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteBauheriteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 581,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_bauherite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteBauherite",
+      "type": "rangeditem",
+      "sortid": 582,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_bauherite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteBauheriteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 583,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_bauherite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAvenronite",
+      "type": "rangeditem",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_avenronite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAvenroniteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_avenronite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteAvenronite",
+      "type": "rangeditem",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_avenronite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteAvenroniteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_avenronite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteOxys",
+      "type": "rangeditem",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_oxys",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteOxysProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_oxys_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteOxys",
+      "type": "rangeditem",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_oxys",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteOxysProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_oxys_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamitebigAikigite",
+      "type": "recipe",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamitebig_aikigite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteBauheritecraft",
+      "type": "recipe",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_bauheritecraft",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamitebigBauherite",
+      "type": "recipe",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamitebig_bauherite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAvenronitecraft",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_avenronitecraft",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteBigAvenronite",
+      "type": "recipe",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_big_avenronite",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteOxyscraft",
+      "type": "recipe",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_oxyscraft",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteBigoxys",
+      "type": "recipe",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_bigoxys",
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "XPbushOre",
+      "type": "block",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "x_pbush_ore",
+      "path": "~/culture"
+    },
+    {
+      "name": "LazarusTNT",
+      "type": "block",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lazarus_tnt",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "LazarusTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lazarus_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "LazarusTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lazarus_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "OculusTNT",
+      "type": "block",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oculus_tnt",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "OculusTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oculus_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "OculusTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oculus_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "InfamyTNT",
+      "type": "block",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infamy_tnt",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "InfamyTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infamy_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "InfamyTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infamy_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "LazarustntCraft",
+      "type": "recipe",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lazarustnt_craft",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "EpilogueTNT",
+      "type": "block",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epilogue_tnt",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "EpilogueTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epilogue_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "EpilogueTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epilogue_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "Oculustntcraft",
+      "type": "recipe",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oculustntcraft",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "Epiloguetntcraft",
+      "type": "recipe",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epiloguetntcraft",
+      "path": "~/block/tnt"
+    },
+    {
+      "name": "Infamytntcraft",
+      "type": "recipe",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infamytntcraft",
+      "path": "~/block/tnt"
     }
   ],
   "variable_elements": [
@@ -6398,6 +7234,7 @@
       "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
       "item.orderofobsidian.slime_boots": "Slime Boots",
+      "block.orderofobsidian.oculus_tnt": "Oculus TNT",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.orderofobsidian.heavy_gold_leggings": "Heavy Gold Leggings",
@@ -6417,6 +7254,7 @@
       "enchantment.orderofobsidian.ignition": "Ignition",
       "item.orderofobsidian.steel_hoe": "Steel Hoe",
       "item.orderofobsidian.heavy_gold_chestplate": "Heavy Gold Body",
+      "item.orderofobsidian.big_dynamite": "Big Dynamite",
       "block.spiritforge.oxys_block": "Block of Oxys",
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
       "advancements.dubious_ore.descr": "but what is this dubious mineral",
@@ -6446,6 +7284,7 @@
       "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
       "block.orderofobsidian.xpbush_1": "Xp Bush",
+      "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
       "block.orderofobsidian.oxys_block": "Block of Oxys",
       "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
       "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
@@ -6454,6 +7293,7 @@
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
       "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
+      "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
       "block.orderofobsidian.obsidianbookshelf": "Obsidian Book Shelf",
       "item.orderofobsidian.aikigite_ingot": "Aikigite",
       "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
@@ -6468,6 +7308,7 @@
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
       "block.orderofobsidian.goldbookshelf": "Gold Book Shelf",
       "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
+      "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
       "item.orderofobsidian.heavy_diamond_helmet": "Heavy Diamond Helmet",
       "item.orderofobsidian.heavy_diamond_leggings": "Heavy Diamond Leggings",
       "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
@@ -6480,19 +7321,23 @@
       "block.orderofobsidian.diamond_glass": "Diamond Glass",
       "item.spiritforge.oxys_bow": "Oxys Bow",
       "item.orderofobsidian.compresed_xp_berry": "compresed XP berry",
+      "item.orderofobsidian.bigdynamite_bauherite": "Big Dynamite",
       "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
       "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
       "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
       "item.orderofobsidian.netherackarmor_armor_helmet": "Netherackarmor Helmet",
       "item.orderofobsidian.plastique": "Plastique",
+      "item.orderofobsidian.dynamite_bauherite": "Dynamite",
       "item.orderofobsidian.steel_shovel": "Steel Shovel",
+      "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
       "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
       "block.orderofobsidian.graphite_ore": "Graphite Ore",
       "item.orderofobsidian.gold_spear": "Gold Spear",
       "item.orderofobsidian.diamond_katana": "Diamond Katana",
       "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
+      "block.orderofobsidian.infamy_tnt": "Infamy TNT",
       "item.orderofobsidian.bauherite_mixed_coal": "Bauherite Mixed Coal",
       "item.orderofobsidian.goldenchield": "Goldenchield",
       "block.orderofobsidian.avenronite_ore": "Avenronite Ore",
@@ -6523,6 +7368,7 @@
       "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
+      "item.orderofobsidian.dynamite": "Dynamite",
       "item.orderofobsidian.avenronite_armor_helmet": "Avenronite Helmet",
       "block.orderofobsidian.solar_pannel_tier_iii": "Solar Pannel Tier III",
       "block.orderofobsidian.batterie_1": "Batterie tier I",
@@ -6553,6 +7399,7 @@
       "item.orderofobsidian.ultimatesword": "Ultimatesword",
       "item.orderofobsidian.slime_leggings": "Slime Leggings",
       "block.orderofobsidian.nylium_log": "Nylium Log",
+      "item.orderofobsidian.dynamite_aikigite": "Dynamite",
       "item.orderofobsidian.steel_armor_chestplate": "Steel Chestplate",
       "item.orderofobsidian.blueghast_spawn_egg": "Blueghast Spawn Egg",
       "block.orderofobsidian.diamondbookshelf": "Diamond Book Shelf",
@@ -6566,7 +7413,6 @@
       "block.orderofobsidian.avenronite_block": "Block of Avenronite",
       "block.orderofobsidian.electrique_furnace": "Electrique Furnace",
       "item.orderofobsidian.copper_plate": "Copper Plate",
-      "block.orderofobsidian.xp_bush": "Xp Bush",
       "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
       "itemGroup.tabtools": "Tools",
       "item.orderofobsidian.stone_katana": "Stone Katana",
@@ -6582,10 +7428,11 @@
       "item.orderofobsidian.obsidian_golem_spawn_egg": "Obsidian Golem Spawn Egg",
       "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
       "block.orderofobsidian.ironbookshelf": "Iron book shelf",
+      "block.orderofobsidian.x_pbush_ore": "XPbush",
       "item.orderofobsidian.rice": "Rice Seed",
       "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
-      "item.orderofobsidian.iron_spear": "Iron Spear",
       "item.orderofobsidian.chickenwing": "Chickenwing",
+      "item.orderofobsidian.iron_spear": "Iron Spear",
       "item.spiritforge.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
       "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
       "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
@@ -6594,6 +7441,7 @@
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
       "enchantment.spiritforge.ignition": "Ignition",
       "entity.orderofobsidian.blueghast": "Blueghast",
+      "item.orderofobsidian.dynamite_avenronite": "Dynamite",
       "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
       "item.spiritforge.oxys_armor_boots": "Oxys Boots",
@@ -6627,6 +7475,7 @@
       "item.orderofobsidian.bauherite_axe": "Bauherite Axe",
       "item.orderofobsidian.avenronite_armor_chestplate": "Avenronite Chestplate",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",
+      "item.orderofobsidian.dynamite_oxys": "Dynamite",
       "item.orderofobsidian.lead_plate": "Lead Plate",
       "block.orderofobsidian.aikigite_block": "Block of Aikigite",
       "item.orderofobsidian.oxys_hammer": "Oxys Hammer",
@@ -6639,6 +7488,7 @@
       "item.orderofobsidian.wooden_armor_armor_boots": "Wooden_armor Boots",
       "item.orderofobsidian.steel_ingot": "Steel Ingot",
       "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
+      "item.orderofobsidian.big_dynamite_aikigite": "Big Dynamite",
       "item.orderofobsidian.fried_egg": "Fried Egg",
       "item.orderofobsidian.steel_armor_leggings": "Steel Leggings",
       "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
@@ -6687,7 +7537,28 @@
     "children": [
       {
         "name": "block",
-        "children": []
+        "children": [
+          {
+            "name": "wood",
+            "children": []
+          },
+          {
+            "name": "ore",
+            "children": []
+          },
+          {
+            "name": "glass",
+            "children": []
+          },
+          {
+            "name": "BooksShelfs",
+            "children": []
+          },
+          {
+            "name": "tnt",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Loottable",
@@ -6770,6 +7641,10 @@
           },
           {
             "name": "chield",
+            "children": []
+          },
+          {
+            "name": "explosive",
             "children": []
           }
         ]

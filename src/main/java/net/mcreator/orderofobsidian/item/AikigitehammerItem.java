@@ -23,7 +23,7 @@ public class AikigitehammerItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 1.3f;
+				return 1.8f;
 			}
 
 			public float getAttackDamageBonus() {

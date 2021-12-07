@@ -36,7 +36,7 @@ import java.util.Collections;
 
 public class XpBush2Block extends Block {
 	public XpBush2Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRASS).strength(1f, 10f).noOcclusion().randomTicks()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRASS).strength(1f, 10f).lightLevel(s -> 4).noOcclusion().randomTicks()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("xp_bush_2");
 	}

@@ -8,7 +8,7 @@
     "name": "gold Stove",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Spirit"
     },
     "toolType": "Sword",
     "harvestLevel": 1,

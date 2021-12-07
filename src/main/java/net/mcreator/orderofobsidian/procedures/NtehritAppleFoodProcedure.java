@@ -35,7 +35,7 @@ public class NtehritAppleFoodProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1500, 2));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1500, 0));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1500, 1));
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 1500, 1));
 			if (entity instanceof LivingEntity _entity)

@@ -9,9 +9,9 @@
     "enableLeggings": true,
     "textureLeggings": "leggings",
     "enableBoots": true,
-    "textureBoots": "stone_armor_boots",
+    "textureBoots": "boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Spirit"
     },
     "armorTextureFile": "stone_armor_",
     "helmetName": "Stone_armor Helmet",

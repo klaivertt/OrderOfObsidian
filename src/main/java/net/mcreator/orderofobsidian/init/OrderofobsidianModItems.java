@@ -405,7 +405,7 @@ public class OrderofobsidianModItems {
 	public static final Item COMPACTED_X_PBERRY = register(new CompactedXPberryItem());
 	public static final Item STEEL_SNAFFLE = register(new SteelSnaffleItem());
 	public static final Item XPBUSH_1 = register(OrderofobsidianModBlocks.XPBUSH_1, null);
-	public static final Item XP_BUSH_2 = register(OrderofobsidianModBlocks.XP_BUSH_2, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item XP_BUSH_2 = register(OrderofobsidianModBlocks.XP_BUSH_2, null);
 	public static final Item IRONBOOKSHELF = register(OrderofobsidianModBlocks.IRONBOOKSHELF, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item COPPERBOOKSHELF = register(OrderofobsidianModBlocks.COPPERBOOKSHELF, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item GOLDBOOKSHELF = register(OrderofobsidianModBlocks.GOLDBOOKSHELF, OrderofobsidianModTabs.TAB_BLOC_K);
@@ -418,11 +418,11 @@ public class OrderofobsidianModItems {
 	public static final Item BAUHERITEHAMMER = register(new BauheritehammerItem());
 	public static final Item AVENRONITEHAMMER = register(new AvenronitehammerItem());
 	public static final Item BAUHERITE_INGOT = register(new BauheriteIngotItem());
-	public static final Item BAUHERITE_ORE = register(OrderofobsidianModBlocks.BAUHERITE_ORE, OrderofobsidianModTabs.TAB_SPIRIT);
-	public static final Item BAUHERITE_BLOCK = register(OrderofobsidianModBlocks.BAUHERITE_BLOCK, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item BAUHERITE_ORE = register(OrderofobsidianModBlocks.BAUHERITE_ORE, OrderofobsidianModTabs.TAB_BLOC_K);
+	public static final Item BAUHERITE_BLOCK = register(OrderofobsidianModBlocks.BAUHERITE_BLOCK, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item AVENRONITE_INGOT = register(new AvenroniteIngotItem());
-	public static final Item AVENRONITE_ORE = register(OrderofobsidianModBlocks.AVENRONITE_ORE, OrderofobsidianModTabs.TAB_SPIRIT);
-	public static final Item AVENRONITE_BLOCK = register(OrderofobsidianModBlocks.AVENRONITE_BLOCK, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item AVENRONITE_ORE = register(OrderofobsidianModBlocks.AVENRONITE_ORE, OrderofobsidianModTabs.TAB_BLOC_K);
+	public static final Item AVENRONITE_BLOCK = register(OrderofobsidianModBlocks.AVENRONITE_BLOCK, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item IRON_SPEAR = register(new IronSpearItem());
 	public static final Item DYNAMITE = register(new DynamiteItem());
 	public static final Item BIG_DYNAMITE = register(new BigDynamiteItem());

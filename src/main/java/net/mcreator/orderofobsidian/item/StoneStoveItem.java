@@ -5,7 +5,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.orderofobsidian.init.OrderofobsidianModTabs;
 
 public class StoneStoveItem extends SwordItem {
 	public StoneStoveItem() {
@@ -33,7 +34,7 @@ public class StoneStoveItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.5f, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
 		setRegistryName("stone_stove");
 	}
 }

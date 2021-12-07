@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Spirit"
+      "value": "CUSTOM:BlocK"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

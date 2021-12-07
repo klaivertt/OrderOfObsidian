@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "orderofobsidian:items/diamondapple"
+    "layer0": "orderofobsidian:items/netherite_apple"
   }
 }

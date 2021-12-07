@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "travel_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Spirit"
     },
     "armorTextureFile": "slime_",
     "helmetName": "Slime Helmet",

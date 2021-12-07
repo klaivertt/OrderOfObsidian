@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "diamondapple",
+    "texture": "netherite_apple",
     "customModelName": "Normal",
     "name": "Netherit Apple",
     "rarity": "UNCOMMON",

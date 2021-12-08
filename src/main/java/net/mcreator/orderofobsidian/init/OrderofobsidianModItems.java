@@ -207,12 +207,6 @@ public class OrderofobsidianModItems {
 	public static final Item OBSIDIAN_TOOL_SHOVEL = register(new Obsidian_toolShovelItem());
 	public static final Item OBSIDIAN_TOOL_HOE = register(new Obsidian_toolHoeItem());
 	public static final Item ULTIMATESWORD = register(new UltimateswordItem());
-	public static final Item BLUEGHAST = register(
-			new SpawnEggItem(OrderofobsidianModEntities.BLUEGHAST, -16777216, -16757136, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("blueghast_spawn_egg"));
-	public static final Item ENDERMANBLAZE = register(
-			new SpawnEggItem(OrderofobsidianModEntities.ENDERMANBLAZE, -16777216, -13691522, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("endermanblaze_spawn_egg"));
 	public static final Item OBSIDIAN_GOLEM = register(
 			new SpawnEggItem(OrderofobsidianModEntities.OBSIDIAN_GOLEM, -1, -1, new Item.Properties().tab(null))
 					.setRegistryName("obsidian_golem_spawn_egg"));
@@ -221,9 +215,6 @@ public class OrderofobsidianModItems {
 					.setRegistryName("netheritegolem_spawn_egg"));
 	public static final Item OBSIDIAN_GOLEMHEAD = register(OrderofobsidianModBlocks.OBSIDIAN_GOLEMHEAD, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item NETHERITE_GOLEM_HEAD = register(OrderofobsidianModBlocks.NETHERITE_GOLEM_HEAD, OrderofobsidianModTabs.TAB_BLOC_K);
-	public static final Item DROWNE_HORSE = register(
-			new SpawnEggItem(OrderofobsidianModEntities.DROWNE_HORSE, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("drowne_horse_spawn_egg"));
 	public static final Item END_CREEPER = register(
 			new SpawnEggItem(OrderofobsidianModEntities.END_CREEPER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("end_creeper_spawn_egg"));

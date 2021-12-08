@@ -21,12 +21,12 @@ public abstract class Stone_armorArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 12;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{1, 2, 2, 1}[slot.getIndex()];
 			}
 
 			@Override

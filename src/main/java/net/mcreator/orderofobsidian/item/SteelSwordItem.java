@@ -22,7 +22,7 @@ public class SteelSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 4f;
 			}
 
 			public int getLevel() {

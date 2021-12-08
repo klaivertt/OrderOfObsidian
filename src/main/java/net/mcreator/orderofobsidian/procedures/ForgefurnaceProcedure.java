@@ -24,6 +24,7 @@ import java.util.Map;
 public class ForgefurnaceProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double previousRecipe = 0;
+		double fireHeight = 0;
 		previousRecipe = (double) (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -97,7 +98,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == Blocks.ANCIENT_DEBRIS.asItem() && new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == Blocks.ANCIENT_DEBRIS.asItem() && ((new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == Items.NETHERITE_SCRAP && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -108,7 +120,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -129,7 +152,7 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == Items.RAW_IRON && ((new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == Items.RAW_GOLD && ((new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -140,7 +163,7 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == Items.IRON_INGOT && new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == Items.GOLD_INGOT && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -151,7 +174,7 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 61 || new Object() {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -183,7 +206,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == Items.RAW_GOLD && new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModItems.LEAD_DUST && ((new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == OrderofobsidianModItems.LEAD_INGOT && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -194,7 +228,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -215,7 +260,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == Items.RAW_COPPER && new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModItems.STEEL_DUST && ((new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == OrderofobsidianModItems.STEEL_INGOT && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -226,7 +282,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -247,7 +314,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModItems.LEAD_DUST && new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModItems.RUBBER && ((new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == OrderofobsidianModItems.PLASTIQUE && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -258,7 +336,18 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -279,18 +368,42 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModItems.STEEL_DUST && new Object() {
-			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).getCount());
-					});
-				}
-				return _retval.get();
-			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.AIKIGITE_ORE.asItem()
+				&& ((new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null) {
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								_retval.set(capability.getStackInSlot(sltid).copy());
+							});
+						}
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == OrderofobsidianModItems.AIKIGITE_INGOT
+						&& new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+								AtomicInteger _retval = new AtomicInteger(0);
+								BlockEntity _ent = world.getBlockEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).getCount());
+									});
+								}
+								return _retval.get();
+							}
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+								AtomicInteger _retval = new AtomicInteger(0);
+								BlockEntity _ent = world.getBlockEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).getCount());
+									});
+								}
+								return _retval.get();
+							}
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -311,18 +424,42 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.SILVER_ORE.asItem() && new Object() {
-			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).getCount());
-					});
-				}
-				return _retval.get();
-			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.BAUHERITE_ORE.asItem()
+				&& ((new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null) {
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								_retval.set(capability.getStackInSlot(sltid).copy());
+							});
+						}
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == OrderofobsidianModItems.BAUHERITE_INGOT
+						&& new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+								AtomicInteger _retval = new AtomicInteger(0);
+								BlockEntity _ent = world.getBlockEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).getCount());
+									});
+								}
+								return _retval.get();
+							}
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+								AtomicInteger _retval = new AtomicInteger(0);
+								BlockEntity _ent = world.getBlockEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).getCount());
+									});
+								}
+								return _retval.get();
+							}
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -343,156 +480,48 @@ public class ForgefurnaceProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModItems.GRAPHITE_DUST && new Object() {
-			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).getCount());
-					});
-				}
-				return _retval.get();
-			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.AVENRONITE_ORE.asItem()
+				&& ((new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null) {
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+								_retval.set(capability.getStackInSlot(sltid).copy());
+							});
+						}
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 2)).getItem() == OrderofobsidianModItems.AVENRONITE_INGOT
+						&& new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+								AtomicInteger _retval = new AtomicInteger(0);
+								BlockEntity _ent = world.getBlockEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).getCount());
+									});
+								}
+								return _retval.get();
+							}
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) <= 62 || new Object() {
+							public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+								AtomicInteger _retval = new AtomicInteger(0);
+								BlockEntity _ent = world.getBlockEntity(pos);
+								if (_ent != null) {
+									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+										_retval.set(capability.getStackInSlot(sltid).getCount());
+									});
+								}
+								return _retval.get();
+							}
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
 					_blockEntity.getTileData().putDouble("recipe", 8);
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
-		} else if ((new Object() {
-			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).copy());
-					});
-				}
-				return _retval.get();
-			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.ALUMINIUM_ORE.asItem()
-				&& new Object() {
-					public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-						AtomicInteger _retval = new AtomicInteger(0);
-						BlockEntity _ent = world.getBlockEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).getCount());
-							});
-						}
-						return _retval.get();
-					}
-				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("recipe", 9);
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
-		} else if ((new Object() {
-			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).copy());
-					});
-				}
-				return _retval.get();
-			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.BAUHERITE_ORE.asItem()
-				&& new Object() {
-					public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-						AtomicInteger _retval = new AtomicInteger(0);
-						BlockEntity _ent = world.getBlockEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).getCount());
-							});
-						}
-						return _retval.get();
-					}
-				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("recipe", 10);
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
-		} else if ((new Object() {
-			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).copy());
-					});
-				}
-				return _retval.get();
-			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.AVENRONITE_ORE.asItem()
-				&& new Object() {
-					public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-						AtomicInteger _retval = new AtomicInteger(0);
-						BlockEntity _ent = world.getBlockEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).getCount());
-							});
-						}
-						return _retval.get();
-					}
-				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("recipe", 11);
-				if (world instanceof Level _level)
-					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-			}
-		} else if ((new Object() {
-			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).copy());
-					});
-				}
-				return _retval.get();
-			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem() == OrderofobsidianModBlocks.AIKIGITE_ORE.asItem()
-				&& new Object() {
-					public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
-						AtomicInteger _retval = new AtomicInteger(0);
-						BlockEntity _ent = world.getBlockEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).getCount());
-							});
-						}
-						return _retval.get();
-					}
-				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) == 0) {
-			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-				BlockEntity _blockEntity = world.getBlockEntity(_bp);
-				BlockState _bs = world.getBlockState(_bp);
-				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("recipe", 12);
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -653,7 +682,18 @@ public class ForgefurnaceProcedure {
 						if (_ent != null) {
 							final int _sltid = 2;
 							final ItemStack _setstack = new ItemStack(Items.NETHERITE_SCRAP);
-							_setstack.setCount(2);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -687,8 +727,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(Items.IRON_INGOT);
-							_setstack.setCount(2);
+							final ItemStack _setstack = new ItemStack(Items.GOLD_INGOT);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -722,8 +773,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(Items.GOLD_INGOT);
-							_setstack.setCount(2);
+							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.LEAD_INGOT);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -757,8 +819,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(Items.COPPER_INGOT);
-							_setstack.setCount(2);
+							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.STEEL_INGOT);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -792,8 +865,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.LEAD_INGOT);
-							_setstack.setCount(2);
+							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.PLASTIQUE);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -827,8 +911,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.STEEL_INGOT);
-							_setstack.setCount(2);
+							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.AIKIGITE_INGOT);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -862,8 +957,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.ALUMINIUM_INGOT);
-							_setstack.setCount(2);
+							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.BAUHERITE_INGOT);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
+								}
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -897,148 +1003,19 @@ public class ForgefurnaceProcedure {
 						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
 							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.GRAPHITE_INGOT);
-							_setstack.setCount(2);
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
-								}
-							});
-						}
-					}
-				} else if (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 9) {
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 0;
-							final int _amount = 1;
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-									_stk.shrink(_amount);
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-								}
-							});
-						}
-					}
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.SILVER_INGOT);
-							_setstack.setCount(2);
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
-								}
-							});
-						}
-					}
-				} else if (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 10) {
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 0;
-							final int _amount = 1;
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-									_stk.shrink(_amount);
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-								}
-							});
-						}
-					}
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.BAUHERITE_INGOT);
-							_setstack.setCount(2);
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
-								}
-							});
-						}
-					}
-				} else if (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 11) {
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 0;
-							final int _amount = 1;
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-									_stk.shrink(_amount);
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-								}
-							});
-						}
-					}
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 2;
 							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.AVENRONITE_INGOT);
-							_setstack.setCount(2);
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
+									AtomicInteger _retval = new AtomicInteger(0);
+									BlockEntity _ent = world.getBlockEntity(pos);
+									if (_ent != null) {
+										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+											_retval.set(capability.getStackInSlot(sltid).getCount());
+										});
+									}
+									return _retval.get();
 								}
-							});
-						}
-					}
-				} else if (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 12) {
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 0;
-							final int _amount = 1;
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								if (capability instanceof IItemHandlerModifiable) {
-									ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-									_stk.shrink(_amount);
-									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-								}
-							});
-						}
-					}
-					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-						if (_ent != null) {
-							final int _sltid = 2;
-							final ItemStack _setstack = new ItemStack(OrderofobsidianModItems.AIKIGITE_INGOT);
-							_setstack.setCount(2);
+							}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 2));
 							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -1099,7 +1076,7 @@ public class ForgefurnaceProcedure {
 							}
 							return _retval.get();
 						}
-					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Blocks.COAL_BLOCK.asItem()) {
+					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == OrderofobsidianModItems.AVENRONITE_MIXED_COAL) {
 						{
 							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 							if (_ent != null) {
@@ -1119,7 +1096,7 @@ public class ForgefurnaceProcedure {
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("fuel", 150);
+								_blockEntity.getTileData().putDouble("fuel", 1200);
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -1128,150 +1105,7 @@ public class ForgefurnaceProcedure {
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("maxFuel", 150);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-					} else if ((new Object() {
-						public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-							BlockEntity _ent = world.getBlockEntity(pos);
-							if (_ent != null) {
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									_retval.set(capability.getStackInSlot(sltid).copy());
-								});
-							}
-							return _retval.get();
-						}
-					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Items.BLAZE_POWDER) {
-						{
-							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-							if (_ent != null) {
-								final int _sltid = 1;
-								final int _amount = 1;
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									if (capability instanceof IItemHandlerModifiable) {
-										ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-										_stk.shrink(_amount);
-										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-									}
-								});
-							}
-						}
-						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("fuel", 50);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("maxFuel", 50);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-					} else if ((new Object() {
-						public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-							BlockEntity _ent = world.getBlockEntity(pos);
-							if (_ent != null) {
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									_retval.set(capability.getStackInSlot(sltid).copy());
-								});
-							}
-							return _retval.get();
-						}
-					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Items.COAL || (new Object() {
-						public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-							BlockEntity _ent = world.getBlockEntity(pos);
-							if (_ent != null) {
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									_retval.set(capability.getStackInSlot(sltid).copy());
-								});
-							}
-							return _retval.get();
-						}
-					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Items.CHARCOAL) {
-						{
-							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-							if (_ent != null) {
-								final int _sltid = 1;
-								final int _amount = 1;
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									if (capability instanceof IItemHandlerModifiable) {
-										ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-										_stk.shrink(_amount);
-										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-									}
-								});
-							}
-						}
-						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("fuel", 20);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("maxFuel", 20);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-					} else if ((new Object() {
-						public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-							BlockEntity _ent = world.getBlockEntity(pos);
-							if (_ent != null) {
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									_retval.set(capability.getStackInSlot(sltid).copy());
-								});
-							}
-							return _retval.get();
-						}
-					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == OrderofobsidianModItems.AIKIGITE_MIXED_COAL) {
-						{
-							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
-							if (_ent != null) {
-								final int _sltid = 1;
-								final int _amount = 1;
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									if (capability instanceof IItemHandlerModifiable) {
-										ItemStack _stk = capability.getStackInSlot(_sltid).copy();
-										_stk.shrink(_amount);
-										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
-									}
-								});
-							}
-						}
-						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("fuel", 100);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-						}
-						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("maxFuel", 100);
+								_blockEntity.getTileData().putDouble("maxFuel", 1200);
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -1306,7 +1140,7 @@ public class ForgefurnaceProcedure {
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("fuel", 150);
+								_blockEntity.getTileData().putDouble("fuel", 900);
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -1315,7 +1149,7 @@ public class ForgefurnaceProcedure {
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("maxFuel", 150);
+								_blockEntity.getTileData().putDouble("maxFuel", 900);
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -1330,7 +1164,7 @@ public class ForgefurnaceProcedure {
 							}
 							return _retval.get();
 						}
-					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == OrderofobsidianModItems.AVENRONITE_MIXED_COAL) {
+					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == OrderofobsidianModItems.AIKIGITE_MIXED_COAL) {
 						{
 							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 							if (_ent != null) {
@@ -1350,7 +1184,7 @@ public class ForgefurnaceProcedure {
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("fuel", 200);
+								_blockEntity.getTileData().putDouble("fuel", 750);
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -1359,7 +1193,51 @@ public class ForgefurnaceProcedure {
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("maxFuel", 200);
+								_blockEntity.getTileData().putDouble("maxFuel", 750);
+							if (world instanceof Level _level)
+								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+						}
+					} else if ((new Object() {
+						public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+							BlockEntity _ent = world.getBlockEntity(pos);
+							if (_ent != null) {
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									_retval.set(capability.getStackInSlot(sltid).copy());
+								});
+							}
+							return _retval.get();
+						}
+					}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Items.COAL) {
+						{
+							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
+							if (_ent != null) {
+								final int _sltid = 1;
+								final int _amount = 1;
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable) {
+										ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+										_stk.shrink(_amount);
+										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+									}
+								});
+							}
+						}
+						if (!world.isClientSide()) {
+							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+							BlockEntity _blockEntity = world.getBlockEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_blockEntity != null)
+								_blockEntity.getTileData().putDouble("fuel", 350);
+							if (world instanceof Level _level)
+								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+						}
+						if (!world.isClientSide()) {
+							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+							BlockEntity _blockEntity = world.getBlockEntity(_bp);
+							BlockState _bs = world.getBlockState(_bp);
+							if (_blockEntity != null)
+								_blockEntity.getTileData().putDouble("maxFuel", 350);
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}

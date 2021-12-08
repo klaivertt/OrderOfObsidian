@@ -1,7 +1,6 @@
 
 package net.mcreator.orderofobsidian.enchantment;
 
-import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -14,12 +13,5 @@ public class IceAspectEnchantment extends Enchantment {
 	@Override
 	public int getMaxLevel() {
 		return 4;
-	}
-
-	@Override
-	protected boolean checkCompatibility(Enchantment ench) {
-		if (ench == Enchantments.FIRE_ASPECT)
-			return true;
-		return false;
 	}
 }

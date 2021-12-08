@@ -22,7 +22,7 @@
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Ironbarre"
       },
       {
         "value": "Items.IRON_INGOT"
@@ -31,7 +31,7 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Ironbarre"
       },
       {
         "value": ""

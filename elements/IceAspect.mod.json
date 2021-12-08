@@ -8,11 +8,7 @@
     "minLevel": 1,
     "maxLevel": 4,
     "damageModifier": 0,
-    "compatibleEnchantments": [
-      {
-        "value": "FIRE_ASPECT"
-      }
-    ],
+    "compatibleEnchantments": [],
     "compatibleItems": [],
     "isTreasureEnchantment": false,
     "isCurse": false,

@@ -47,7 +47,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 1.7000000000000002,
+    "enchantPowerBonus": 1.9000000000000001,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,

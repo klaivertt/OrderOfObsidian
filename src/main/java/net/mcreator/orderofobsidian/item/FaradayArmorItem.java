@@ -63,7 +63,7 @@ public abstract class FaradayArmorItem extends ArmorItem {
 
 	public static class Helmet extends FaradayArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("faraday_armor_helmet");
 		}
 
@@ -75,7 +75,7 @@ public abstract class FaradayArmorItem extends ArmorItem {
 
 	public static class Chestplate extends FaradayArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("faraday_armor_chestplate");
 		}
 
@@ -87,7 +87,7 @@ public abstract class FaradayArmorItem extends ArmorItem {
 
 	public static class Leggings extends FaradayArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("faraday_armor_leggings");
 		}
 
@@ -99,7 +99,7 @@ public abstract class FaradayArmorItem extends ArmorItem {
 
 	public static class Boots extends FaradayArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("faraday_armor_boots");
 		}
 

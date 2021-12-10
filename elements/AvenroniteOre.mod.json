@@ -145,8 +145,8 @@
         "value": "Blocks.CRIMSON_NYLIUM"
       }
     ],
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 2,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 100
   }

@@ -26,8 +26,8 @@ import java.util.Random;
 public class AikigiteOreFeature extends OreFeature {
 	public static final AikigiteOreFeature FEATURE = (AikigiteOreFeature) new AikigiteOreFeature().setRegistryName("orderofobsidian:aikigite_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(AikigiteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.AIKIGITE_ORE.defaultBlockState(), 3))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)))).squared().count(6);
+			.configured(new OreConfiguration(AikigiteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.AIKIGITE_ORE.defaultBlockState(), 5))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)))).squared().count(11);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public AikigiteOreFeature() {

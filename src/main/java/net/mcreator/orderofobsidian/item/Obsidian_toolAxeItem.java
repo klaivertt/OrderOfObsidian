@@ -14,11 +14,11 @@ public class Obsidian_toolAxeItem extends AxeItem {
 	public Obsidian_toolAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 569;
+				return 1750;
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {

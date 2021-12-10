@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:uruk_ingot"
+    },
+    "2": {
+      "item": "orderofobsidian:uruk_ingot"
+    },
+    "3": {
+      "item": "orderofobsidian:uruk_ingot"
+    },
+    "5": {
+      "item": "orderofobsidian:uruk_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:uruk_armor_boots",
+    "count": 1
+  }
+}

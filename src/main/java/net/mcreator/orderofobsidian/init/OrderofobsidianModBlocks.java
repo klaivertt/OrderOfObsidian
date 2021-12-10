@@ -45,6 +45,8 @@ import net.mcreator.orderofobsidian.block.NyliumFenceGateBlock;
 import net.mcreator.orderofobsidian.block.NyliumFenceBlock;
 import net.mcreator.orderofobsidian.block.NyliumButtonBlock;
 import net.mcreator.orderofobsidian.block.NetheriteGolemHeadBlock;
+import net.mcreator.orderofobsidian.block.MitrilOreBlock;
+import net.mcreator.orderofobsidian.block.MitrilBlockBlock;
 import net.mcreator.orderofobsidian.block.LazarusTNTBlock;
 import net.mcreator.orderofobsidian.block.IronbookshelfBlock;
 import net.mcreator.orderofobsidian.block.InvisibleBlock;
@@ -155,6 +157,8 @@ public class OrderofobsidianModBlocks {
 	public static final Block OCULUS_TNT = register(new OculusTNTBlock());
 	public static final Block INFAMY_TNT = register(new InfamyTNTBlock());
 	public static final Block EPILOGUE_TNT = register(new EpilogueTNTBlock());
+	public static final Block MITRIL_ORE = register(new MitrilOreBlock());
+	public static final Block MITRIL_BLOCK = register(new MitrilBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

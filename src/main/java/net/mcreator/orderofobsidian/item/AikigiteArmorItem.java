@@ -63,7 +63,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 	public static class Helmet extends AikigiteArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("aikigite_armor_helmet");
 		}
 
@@ -75,7 +75,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 	public static class Chestplate extends AikigiteArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("aikigite_armor_chestplate");
 		}
 
@@ -87,7 +87,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 	public static class Leggings extends AikigiteArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("aikigite_armor_leggings");
 		}
 
@@ -99,7 +99,7 @@ public abstract class AikigiteArmorItem extends ArmorItem {
 
 	public static class Boots extends AikigiteArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("aikigite_armor_boots");
 		}
 

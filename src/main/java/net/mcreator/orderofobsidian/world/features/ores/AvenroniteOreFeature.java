@@ -27,8 +27,8 @@ public class AvenroniteOreFeature extends OreFeature {
 	public static final AvenroniteOreFeature FEATURE = (AvenroniteOreFeature) new AvenroniteOreFeature()
 			.setRegistryName("orderofobsidian:avenronite_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(AvenroniteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.AVENRONITE_ORE.defaultBlockState(), 3))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(100)))).squared().count(5);
+			.configured(new OreConfiguration(AvenroniteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.AVENRONITE_ORE.defaultBlockState(), 2))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(100)))).squared().count(4);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public AvenroniteOreFeature() {

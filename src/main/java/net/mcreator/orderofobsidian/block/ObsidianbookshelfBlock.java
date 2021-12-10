@@ -28,7 +28,7 @@ public class ObsidianbookshelfBlock extends Block {
 
 	@Override
 	public float getEnchantPowerBonus(BlockState state, LevelReader world, BlockPos pos) {
-		return 1.7000000000000002f;
+		return 1.9000000000000001f;
 	}
 
 	@Override

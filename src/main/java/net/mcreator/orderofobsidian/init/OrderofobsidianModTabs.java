@@ -16,6 +16,7 @@ public class OrderofobsidianModTabs {
 	public static CreativeModeTab TAB_ITEMS;
 	public static CreativeModeTab TAB_MACHINE;
 	public static CreativeModeTab TAB_BLOC_K;
+	public static CreativeModeTab TAB_ARMOR;
 
 	public static void load() {
 		TAB_SPIRIT = new CreativeModeTab("tabspirit") {
@@ -66,6 +67,17 @@ public class OrderofobsidianModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(OrderofobsidianModBlocks.BURNEDTREE_WOOD);
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_ARMOR = new CreativeModeTab("tabarmor") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(OrderofobsidianModItems.URUK_ARMOR_HELMET);
 			}
 
 			@OnlyIn(Dist.CLIENT)

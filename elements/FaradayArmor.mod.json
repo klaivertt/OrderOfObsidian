@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "armor_faraday_feet",
     "creativeTab": {
-      "value": "CUSTOM:Spirit"
+      "value": "CUSTOM:Armor"
     },
     "armorTextureFile": "armor_faraday_",
     "helmetName": "Faraday Helmet",

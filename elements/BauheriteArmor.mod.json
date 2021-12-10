@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "bauheriteboots",
     "creativeTab": {
-      "value": "CUSTOM:Spirit"
+      "value": "CUSTOM:Armor"
     },
     "armorTextureFile": "bauherite_armorlayer_1",
     "helmetName": "Bauherite Helmet",

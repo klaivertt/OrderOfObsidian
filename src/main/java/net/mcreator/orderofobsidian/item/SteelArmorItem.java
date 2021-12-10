@@ -63,7 +63,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 	public static class Helmet extends SteelArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("steel_armor_helmet");
 		}
 
@@ -75,7 +75,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 	public static class Chestplate extends SteelArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("steel_armor_chestplate");
 		}
 
@@ -87,7 +87,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 	public static class Leggings extends SteelArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("steel_armor_leggings");
 		}
 
@@ -99,7 +99,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 	public static class Boots extends SteelArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR));
 			setRegistryName("steel_armor_boots");
 		}
 

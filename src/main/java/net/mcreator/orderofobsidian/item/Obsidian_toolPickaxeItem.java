@@ -14,11 +14,11 @@ public class Obsidian_toolPickaxeItem extends PickaxeItem {
 	public Obsidian_toolPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 569;
+				return 1750;
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 11f;
 			}
 
 			public float getAttackDamageBonus() {

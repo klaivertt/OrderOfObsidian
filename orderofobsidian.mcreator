@@ -53,7 +53,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/netherack"
+      "path": "~/armor/netherack"
     },
     {
       "name": "NetherackarmorArmorHelmetRecipe",
@@ -63,7 +63,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherackarmor_armor_helmet_recipe",
-      "path": "~/netherack"
+      "path": "~/armor/netherack"
     },
     {
       "name": "NetherackarmorArmorBodyRecipe",
@@ -73,7 +73,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherackarmor_armor_body_recipe",
-      "path": "~/netherack"
+      "path": "~/armor/netherack"
     },
     {
       "name": "NetherackarmorArmorLeggingsRecipe",
@@ -83,7 +83,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherackarmor_armor_leggings_recipe",
-      "path": "~/netherack"
+      "path": "~/armor/netherack"
     },
     {
       "name": "NetherackarmorArmorBootsRecipe",
@@ -93,7 +93,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherackarmor_armor_boots_recipe",
-      "path": "~/netherack"
+      "path": "~/armor/netherack"
     },
     {
       "name": "Spirit",
@@ -2430,7 +2430,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/armor/HeavyIron/steel"
+      "path": "~/armor/steel"
     },
     {
       "name": "SteelArmorHelmetRecipe",
@@ -2440,7 +2440,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_helmet_recipe",
-      "path": "~/armor/HeavyIron/steel"
+      "path": "~/armor/steel"
     },
     {
       "name": "SteelArmorBodyRecipe",
@@ -2450,7 +2450,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_body_recipe",
-      "path": "~/armor/HeavyIron/steel"
+      "path": "~/armor/steel"
     },
     {
       "name": "SteelArmorLeggingsRecipe",
@@ -2460,7 +2460,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_leggings_recipe",
-      "path": "~/armor/HeavyIron/steel"
+      "path": "~/armor/steel"
     },
     {
       "name": "SteelArmorBootsRecipe",
@@ -2470,7 +2470,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_armor_boots_recipe",
-      "path": "~/armor/HeavyIron/steel"
+      "path": "~/armor/steel"
     },
     {
       "name": "SteelPickaxe",
@@ -3219,286 +3219,6 @@
       "path": "~/tools/katana"
     },
     {
-      "name": "HeavyNetherite",
-      "type": "armor",
-      "sortid": 301,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_netherite",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/HeavyNetherite"
-    },
-    {
-      "name": "HeavyNetheriteHelmet",
-      "type": "recipe",
-      "sortid": 302,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_netherite_helmet",
-      "path": "~/armor/HeavyNetherite"
-    },
-    {
-      "name": "HeavieNetheritebody",
-      "type": "recipe",
-      "sortid": 303,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavie_netheritebody",
-      "path": "~/armor/HeavyNetherite"
-    },
-    {
-      "name": "HeavyNetheriteLeggings",
-      "type": "recipe",
-      "sortid": 304,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_netherite_leggings",
-      "path": "~/armor/HeavyNetherite"
-    },
-    {
-      "name": "HeavyNetheriteBoots",
-      "type": "recipe",
-      "sortid": 305,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_netherite_boots",
-      "path": "~/armor/HeavyNetherite"
-    },
-    {
-      "name": "HeavyDiamond",
-      "type": "armor",
-      "sortid": 306,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_diamond",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/heavyDiamond"
-    },
-    {
-      "name": "HeavyGold",
-      "type": "armor",
-      "sortid": 307,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_gold",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/HeavyGold"
-    },
-    {
-      "name": "HeavyIron",
-      "type": "armor",
-      "sortid": 308,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_iron",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/HeavyIron"
-    },
-    {
-      "name": "HeavyLather",
-      "type": "armor",
-      "sortid": 309,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_lather",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/HeavyLeather"
-    },
-    {
-      "name": "Heavydiamondbody",
-      "type": "recipe",
-      "sortid": 311,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavydiamondbody",
-      "path": "~/armor/heavyDiamond"
-    },
-    {
-      "name": "HeavydiamondHelmet",
-      "type": "recipe",
-      "sortid": 312,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavydiamond_helmet",
-      "path": "~/armor/heavyDiamond"
-    },
-    {
-      "name": "Heavydiamondleggings",
-      "type": "recipe",
-      "sortid": 313,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavydiamondleggings",
-      "path": "~/armor/heavyDiamond"
-    },
-    {
-      "name": "Heavydiamondboots",
-      "type": "recipe",
-      "sortid": 314,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavydiamondboots",
-      "path": "~/armor/heavyDiamond"
-    },
-    {
-      "name": "HeavyGoldHelmet",
-      "type": "recipe",
-      "sortid": 315,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_gold_helmet",
-      "path": "~/armor/HeavyGold"
-    },
-    {
-      "name": "HeavyGoldbody",
-      "type": "recipe",
-      "sortid": 316,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_goldbody",
-      "path": "~/armor/HeavyGold"
-    },
-    {
-      "name": "HeavyGoldleggings",
-      "type": "recipe",
-      "sortid": 317,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_goldleggings",
-      "path": "~/armor/HeavyGold"
-    },
-    {
-      "name": "HeavyGoldBoots",
-      "type": "recipe",
-      "sortid": 318,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_gold_boots",
-      "path": "~/armor/HeavyGold"
-    },
-    {
-      "name": "HeavyIronHelmet",
-      "type": "recipe",
-      "sortid": 319,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_iron_helmet",
-      "path": "~/armor/HeavyIron"
-    },
-    {
-      "name": "HeavyIronBody",
-      "type": "recipe",
-      "sortid": 320,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_iron_body",
-      "path": "~/armor/HeavyIron"
-    },
-    {
-      "name": "HeavyIronLeggings",
-      "type": "recipe",
-      "sortid": 321,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_iron_leggings",
-      "path": "~/armor/HeavyIron"
-    },
-    {
-      "name": "HeavyIronboots",
-      "type": "recipe",
-      "sortid": 322,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_ironboots",
-      "path": "~/armor/HeavyIron"
-    },
-    {
-      "name": "HeavyLeatherHelmet",
-      "type": "recipe",
-      "sortid": 323,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_leather_helmet",
-      "path": "~/armor/HeavyLeather"
-    },
-    {
-      "name": "HeavyLeatherBody",
-      "type": "recipe",
-      "sortid": 324,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_leather_body",
-      "path": "~/armor/HeavyLeather"
-    },
-    {
-      "name": "HeavyLeatherLeggings",
-      "type": "recipe",
-      "sortid": 325,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_leather_leggings",
-      "path": "~/armor/HeavyLeather"
-    },
-    {
-      "name": "HeavyLeatherBoots",
-      "type": "recipe",
-      "sortid": 326,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "heavy_leather_boots",
-      "path": "~/armor/HeavyLeather"
-    },
-    {
       "name": "Chainmailhelmet",
       "type": "recipe",
       "sortid": 327,
@@ -3981,40 +3701,6 @@
         ]
       },
       "path": "~/machine"
-    },
-    {
-      "name": "Slime",
-      "type": "armor",
-      "sortid": 361,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "slime",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/Slime"
-    },
-    {
-      "name": "SlimeBootsTickEvent",
-      "type": "procedure",
-      "sortid": 361,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "slime_boots_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/armor/Stone"
     },
     {
       "name": "RiceStage0",
@@ -7170,6 +6856,244 @@
       "ids": {},
       "registry_name": "netheritapple",
       "path": "~/food"
+    },
+    {
+      "name": "Angmar",
+      "type": "armor",
+      "sortid": 618,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/Angmar"
+    },
+    {
+      "name": "UrukIngot",
+      "type": "item",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "UruckMetalPowder",
+      "type": "item",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruck_metal_powder",
+      "path": "~/item"
+    },
+    {
+      "name": "UruckPowder",
+      "type": "recipe",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruck_powder",
+      "path": "~/item"
+    },
+    {
+      "name": "URucstealCraft",
+      "type": "recipe",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "u_rucsteal_craft",
+      "path": "~/item"
+    },
+    {
+      "name": "UrukArmor",
+      "type": "armor",
+      "sortid": 626,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "UrukArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 627,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_helmet_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "UrukArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 628,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_body_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "UrukArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 629,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_leggings_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "UrukArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 630,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_boots_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "Armor",
+      "type": "tab",
+      "sortid": 631,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armor",
+      "path": "~/CreativeInventorieTab"
+    },
+    {
+      "name": "MitrilIngot",
+      "type": "item",
+      "sortid": 632,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "MitrilOre",
+      "type": "block",
+      "sortid": 633,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_ore",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "MitrilBlock",
+      "type": "block",
+      "sortid": 634,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_block",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "MitrilOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 635,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_ore_block_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "MitrilBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 636,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_block_ore_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "MitrilOreSmelting",
+      "type": "recipe",
+      "sortid": 637,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_ore_smelting",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "MitrilArmor",
+      "type": "armor",
+      "sortid": 638,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/mithril"
+    },
+    {
+      "name": "MitrilArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 639,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_armor_helmet_recipe",
+      "path": "~/armor/mithril"
+    },
+    {
+      "name": "MitrilArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 640,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_armor_body_recipe",
+      "path": "~/armor/mithril"
+    },
+    {
+      "name": "MitrilArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 641,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_armor_leggings_recipe",
+      "path": "~/armor/mithril"
+    },
+    {
+      "name": "MitrilArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 642,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mitril_armor_boots_recipe",
+      "path": "~/armor/mithril"
     }
   ],
   "variable_elements": [
@@ -7183,46 +7107,42 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
       "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
+      "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
       "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
       "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
       "item.orderofobsidian.stone_hammer": "Stone Hammer",
       "item.spiritforge.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.lead_ingot": "Lead Ingot",
       "enchantment.orderofobsidian.wither": "Wither",
-      "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
       "item.orderofobsidian.rice_seed": "Rice Seed",
-      "item.orderofobsidian.heavy_lather_boots": "Heavy leather Boots",
+      "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
+      "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
       "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
-      "item.orderofobsidian.silver_ingot": "Silver Ingot",
       "block.orderofobsidian.xp_bush_2": "Xp Bush",
+      "item.orderofobsidian.silver_ingot": "Silver Ingot",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
-      "item.orderofobsidian.heavy_diamond_chestplate": "Heavy Diamond Body",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
-      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
-      "item.orderofobsidian.heavy_lather_helmet": "Heavy Leather Helmet",
+      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
-      "item.orderofobsidian.heavy_netherite_leggings": "Heavy Netherite Leggings",
       "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
       "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
-      "item.orderofobsidian.slime_boots": "Slime Boots",
       "block.orderofobsidian.oculus_tnt": "Oculus TNT",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
-      "item.orderofobsidian.heavy_gold_leggings": "Heavy Gold Leggings",
       "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "block.orderofobsidian.forgeon": "Forge",
       "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
+      "block.orderofobsidian.forgeon": "Forge",
       "block.orderofobsidian.bauherite_block": "Block of Bauherite",
       "item.orderofobsidian.oxysstove": "Oxis Stove",
       "item.orderofobsidian.wood_hammer": "Wood Hammer",
+      "item.orderofobsidian.uruck_metal_powder": "Uruck Metal Powder",
       "block.orderofobsidian.solar_pannel_tier_iv": "Solar Pannel Tier IV",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
@@ -7232,7 +7152,6 @@
       "item.orderofobsidian.avenronitehammer": "Avenronite Hammer",
       "enchantment.orderofobsidian.ignition": "Ignition",
       "item.orderofobsidian.steel_hoe": "Steel Hoe",
-      "item.orderofobsidian.heavy_gold_chestplate": "Heavy Gold Body",
       "item.orderofobsidian.big_dynamite": "Big Dynamite",
       "block.spiritforge.oxys_block": "Block of Oxys",
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
@@ -7252,50 +7171,52 @@
       "item.orderofobsidian.aikigitehammer": "Aikigite Hammer",
       "block.orderofobsidian.silver_ore": "Silver Ore",
       "item.orderofobsidian.bauherite_ingot": "Bauherite",
+      "item.orderofobsidian.angmar_leggings": "Angmar Leggings",
       "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
       "item.orderofobsidian.flour": "Flour",
       "block.orderofobsidian.burnedtree_log": "Burnedtree Log",
       "enchantment.orderofobsidian.auto_smelt": "Auto Smelt",
       "item.orderofobsidian.ironstove": "iron Stove",
-      "item.orderofobsidian.heavy_gold_boots": "Heavy Gold Boots",
+      "item.orderofobsidian.uruk_armor_chestplate": "Uruk Chestplate",
       "item.orderofobsidian.graphite_dust": "Graphite Dust",
+      "item.orderofobsidian.mitril_armor_leggings": "Mitril Leggings",
       "block.orderofobsidian.copperbookshelf": "Copper Book Shelf",
       "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
       "block.orderofobsidian.xpbush_1": "Xp Bush",
       "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
+      "block.orderofobsidian.mitril_block": "Block of Mitril",
       "block.orderofobsidian.oxys_block": "Block of Oxys",
       "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
       "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
       "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
       "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
-      "item.orderofobsidian.heavy_iron_boots": "Heavy Iron Boots",
       "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
       "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
       "block.orderofobsidian.obsidianbookshelf": "Obsidian Book Shelf",
       "item.orderofobsidian.aikigite_ingot": "Aikigite",
-      "item.orderofobsidian.heavy_lather_leggings": "Heavy Leather Leggings",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",
+      "item.orderofobsidian.uruk_ingot": "Uruk Ingot",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
       "item.orderofobsidian.end_creeper_spawn_egg": "End Creeper Spawn Egg",
       "item.orderofobsidian.oxys": "Oxys",
       "item.orderofobsidian.sushi": "Sushi",
+      "item.orderofobsidian.mitril_armor_helmet": "Mitril Helmet",
       "item.orderofobsidian.steel_sword": "Steel Sword",
       "item.orderofobsidian.stone_stove": "Stone Stove",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
+      "item.orderofobsidian.mitril_ingot": "Mitril",
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
       "block.orderofobsidian.goldbookshelf": "Gold Book Shelf",
       "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
       "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
-      "item.orderofobsidian.heavy_diamond_helmet": "Heavy Diamond Helmet",
-      "item.orderofobsidian.heavy_diamond_leggings": "Heavy Diamond Leggings",
+      "item.orderofobsidian.mitril_armor_chestplate": "Mitril Chestplate",
       "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
       "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
       "item.orderofobsidian.avenronite_ingot": "Avenronite",
       "item.orderofobsidian.avenronite_shovel": "Avenronite Shovel",
       "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
-      "item.orderofobsidian.heavy_diamond_boots": "Heavy Diamond Boots",
       "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
       "block.orderofobsidian.diamond_glass": "Diamond Glass",
       "item.spiritforge.oxys_bow": "Oxys Bow",
@@ -7317,6 +7238,7 @@
       "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
       "block.orderofobsidian.infamy_tnt": "Infamy TNT",
+      "itemGroup.tabarmor": "Armor",
       "item.orderofobsidian.bauherite_mixed_coal": "Bauherite Mixed Coal",
       "item.orderofobsidian.goldenchield": "Goldenchield",
       "block.orderofobsidian.avenronite_ore": "Avenronite Ore",
@@ -7326,24 +7248,22 @@
       "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
       "item.orderofobsidian.aikigite_armor_helmet": "Aikigite Helmet",
       "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "item.orderofobsidian.angmar_boots": "Angmar Boots",
       "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.orderofobsidian.iron_katana": "Iron Katana",
       "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
       "block.orderofobsidian.obsidian_golemhead": "Obsidian Golem head",
       "item.spiritforge.diamond_apple": "Diamond Apple",
-      "item.orderofobsidian.slime_helmet": "Slime Helmet",
       "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
       "item.orderofobsidian.steel_snaffle": "Steel Snaffle",
       "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
       "item.orderofobsidian.netheritestove": "netherit Stove",
-      "item.orderofobsidian.heavy_iron_leggings": "Heavy Iron Leggings",
       "enchantment.orderofobsidian.speed": "Speed",
       "block.orderofobsidian.oxys_ore": "Oxys Ore",
       "itemGroup.tabmachine": "Machine",
       "item.orderofobsidian.goldstove": "gold Stove",
       "item.orderofobsidian.diamond_shard": "Diamond Shard",
       "item.orderofobsidian.energy_metter": "Energy Metter",
-      "item.orderofobsidian.heavy_iron_chestplate": "Heavy Iron Body",
       "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
@@ -7361,6 +7281,7 @@
       "block.spiritforge.oxys_ore": "Oxys Ore",
       "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
       "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
+      "item.orderofobsidian.angmar_chestplate": "Angmar Body",
       "block.orderofobsidian.solar_pannel_tier_2": "Solar Pannel Tier II",
       "enchantment.orderofobsidian.ice_aspect": "Ice Aspect",
       "item.orderofobsidian.oxysapple": "Oxysapple",
@@ -7373,9 +7294,7 @@
       "item.orderofobsidian.chips": "Chips",
       "item.orderofobsidian.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.spiritforge.oxys": "Oxys",
-      "item.orderofobsidian.heavy_gold_helmet": "Heavy Gold Helmet",
       "item.orderofobsidian.ultimatesword": "Ultimatesword",
-      "item.orderofobsidian.slime_leggings": "Slime Leggings",
       "block.orderofobsidian.nylium_log": "Nylium Log",
       "item.orderofobsidian.dynamite_aikigite": "Dynamite",
       "item.orderofobsidian.steel_armor_chestplate": "Steel Chestplate",
@@ -7395,7 +7314,6 @@
       "item.orderofobsidian.stone_katana": "Stone Katana",
       "item.orderofobsidian.ironbarre": "Iron Barre",
       "item.spiritforge.oxys_pickaxe": "Oxys Pickaxe",
-      "item.orderofobsidian.heavy_netherite_boots": "Heavy Netherite Boots",
       "block.orderofobsidian.burnedtree_planks": "Burnedtree Planks",
       "item.orderofobsidian.avenronite_armor_boots": "Avenronite Boots",
       "block.orderofobsidian.solar_pannel_tier_i": "Solar Pannel Tier I",
@@ -7415,21 +7333,20 @@
       "item.orderofobsidian.wooden_armor_armor_helmet": "Wooden_armor Helmet",
       "block.orderofobsidian.solar_pannel_tier_v": "Solar Pannel Tier V",
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
+      "block.orderofobsidian.mitril_ore": "Mitril Ore",
       "enchantment.spiritforge.ignition": "Ignition",
       "item.orderofobsidian.dynamite_avenronite": "Dynamite",
       "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
       "item.spiritforge.oxys_armor_boots": "Oxys Boots",
-      "item.orderofobsidian.heavy_netherite_helmet": "Heavy Netherite Helmet",
       "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
       "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
       "item.orderofobsidian.silver_plate": "Silver Plate",
       "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
       "block.orderofobsidian.caveblock": "Caveblock",
-      "itemGroup.tabspirit": "Weapon and Armor",
+      "itemGroup.tabspirit": "Weapon ",
       "item.spiritforge.oxysapple": "Oxysapple",
       "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
-      "item.orderofobsidian.heavy_iron_helmet": "Heavy Iron Helmet",
       "item.orderofobsidian.iron_battle_axe": "Iron Battle Axe",
       "item.orderofobsidian.diamond_apple": "Diamond Apple",
       "biome.spiritforge.pikeperchhill": "Pikeperchhill",
@@ -7437,6 +7354,7 @@
       "item.orderofobsidian.rubber": "Rubber",
       "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
       "item.orderofobsidian.electronique_circuit": "Electronique Circuit",
+      "item.orderofobsidian.uruk_armor_helmet": "Uruk Helmet",
       "block.orderofobsidian.nylium_planks": "Nylium Planks",
       "item.orderofobsidian.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
       "item.orderofobsidian.diamondhammer": "Diamond Hammer",
@@ -7465,6 +7383,7 @@
       "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.orderofobsidian.big_dynamite_aikigite": "Big Dynamite",
       "item.orderofobsidian.fried_egg": "Fried Egg",
+      "item.orderofobsidian.mitril_armor_boots": "Mitril Boots",
       "item.orderofobsidian.steel_armor_leggings": "Steel Leggings",
       "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
       "item.orderofobsidian.stone_battle_axe": "Stone Battle Axe",
@@ -7487,10 +7406,11 @@
       "item.orderofobsidian.bauherite_armor_helmet": "Bauherite Helmet",
       "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
       "item.orderofobsidian.sticksword": "Stick_sword",
+      "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
+      "item.orderofobsidian.angmar_helmet": "Angmar Helmet",
       "item.spiritforge.oxys_stick": "Oxys Stick",
       "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
       "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
-      "item.orderofobsidian.heavy_netherite_chestplate": "Heavy Netherite Body",
       "item.orderofobsidian.aikigite_axe": "Aikigite Axe",
       "item.orderofobsidian.bauheritehammer": "Bauherite Hammer",
       "item.orderofobsidian.oxys_sword": "Oxys Sword",
@@ -7498,12 +7418,10 @@
       "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
       "item.orderofobsidian.ironplate": "Ironplate",
       "item.orderofobsidian.steel_plate": "Steel Plate",
-      "item.orderofobsidian.slime_chestplate": "Slime Body",
       "enchantment.orderofobsidian.propelling": "Propelling",
       "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
       "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
-      "item.spiritforge.oxys_axe": "Oxys Axe",
-      "item.orderofobsidian.heavy_lather_chestplate": "Heavy Leather Body"
+      "item.spiritforge.oxys_axe": "Oxys Axe"
     }
   },
   "foldersRoot": {
@@ -7636,10 +7554,6 @@
         "children": []
       },
       {
-        "name": "netherack",
-        "children": []
-      },
-      {
         "name": "achivement",
         "children": []
       },
@@ -7647,36 +7561,7 @@
         "name": "armor",
         "children": [
           {
-            "name": "HeavyNetherite",
-            "children": []
-          },
-          {
-            "name": "HeavyGold",
-            "children": []
-          },
-          {
             "name": "farday",
-            "children": []
-          },
-          {
-            "name": "heavyDiamond",
-            "children": []
-          },
-          {
-            "name": "HeavyIron",
-            "children": [
-              {
-                "name": "steel",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "HeavyLeather",
-            "children": []
-          },
-          {
-            "name": "Slime",
             "children": []
           },
           {
@@ -7698,6 +7583,26 @@
           {
             "name": "Aikigite",
             "children": []
+          },
+          {
+            "name": "steel",
+            "children": []
+          },
+          {
+            "name": "Angmar",
+            "children": []
+          },
+          {
+            "name": "black_uruk",
+            "children": []
+          },
+          {
+            "name": "mithril",
+            "children": []
+          },
+          {
+            "name": "netherack",
+            "children": []
           }
         ]
       }
@@ -7706,7 +7611,7 @@
   "workspaceSettings": {
     "modid": "orderofobsidian",
     "modName": "OrderofObsidian",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Klaivert,Metalex",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/order-of-obsidian",
     "license": "Order Of Obsidian",

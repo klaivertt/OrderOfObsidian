@@ -14,11 +14,11 @@ public class Obsidian_toolSwordItem extends SwordItem {
 	public Obsidian_toolSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 569;
+				return 1750;
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {

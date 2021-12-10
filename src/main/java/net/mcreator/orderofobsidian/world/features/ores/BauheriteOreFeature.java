@@ -27,8 +27,8 @@ public class BauheriteOreFeature extends OreFeature {
 	public static final BauheriteOreFeature FEATURE = (BauheriteOreFeature) new BauheriteOreFeature()
 			.setRegistryName("orderofobsidian:bauherite_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(BauheriteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.BAUHERITE_ORE.defaultBlockState(), 4))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(22)))).squared().count(12);
+			.configured(new OreConfiguration(BauheriteOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.BAUHERITE_ORE.defaultBlockState(), 2))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(22)))).squared().count(4);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public BauheriteOreFeature() {

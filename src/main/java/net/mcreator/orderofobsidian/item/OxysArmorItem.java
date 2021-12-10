@@ -63,7 +63,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 	public static class Helmet extends OxysArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR).fireResistant());
 			setRegistryName("oxys_armor_helmet");
 		}
 
@@ -75,7 +75,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 	public static class Chestplate extends OxysArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR).fireResistant());
 			setRegistryName("oxys_armor_chestplate");
 		}
 
@@ -87,7 +87,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 	public static class Leggings extends OxysArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR).fireResistant());
 			setRegistryName("oxys_armor_leggings");
 		}
 
@@ -99,7 +99,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 	public static class Boots extends OxysArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_SPIRIT).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(OrderofobsidianModTabs.TAB_ARMOR).fireResistant());
 			setRegistryName("oxys_armor_boots");
 		}
 

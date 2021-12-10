@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "1": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "2": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "3": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "4": {
+      "item": "orderofobsidian:lead_ingot"
+    },
+    "5": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "6": {
+      "item": "orderofobsidian:graphite_ingot"
+    },
+    "7": {
+      "item": "orderofobsidian:steel_ingot"
+    },
+    "8": {
+      "item": "orderofobsidian:graphite_ingot"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:uruck_metal_powder",
+    "count": 4
+  }
+}

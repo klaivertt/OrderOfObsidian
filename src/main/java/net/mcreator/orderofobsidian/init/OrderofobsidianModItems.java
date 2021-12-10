@@ -71,6 +71,7 @@ import net.mcreator.orderofobsidian.item.Obsidian_toolHoeItem;
 import net.mcreator.orderofobsidian.item.Obsidian_toolAxeItem;
 import net.mcreator.orderofobsidian.item.Obsidian_armorArmorItem;
 import net.mcreator.orderofobsidian.item.ObsidianSpearItem;
+import net.mcreator.orderofobsidian.item.ObsidianSnaffleItem;
 import net.mcreator.orderofobsidian.item.NtehritAppleItem;
 import net.mcreator.orderofobsidian.item.NetheritestoveItem;
 import net.mcreator.orderofobsidian.item.NetheriteHammerItem;
@@ -99,7 +100,8 @@ import net.mcreator.orderofobsidian.item.GoldBattleAxeItem;
 import net.mcreator.orderofobsidian.item.FriedEggItem;
 import net.mcreator.orderofobsidian.item.FlourItem;
 import net.mcreator.orderofobsidian.item.FaradayArmorItem;
-import net.mcreator.orderofobsidian.item.EnergyMetterItem;
+import net.mcreator.orderofobsidian.item.EnergySettingDeviceItem;
+import net.mcreator.orderofobsidian.item.EnergySettingDevice0Item;
 import net.mcreator.orderofobsidian.item.ElectroniqueCircuitItem;
 import net.mcreator.orderofobsidian.item.DynamiteOxysItem;
 import net.mcreator.orderofobsidian.item.DynamiteItem;
@@ -109,6 +111,7 @@ import net.mcreator.orderofobsidian.item.DynamiteAikigiteItem;
 import net.mcreator.orderofobsidian.item.DimondhammerItem;
 import net.mcreator.orderofobsidian.item.DiamondstoveItem;
 import net.mcreator.orderofobsidian.item.DiamondSpearItem;
+import net.mcreator.orderofobsidian.item.DiamondSnaffleItem;
 import net.mcreator.orderofobsidian.item.DiamondShardItem;
 import net.mcreator.orderofobsidian.item.DiamondKatanaItem;
 import net.mcreator.orderofobsidian.item.DiamondBattleAxeItem;
@@ -128,6 +131,7 @@ import net.mcreator.orderofobsidian.item.BigDynamiteItem;
 import net.mcreator.orderofobsidian.item.BigDynamiteAikigiteItem;
 import net.mcreator.orderofobsidian.item.BauheritehammerItem;
 import net.mcreator.orderofobsidian.item.BauheriteSwordItem;
+import net.mcreator.orderofobsidian.item.BauheriteSnaffleItem;
 import net.mcreator.orderofobsidian.item.BauheriteShovelItem;
 import net.mcreator.orderofobsidian.item.BauheritePickaxeItem;
 import net.mcreator.orderofobsidian.item.BauheriteMixedCoalItem;
@@ -146,6 +150,7 @@ import net.mcreator.orderofobsidian.item.AvenroniteArmorItem;
 import net.mcreator.orderofobsidian.item.AngmarItem;
 import net.mcreator.orderofobsidian.item.AluminiumPlateItem;
 import net.mcreator.orderofobsidian.item.AluminiumIngotItem;
+import net.mcreator.orderofobsidian.item.AlluminiumSnaffleItem;
 import net.mcreator.orderofobsidian.item.AikigitehammerItem;
 import net.mcreator.orderofobsidian.item.AikigiteSwordItem;
 import net.mcreator.orderofobsidian.item.AikigiteShovelItem;
@@ -162,7 +167,6 @@ import java.util.ArrayList;
 public class OrderofobsidianModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item OXYSAPPLE = register(new OxysappleItem());
-	public static final Item INVISIBLE = register(OrderofobsidianModBlocks.INVISIBLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item NETHERACKARMOR_ARMOR_HELMET = register(new NetherackarmorArmorItem.Helmet());
 	public static final Item NETHERACKARMOR_ARMOR_CHESTPLATE = register(new NetherackarmorArmorItem.Chestplate());
 	public static final Item NETHERACKARMOR_ARMOR_LEGGINGS = register(new NetherackarmorArmorItem.Leggings());
@@ -215,12 +219,6 @@ public class OrderofobsidianModItems {
 					.setRegistryName("netheritegolem_spawn_egg"));
 	public static final Item OBSIDIAN_GOLEMHEAD = register(OrderofobsidianModBlocks.OBSIDIAN_GOLEMHEAD, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item NETHERITE_GOLEM_HEAD = register(OrderofobsidianModBlocks.NETHERITE_GOLEM_HEAD, OrderofobsidianModTabs.TAB_BLOC_K);
-	public static final Item END_CREEPER = register(
-			new SpawnEggItem(OrderofobsidianModEntities.END_CREEPER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("end_creeper_spawn_egg"));
-	public static final Item NETHER_CREEPER = register(
-			new SpawnEggItem(OrderofobsidianModEntities.NETHER_CREEPER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("nether_creeper_spawn_egg"));
 	public static final Item DIAMONDHAMMER = register(new DimondhammerItem());
 	public static final Item IRON_HAMMER = register(new IronHammerItem());
 	public static final Item GOLD_HAMMER = register(new GoldHammerItem());
@@ -230,9 +228,7 @@ public class OrderofobsidianModItems {
 	public static final Item FORGE = register(OrderofobsidianModBlocks.FORGE, OrderofobsidianModTabs.TAB_MACHINE);
 	public static final Item COPPER_GEAR = register(new CopperGearItem());
 	public static final Item FORGEON = register(OrderofobsidianModBlocks.FORGEON, null);
-	public static final Item ENERGY_METTER = register(new EnergyMetterItem());
 	public static final Item BATTERIE_1 = register(OrderofobsidianModBlocks.BATTERIE_1, OrderofobsidianModTabs.TAB_MACHINE);
-	public static final Item SOLAR_PANNEL_TIER_I = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_I, OrderofobsidianModTabs.TAB_MACHINE);
 	public static final Item FAN = register(OrderofobsidianModBlocks.FAN, OrderofobsidianModTabs.TAB_MACHINE);
 	public static final Item GOLDENCHIELD = register(new GoldenchieldItem());
 	public static final Item GOLDENCHIELBLOKING = register(new GoldenchielblokingItem());
@@ -293,10 +289,6 @@ public class OrderofobsidianModItems {
 	public static final Item CHIPS = register(new ChipsItem());
 	public static final Item SUSHI = register(new SushiItem());
 	public static final Item RICE_SEED = register(new RiceSeedItem());
-	public static final Item SOLAR_PANNEL_TIER_2 = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_2, OrderofobsidianModTabs.TAB_MACHINE);
-	public static final Item SOLAR_PANNEL_TIER_III = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_III, OrderofobsidianModTabs.TAB_MACHINE);
-	public static final Item SOLAR_PANNEL_TIER_IV = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_IV, OrderofobsidianModTabs.TAB_MACHINE);
-	public static final Item SOLAR_PANNEL_TIER_V = register(OrderofobsidianModBlocks.SOLAR_PANNEL_TIER_V, OrderofobsidianModTabs.TAB_MACHINE);
 	public static final Item RICE_STAGE_0 = register(OrderofobsidianModBlocks.RICE_STAGE_0, null);
 	public static final Item RICE_STAGE_1 = register(OrderofobsidianModBlocks.RICE_STAGE_1, null);
 	public static final Item RICE_STAGE_2 = register(OrderofobsidianModBlocks.RICE_STAGE_2, null);
@@ -423,6 +415,18 @@ public class OrderofobsidianModItems {
 	public static final Item MITRIL_ARMOR_CHESTPLATE = register(new MitrilArmorItem.Chestplate());
 	public static final Item MITRIL_ARMOR_LEGGINGS = register(new MitrilArmorItem.Leggings());
 	public static final Item MITRIL_ARMOR_BOOTS = register(new MitrilArmorItem.Boots());
+	public static final Item THERMALGENERATOR = register(OrderofobsidianModBlocks.THERMALGENERATOR, OrderofobsidianModTabs.TAB_MACHINE);
+	public static final Item ENERGY_SETTING_DEVICE = register(new EnergySettingDeviceItem());
+	public static final Item ENERGY_SETTING_DEVICE_0 = register(new EnergySettingDevice0Item());
+	public static final Item SOLAR_PANEL = register(OrderofobsidianModBlocks.SOLAR_PANEL, OrderofobsidianModTabs.TAB_MACHINE);
+	public static final Item SOLAR_PANEL_LOW = register(OrderofobsidianModBlocks.SOLAR_PANEL_LOW, null);
+	public static final Item SOLAR_PANEL_MEDIUM = register(OrderofobsidianModBlocks.SOLAR_PANEL_MEDIUM, null);
+	public static final Item SOLAR_PANEL_HIGH = register(OrderofobsidianModBlocks.SOLAR_PANEL_HIGH, null);
+	public static final Item SOLAR_PANEL_NIGHT = register(OrderofobsidianModBlocks.SOLAR_PANEL_NIGHT, null);
+	public static final Item ALLUMINIUM_SNAFFLE = register(new AlluminiumSnaffleItem());
+	public static final Item DIAMOND_SNAFFLE = register(new DiamondSnaffleItem());
+	public static final Item OBSIDIAN_SNAFFLE = register(new ObsidianSnaffleItem());
+	public static final Item BAUHERITE_SNAFFLE = register(new BauheriteSnaffleItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

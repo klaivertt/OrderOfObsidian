@@ -17,8 +17,6 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.orderofobsidian.entity.OxysBowEntity;
 import net.mcreator.orderofobsidian.entity.ObsidianGolemEntity;
 import net.mcreator.orderofobsidian.entity.NetheritegolemEntity;
-import net.mcreator.orderofobsidian.entity.NetherCreeperEntity;
-import net.mcreator.orderofobsidian.entity.EndCreeperEntity;
 import net.mcreator.orderofobsidian.entity.DynamiteOxysEntity;
 import net.mcreator.orderofobsidian.entity.DynamiteEntity;
 import net.mcreator.orderofobsidian.entity.DynamiteBauheriteEntity;
@@ -45,12 +43,6 @@ public class OrderofobsidianModEntities {
 	public static final EntityType<NetheritegolemEntity> NETHERITEGOLEM = register("netheritegolem",
 			EntityType.Builder.<NetheritegolemEntity>of(NetheritegolemEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NetheritegolemEntity::new).fireImmune().sized(1.4f, 2.7f));
-	public static final EntityType<EndCreeperEntity> END_CREEPER = register("end_creeper",
-			EntityType.Builder.<EndCreeperEntity>of(EndCreeperEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EndCreeperEntity::new).fireImmune().sized(0.6f, 1.7f));
-	public static final EntityType<NetherCreeperEntity> NETHER_CREEPER = register("nether_creeper",
-			EntityType.Builder.<NetherCreeperEntity>of(NetherCreeperEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NetherCreeperEntity::new).sized(0.6f, 1.7f));
 	public static final EntityType<DynamiteEntity> DYNAMITE = register("entitybulletdynamite",
 			EntityType.Builder.<DynamiteEntity>of(DynamiteEntity::new, MobCategory.MISC).setCustomClientFactory(DynamiteEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
@@ -105,8 +97,6 @@ public class OrderofobsidianModEntities {
 		event.enqueueWork(() -> {
 			ObsidianGolemEntity.init();
 			NetheritegolemEntity.init();
-			EndCreeperEntity.init();
-			NetherCreeperEntity.init();
 		});
 	}
 
@@ -114,7 +104,5 @@ public class OrderofobsidianModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(OBSIDIAN_GOLEM, ObsidianGolemEntity.createAttributes().build());
 		event.put(NETHERITEGOLEM, NetheritegolemEntity.createAttributes().build());
-		event.put(END_CREEPER, EndCreeperEntity.createAttributes().build());
-		event.put(NETHER_CREEPER, NetherCreeperEntity.createAttributes().build());
 	}
 }

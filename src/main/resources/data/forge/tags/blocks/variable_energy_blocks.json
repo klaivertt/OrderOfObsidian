@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "orderofobsidian:solar_panel_night",
+    "orderofobsidian:electrique_furnace",
+    "orderofobsidian:thermalgenerator",
+    "orderofobsidian:solar_panel_medium",
+    "orderofobsidian:solar_panel_high",
+    "orderofobsidian:solar_panel",
+    "orderofobsidian:solar_panel_low",
+    "orderofobsidian:batterie_1",
+    "orderofobsidian:fan"
+  ]
+}

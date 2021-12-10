@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:AluminiumPlate"
       },
       {
-        "value": "Blocks.GLASS"
+        "value": "CUSTOM:DiamondGlass"
       },
       {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Items.DYE#4"
+        "value": "CUSTOM:AluminiumPlate"
       },
       {
         "value": "CUSTOM:BatterieCell"
       },
       {
-        "value": "Items.DYE#4"
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:BatterieCell"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:LeadPlate"
       },
       {
-        "value": "CUSTOM:LeadIngot"
+        "value": "CUSTOM:Plastique"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SolarPannelTierI"
+      "value": "CUSTOM:SolarPanel"
     },
     "name": "solarpannelcraft",
     "namespace": "mod"

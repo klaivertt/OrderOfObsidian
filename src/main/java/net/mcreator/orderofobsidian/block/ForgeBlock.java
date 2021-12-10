@@ -41,7 +41,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.orderofobsidian.world.inventory.ForgeguiMenu;
-import net.mcreator.orderofobsidian.procedures.ForgefurnaceProcedure;
 import net.mcreator.orderofobsidian.procedures.ForgeUpdateTickProcedure;
 import net.mcreator.orderofobsidian.block.entity.ForgeBlockEntity;
 
@@ -118,7 +117,7 @@ public class ForgeBlock extends Block
 		int y = pos.getY();
 		int z = pos.getZ();
 
-		ForgefurnaceProcedure.execute(world, x, y, z);
+		ForgeUpdateTickProcedure.execute(world, x, y, z);
 		world.getBlockTicks().scheduleTick(pos, this, 10);
 	}
 

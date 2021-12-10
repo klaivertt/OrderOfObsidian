@@ -15,11 +15,12 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.orderofobsidian.block.Xpbush1Block;
 import net.mcreator.orderofobsidian.block.XpBush2Block;
 import net.mcreator.orderofobsidian.block.XPbushOreBlock;
-import net.mcreator.orderofobsidian.block.SolarPannelTierVBlock;
-import net.mcreator.orderofobsidian.block.SolarPannelTierIVBlock;
-import net.mcreator.orderofobsidian.block.SolarPannelTierIIIBlock;
-import net.mcreator.orderofobsidian.block.SolarPannelTierIBlock;
-import net.mcreator.orderofobsidian.block.SolarPannelTier2Block;
+import net.mcreator.orderofobsidian.block.ThermalgeneratorBlock;
+import net.mcreator.orderofobsidian.block.SolarPanelNightBlock;
+import net.mcreator.orderofobsidian.block.SolarPanelMediumBlock;
+import net.mcreator.orderofobsidian.block.SolarPanelLowBlock;
+import net.mcreator.orderofobsidian.block.SolarPanelHighBlock;
+import net.mcreator.orderofobsidian.block.SolarPanelBlock;
 import net.mcreator.orderofobsidian.block.SilverOreBlock;
 import net.mcreator.orderofobsidian.block.RiceStage7Block;
 import net.mcreator.orderofobsidian.block.RiceStage6Block;
@@ -49,7 +50,6 @@ import net.mcreator.orderofobsidian.block.MitrilOreBlock;
 import net.mcreator.orderofobsidian.block.MitrilBlockBlock;
 import net.mcreator.orderofobsidian.block.LazarusTNTBlock;
 import net.mcreator.orderofobsidian.block.IronbookshelfBlock;
-import net.mcreator.orderofobsidian.block.InvisibleBlock;
 import net.mcreator.orderofobsidian.block.InfamyTNTBlock;
 import net.mcreator.orderofobsidian.block.GraphiteOreBlock;
 import net.mcreator.orderofobsidian.block.GraphiteGlassBlock;
@@ -89,7 +89,6 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class OrderofobsidianModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block INVISIBLE = register(new InvisibleBlock());
 	public static final Block OXYS_ORE = register(new OxysOreBlock());
 	public static final Block OXYS_BLOCK = register(new OxysBlockBlock());
 	public static final Block BURNEDTREE_WOOD = register(new BurnedtreeWoodBlock());
@@ -107,7 +106,6 @@ public class OrderofobsidianModBlocks {
 	public static final Block FORGE = register(new ForgeBlock());
 	public static final Block FORGEON = register(new ForgeonBlock());
 	public static final Block BATTERIE_1 = register(new Batterie1Block());
-	public static final Block SOLAR_PANNEL_TIER_I = register(new SolarPannelTierIBlock());
 	public static final Block FAN = register(new FanBlock());
 	public static final Block ELECTRIQUE_FURNACE = register(new ElectriqueFurnaceBlock());
 	public static final Block ALUMINIUM_ORE = register(new AluminiumOreBlock());
@@ -121,10 +119,6 @@ public class OrderofobsidianModBlocks {
 	public static final Block NYLIUM_FENCE_GATE = register(new NyliumFenceGateBlock());
 	public static final Block NYLIUM_PRESSURE_PLATE = register(new NyliumPressurePlateBlock());
 	public static final Block NYLIUM_BUTTON = register(new NyliumButtonBlock());
-	public static final Block SOLAR_PANNEL_TIER_2 = register(new SolarPannelTier2Block());
-	public static final Block SOLAR_PANNEL_TIER_III = register(new SolarPannelTierIIIBlock());
-	public static final Block SOLAR_PANNEL_TIER_IV = register(new SolarPannelTierIVBlock());
-	public static final Block SOLAR_PANNEL_TIER_V = register(new SolarPannelTierVBlock());
 	public static final Block RICE_STAGE_0 = register(new RiceStage0Block());
 	public static final Block RICE_STAGE_1 = register(new RiceStage1Block());
 	public static final Block RICE_STAGE_2 = register(new RiceStage2Block());
@@ -159,6 +153,12 @@ public class OrderofobsidianModBlocks {
 	public static final Block EPILOGUE_TNT = register(new EpilogueTNTBlock());
 	public static final Block MITRIL_ORE = register(new MitrilOreBlock());
 	public static final Block MITRIL_BLOCK = register(new MitrilBlockBlock());
+	public static final Block THERMALGENERATOR = register(new ThermalgeneratorBlock());
+	public static final Block SOLAR_PANEL = register(new SolarPanelBlock());
+	public static final Block SOLAR_PANEL_LOW = register(new SolarPanelLowBlock());
+	public static final Block SOLAR_PANEL_MEDIUM = register(new SolarPanelMediumBlock());
+	public static final Block SOLAR_PANEL_HIGH = register(new SolarPanelHighBlock());
+	public static final Block SOLAR_PANEL_NIGHT = register(new SolarPanelNightBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -174,13 +174,7 @@ public class OrderofobsidianModBlocks {
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			InvisibleBlock.registerRenderLayer();
-			SolarPannelTierIBlock.registerRenderLayer();
 			NyliumLeavesBlock.registerRenderLayer();
-			SolarPannelTier2Block.registerRenderLayer();
-			SolarPannelTierIIIBlock.registerRenderLayer();
-			SolarPannelTierIVBlock.registerRenderLayer();
-			SolarPannelTierVBlock.registerRenderLayer();
 			RiceStage0Block.registerRenderLayer();
 			RiceStage1Block.registerRenderLayer();
 			RiceStage2Block.registerRenderLayer();

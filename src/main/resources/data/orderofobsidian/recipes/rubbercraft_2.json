@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_log"
+    },
+    "1": {
+      "item": "orderofobsidian:alluminium_snaffle"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:tiny_rubber",
+    "count": 1
+  }
+}

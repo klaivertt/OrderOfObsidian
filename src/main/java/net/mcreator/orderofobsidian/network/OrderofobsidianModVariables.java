@@ -8,12 +8,15 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 
 import net.minecraft.world.level.saveddata.SavedData;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.nbt.NbtUtils;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.orderofobsidian.OrderofobsidianMod;
@@ -91,7 +94,7 @@ public class OrderofobsidianModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "orderofobsidian_mapvars";
-		public double anim = 0;
+		public BlockState energyJunctionOutputSwitch = Blocks.AIR.defaultBlockState();
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -100,12 +103,12 @@ public class OrderofobsidianModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
-			anim = nbt.getDouble("anim");
+			energyJunctionOutputSwitch = NbtUtils.readBlockState(nbt.getCompound("energyJunctionOutputSwitch"));
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
-			nbt.putDouble("anim", anim);
+			nbt.put("energyJunctionOutputSwitch", NbtUtils.writeBlockState(energyJunctionOutputSwitch));
 			return nbt;
 		}
 

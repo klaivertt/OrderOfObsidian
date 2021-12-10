@@ -12,7 +12,6 @@ import net.minecraft.world.item.enchantment.Enchantment;
 
 import net.mcreator.orderofobsidian.enchantment.WitherEnchantment;
 import net.mcreator.orderofobsidian.enchantment.SpeedEnchantment;
-import net.mcreator.orderofobsidian.enchantment.PropellingEnchantment;
 import net.mcreator.orderofobsidian.enchantment.NightVisionEnchantment;
 import net.mcreator.orderofobsidian.enchantment.LifeStealEnchantment;
 import net.mcreator.orderofobsidian.enchantment.IgnitionEnchantment;
@@ -28,7 +27,6 @@ import java.util.ArrayList;
 public class OrderofobsidianModEnchantments {
 	private static final List<Enchantment> REGISTRY = new ArrayList<>();
 	public static final Enchantment IGNITION = register("orderofobsidian:ignition", new IgnitionEnchantment());
-	public static final Enchantment PROPELLING = register("orderofobsidian:propelling", new PropellingEnchantment());
 	public static final Enchantment FIRERESISTANCE = register("orderofobsidian:fireresistance", new FireresistanceEnchantment());
 	public static final Enchantment SPEED = register("orderofobsidian:speed", new SpeedEnchantment());
 	public static final Enchantment AUTO_SMELT = register("orderofobsidian:auto_smelt", new AutoSmeltEnchantment());

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/solar_panel_bottom",
+    "up": "orderofobsidian:blocks/top",
+    "north": "orderofobsidian:blocks/generator_front_furnace",
+    "east": "orderofobsidian:blocks/generator_side_furnace",
+    "south": "orderofobsidian:blocks/generator_side_furnace",
+    "west": "orderofobsidian:blocks/generator_side_furnace",
+    "particle": "orderofobsidian:blocks/solar_panel_bottom"
+  }
+}

@@ -13,8 +13,6 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.orderofobsidian.client.renderer.ObsidianGolemRenderer;
 import net.mcreator.orderofobsidian.client.renderer.NetheritegolemRenderer;
-import net.mcreator.orderofobsidian.client.renderer.NetherCreeperRenderer;
-import net.mcreator.orderofobsidian.client.renderer.EndCreeperRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class OrderofobsidianModEntityRenderers {
@@ -23,8 +21,6 @@ public class OrderofobsidianModEntityRenderers {
 		event.registerEntityRenderer(OrderofobsidianModEntities.OXYS_BOW, ThrownItemRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.OBSIDIAN_GOLEM, ObsidianGolemRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.NETHERITEGOLEM, NetheritegolemRenderer::new);
-		event.registerEntityRenderer(OrderofobsidianModEntities.END_CREEPER, EndCreeperRenderer::new);
-		event.registerEntityRenderer(OrderofobsidianModEntities.NETHER_CREEPER, NetherCreeperRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE, ThrownItemRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.BIG_DYNAMITE, ThrownItemRenderer::new);
 		event.registerEntityRenderer(OrderofobsidianModEntities.DYNAMITE_AIKIGITE, ThrownItemRenderer::new);

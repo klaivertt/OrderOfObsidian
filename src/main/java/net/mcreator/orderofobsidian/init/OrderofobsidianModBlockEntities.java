@@ -11,6 +11,12 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.orderofobsidian.block.entity.ThermalgeneratorBlockEntity;
+import net.mcreator.orderofobsidian.block.entity.SolarPanelNightBlockEntity;
+import net.mcreator.orderofobsidian.block.entity.SolarPanelMediumBlockEntity;
+import net.mcreator.orderofobsidian.block.entity.SolarPanelLowBlockEntity;
+import net.mcreator.orderofobsidian.block.entity.SolarPanelHighBlockEntity;
+import net.mcreator.orderofobsidian.block.entity.SolarPanelBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.ForgeonBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.ForgeBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.FanBlockEntity;
@@ -30,6 +36,18 @@ public class OrderofobsidianModBlockEntities {
 	public static final BlockEntityType<?> FAN = register("orderofobsidian:fan", OrderofobsidianModBlocks.FAN, FanBlockEntity::new);
 	public static final BlockEntityType<?> ELECTRIQUE_FURNACE = register("orderofobsidian:electrique_furnace",
 			OrderofobsidianModBlocks.ELECTRIQUE_FURNACE, ElectriqueFurnaceBlockEntity::new);
+	public static final BlockEntityType<?> THERMALGENERATOR = register("orderofobsidian:thermalgenerator", OrderofobsidianModBlocks.THERMALGENERATOR,
+			ThermalgeneratorBlockEntity::new);
+	public static final BlockEntityType<?> SOLAR_PANEL = register("orderofobsidian:solar_panel", OrderofobsidianModBlocks.SOLAR_PANEL,
+			SolarPanelBlockEntity::new);
+	public static final BlockEntityType<?> SOLAR_PANEL_LOW = register("orderofobsidian:solar_panel_low", OrderofobsidianModBlocks.SOLAR_PANEL_LOW,
+			SolarPanelLowBlockEntity::new);
+	public static final BlockEntityType<?> SOLAR_PANEL_MEDIUM = register("orderofobsidian:solar_panel_medium",
+			OrderofobsidianModBlocks.SOLAR_PANEL_MEDIUM, SolarPanelMediumBlockEntity::new);
+	public static final BlockEntityType<?> SOLAR_PANEL_HIGH = register("orderofobsidian:solar_panel_high", OrderofobsidianModBlocks.SOLAR_PANEL_HIGH,
+			SolarPanelHighBlockEntity::new);
+	public static final BlockEntityType<?> SOLAR_PANEL_NIGHT = register("orderofobsidian:solar_panel_night",
+			OrderofobsidianModBlocks.SOLAR_PANEL_NIGHT, SolarPanelNightBlockEntity::new);
 
 	private static BlockEntityType<?> register(String registryname, Block block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		BlockEntityType<?> blockEntityType = BlockEntityType.Builder.of(supplier, block).build(null).setRegistryName(registryname);

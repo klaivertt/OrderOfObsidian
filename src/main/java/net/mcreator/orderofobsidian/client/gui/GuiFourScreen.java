@@ -10,11 +10,6 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.orderofobsidian.world.inventory.GuiFourMenu;
-import net.mcreator.orderofobsidian.procedures.Barre4Procedure;
-import net.mcreator.orderofobsidian.procedures.Barre3Procedure;
-import net.mcreator.orderofobsidian.procedures.Barre2Procedure;
-import net.mcreator.orderofobsidian.procedures.Barre1Procedure;
-import net.mcreator.orderofobsidian.procedures.Barre0Procedure;
 
 import java.util.HashMap;
 
@@ -54,33 +49,6 @@ public class GuiFourScreen extends AbstractContainerScreen<GuiFourMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		if (Barre0Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/barre0.png"));
-			this.blit(ms, this.leftPos + 47, this.topPos + 21, 0, 0, 64, 8, 64, 8);
-		}
-		if (Barre4Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/barre1.png"));
-			this.blit(ms, this.leftPos + 47, this.topPos + 21, 0, 0, 64, 8, 64, 8);
-		}
-		if (Barre3Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/barre2.png"));
-			this.blit(ms, this.leftPos + 47, this.topPos + 21, 0, 0, 64, 8, 64, 8);
-		}
-		if (Barre2Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/barre3.png"));
-			this.blit(ms, this.leftPos + 47, this.topPos + 21, 0, 0, 64, 8, 64, 8);
-		}
-		if (Barre1Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/barre4.png"));
-			this.blit(ms, this.leftPos + 47, this.topPos + 21, 0, 0, 64, 8, 64, 8);
-		}
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/energy_empty.png"));
-		this.blit(ms, this.leftPos + 148, this.topPos + 18, 0, 0, 18, 50, 18, 50);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("orderofobsidian:textures/enegyfull.png"));
-		this.blit(ms, this.leftPos + 149, this.topPos + 19, 0, 0, 16, 48, 16, 48);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -100,7 +68,7 @@ public class GuiFourScreen extends AbstractContainerScreen<GuiFourMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Electrique Furnace", 4, 5, -16777216);
+		drawString(poseStack, this.font, "Electrique Furnace", 4, 5, -16724992);
 	}
 
 	@Override

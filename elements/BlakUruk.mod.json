@@ -1,0 +1,65 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "helmetblackuruk",
+    "enableBody": true,
+    "textureBody": "bodyblackuruk",
+    "enableLeggings": true,
+    "textureLeggings": "legsblackuruk",
+    "enableBoots": true,
+    "textureBoots": "bootsblackuruk",
+    "creativeTab": {
+      "value": "CUSTOM:Armor"
+    },
+    "armorTextureFile": "black_uruk_layer_1",
+    "helmetName": "Blak Uruk Helmet",
+    "bodyName": "Blak Uruk Body",
+    "leggingsName": "Blak Uruk Leggings",
+    "bootsName": "Blak Uruk Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 75,
+    "damageValueHelmet": 5,
+    "damageValueBody": 8,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 5,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrukIngot"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ]
+  }
+}

@@ -126,7 +126,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "ForgeUpdateTick"
+      "name": "Forgefurnace"
     },
     "onRandomUpdateEvent": {
       "name": "ForgeUpdateTick"

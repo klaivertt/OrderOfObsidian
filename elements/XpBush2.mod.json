@@ -16,18 +16,18 @@
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
-    "isItemTinted": false,
-    "hasTransparency": true,
+    "isItemTinted": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
-        "my": 4.0,
-        "mz": 4.0,
-        "Mx": 12.0,
-        "My": 12.0,
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:XPbushOre"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -63,7 +63,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:XPbushOre"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

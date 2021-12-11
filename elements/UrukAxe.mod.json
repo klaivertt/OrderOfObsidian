@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "axeuruk",
+    "customModelName": "Normal",
+    "name": "Uruk Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Tools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 9.0,
+    "usageCount": 1900,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrukIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

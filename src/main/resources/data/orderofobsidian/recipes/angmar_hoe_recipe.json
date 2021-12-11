@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:uruk_hoe"
+  },
+  "addition": {
+    "item": "orderofobsidian:silver_ingot"
+  },
+  "result": {
+    "item": "orderofobsidian:angmar_hoe"
+  }
+}

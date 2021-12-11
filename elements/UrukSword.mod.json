@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "scimitaruruk",
+    "customModelName": "Normal",
+    "name": "Uruk Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Spirit"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.5,
+    "enchantability": 14,
+    "damageVsEntity": 6.0,
+    "usageCount": 1650,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrukIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "2": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "3": {
+      "item": "orderofobsidian:mitril_ingot"
+    },
+    "4": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "5": {
+      "item": "orderofobsidian:mitril_ingot"
+    },
+    "6": {
+      "item": "orderofobsidian:aluminium_plate"
+    },
+    "7": {
+      "item": "orderofobsidian:mitril_ingot"
+    },
+    "8": {
+      "item": "orderofobsidian:aluminium_plate"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:ranger_armor_chestplate",
+    "count": 1
+  }
+}

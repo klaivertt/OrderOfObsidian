@@ -63,7 +63,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:RiceSeed"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

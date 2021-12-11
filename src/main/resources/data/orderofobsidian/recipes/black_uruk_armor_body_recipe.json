@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:uruk_armor_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "orderofobsidian:blak_uruk_chestplate"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hoeuruk",
+    "customModelName": "Normal",
+    "name": "Uruk Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Tools"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 2.0,
+    "usageCount": 1600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrukIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

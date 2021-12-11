@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:UrukArmor.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:SilverPlate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AngmarArmor.legs"
+    },
+    "name": "angmar_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

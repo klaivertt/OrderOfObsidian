@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:uruk_battleaxe"
+  },
+  "addition": {
+    "item": "orderofobsidian:silver_plate"
+  },
+  "result": {
+    "item": "orderofobsidian:angmar_battle_axe"
+  }
+}

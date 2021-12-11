@@ -21,12 +21,12 @@ public abstract class UrukArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{3, 6, 7, 3}[slot.getIndex()];
+				return new int[]{3, 7, 6, 3}[slot.getIndex()];
 			}
 
 			@Override
@@ -51,7 +51,7 @@ public abstract class UrukArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 
 			@Override
@@ -69,7 +69,7 @@ public abstract class UrukArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/black_uruk_layer_1_layer_1.png";
+			return "orderofobsidian:textures/models/armor/urukk_layer_1_layer_1.png";
 		}
 	}
 
@@ -81,7 +81,7 @@ public abstract class UrukArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/black_uruk_layer_1_layer_1.png";
+			return "orderofobsidian:textures/models/armor/urukk_layer_1_layer_1.png";
 		}
 	}
 
@@ -93,7 +93,7 @@ public abstract class UrukArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/black_uruk_layer_1_layer_2.png";
+			return "orderofobsidian:textures/models/armor/urukk_layer_1_layer_2.png";
 		}
 	}
 
@@ -105,7 +105,7 @@ public abstract class UrukArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "orderofobsidian:textures/models/armor/black_uruk_layer_1_layer_1.png";
+			return "orderofobsidian:textures/models/armor/urukk_layer_1_layer_1.png";
 		}
 	}
 }

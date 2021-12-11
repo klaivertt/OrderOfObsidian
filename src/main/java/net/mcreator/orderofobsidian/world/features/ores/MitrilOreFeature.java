@@ -26,7 +26,7 @@ import java.util.Random;
 public class MitrilOreFeature extends OreFeature {
 	public static final MitrilOreFeature FEATURE = (MitrilOreFeature) new MitrilOreFeature().setRegistryName("orderofobsidian:mitril_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(MitrilOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.MITRIL_ORE.defaultBlockState(), 2))
+			.configured(new OreConfiguration(MitrilOreFeatureRuleTest.INSTANCE, OrderofobsidianModBlocks.MITRIL_ORE.defaultBlockState(), 3))
 			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(23)))).squared().count(4);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 

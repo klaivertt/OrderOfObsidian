@@ -6131,22 +6131,6 @@
       "path": "~/food"
     },
     {
-      "name": "Angmar",
-      "type": "armor",
-      "sortid": 618,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "angmar",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/Angmar"
-    },
-    {
       "name": "UrukIngot",
       "type": "item",
       "sortid": 622,
@@ -6185,62 +6169,6 @@
       "ids": {},
       "registry_name": "u_rucsteal_craft",
       "path": "~/item"
-    },
-    {
-      "name": "UrukArmor",
-      "type": "armor",
-      "sortid": 626,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uruk_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor/black_uruk"
-    },
-    {
-      "name": "UrukArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 627,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uruk_armor_helmet_recipe",
-      "path": "~/armor/black_uruk"
-    },
-    {
-      "name": "UrukArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 628,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uruk_armor_body_recipe",
-      "path": "~/armor/black_uruk"
-    },
-    {
-      "name": "UrukArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 629,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uruk_armor_leggings_recipe",
-      "path": "~/armor/black_uruk"
-    },
-    {
-      "name": "UrukArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 630,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uruk_armor_boots_recipe",
-      "path": "~/armor/black_uruk"
     },
     {
       "name": "Armor",
@@ -7195,6 +7123,614 @@
         ]
       },
       "path": "~/machine/furnace"
+    },
+    {
+      "name": "CopperCableJunctionOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_cable_junction_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/energie/cables"
+    },
+    {
+      "name": "CopperCableJunctionBlockAdded",
+      "type": "procedure",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_cable_junction_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/energie/cables"
+    },
+    {
+      "name": "UrukPickaxe",
+      "type": "tool",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_pickaxe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukAxe",
+      "type": "tool",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_axe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukSword",
+      "type": "tool",
+      "sortid": 709,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_sword",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukShovel",
+      "type": "tool",
+      "sortid": 710,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_shovel",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukHoe",
+      "type": "tool",
+      "sortid": 711,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_hoe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 712,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_pickaxe_recipe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukAxeRecipe",
+      "type": "recipe",
+      "sortid": 713,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_axe_recipe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukSwordRecipe",
+      "type": "recipe",
+      "sortid": 714,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_sword_recipe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukShovelRecipe",
+      "type": "recipe",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_shovel_recipe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukHoeRecipe",
+      "type": "recipe",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_hoe_recipe",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukBattleaxe",
+      "type": "tool",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_battleaxe",
+      "path": "~/tools/battle axe"
+    },
+    {
+      "name": "Urukbattleaxecraft",
+      "type": "recipe",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "urukbattleaxecraft",
+      "path": "~/tools/battle axe"
+    },
+    {
+      "name": "AngmarArmor",
+      "type": "armor",
+      "sortid": 697,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/Angmar"
+    },
+    {
+      "name": "AngmarArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 698,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_armor_helmet_recipe",
+      "path": "~/armor/Angmar"
+    },
+    {
+      "name": "AngmarArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_armor_body_recipe",
+      "path": "~/armor/Angmar"
+    },
+    {
+      "name": "AngmarArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_armor_leggings_recipe",
+      "path": "~/armor/Angmar"
+    },
+    {
+      "name": "AngmarArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_armor_boots_recipe",
+      "path": "~/armor/Angmar"
+    },
+    {
+      "name": "AngmarPickaxe",
+      "type": "tool",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_pickaxe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarAxe",
+      "type": "tool",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_axe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarSword",
+      "type": "tool",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_sword",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarShovel",
+      "type": "tool",
+      "sortid": 720,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_shovel",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarHoe",
+      "type": "tool",
+      "sortid": 721,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_hoe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 722,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_pickaxe_recipe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarAxeRecipe",
+      "type": "recipe",
+      "sortid": 723,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_axe_recipe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarSwordRecipe",
+      "type": "recipe",
+      "sortid": 724,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_sword_recipe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarShovelRecipe",
+      "type": "recipe",
+      "sortid": 725,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_shovel_recipe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "AngmarHoeRecipe",
+      "type": "recipe",
+      "sortid": 726,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_hoe_recipe",
+      "path": "~/tools/Angmar"
+    },
+    {
+      "name": "BlackUrukDagger",
+      "type": "tool",
+      "sortid": 727,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_dagger",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "BlackUrukDaggerCraft",
+      "type": "recipe",
+      "sortid": 728,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_dagger_craft",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UruckDagger",
+      "type": "tool",
+      "sortid": 729,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruck_dagger",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UrukDaggerCraft",
+      "type": "recipe",
+      "sortid": 730,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_dagger_craft",
+      "path": "~/tools/uruk"
+    },
+    {
+      "name": "UruckHammer",
+      "type": "tool",
+      "sortid": 731,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruck_hammer",
+      "path": "~/tools/hammer"
+    },
+    {
+      "name": "UrukHamercraft",
+      "type": "recipe",
+      "sortid": 732,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_hamercraft",
+      "path": "~/tools/hammer"
+    },
+    {
+      "name": "UrukArmor",
+      "type": "armor",
+      "sortid": 733,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/uruk"
+    },
+    {
+      "name": "UrukArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 734,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_helmet_recipe",
+      "path": "~/armor/uruk"
+    },
+    {
+      "name": "UrukArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 735,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_body_recipe",
+      "path": "~/armor/uruk"
+    },
+    {
+      "name": "UrukArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 736,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_leggings_recipe",
+      "path": "~/armor/uruk"
+    },
+    {
+      "name": "UrukArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_armor_boots_recipe",
+      "path": "~/armor/uruk"
+    },
+    {
+      "name": "BlackUrukArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_armor_helmet_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "BlackUrukArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 740,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_armor_body_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "BlackUrukArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_armor_leggings_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "BlackUrukArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_armor_boots_recipe",
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "BlakUruk",
+      "type": "armor",
+      "sortid": 743,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blak_uruk",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/black_uruk"
+    },
+    {
+      "name": "AngmaHammer",
+      "type": "tool",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angma_hammer",
+      "path": "~/tools/hammer"
+    },
+    {
+      "name": "AngmarHammercraft",
+      "type": "recipe",
+      "sortid": 745,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_hammercraft",
+      "path": "~/tools/hammer"
+    },
+    {
+      "name": "AngmarBattleAxe",
+      "type": "tool",
+      "sortid": 746,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_battle_axe",
+      "path": "~/tools/battle axe"
+    },
+    {
+      "name": "AngmarBattleaxecraft",
+      "type": "recipe",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_battleaxecraft",
+      "path": "~/tools/battle axe"
+    },
+    {
+      "name": "RangerArmor",
+      "type": "armor",
+      "sortid": 748,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranger_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/ranger"
+    },
+    {
+      "name": "RangerArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 749,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranger_armor_helmet_recipe",
+      "path": "~/armor/ranger"
+    },
+    {
+      "name": "RangerArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 750,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranger_armor_body_recipe",
+      "path": "~/armor/ranger"
+    },
+    {
+      "name": "RangerArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 751,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranger_armor_leggings_recipe",
+      "path": "~/armor/ranger"
+    },
+    {
+      "name": "RangerArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 752,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranger_armor_boots_recipe",
+      "path": "~/armor/ranger"
     }
   ],
   "variable_elements": [
@@ -7228,6 +7764,7 @@
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
+      "item.orderofobsidian.uruck_dagger": "Uruk Dagger",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
       "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
@@ -7253,6 +7790,7 @@
       "item.orderofobsidian.avenronitehammer": "Avenronite Hammer",
       "enchantment.orderofobsidian.ignition": "Ignition",
       "item.orderofobsidian.steel_hoe": "Steel Hoe",
+      "item.orderofobsidian.angmar_pickaxe": "Angmar Pickaxe",
       "item.orderofobsidian.big_dynamite": "Big Dynamite",
       "block.spiritforge.oxys_block": "Block of Oxys",
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
@@ -7263,6 +7801,7 @@
       "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.spiritforge.oxys_sword": "Oxys Sword",
       "item.orderofobsidian.stone_armor_armor_chestplate": "Stone_armor Chestplate",
+      "item.orderofobsidian.blak_uruk_boots": "Blak Uruk Boots",
       "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.bauherite_shovel": "Bauherite Shovel",
       "block.orderofobsidian.burnedtree_leaves": "Burnedtree",
@@ -7271,7 +7810,6 @@
       "item.orderofobsidian.aikigitehammer": "Aikigite Hammer",
       "block.orderofobsidian.silver_ore": "Silver Ore",
       "item.orderofobsidian.bauherite_ingot": "Bauherite",
-      "item.orderofobsidian.angmar_leggings": "Angmar Leggings",
       "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
       "item.orderofobsidian.flour": "Flour",
       "block.orderofobsidian.burnedtree_log": "Burnedtree Log",
@@ -7287,6 +7825,8 @@
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
       "block.orderofobsidian.xpbush_1": "Xp Bush",
       "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
+      "item.orderofobsidian.blak_uruk_chestplate": "Blak Uruk Body",
+      "item.orderofobsidian.angmar_axe": "Angmar Axe",
       "block.orderofobsidian.mitril_block": "Block of Mitril",
       "block.orderofobsidian.oxys_block": "Block of Oxys",
       "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
@@ -7298,13 +7838,16 @@
       "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
       "block.orderofobsidian.obsidianbookshelf": "Obsidian Book Shelf",
       "item.orderofobsidian.aikigite_ingot": "Aikigite",
+      "item.orderofobsidian.blak_uruk_leggings": "Blak Uruk Leggings",
       "block.orderofobsidian.nylium_slab": "Nylium Slab",
       "item.orderofobsidian.uruk_ingot": "Uruk Ingot",
       "block.orderofobsidian.thermalgenerator": "Thermal Generator",
+      "item.orderofobsidian.ranger_armor_chestplate": "Ranger Chestplate",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
       "item.orderofobsidian.oxys": "Oxys",
       "item.orderofobsidian.sushi": "Sushi",
       "item.orderofobsidian.mitril_armor_helmet": "Mitril Helmet",
+      "item.orderofobsidian.uruk_sword": "Uruk Sword",
       "item.orderofobsidian.steel_sword": "Steel Sword",
       "item.orderofobsidian.stone_stove": "Stone Stove",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
@@ -7313,18 +7856,23 @@
       "block.orderofobsidian.goldbookshelf": "Gold Book Shelf",
       "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
       "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
+      "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
       "item.orderofobsidian.mitril_armor_chestplate": "Mitril Chestplate",
       "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
       "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
+      "item.orderofobsidian.ranger_armor_leggings": "Ranger Leggings",
       "item.orderofobsidian.avenronite_ingot": "Avenronite",
       "item.orderofobsidian.avenronite_shovel": "Avenronite Shovel",
       "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
+      "item.orderofobsidian.blak_uruk_helmet": "Blak Uruk Helmet",
       "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
       "block.orderofobsidian.diamond_glass": "Diamond Glass",
       "item.spiritforge.oxys_bow": "Oxys Bow",
       "item.orderofobsidian.compresed_xp_berry": "compresed XP berry",
       "item.orderofobsidian.bigdynamite_bauherite": "Big Dynamite",
       "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
+      "item.orderofobsidian.angmar_shovel": "Angmar Shovel",
+      "item.orderofobsidian.uruk_axe": "Uruk Axe",
       "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
       "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
       "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
@@ -7339,6 +7887,7 @@
       "block.orderofobsidian.graphite_ore": "Graphite Ore",
       "item.orderofobsidian.gold_spear": "Gold Spear",
       "item.orderofobsidian.diamond_katana": "Diamond Katana",
+      "item.orderofobsidian.black_uruk_dagger": "Uruk Sword",
       "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
       "block.orderofobsidian.infamy_tnt": "Infamy TNT",
@@ -7352,7 +7901,6 @@
       "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
       "item.orderofobsidian.aikigite_armor_helmet": "Aikigite Helmet",
       "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
-      "item.orderofobsidian.angmar_boots": "Angmar Boots",
       "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.orderofobsidian.iron_katana": "Iron Katana",
       "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
@@ -7369,6 +7917,7 @@
       "item.orderofobsidian.diamond_shard": "Diamond Shard",
       "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
+      "item.orderofobsidian.ranger_armor_helmet": "Ranger Helmet",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
       "item.orderofobsidian.dynamite": "Dynamite",
       "item.orderofobsidian.avenronite_armor_helmet": "Avenronite Helmet",
@@ -7384,7 +7933,6 @@
       "block.spiritforge.oxys_ore": "Oxys Ore",
       "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
       "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
-      "item.orderofobsidian.angmar_chestplate": "Angmar Body",
       "enchantment.orderofobsidian.ice_aspect": "Ice Aspect",
       "item.orderofobsidian.oxysapple": "Oxysapple",
       "item.orderofobsidian.faraday_armor_leggings": "Faraday Leggings",
@@ -7404,12 +7952,15 @@
       "block.orderofobsidian.forge": "Forge",
       "itemGroup.tabbloc_k": "Block",
       "biome.spiritforge.volcan": "Volcan",
+      "item.orderofobsidian.uruk_hoe": "Uruk Hoe",
       "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
       "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.aikigite_sword": "Aikigite Sword",
       "block.orderofobsidian.avenronite_block": "Block of Avenronite",
       "block.orderofobsidian.electrique_furnace": "Electrique Furnace",
+      "item.orderofobsidian.uruk_shovel": "Uruk Shovel",
       "item.orderofobsidian.copper_plate": "Copper Plate",
+      "item.orderofobsidian.angmar_armor_leggings": "Angmar Leggings",
       "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
       "itemGroup.tabtools": "Tools",
       "item.orderofobsidian.stone_katana": "Stone Katana",
@@ -7418,6 +7969,11 @@
       "block.orderofobsidian.burnedtree_planks": "Burnedtree Planks",
       "item.orderofobsidian.avenronite_armor_boots": "Avenronite Boots",
       "item.orderofobsidian.copper_gear": "Copper Gear",
+      "item.orderofobsidian.uruk_battleaxe": "Uruk Battle Axe",
+      "item.orderofobsidian.angmar_armor_chestplate": "Angmar Chestplate",
+      "item.orderofobsidian.uruk_pickaxe": "Uruk Pickaxe",
+      "item.orderofobsidian.angma_hammer": "Angmar Hammer",
+      "item.orderofobsidian.ranger_armor_boots": "Ranger Boots",
       "item.orderofobsidian.obsidian_golem_spawn_egg": "Obsidian Golem Spawn Egg",
       "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
       "block.orderofobsidian.ironbookshelf": "Iron book shelf",
@@ -7438,9 +7994,11 @@
       "item.orderofobsidian.dynamite_avenronite": "Dynamite",
       "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
+      "item.orderofobsidian.uruck_hammer": "Uruk Hammer",
       "item.spiritforge.oxys_armor_boots": "Oxys Boots",
       "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
       "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
+      "item.orderofobsidian.angmar_armor_helmet": "Angmar Helmet",
       "item.orderofobsidian.silver_plate": "Silver Plate",
       "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
       "block.orderofobsidian.caveblock": "Caveblock",
@@ -7454,6 +8012,7 @@
       "item.orderofobsidian.rubber": "Rubber",
       "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
       "item.orderofobsidian.electronique_circuit": "Electronique Circuit",
+      "item.orderofobsidian.angmar_battle_axe": "Angmar Battle Axe",
       "item.orderofobsidian.uruk_armor_helmet": "Uruk Helmet",
       "block.orderofobsidian.nylium_planks": "Nylium Planks",
       "item.orderofobsidian.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
@@ -7463,6 +8022,7 @@
       "block.orderofobsidian.nylium_button": "Nylium Button",
       "block.orderofobsidian.graphite_glass": "Graphite Glass",
       "item.spiritforge.obsidian_tool_sword": "Obsidian_tool Sword",
+      "item.orderofobsidian.angmar_sword": "Angmar Sword",
       "item.orderofobsidian.x_pberry": "XP berry",
       "block.orderofobsidian.solar_panel": "Solar Panel",
       "item.orderofobsidian.oxys_armor_leggings": "Oxys Leggings",
@@ -7510,7 +8070,6 @@
       "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
       "item.orderofobsidian.sticksword": "Stick_sword",
       "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
-      "item.orderofobsidian.angmar_helmet": "Angmar Helmet",
       "item.spiritforge.oxys_stick": "Oxys Stick",
       "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
       "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
@@ -7522,7 +8081,8 @@
       "item.orderofobsidian.steel_plate": "Steel Plate",
       "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
       "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
-      "item.spiritforge.oxys_axe": "Oxys Axe"
+      "item.spiritforge.oxys_axe": "Oxys Axe",
+      "item.orderofobsidian.angmar_armor_boots": "Angmar Boots"
     }
   },
   "foldersRoot": {
@@ -7585,7 +8145,7 @@
                 ]
               },
               {
-                "name": "cable",
+                "name": "cables",
                 "children": []
               }
             ]
@@ -7674,6 +8234,14 @@
           {
             "name": "Snaffle",
             "children": []
+          },
+          {
+            "name": "uruk",
+            "children": []
+          },
+          {
+            "name": "Angmar",
+            "children": []
           }
         ]
       },
@@ -7738,6 +8306,14 @@
           },
           {
             "name": "netherack",
+            "children": []
+          },
+          {
+            "name": "ranger",
+            "children": []
+          },
+          {
+            "name": "uruk",
             "children": []
           }
         ]

@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammerangmar",
+    "customModelName": "Normal",
+    "name": "Angmar Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Tools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 1.7,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 700,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrukIngot"
+      },
+      {
+        "value": "CUSTOM:MitrilIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "DimondhammerBlockDestroyedWithTool"
+    }
+  }
+}

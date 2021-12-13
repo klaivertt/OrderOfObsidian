@@ -963,7 +963,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ultimatesword",
-      "path": "~/tools"
+      "path": "~/tools/other"
     },
     {
       "name": "ObsidianGolem",
@@ -1357,7 +1357,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_gear",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "Coppergearcraft",
@@ -1367,7 +1367,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "coppergearcraft",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "Forgecraft",
@@ -1597,7 +1597,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lead_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "LeadIngot",
@@ -1607,7 +1607,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lead_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "LeadPlate",
@@ -1617,7 +1617,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lead_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "WirecoilCopper",
@@ -1627,7 +1627,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wirecoil_copper",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "BatterieCell",
@@ -1637,7 +1637,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "batterie_cell",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "Ironplate",
@@ -1647,7 +1647,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironplate",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "Leaddustcraft",
@@ -1657,7 +1657,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leaddustcraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "Leadingotcraft",
@@ -1667,7 +1667,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leadingotcraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "Leadplatecraft",
@@ -1677,7 +1677,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leadplatecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "Ironplatecraft",
@@ -1687,7 +1687,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironplatecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "Wirecoilcoppercraft",
@@ -1697,7 +1697,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wirecoilcoppercraft",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "Batteriecellcraft",
@@ -1707,7 +1707,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "batteriecellcraft",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "Betterietier1craft",
@@ -1777,7 +1777,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SteelIngot",
@@ -1787,7 +1787,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SteelPlate",
@@ -1797,7 +1797,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "CopperPlate",
@@ -1807,7 +1807,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "ProcesseurTierI",
@@ -1817,7 +1817,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "processeur_tier_i",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "ProcesseurTierII",
@@ -1827,7 +1827,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "processeur_tier_ii",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "AluminiumIngot",
@@ -1837,7 +1837,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "AluminiumPlate",
@@ -1847,7 +1847,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SteelDustCraft",
@@ -1857,7 +1857,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_dust_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SmeltingSteelDust",
@@ -1867,7 +1867,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "smelting_steel_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SteelPlatecraft",
@@ -1877,7 +1877,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_platecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "AluminiumPlatecraft",
@@ -1887,7 +1887,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_platecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SteelArmor",
@@ -2073,7 +2073,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "processeur_tier_icraft",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "ProcesseurTierIIcraft",
@@ -2083,7 +2083,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "processeur_tier_i_icraft",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "ElectriqueFurnaceCraft",
@@ -2659,7 +2659,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironbarre",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "IronBarrecraft",
@@ -2669,7 +2669,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_barrecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "StoneKatanacraft",
@@ -3407,7 +3407,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SilverIngotCraft",
@@ -3417,7 +3417,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_ingot_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SilverPlate",
@@ -3427,7 +3427,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "SilvertPlateCraft",
@@ -3437,7 +3437,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silvert_plate_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "GraphiteDust",
@@ -3447,7 +3447,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "GraphiteIngot",
@@ -3457,7 +3457,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "GraphiteIngotCraft",
@@ -3467,7 +3467,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_ingot_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "GraphiteOre",
@@ -3497,7 +3497,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_shard",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "DiamondShardCraft",
@@ -3507,7 +3507,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_shard_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "DiamondShardInvers",
@@ -3517,7 +3517,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_shard_invers",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "ElectroniqueCircuit",
@@ -3527,7 +3527,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "electronique_circuit",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "TinyRubber",
@@ -3587,7 +3587,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "electroniquecircuitcraft",
-      "path": "~/item"
+      "path": "~/item/machine"
     },
     {
       "name": "CookedRice",
@@ -3777,7 +3777,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craftsticksword",
-      "path": "~/tools"
+      "path": "~/tools/other"
     },
     {
       "name": "Armurediamshorse",
@@ -3837,7 +3837,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sticksword",
-      "path": "~/tools"
+      "path": "~/tools/other"
     },
     {
       "name": "Cuirearmurehorse",
@@ -4186,7 +4186,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "BauheritePickaxe",
@@ -4332,7 +4332,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_mixed_coal",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "BauheriteMixedCoalFuel",
@@ -4342,7 +4342,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_mixed_coal_fuel",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "BauheriteMixedCoalCraft",
@@ -4352,7 +4352,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_mixed_coal_craft",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "AvenroniteIngot",
@@ -4362,7 +4362,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "AvenronitePickaxeRecipe",
@@ -4518,7 +4518,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_mixed_coal",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "AvenroniteMixedCoalfuel",
@@ -4528,7 +4528,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_mixed_coalfuel",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "AikigiteIngot",
@@ -4538,7 +4538,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "AikigiteOre",
@@ -4734,7 +4734,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_mixed_coal",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "AikigiteMixedCoalCraft",
@@ -4744,7 +4744,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_mixed_coal_craft",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "AikigiteMixedCoalFuel",
@@ -4754,7 +4754,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_mixed_coal_fuel",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "AvenroniteMixedCoalcraft",
@@ -4764,7 +4764,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_mixed_coalcraft",
-      "path": "~/item"
+      "path": "~/item/fuel"
     },
     {
       "name": "Caveblock",
@@ -6138,7 +6138,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "uruk_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "UruckMetalPowder",
@@ -6148,7 +6148,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "uruck_metal_powder",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "UruckPowder",
@@ -6158,7 +6158,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "uruck_powder",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "URucstealCraft",
@@ -6168,7 +6168,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "u_rucsteal_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "Armor",
@@ -6188,7 +6188,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mitril_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gems"
     },
     {
       "name": "MitrilOre",
@@ -7731,6 +7731,66 @@
       "ids": {},
       "registry_name": "ranger_armor_boots_recipe",
       "path": "~/armor/ranger"
+    },
+    {
+      "name": "Melstone",
+      "type": "tool",
+      "sortid": 753,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melstone",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "MelstoneCraft",
+      "type": "recipe",
+      "sortid": 754,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melstone_craft",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "Goldcraft",
+      "type": "recipe",
+      "sortid": 755,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldcraft",
+      "path": "~/item/metal and gems"
+    },
+    {
+      "name": "Hueersite",
+      "type": "tool",
+      "sortid": 756,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hueersite",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "DiamondCraft",
+      "type": "recipe",
+      "sortid": 757,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_craft",
+      "path": "~/item/metal and gems"
+    },
+    {
+      "name": "Hueersitecraft",
+      "type": "recipe",
+      "sortid": 758,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hueersitecraft",
+      "path": "~/tools/other"
     }
   ],
   "variable_elements": [
@@ -7744,30 +7804,30 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
       "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
+      "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
       "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
       "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
       "item.orderofobsidian.stone_hammer": "Stone Hammer",
       "item.spiritforge.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.lead_ingot": "Lead Ingot",
       "enchantment.orderofobsidian.wither": "Wither",
-      "item.orderofobsidian.rice_seed": "Rice Seed",
       "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
+      "item.orderofobsidian.rice_seed": "Rice Seed",
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
       "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
       "item.orderofobsidian.diamond_snaffle": "diamond Snaffle",
-      "block.orderofobsidian.xp_bush_2": "Xp Bush",
       "item.orderofobsidian.silver_ingot": "Silver Ingot",
+      "block.orderofobsidian.xp_bush_2": "Xp Bush",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
       "item.orderofobsidian.uruck_dagger": "Uruk Dagger",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
-      "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
       "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
+      "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
       "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
@@ -7991,6 +8051,7 @@
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
       "block.orderofobsidian.mitril_ore": "Mitril Ore",
       "enchantment.spiritforge.ignition": "Ignition",
+      "item.orderofobsidian.melstone": "Melstone",
       "item.orderofobsidian.dynamite_avenronite": "Dynamite",
       "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
@@ -8031,6 +8092,7 @@
       "item.orderofobsidian.avenronite_armor_chestplate": "Avenronite Chestplate",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",
       "item.orderofobsidian.dynamite_oxys": "Dynamite",
+      "item.orderofobsidian.hueersite": "Hueersite",
       "item.orderofobsidian.lead_plate": "Lead Plate",
       "block.orderofobsidian.aikigite_block": "Block of Aikigite",
       "item.orderofobsidian.oxys_hammer": "Oxys Hammer",
@@ -8182,7 +8244,20 @@
       },
       {
         "name": "item",
-        "children": []
+        "children": [
+          {
+            "name": "fuel",
+            "children": []
+          },
+          {
+            "name": "machine",
+            "children": []
+          },
+          {
+            "name": "metal and gems",
+            "children": []
+          }
+        ]
       },
       {
         "name": "tools",
@@ -8241,6 +8316,10 @@
           },
           {
             "name": "Angmar",
+            "children": []
+          },
+          {
+            "name": "other",
             "children": []
           }
         ]

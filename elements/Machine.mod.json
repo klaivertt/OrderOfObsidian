@@ -4,7 +4,7 @@
   "definition": {
     "name": "Machine",
     "icon": {
-      "value": "CUSTOM:ElectriqueFurnace"
+      "value": "CUSTOM:Thermalgenerator"
     },
     "showSearch": false
   }

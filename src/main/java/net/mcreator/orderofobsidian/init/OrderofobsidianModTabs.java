@@ -22,7 +22,7 @@ public class OrderofobsidianModTabs {
 		TAB_SPIRIT = new CreativeModeTab("tabspirit") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(OrderofobsidianModItems.OXYS_SWORD);
+				return new ItemStack(OrderofobsidianModItems.BLACK_URUK_DAGGER);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -44,7 +44,7 @@ public class OrderofobsidianModTabs {
 		TAB_ITEMS = new CreativeModeTab("tabitems") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(OrderofobsidianModItems.OXYS_STICK);
+				return new ItemStack(OrderofobsidianModItems.OXYS);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -55,7 +55,7 @@ public class OrderofobsidianModTabs {
 		TAB_MACHINE = new CreativeModeTab("tabmachine") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(OrderofobsidianModBlocks.ELECTRIQUE_FURNACE);
+				return new ItemStack(OrderofobsidianModBlocks.THERMALGENERATOR);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -77,7 +77,7 @@ public class OrderofobsidianModTabs {
 		TAB_ARMOR = new CreativeModeTab("tabarmor") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(OrderofobsidianModItems.URUK_ARMOR_HELMET);
+				return new ItemStack(OrderofobsidianModItems.BLAK_URUK_HELMET);
 			}
 
 			@OnlyIn(Dist.CLIENT)

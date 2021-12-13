@@ -87,6 +87,7 @@ import net.mcreator.orderofobsidian.item.NetheriteHammerItem;
 import net.mcreator.orderofobsidian.item.NetherackarmorArmorItem;
 import net.mcreator.orderofobsidian.item.MitrilIngotItem;
 import net.mcreator.orderofobsidian.item.MitrilArmorItem;
+import net.mcreator.orderofobsidian.item.MelstoneItem;
 import net.mcreator.orderofobsidian.item.LeadPlateItem;
 import net.mcreator.orderofobsidian.item.LeadIngotItem;
 import net.mcreator.orderofobsidian.item.LeadDustItem;
@@ -97,6 +98,7 @@ import net.mcreator.orderofobsidian.item.IronSpearItem;
 import net.mcreator.orderofobsidian.item.IronKatanaItem;
 import net.mcreator.orderofobsidian.item.IronHammerItem;
 import net.mcreator.orderofobsidian.item.IronBattleAxeItem;
+import net.mcreator.orderofobsidian.item.HueersiteItem;
 import net.mcreator.orderofobsidian.item.GraphiteIngotItem;
 import net.mcreator.orderofobsidian.item.GraphiteDustItem;
 import net.mcreator.orderofobsidian.item.GoldstoveItem;
@@ -195,8 +197,8 @@ public class OrderofobsidianModItems {
 	public static final Item OBSIDIAN_ARMOR_ARMOR_BOOTS = register(new Obsidian_armorArmorItem.Boots());
 	public static final Item DIAMOND_APPLE = register(new DiamondAppleItem());
 	public static final Item OXYS = register(new OxysItem());
-	public static final Item OXYS_ORE = register(OrderofobsidianModBlocks.OXYS_ORE, OrderofobsidianModTabs.TAB_SPIRIT);
-	public static final Item OXYS_BLOCK = register(OrderofobsidianModBlocks.OXYS_BLOCK, OrderofobsidianModTabs.TAB_SPIRIT);
+	public static final Item OXYS_ORE = register(OrderofobsidianModBlocks.OXYS_ORE, OrderofobsidianModTabs.TAB_BLOC_K);
+	public static final Item OXYS_BLOCK = register(OrderofobsidianModBlocks.OXYS_BLOCK, OrderofobsidianModTabs.TAB_BLOC_K);
 	public static final Item OXYS_PICKAXE = register(new OxysPickaxeItem());
 	public static final Item OXYS_AXE = register(new OxysAxeItem());
 	public static final Item OXYS_SWORD = register(new OxysSwordItem());
@@ -469,6 +471,8 @@ public class OrderofobsidianModItems {
 	public static final Item RANGER_ARMOR_CHESTPLATE = register(new RangerArmorItem.Chestplate());
 	public static final Item RANGER_ARMOR_LEGGINGS = register(new RangerArmorItem.Leggings());
 	public static final Item RANGER_ARMOR_BOOTS = register(new RangerArmorItem.Boots());
+	public static final Item MELSTONE = register(new MelstoneItem());
+	public static final Item HUEERSITE = register(new HueersiteItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

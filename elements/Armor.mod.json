@@ -4,7 +4,7 @@
   "definition": {
     "name": "Armor",
     "icon": {
-      "value": "CUSTOM:UrukArmor.helmet"
+      "value": "CUSTOM:BlakUruk.helmet"
     },
     "showSearch": false
   }

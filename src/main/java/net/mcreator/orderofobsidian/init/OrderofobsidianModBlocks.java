@@ -186,6 +186,8 @@ public class OrderofobsidianModBlocks {
 			DiamondGlassBlock.registerRenderLayer();
 			GraphiteGlassBlock.registerRenderLayer();
 			CaveblockBlock.registerRenderLayer();
+			Xpbush1Block.registerRenderLayer();
+			XpBush2Block.registerRenderLayer();
 			XPbushOreBlock.registerRenderLayer();
 		}
 	}

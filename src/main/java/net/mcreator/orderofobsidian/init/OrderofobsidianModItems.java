@@ -21,6 +21,7 @@ import net.mcreator.orderofobsidian.item.WoodHammerItem;
 import net.mcreator.orderofobsidian.item.WoodBattleAxeItem;
 import net.mcreator.orderofobsidian.item.WirecoilCopperItem;
 import net.mcreator.orderofobsidian.item.UrukSwordItem;
+import net.mcreator.orderofobsidian.item.UrukSpearItem;
 import net.mcreator.orderofobsidian.item.UrukShovelItem;
 import net.mcreator.orderofobsidian.item.UrukPickaxeItem;
 import net.mcreator.orderofobsidian.item.UrukIngotItem;
@@ -136,6 +137,7 @@ import net.mcreator.orderofobsidian.item.ChipsItem;
 import net.mcreator.orderofobsidian.item.ChikenWhithBreadcrumbsItem;
 import net.mcreator.orderofobsidian.item.ChickenwingItem;
 import net.mcreator.orderofobsidian.item.BlakUrukItem;
+import net.mcreator.orderofobsidian.item.BlackUrukSpearItem;
 import net.mcreator.orderofobsidian.item.BlackUrukDaggerItem;
 import net.mcreator.orderofobsidian.item.BigdynamiteOxysItem;
 import net.mcreator.orderofobsidian.item.BigdynamiteBauheriteItem;
@@ -161,6 +163,7 @@ import net.mcreator.orderofobsidian.item.AvenroniteIngotItem;
 import net.mcreator.orderofobsidian.item.AvenroniteAxeItem;
 import net.mcreator.orderofobsidian.item.AvenroniteArmorItem;
 import net.mcreator.orderofobsidian.item.AngmarSwordItem;
+import net.mcreator.orderofobsidian.item.AngmarSpearItem;
 import net.mcreator.orderofobsidian.item.AngmarShovelItem;
 import net.mcreator.orderofobsidian.item.AngmarPickaxeItem;
 import net.mcreator.orderofobsidian.item.AngmarHoeItem;
@@ -473,6 +476,9 @@ public class OrderofobsidianModItems {
 	public static final Item RANGER_ARMOR_BOOTS = register(new RangerArmorItem.Boots());
 	public static final Item MELSTONE = register(new MelstoneItem());
 	public static final Item HUEERSITE = register(new HueersiteItem());
+	public static final Item URUK_SPEAR = register(new UrukSpearItem());
+	public static final Item BLACK_URUK_SPEAR = register(new BlackUrukSpearItem());
+	public static final Item ANGMAR_SPEAR = register(new AngmarSpearItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "orderofobsidian:uruk_ingot"
+    },
+    "4": {
+      "item": "orderofobsidian:ironbarre"
+    },
+    "6": {
+      "item": "orderofobsidian:ironbarre"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:uruk_spear",
+    "count": 1
+  }
+}

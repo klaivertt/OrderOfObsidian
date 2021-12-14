@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "berry_xp_bush_fancy",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "mitril_block",
+    "textureTop": "mitril_block",
+    "textureLeft": "mitril_block",
+    "textureFront": "generator_front_furnace",
+    "textureRight": "mitril_block",
+    "textureBack": "mitril_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -17,7 +17,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,30 +32,30 @@
         "subtract": false
       }
     ],
-    "name": "Xp Bush",
+    "name": "Materialbreaker",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Spirit"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:XPbushOre"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
-    "tickRandomly": true,
+    "tickRate": 100,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -63,7 +63,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:XPbushOre"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -104,9 +104,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "hasInventory": true,
+    "guiBoundTo": "Materialbreakergui",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -121,14 +121,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "XPberryStage0NeighbourBlockChanges"
-    },
     "onTickUpdate": {
-      "name": "XpBush1UpdateTick"
-    },
-    "onEntityCollides": {
-      "name": "XPberryStage0EntityCollidesInTheBlock"
+      "name": "MaterialbreakerUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
@@ -137,8 +131,8 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 1,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

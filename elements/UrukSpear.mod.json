@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "spearuruk",
+    "customModelName": "Normal",
+    "name": "Uruk Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Spirit"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 2.3000000000000003,
+    "enchantability": 2,
+    "damageVsEntity": 7.3,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrukIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

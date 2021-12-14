@@ -77,7 +77,7 @@ public class OrderofobsidianModTabs {
 		TAB_ARMOR = new CreativeModeTab("tabarmor") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(OrderofobsidianModItems.URUK_ARMOR_HELMET);
+				return new ItemStack(OrderofobsidianModItems.BLAK_URUK_HELMET);
 			}
 
 			@OnlyIn(Dist.CLIENT)

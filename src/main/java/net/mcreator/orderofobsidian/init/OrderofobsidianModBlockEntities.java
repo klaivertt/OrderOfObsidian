@@ -17,6 +17,7 @@ import net.mcreator.orderofobsidian.block.entity.SolarPanelMediumBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.SolarPanelLowBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.SolarPanelHighBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.SolarPanelBlockEntity;
+import net.mcreator.orderofobsidian.block.entity.MaterialbreakerBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.ForgeonBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.ForgeBlockEntity;
 import net.mcreator.orderofobsidian.block.entity.FanBlockEntity;
@@ -48,6 +49,8 @@ public class OrderofobsidianModBlockEntities {
 			SolarPanelHighBlockEntity::new);
 	public static final BlockEntityType<?> SOLAR_PANEL_NIGHT = register("orderofobsidian:solar_panel_night",
 			OrderofobsidianModBlocks.SOLAR_PANEL_NIGHT, SolarPanelNightBlockEntity::new);
+	public static final BlockEntityType<?> MATERIALBREAKER = register("orderofobsidian:materialbreaker", OrderofobsidianModBlocks.MATERIALBREAKER,
+			MaterialbreakerBlockEntity::new);
 
 	private static BlockEntityType<?> register(String registryname, Block block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		BlockEntityType<?> blockEntityType = BlockEntityType.Builder.of(supplier, block).build(null).setRegistryName(registryname);

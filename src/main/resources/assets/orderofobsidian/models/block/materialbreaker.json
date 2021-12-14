@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "orderofobsidian:blocks/mitril_block",
+    "up": "orderofobsidian:blocks/mitril_block",
+    "north": "orderofobsidian:blocks/generator_front_furnace",
+    "east": "orderofobsidian:blocks/mitril_block",
+    "south": "orderofobsidian:blocks/mitril_block",
+    "west": "orderofobsidian:blocks/mitril_block",
+    "particle": "orderofobsidian:blocks/mitril_block"
+  }
+}

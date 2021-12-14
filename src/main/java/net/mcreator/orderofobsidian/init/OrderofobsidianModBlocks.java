@@ -48,6 +48,7 @@ import net.mcreator.orderofobsidian.block.NyliumButtonBlock;
 import net.mcreator.orderofobsidian.block.NetheriteGolemHeadBlock;
 import net.mcreator.orderofobsidian.block.MitrilOreBlock;
 import net.mcreator.orderofobsidian.block.MitrilBlockBlock;
+import net.mcreator.orderofobsidian.block.MaterialbreakerBlock;
 import net.mcreator.orderofobsidian.block.LazarusTNTBlock;
 import net.mcreator.orderofobsidian.block.IronbookshelfBlock;
 import net.mcreator.orderofobsidian.block.InfamyTNTBlock;
@@ -159,6 +160,7 @@ public class OrderofobsidianModBlocks {
 	public static final Block SOLAR_PANEL_MEDIUM = register(new SolarPanelMediumBlock());
 	public static final Block SOLAR_PANEL_HIGH = register(new SolarPanelHighBlock());
 	public static final Block SOLAR_PANEL_NIGHT = register(new SolarPanelNightBlock());
+	public static final Block MATERIALBREAKER = register(new MaterialbreakerBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -186,6 +188,8 @@ public class OrderofobsidianModBlocks {
 			DiamondGlassBlock.registerRenderLayer();
 			GraphiteGlassBlock.registerRenderLayer();
 			CaveblockBlock.registerRenderLayer();
+			Xpbush1Block.registerRenderLayer();
+			XpBush2Block.registerRenderLayer();
 			XPbushOreBlock.registerRenderLayer();
 		}
 	}

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "orderofobsidian:deleted_mod_element_leggings"
+    "item": "orderofobsidian:uruk_spear"
   },
   "addition": {
     "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "item": "orderofobsidian:blak_uruk_leggings"
+    "item": "orderofobsidian:black_uruk_spear"
   }
 }

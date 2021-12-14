@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:uruk_spear"
+  },
+  "addition": {
+    "item": "orderofobsidian:silver_ingot"
+  },
+  "result": {
+    "item": "orderofobsidian:angmar_spear"
+  }
+}

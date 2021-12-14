@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      },
+      {
+        "value": "CUSTOM:AvenroniteIngot"
+      },
+      {
+        "value": "CUSTOM:MitrilIngot"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:Oxys"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:MitrilIngot"
+      },
+      {
+        "value": "CUSTOM:AvenroniteIngot"
+      },
+      {
+        "value": "CUSTOM:BauheriteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Melstone"
+    },
+    "name": "melstonecraft",
+    "namespace": "mod"
+  }
+}

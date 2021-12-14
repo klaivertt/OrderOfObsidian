@@ -1,6 +1,9 @@
 
 package net.mcreator.orderofobsidian.block;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -18,6 +21,8 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.orderofobsidian.procedures.XpberyFullOnBlockRightClickedProcedure;
 import net.mcreator.orderofobsidian.procedures.XPberryStage0NeighbourBlockChangesProcedure;
@@ -29,7 +34,8 @@ import java.util.Collections;
 
 public class XpBush2Block extends Block {
 	public XpBush2Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRASS).strength(1f, 10f).lightLevel(s -> 4).randomTicks());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRASS).strength(1f, 10f).lightLevel(s -> 4).noOcclusion().randomTicks()
+				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("xp_bush_2");
 	}
 
@@ -83,5 +89,10 @@ public class XpBush2Block extends Block {
 
 		XpberyFullOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(OrderofobsidianModBlocks.XP_BUSH_2, renderType -> renderType == RenderType.cutout());
 	}
 }

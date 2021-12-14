@@ -963,7 +963,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ultimatesword",
-      "path": "~/tools"
+      "path": "~/tools/other"
     },
     {
       "name": "ObsidianGolem",
@@ -3777,7 +3777,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craftsticksword",
-      "path": "~/tools"
+      "path": "~/tools/other"
     },
     {
       "name": "Armurediamshorse",
@@ -3837,7 +3837,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sticksword",
-      "path": "~/tools"
+      "path": "~/tools/other"
     },
     {
       "name": "Cuirearmurehorse",
@@ -7731,6 +7731,232 @@
       "ids": {},
       "registry_name": "ranger_armor_boots_recipe",
       "path": "~/armor/ranger"
+    },
+    {
+      "name": "Melstone",
+      "type": "tool",
+      "sortid": 753,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melstone",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "Melstonecraft",
+      "type": "recipe",
+      "sortid": 754,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "melstonecraft",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "Hueersite",
+      "type": "tool",
+      "sortid": 755,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hueersite",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "Hueersitecraft",
+      "type": "recipe",
+      "sortid": 756,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hueersitecraft",
+      "path": "~/tools/other"
+    },
+    {
+      "name": "Goldcraft",
+      "type": "recipe",
+      "sortid": 757,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Diamondcraft",
+      "type": "recipe",
+      "sortid": 758,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "UrukSpear",
+      "type": "tool",
+      "sortid": 759,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uruk_spear",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "BlackUrukSpear",
+      "type": "tool",
+      "sortid": 760,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_uruk_spear",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "AngmarSpear",
+      "type": "tool",
+      "sortid": 761,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_spear",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "Urukspearcraft",
+      "type": "recipe",
+      "sortid": 762,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "urukspearcraft",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "BlackUrukspearcraft",
+      "type": "recipe",
+      "sortid": 763,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_urukspearcraft",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "AngmarSpearcraft",
+      "type": "recipe",
+      "sortid": 764,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angmar_spearcraft",
+      "path": "~/tools/spear"
+    },
+    {
+      "name": "GalvornArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 766,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn_armor_helmet_recipe",
+      "path": "~/armor/Galvorn"
+    },
+    {
+      "name": "GalvornArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 767,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn_armor_body_recipe",
+      "path": "~/armor/Galvorn"
+    },
+    {
+      "name": "GalvornArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 768,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn_armor_leggings_recipe",
+      "path": "~/armor/Galvorn"
+    },
+    {
+      "name": "GalvornArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 769,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn_armor_boots_recipe",
+      "path": "~/armor/Galvorn"
+    },
+    {
+      "name": "Galvorn",
+      "type": "armor",
+      "sortid": 770,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/Galvorn"
+    },
+    {
+      "name": "MaterialbreakerUpdateTick",
+      "type": "procedure",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "materialbreaker_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine"
+    },
+    {
+      "name": "Materialbreaker",
+      "type": "block",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "materialbreaker",
+      "path": "~/machine"
+    },
+    {
+      "name": "Materialbreakergui",
+      "type": "gui",
+      "sortid": 772,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "materialbreakergui",
+      "path": "~/machine"
     }
   ],
   "variable_elements": [
@@ -7744,34 +7970,35 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
       "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
+      "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
       "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
       "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
       "item.orderofobsidian.stone_hammer": "Stone Hammer",
       "item.spiritforge.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.lead_ingot": "Lead Ingot",
       "enchantment.orderofobsidian.wither": "Wither",
-      "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
       "item.orderofobsidian.rice_seed": "Rice Seed",
+      "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
       "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
       "item.orderofobsidian.diamond_snaffle": "diamond Snaffle",
-      "item.orderofobsidian.silver_ingot": "Silver Ingot",
       "block.orderofobsidian.xp_bush_2": "Xp Bush",
+      "item.orderofobsidian.silver_ingot": "Silver Ingot",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
       "item.orderofobsidian.uruck_dagger": "Uruk Dagger",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
-      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
+      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
       "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
+      "item.orderofobsidian.galvorn_boots": "Galvorn Boots",
       "block.orderofobsidian.oculus_tnt": "Oculus TNT",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
@@ -7782,6 +8009,7 @@
       "item.orderofobsidian.oxysstove": "Oxis Stove",
       "item.orderofobsidian.wood_hammer": "Wood Hammer",
       "item.orderofobsidian.uruck_metal_powder": "Uruck Metal Powder",
+      "item.orderofobsidian.black_uruk_spear": "Uruk Spear",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
       "item.orderofobsidian.diamondstove": "diamond Stove",
@@ -7857,6 +8085,7 @@
       "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
       "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
       "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
+      "item.orderofobsidian.galvorn_chestplate": "Galvorn Body",
       "item.orderofobsidian.mitril_armor_chestplate": "Mitril Chestplate",
       "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
       "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
@@ -7881,6 +8110,7 @@
       "item.orderofobsidian.dynamite_bauherite": "Dynamite",
       "item.orderofobsidian.steel_shovel": "Steel Shovel",
       "block.orderofobsidian.solar_panel_night": "Solar Panel",
+      "block.orderofobsidian.materialbreaker": "Materialbreaker",
       "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
       "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
       "block.orderofobsidian.solar_panel_medium": "Solar Panel",
@@ -7888,6 +8118,7 @@
       "item.orderofobsidian.gold_spear": "Gold Spear",
       "item.orderofobsidian.diamond_katana": "Diamond Katana",
       "item.orderofobsidian.black_uruk_dagger": "Uruk Sword",
+      "item.orderofobsidian.galvorn_helmet": "Galvorn Helmet",
       "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
       "block.orderofobsidian.infamy_tnt": "Infamy TNT",
@@ -7980,6 +8211,7 @@
       "block.orderofobsidian.x_pbush_ore": "XPbush",
       "block.orderofobsidian.solar_panel_low": "Solar Panel",
       "item.orderofobsidian.rice": "Rice Seed",
+      "item.orderofobsidian.uruk_spear": "Uruk Spear",
       "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.chickenwing": "Chickenwing",
       "item.orderofobsidian.iron_spear": "Iron Spear",
@@ -7991,6 +8223,8 @@
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
       "block.orderofobsidian.mitril_ore": "Mitril Ore",
       "enchantment.spiritforge.ignition": "Ignition",
+      "item.orderofobsidian.melstone": "Melstone",
+      "item.orderofobsidian.galvorn_leggings": "Galvorn Leggings",
       "item.orderofobsidian.dynamite_avenronite": "Dynamite",
       "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
@@ -7999,6 +8233,7 @@
       "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
       "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
       "item.orderofobsidian.angmar_armor_helmet": "Angmar Helmet",
+      "item.orderofobsidian.angmar_spear": "Angmar Spear",
       "item.orderofobsidian.silver_plate": "Silver Plate",
       "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
       "block.orderofobsidian.caveblock": "Caveblock",
@@ -8031,6 +8266,7 @@
       "item.orderofobsidian.avenronite_armor_chestplate": "Avenronite Chestplate",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",
       "item.orderofobsidian.dynamite_oxys": "Dynamite",
+      "item.orderofobsidian.hueersite": "Hueersite",
       "item.orderofobsidian.lead_plate": "Lead Plate",
       "block.orderofobsidian.aikigite_block": "Block of Aikigite",
       "item.orderofobsidian.oxys_hammer": "Oxys Hammer",
@@ -8242,6 +8478,10 @@
           {
             "name": "Angmar",
             "children": []
+          },
+          {
+            "name": "other",
+            "children": []
           }
         ]
       },
@@ -8314,6 +8554,10 @@
           },
           {
             "name": "uruk",
+            "children": []
+          },
+          {
+            "name": "Galvorn",
             "children": []
           }
         ]

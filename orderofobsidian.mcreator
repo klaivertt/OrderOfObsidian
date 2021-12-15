@@ -1597,7 +1597,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lead_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "LeadIngot",
@@ -1607,7 +1607,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lead_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "LeadPlate",
@@ -1617,7 +1617,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lead_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "WirecoilCopper",
@@ -1637,7 +1637,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "batterie_cell",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Ironplate",
@@ -1647,7 +1647,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironplate",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Leaddustcraft",
@@ -1657,7 +1657,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leaddustcraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Leadingotcraft",
@@ -1667,7 +1667,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leadingotcraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Leadplatecraft",
@@ -1677,7 +1677,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leadplatecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Ironplatecraft",
@@ -1687,7 +1687,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironplatecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Wirecoilcoppercraft",
@@ -1777,7 +1777,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SteelIngot",
@@ -1787,7 +1787,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SteelPlate",
@@ -1797,7 +1797,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "CopperPlate",
@@ -1807,7 +1807,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "ProcesseurTierI",
@@ -1837,7 +1837,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "AluminiumPlate",
@@ -1847,7 +1847,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SteelDustCraft",
@@ -1857,7 +1857,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_dust_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SmeltingSteelDust",
@@ -1867,7 +1867,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "smelting_steel_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SteelPlatecraft",
@@ -1877,7 +1877,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_platecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "AluminiumPlatecraft",
@@ -1887,7 +1887,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_platecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SteelArmor",
@@ -2659,7 +2659,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ironbarre",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "IronBarrecraft",
@@ -2669,7 +2669,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_barrecraft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "StoneKatanacraft",
@@ -3407,7 +3407,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SilverIngotCraft",
@@ -3417,7 +3417,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_ingot_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SilverPlate",
@@ -3427,7 +3427,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silver_plate",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "SilvertPlateCraft",
@@ -3437,7 +3437,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silvert_plate_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "GraphiteDust",
@@ -3447,7 +3447,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_dust",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "GraphiteIngot",
@@ -3457,7 +3457,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "GraphiteIngotCraft",
@@ -3467,7 +3467,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "graphite_ingot_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "GraphiteOre",
@@ -3497,7 +3497,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_shard",
-      "path": "~/item"
+      "path": "~/item/metal and gem/particule"
     },
     {
       "name": "DiamondShardCraft",
@@ -3507,7 +3507,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_shard_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gem/particule"
     },
     {
       "name": "DiamondShardInvers",
@@ -3517,7 +3517,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_shard_invers",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "ElectroniqueCircuit",
@@ -4186,7 +4186,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bauherite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "BauheritePickaxe",
@@ -4362,7 +4362,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "avenronite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "AvenronitePickaxeRecipe",
@@ -4538,7 +4538,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aikigite_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "AikigiteOre",
@@ -6138,7 +6138,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "uruk_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "UruckMetalPowder",
@@ -6148,7 +6148,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "uruck_metal_powder",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "UruckPowder",
@@ -6158,7 +6158,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "uruck_powder",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "URucstealCraft",
@@ -6168,7 +6168,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "u_rucsteal_craft",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "Armor",
@@ -6188,7 +6188,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mitril_ingot",
-      "path": "~/item"
+      "path": "~/item/metal and gem"
     },
     {
       "name": "MitrilOre",
@@ -7156,7 +7156,7 @@
           }
         ]
       },
-      "path": "~/machine/energie/cables"
+      "path": "~/machine/energie"
     },
     {
       "name": "CopperCableJunctionBlockAdded",
@@ -7186,7 +7186,7 @@
           }
         ]
       },
-      "path": "~/machine/energie/cables"
+      "path": "~/machine/energie"
     },
     {
       "name": "UrukPickaxe",
@@ -7957,6 +7957,298 @@
       "ids": {},
       "registry_name": "materialbreakergui",
       "path": "~/machine"
+    },
+    {
+      "name": "Particleiron",
+      "type": "item",
+      "sortid": 773,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particleiron",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleGold",
+      "type": "item",
+      "sortid": 774,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_gold",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleAikigite",
+      "type": "item",
+      "sortid": 775,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_aikigite",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleBauherite",
+      "type": "item",
+      "sortid": 776,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_bauherite",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleAvenronite",
+      "type": "item",
+      "sortid": 777,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_avenronite",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "Particuleironcraft",
+      "type": "recipe",
+      "sortid": 778,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particuleironcraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "Particlegoldcraft",
+      "type": "recipe",
+      "sortid": 779,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particlegoldcraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleAikigitecraft",
+      "type": "recipe",
+      "sortid": 780,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_aikigitecraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleBauheritecraft",
+      "type": "recipe",
+      "sortid": 781,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_bauheritecraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleAvenronitecraft",
+      "type": "recipe",
+      "sortid": 782,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_avenronitecraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleMithril",
+      "type": "item",
+      "sortid": 783,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_mithril",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "ParticleMithrilcraft",
+      "type": "recipe",
+      "sortid": 784,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particle_mithrilcraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "Materialbreakercraft",
+      "type": "recipe",
+      "sortid": 785,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "materialbreakercraft",
+      "path": "~/machine"
+    },
+    {
+      "name": "Edhelvir",
+      "type": "item",
+      "sortid": 786,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edhelvir",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "GalvornIngot",
+      "type": "item",
+      "sortid": 787,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn_ingot",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "GalvornIngotcraft",
+      "type": "recipe",
+      "sortid": 788,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galvorn_ingotcraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "Edhelvircraft",
+      "type": "recipe",
+      "sortid": 789,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edhelvircraft",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "IthilienArmor",
+      "type": "armor",
+      "sortid": 790,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithilien_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/ithilien"
+    },
+    {
+      "name": "IthilienArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 791,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithilien_armor_helmet_recipe",
+      "path": "~/armor/ithilien"
+    },
+    {
+      "name": "IthilienArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithilien_armor_body_recipe",
+      "path": "~/armor/ithilien"
+    },
+    {
+      "name": "IthilienArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 793,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithilien_armor_leggings_recipe",
+      "path": "~/armor/ithilien"
+    },
+    {
+      "name": "IthilienArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 794,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ithilien_armor_boots_recipe",
+      "path": "~/armor/ithilien"
+    },
+    {
+      "name": "WoodElven",
+      "type": "armor",
+      "sortid": 795,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_elven",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor/wood_elven"
+    },
+    {
+      "name": "WoodelvenHelmetcraft",
+      "type": "recipe",
+      "sortid": 796,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodelven_helmetcraft",
+      "path": "~/armor/wood_elven"
+    },
+    {
+      "name": "Woodelvenbodycraft",
+      "type": "recipe",
+      "sortid": 797,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodelvenbodycraft",
+      "path": "~/armor/wood_elven"
+    },
+    {
+      "name": "Woodelvenleggingscraft",
+      "type": "recipe",
+      "sortid": 798,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodelvenleggingscraft",
+      "path": "~/armor/wood_elven"
+    },
+    {
+      "name": "Woodelvenbootscraft",
+      "type": "recipe",
+      "sortid": 799,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodelvenbootscraft",
+      "path": "~/armor/wood_elven"
+    },
+    {
+      "name": "Areyousureyouwanttogrowwiththis",
+      "type": "achievement",
+      "sortid": 800,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "areyousureyouwanttogrowwiththis",
+      "path": "~/achivement"
     }
   ],
   "variable_elements": [
@@ -7970,8 +8262,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
       "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
+      "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
       "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
       "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
       "item.orderofobsidian.stone_hammer": "Stone Hammer",
@@ -7982,6 +8274,7 @@
       "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
+      "item.orderofobsidian.edhelvir": "Edhelvir",
       "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
       "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
       "item.orderofobsidian.diamond_snaffle": "diamond Snaffle",
@@ -8012,7 +8305,9 @@
       "item.orderofobsidian.black_uruk_spear": "Uruk Spear",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
+      "item.orderofobsidian.particle_aikigite": "Particle Aikigite",
       "item.orderofobsidian.diamondstove": "diamond Stove",
+      "item.orderofobsidian.ithilien_armor_boots": "Ithilien Boots",
       "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
       "advancements.dubious_ore.title": "Dubious Ore",
       "item.orderofobsidian.avenronitehammer": "Avenronite Hammer",
@@ -8023,6 +8318,8 @@
       "block.spiritforge.oxys_block": "Block of Oxys",
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
       "advancements.dubious_ore.descr": "but what is this dubious mineral",
+      "advancements.areyousureyouwanttogrowwiththis.title": "Are you sure you want to grow with this",
+      "item.orderofobsidian.ithilien_armor_helmet": "Ithilien Helmet",
       "enchantment.spiritforge.propelling": "Propelling",
       "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
@@ -8053,6 +8350,7 @@
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
       "block.orderofobsidian.xpbush_1": "Xp Bush",
       "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
+      "item.orderofobsidian.particle_gold": "Particle Gold",
       "item.orderofobsidian.blak_uruk_chestplate": "Blak Uruk Body",
       "item.orderofobsidian.angmar_axe": "Angmar Axe",
       "block.orderofobsidian.mitril_block": "Block of Mitril",
@@ -8086,6 +8384,7 @@
       "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
       "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
       "item.orderofobsidian.galvorn_chestplate": "Galvorn Body",
+      "item.orderofobsidian.particle_avenronite": "Particle Avenronite",
       "item.orderofobsidian.mitril_armor_chestplate": "Mitril Chestplate",
       "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
       "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
@@ -8110,7 +8409,7 @@
       "item.orderofobsidian.dynamite_bauherite": "Dynamite",
       "item.orderofobsidian.steel_shovel": "Steel Shovel",
       "block.orderofobsidian.solar_panel_night": "Solar Panel",
-      "block.orderofobsidian.materialbreaker": "Materialbreaker",
+      "block.orderofobsidian.materialbreaker": "Material Breaker",
       "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
       "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
       "block.orderofobsidian.solar_panel_medium": "Solar Panel",
@@ -8119,10 +8418,13 @@
       "item.orderofobsidian.diamond_katana": "Diamond Katana",
       "item.orderofobsidian.black_uruk_dagger": "Uruk Sword",
       "item.orderofobsidian.galvorn_helmet": "Galvorn Helmet",
+      "item.orderofobsidian.wood_elven_helmet": "Wood Elven Helmet",
       "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
       "block.orderofobsidian.infamy_tnt": "Infamy TNT",
       "itemGroup.tabarmor": "Armor",
+      "item.orderofobsidian.particleiron": "Particle Iron",
+      "advancements.areyousureyouwanttogrowwiththis.descr": "you are really useful",
       "item.orderofobsidian.bauherite_mixed_coal": "Bauherite Mixed Coal",
       "item.orderofobsidian.goldenchield": "Goldenchield",
       "block.orderofobsidian.avenronite_ore": "Avenronite Ore",
@@ -8145,8 +8447,11 @@
       "block.orderofobsidian.oxys_ore": "Oxys Ore",
       "itemGroup.tabmachine": "Machine",
       "item.orderofobsidian.goldstove": "gold Stove",
+      "item.orderofobsidian.particle_mithril": "Particle Mithril",
       "item.orderofobsidian.diamond_shard": "Diamond Shard",
       "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
+      "item.orderofobsidian.particle_bauherite": "Particle Bauherite",
+      "item.orderofobsidian.galvorn_ingot": "Galvorn Ingot",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
       "item.orderofobsidian.ranger_armor_helmet": "Ranger Helmet",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
@@ -8212,6 +8517,7 @@
       "block.orderofobsidian.solar_panel_low": "Solar Panel",
       "item.orderofobsidian.rice": "Rice Seed",
       "item.orderofobsidian.uruk_spear": "Uruk Spear",
+      "item.orderofobsidian.wood_elven_chestplate": "Wood Elven Body",
       "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.chickenwing": "Chickenwing",
       "item.orderofobsidian.iron_spear": "Iron Spear",
@@ -8296,6 +8602,7 @@
       "block.orderofobsidian.rice_stage_1": "Rice Stage",
       "enchantment.orderofobsidian.life_steal": "Life Steal",
       "block.orderofobsidian.rice_stage_0": "Rice Stage",
+      "item.orderofobsidian.wood_elven_boots": "Wood Elven Boots",
       "block.orderofobsidian.rice_stage_7": "Rice Stage",
       "item.orderofobsidian.oxys_spear": "Oxys Spear",
       "block.orderofobsidian.rice_stage_6": "Rice Stage",
@@ -8306,15 +8613,18 @@
       "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
       "item.orderofobsidian.sticksword": "Stick_sword",
       "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
+      "item.orderofobsidian.ithilien_armor_chestplate": "Ithilien Chestplate",
       "item.spiritforge.oxys_stick": "Oxys Stick",
       "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
       "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
+      "item.orderofobsidian.ithilien_armor_leggings": "Ithilien Leggings",
       "item.orderofobsidian.aikigite_axe": "Aikigite Axe",
       "item.orderofobsidian.bauheritehammer": "Bauherite Hammer",
       "item.orderofobsidian.oxys_sword": "Oxys Sword",
       "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
       "item.orderofobsidian.ironplate": "Ironplate",
       "item.orderofobsidian.steel_plate": "Steel Plate",
+      "item.orderofobsidian.wood_elven_leggings": "Wood Elven Leggings",
       "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
       "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
       "item.spiritforge.oxys_axe": "Oxys Axe",
@@ -8379,10 +8689,6 @@
                     "children": []
                   }
                 ]
-              },
-              {
-                "name": "cables",
-                "children": []
               }
             ]
           },
@@ -8418,7 +8724,17 @@
       },
       {
         "name": "item",
-        "children": []
+        "children": [
+          {
+            "name": "metal and gem",
+            "children": [
+              {
+                "name": "particule",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "tools",
@@ -8559,6 +8875,14 @@
           {
             "name": "Galvorn",
             "children": []
+          },
+          {
+            "name": "ithilien",
+            "children": []
+          },
+          {
+            "name": "wood_elven",
+            "children": []
           }
         ]
       }
@@ -8567,7 +8891,7 @@
   "workspaceSettings": {
     "modid": "orderofobsidian",
     "modName": "OrderofObsidian",
-    "version": "0.0.3",
+    "version": "0.3.1",
     "author": "Klaivert,Metalex",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/order-of-obsidian",
     "license": "Order Of Obsidian",
@@ -8583,5 +8907,5 @@
     "modElementsPackage": "net.mcreator.orderofobsidian",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100349312
+  "mcreatorVersion": 202100351219
 }

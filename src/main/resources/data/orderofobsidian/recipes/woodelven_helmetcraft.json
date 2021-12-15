@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:wooden_armor_armor_helmet"
+  },
+  "addition": {
+    "item": "orderofobsidian:mitril_ingot"
+  },
+  "result": {
+    "item": "orderofobsidian:wood_elven_helmet"
+  }
+}

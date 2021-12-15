@@ -32,7 +32,7 @@ public class LifeStealEnchantementProcedure {
 		if (sourceentity == null)
 			return;
 		double random = 0;
-		random = (double) Math.random();
+		random = Math.random();
 		if (EnchantmentHelper.getItemEnchantmentLevel(OrderofobsidianModEnchantments.LIFE_STEAL,
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) > 0 && random > 0.75) {
 			if (sourceentity instanceof LivingEntity _entity)

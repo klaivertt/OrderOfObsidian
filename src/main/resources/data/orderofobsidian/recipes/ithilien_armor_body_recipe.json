@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "item": "orderofobsidian:steel_ingot"
+  },
+  "result": {
+    "item": "orderofobsidian:ithilien_armor_chestplate"
+  }
+}

@@ -2,15 +2,15 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "mitril_block",
-    "textureTop": "mitril_block",
-    "textureLeft": "mitril_block",
-    "textureFront": "generator_front_furnace",
-    "textureRight": "mitril_block",
-    "textureBack": "mitril_block",
+    "texture": "top",
+    "textureTop": "top",
+    "textureLeft": "materialbreaker2",
+    "textureFront": "materialbreaker",
+    "textureRight": "materialbreaker2",
+    "textureBack": "materialbreaker2",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 3,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Materialbreaker",
+    "name": "Material Breaker",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Spirit"
+      "value": "CUSTOM:BlocK"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:particle_avenronite"
+    },
+    "1": {
+      "item": "orderofobsidian:particle_avenronite"
+    },
+    "2": {
+      "item": "orderofobsidian:particle_avenronite"
+    },
+    "3": {
+      "item": "orderofobsidian:particle_avenronite"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:avenronite_ingot",
+    "count": 1
+  }
+}

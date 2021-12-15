@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:particle_mithril"
+    },
+    "1": {
+      "item": "orderofobsidian:particle_mithril"
+    },
+    "2": {
+      "item": "orderofobsidian:particle_mithril"
+    },
+    "3": {
+      "item": "orderofobsidian:particle_mithril"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:mitril_ingot",
+    "count": 1
+  }
+}

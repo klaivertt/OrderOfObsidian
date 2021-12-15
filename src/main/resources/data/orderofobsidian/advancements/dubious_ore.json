@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "item": "orderofobsidian:oxys",
+            "items": [
+              "orderofobsidian:oxys"
+            ],
             "count": {
               "min": 1,
               "max": 1

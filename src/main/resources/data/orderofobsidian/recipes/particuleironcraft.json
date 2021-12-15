@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:particleiron"
+    },
+    "1": {
+      "item": "orderofobsidian:particleiron"
+    },
+    "2": {
+      "item": "orderofobsidian:particleiron"
+    },
+    "3": {
+      "item": "orderofobsidian:particleiron"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  }
+}

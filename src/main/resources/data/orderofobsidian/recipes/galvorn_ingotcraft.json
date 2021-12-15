@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "orderofobsidian:silver_ingot"
+  },
+  "addition": {
+    "item": "orderofobsidian:edhelvir"
+  },
+  "result": {
+    "item": "orderofobsidian:galvorn_ingot"
+  }
+}

@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalvornIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GalvornArmor.body"
+      "value": "CUSTOM:Galvorn.body"
     },
     "name": "galvorn_armor_body_recipe",
     "namespace": "mod"

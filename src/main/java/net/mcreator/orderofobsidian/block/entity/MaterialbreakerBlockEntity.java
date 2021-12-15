@@ -102,7 +102,7 @@ public class MaterialbreakerBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Materialbreaker");
+		return new TextComponent("Material Breaker");
 	}
 
 	@Override

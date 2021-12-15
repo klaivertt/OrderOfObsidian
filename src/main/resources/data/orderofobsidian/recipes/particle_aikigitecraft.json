@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:particle_aikigite"
+    },
+    "1": {
+      "item": "orderofobsidian:particle_aikigite"
+    },
+    "2": {
+      "item": "orderofobsidian:particle_aikigite"
+    },
+    "3": {
+      "item": "orderofobsidian:particle_aikigite"
+    }
+  },
+  "result": {
+    "item": "orderofobsidian:aikigite_ingot",
+    "count": 1
+  }
+}

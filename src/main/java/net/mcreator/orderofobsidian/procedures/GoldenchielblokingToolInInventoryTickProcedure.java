@@ -16,7 +16,7 @@ public class GoldenchielblokingToolInInventoryTickProcedure {
 		double localShieldTimer = 0;
 		if (sheildDamage == 0
 				&& itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
-			sheildDamage = (double) ((itemstack).getDamageValue());
+			sheildDamage = (itemstack).getDamageValue();
 			if (entity instanceof LivingEntity _entity) {
 				ItemStack _setstack = new ItemStack(OrderofobsidianModItems.GOLDENCHIELD);
 				_setstack.setCount(1);
@@ -26,8 +26,8 @@ public class GoldenchielblokingToolInInventoryTickProcedure {
 			}
 			((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).setDamageValue((int) sheildDamage);
 		} else {
-			localShieldTimer = (double) (sheildDamage - 1);
-			sheildDamage = (double) localShieldTimer;
+			localShieldTimer = sheildDamage - 1;
+			sheildDamage = localShieldTimer;
 		}
 	}
 }

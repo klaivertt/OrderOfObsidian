@@ -14,7 +14,7 @@ public class GoldenchieldRightClickedInAirProcedure {
 			return;
 		double sheildDamage = 0;
 		if (itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
-			sheildDamage = (double) ((itemstack).getDamageValue());
+			sheildDamage = (itemstack).getDamageValue();
 			if (entity instanceof LivingEntity _entity) {
 				ItemStack _setstack = new ItemStack(OrderofobsidianModItems.GOLDENCHIELD);
 				_setstack.setCount(1);
@@ -23,7 +23,7 @@ public class GoldenchieldRightClickedInAirProcedure {
 					_serverPlayer.getInventory().setChanged();
 			}
 			((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).setDamageValue((int) sheildDamage);
-			sheildDamage = (double) 40;
+			sheildDamage = 40;
 		}
 	}
 }

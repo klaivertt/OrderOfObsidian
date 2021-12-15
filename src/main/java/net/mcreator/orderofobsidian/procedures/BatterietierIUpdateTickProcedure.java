@@ -26,7 +26,7 @@ public class BatterietierIUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.canReceiveEnergy(world, new BlockPos((int) x, (int) (y - 1), (int) z))) {
-			down = (double) (new Object() {
+			down = new Object() {
 				public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -35,8 +35,8 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000));
-			down = (double) (new Object() {
+			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000);
+			down = new Object() {
 				public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -45,7 +45,7 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.receiveEnergySimulate(world, new BlockPos((int) x, (int) (y - 1), (int) z), (int) down));
+			}.receiveEnergySimulate(world, new BlockPos((int) x, (int) (y - 1), (int) z), (int) down);
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 				int _amount = (int) down;
@@ -68,7 +68,7 @@ public class BatterietierIUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.canReceiveEnergy(world, new BlockPos((int) (x - 1), (int) y, (int) z))) {
-			west = (double) (new Object() {
+			west = new Object() {
 				public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -77,8 +77,8 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000));
-			west = (double) (new Object() {
+			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000);
+			west = new Object() {
 				public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -87,7 +87,7 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.receiveEnergySimulate(world, new BlockPos((int) (x - 1), (int) y, (int) z), (int) west));
+			}.receiveEnergySimulate(world, new BlockPos((int) (x - 1), (int) y, (int) z), (int) west);
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 				int _amount = (int) west;
@@ -110,7 +110,7 @@ public class BatterietierIUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.canReceiveEnergy(world, new BlockPos((int) (x + 1), (int) y, (int) z))) {
-			east = (double) (new Object() {
+			east = new Object() {
 				public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -119,8 +119,8 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000));
-			east = (double) (new Object() {
+			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000);
+			east = new Object() {
 				public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -129,7 +129,7 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.receiveEnergySimulate(world, new BlockPos((int) (x + 1), (int) y, (int) z), (int) east));
+			}.receiveEnergySimulate(world, new BlockPos((int) (x + 1), (int) y, (int) z), (int) east);
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 				int _amount = (int) east;
@@ -152,7 +152,7 @@ public class BatterietierIUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.canReceiveEnergy(world, new BlockPos((int) x, (int) y, (int) (z + 1)))) {
-			south = (double) (new Object() {
+			south = new Object() {
 				public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -161,8 +161,8 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000));
-			south = (double) (new Object() {
+			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000);
+			south = new Object() {
 				public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -171,7 +171,7 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z + 1)), (int) south));
+			}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z + 1)), (int) south);
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 				int _amount = (int) south;
@@ -194,7 +194,7 @@ public class BatterietierIUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.canReceiveEnergy(world, new BlockPos((int) x, (int) y, (int) (z - 1)))) {
-			north = (double) (new Object() {
+			north = new Object() {
 				public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -203,8 +203,8 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000));
-			north = (double) (new Object() {
+			}.extractEnergySimulate(world, new BlockPos((int) x, (int) y, (int) z), 10000);
+			north = new Object() {
 				public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
@@ -213,7 +213,7 @@ public class BatterietierIUpdateTickProcedure {
 								.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 					return _retval.get();
 				}
-			}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z - 1)), (int) north));
+			}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z - 1)), (int) north);
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 				int _amount = (int) north;

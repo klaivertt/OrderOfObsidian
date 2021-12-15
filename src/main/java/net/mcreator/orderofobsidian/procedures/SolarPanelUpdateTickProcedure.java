@@ -608,7 +608,7 @@ public class SolarPanelUpdateTickProcedure {
 					return "";
 				}
 			}.getValue(world, new BlockPos((int) x, (int) (y - 1), (int) z), "energyPlugUp")).equals("input")) {
-				energyDown = (double) ((new Object() {
+				energyDown = (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
@@ -622,7 +622,7 @@ public class SolarPanelUpdateTickProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) (y - 1), (int) z), "energyStored")));
+				}.getValue(world, new BlockPos((int) x, (int) (y - 1), (int) z), "energyStored"));
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -639,14 +639,14 @@ public class SolarPanelUpdateTickProcedure {
 							return -1;
 						}
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit")) {
-						energyDown = (double) (new Object() {
+						energyDown = new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
 									return blockEntity.getTileData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit"));
+						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit");
 					}
 				}
 				if (new Object() {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:particle_gold"
+    },
+    "1": {
+      "item": "orderofobsidian:particle_gold"
+    },
+    "2": {
+      "item": "orderofobsidian:particle_gold"
+    },
+    "3": {
+      "item": "orderofobsidian:particle_gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  }
+}

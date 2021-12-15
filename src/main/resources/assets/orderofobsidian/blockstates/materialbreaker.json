@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "orderofobsidian:block/materialbreaker"
+    },
+    "facing=east": {
+      "model": "orderofobsidian:block/materialbreaker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "orderofobsidian:block/materialbreaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orderofobsidian:block/materialbreaker",
+      "y": 270
     }
   }
 }

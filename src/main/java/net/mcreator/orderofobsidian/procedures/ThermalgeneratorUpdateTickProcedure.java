@@ -236,7 +236,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 						return "";
 					}
 				}.getValue(world, new BlockPos((int) x, (int) y, (int) (z + 1)), "energyPlugNorth")).equals("input")) {
-					energyDown = (double) ((new Object() {
+					energyDown = (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -250,7 +250,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) (z + 1)), "energyStored")));
+					}.getValue(world, new BlockPos((int) x, (int) y, (int) (z + 1)), "energyStored"));
 					if (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -267,14 +267,14 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return -1;
 							}
 						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit")) {
-							energyDown = (double) (new Object() {
+							energyDown = new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit"));
+							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit");
 						}
 					}
 					if (new Object() {
@@ -393,7 +393,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 						return "";
 					}
 				}.getValue(world, new BlockPos((int) (x - 1), (int) y, (int) z), "energyPlugEast")).equals("input")) {
-					energyDown = (double) ((new Object() {
+					energyDown = (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -407,7 +407,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) (x - 1), (int) y, (int) z), "energyStored")));
+					}.getValue(world, new BlockPos((int) (x - 1), (int) y, (int) z), "energyStored"));
 					if (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -424,14 +424,14 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return -1;
 							}
 						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit")) {
-							energyDown = (double) (new Object() {
+							energyDown = new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit"));
+							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit");
 						}
 					}
 					if (new Object() {
@@ -550,7 +550,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 						return "";
 					}
 				}.getValue(world, new BlockPos((int) x, (int) y, (int) (z - 1)), "energyPlugSouth")).equals("input")) {
-					energyDown = (double) ((new Object() {
+					energyDown = (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -564,7 +564,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) (z - 1)), "energyStored")));
+					}.getValue(world, new BlockPos((int) x, (int) y, (int) (z - 1)), "energyStored"));
 					if (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -581,14 +581,14 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return -1;
 							}
 						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit")) {
-							energyDown = (double) (new Object() {
+							energyDown = new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit"));
+							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit");
 						}
 					}
 					if (new Object() {
@@ -707,7 +707,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 						return "";
 					}
 				}.getValue(world, new BlockPos((int) (x + 1), (int) y, (int) z), "energyPlugWest")).equals("input")) {
-					energyDown = (double) ((new Object() {
+					energyDown = (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
@@ -721,7 +721,7 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) (x + 1), (int) y, (int) z), "energyStored")));
+					}.getValue(world, new BlockPos((int) (x + 1), (int) y, (int) z), "energyStored"));
 					if (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -738,14 +738,14 @@ public class ThermalgeneratorUpdateTickProcedure {
 								return -1;
 							}
 						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit")) {
-							energyDown = (double) (new Object() {
+							energyDown = new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit"));
+							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "energySendLimit");
 						}
 					}
 					if (new Object() {

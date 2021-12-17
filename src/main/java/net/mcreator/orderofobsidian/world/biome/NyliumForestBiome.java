@@ -58,6 +58,10 @@ public class NyliumForestBiome {
 				register("flower", Feature.FLOWER.configured(Features.Configs.DEFAULT_FLOWER_CONFIG).decorated(Features.Decorators.ADD_32)
 						.decorated(Features.Decorators.HEIGHTMAP_SQUARE).count(4)));
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultCarvers(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDripstone(biomeGenerationSettings);
+		BiomeDefaultFeatures.addFossilDecoration(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultCrystalFormations(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder().setPlayerCanSpawn();
 		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(EntityType.ZOMBIE, 20, 4, 4));
 		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(EntityType.ZOMBIE, 20, 4, 4));

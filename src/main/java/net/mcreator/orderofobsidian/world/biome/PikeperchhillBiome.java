@@ -68,6 +68,7 @@ public class PikeperchhillBiome {
 		BiomeDefaultFeatures.addMossyStoneBlock(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDesertVegetation(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDesertExtraDecoration(biomeGenerationSettings);
+		BiomeDefaultFeatures.addDefaultCrystalFormations(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder().setPlayerCanSpawn();
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).depth(0.1f).scale(0.2f)
 				.temperature(0.5f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())

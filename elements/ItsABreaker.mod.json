@@ -1,0 +1,25 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Its A Breaker?",
+    "achievementDescription": "material breaker",
+    "achievementIcon": {
+      "value": "CUSTOM:Thermalgenerator"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "husbandry/root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"53\" y=\"23\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Materialbreaker</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

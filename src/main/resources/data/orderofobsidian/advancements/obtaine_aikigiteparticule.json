@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "orderofobsidian:particle_aikigite"
+    },
+    "title": {
+      "translate": "advancements.obtaine_aikigiteparticule.title"
+    },
+    "description": {
+      "translate": "advancements.obtaine_aikigiteparticule.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtaine_aikigiteparticule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orderofobsidian:particle_aikigite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "orderofobsidian:its_a_breaker"
+}

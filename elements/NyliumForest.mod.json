@@ -93,7 +93,11 @@
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
-      "Ores"
+      "Ores",
+      "Caves",
+      "Dripstone",
+      "Fossils",
+      "AmethystGeodes"
     ],
     "spawnEntries": [
       {

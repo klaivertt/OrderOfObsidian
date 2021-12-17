@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "orderofobsidian:uruk_ingot"
+    },
+    "title": {
+      "translate": "advancements.a_back_steel.title"
+    },
+    "description": {
+      "translate": "advancements.a_back_steel.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_back_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orderofobsidian:uruk_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

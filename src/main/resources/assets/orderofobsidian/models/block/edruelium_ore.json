@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "orderofobsidian:blocks/edruelium_ore",
+    "particle": "orderofobsidian:blocks/edruelium_ore"
+  }
+}

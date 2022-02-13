@@ -22,7 +22,7 @@ public abstract class BlakUrukItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 75;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 250;
 			}
 
 			@Override

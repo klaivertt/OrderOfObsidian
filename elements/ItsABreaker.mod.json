@@ -5,7 +5,7 @@
     "achievementName": "Its A Breaker?",
     "achievementDescription": "material breaker",
     "achievementIcon": {
-      "value": "CUSTOM:Thermalgenerator"
+      "value": "CUSTOM:Materialbreaker"
     },
     "background": "Default",
     "disableDisplay": false,

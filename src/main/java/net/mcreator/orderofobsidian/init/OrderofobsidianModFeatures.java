@@ -21,6 +21,7 @@ import net.mcreator.orderofobsidian.world.features.ores.SilverOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.OxysOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.MitrilOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.GraphiteOreFeature;
+import net.mcreator.orderofobsidian.world.features.ores.EdrueliumOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.BauheriteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.AvenroniteOreFeature;
 import net.mcreator.orderofobsidian.world.features.ores.AluminiumOreFeature;
@@ -73,6 +74,8 @@ public class OrderofobsidianModFeatures {
 				XPbushOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(MitrilOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, MitrilOreFeature.GENERATE_BIOMES,
 				MitrilOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(EdrueliumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				EdrueliumOreFeature.GENERATE_BIOMES, EdrueliumOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

@@ -23,6 +23,9 @@
     "animation": "spear",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "DynamiteCanUseRangedItem"
+    },
     "bulletPower": 0.5,
     "bulletDamage": 1.0,
     "bulletKnockback": 1,

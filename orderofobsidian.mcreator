@@ -1380,16 +1380,6 @@
       "path": "~/machine/furnace"
     },
     {
-      "name": "GuiFour",
-      "type": "gui",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gui_four",
-      "path": "~/machine/furnace"
-    },
-    {
       "name": "Forgeon",
       "type": "block",
       "sortid": 176,
@@ -1398,86 +1388,6 @@
       "ids": {},
       "registry_name": "forgeon",
       "path": "~/machine/furnace"
-    },
-    {
-      "name": "Batterie1",
-      "type": "block",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "batterie_1",
-      "path": "~/machine/energie"
-    },
-    {
-      "name": "BatterietierIUpdateTick",
-      "type": "procedure",
-      "sortid": 180,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "batterietier_i_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie"
-    },
-    {
-      "name": "Fan",
-      "type": "block",
-      "sortid": 182,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fan",
-      "path": "~/machine"
-    },
-    {
-      "name": "FanUpdateTick",
-      "type": "procedure",
-      "sortid": 183,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fan_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine"
     },
     {
       "name": "Goldenchield",
@@ -1708,66 +1618,6 @@
       "ids": {},
       "registry_name": "batteriecellcraft",
       "path": "~/item"
-    },
-    {
-      "name": "Betterietier1craft",
-      "type": "recipe",
-      "sortid": 190,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "betterietier_1craft",
-      "path": "~/machine/energie"
-    },
-    {
-      "name": "Fancraft",
-      "type": "recipe",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fancraft",
-      "path": "~/machine"
-    },
-    {
-      "name": "Electriquefurnaceupdate",
-      "type": "procedure",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "electriquefurnaceupdate",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/furnace"
-    },
-    {
-      "name": "ElectriqueFurnace",
-      "type": "block",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "electrique_furnace",
-      "path": "~/machine/furnace"
     },
     {
       "name": "SteelDust",
@@ -2086,16 +1936,6 @@
       "path": "~/item"
     },
     {
-      "name": "ElectriqueFurnaceCraft",
-      "type": "recipe",
-      "sortid": 239,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "electrique_furnace_craft",
-      "path": "~/machine/furnace"
-    },
-    {
       "name": "FaradayArmor",
       "type": "armor",
       "sortid": 240,
@@ -2150,16 +1990,6 @@
       "ids": {},
       "registry_name": "faraday_armor_boots_recipe",
       "path": "~/armor/farday"
-    },
-    {
-      "name": "Machine",
-      "type": "tab",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "machine",
-      "path": "~/CreativeInventorieTab"
     },
     {
       "name": "BlocK",
@@ -2732,44 +2562,6 @@
       "path": "~/craft_vanilla"
     },
     {
-      "name": "Fireresistance",
-      "type": "enchantment",
-      "sortid": 333,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fireresistance",
-      "path": "~/enchantement"
-    },
-    {
-      "name": "FireResistancProcedure",
-      "type": "procedure",
-      "sortid": 334,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fire_resistanc_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/enchantement"
-    },
-    {
-      "name": "Speed",
-      "type": "enchantment",
-      "sortid": 335,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed",
-      "path": "~/enchantement"
-    },
-    {
       "name": "Autosmeltprocedure",
       "type": "procedure",
       "sortid": 336,
@@ -2814,38 +2606,6 @@
       "path": "~/enchantement"
     },
     {
-      "name": "Wither",
-      "type": "enchantment",
-      "sortid": 338,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wither",
-      "path": "~/enchantement"
-    },
-    {
-      "name": "WitherEnchantementProcedure",
-      "type": "procedure",
-      "sortid": 339,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wither_enchantement_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/enchantement"
-    },
-    {
       "name": "CurseOfBackfire",
       "type": "enchantment",
       "sortid": 340,
@@ -2867,108 +2627,6 @@
         "dependencies": [
           {
             "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/enchantement"
-    },
-    {
-      "name": "SpeedEnchantemement",
-      "type": "procedure",
-      "sortid": 342,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "speed_enchantemement",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/enchantement"
-    },
-    {
-      "name": "IceAspect",
-      "type": "enchantment",
-      "sortid": 343,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ice_aspect",
-      "path": "~/enchantement"
-    },
-    {
-      "name": "IceAspectEnchantement",
-      "type": "procedure",
-      "sortid": 344,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ice_aspect_enchantement",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/enchantement"
-    },
-    {
-      "name": "LifeSteal",
-      "type": "enchantment",
-      "sortid": 345,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "life_steal",
-      "path": "~/enchantement"
-    },
-    {
-      "name": "LifeStealEnchantement",
-      "type": "procedure",
-      "sortid": 346,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "life_steal_enchantement",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/enchantement"
-    },
-    {
-      "name": "NightVision",
-      "type": "enchantment",
-      "sortid": 347,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "night_vision",
-      "path": "~/enchantement"
-    },
-    {
-      "name": "NightVisionEnchantement",
-      "type": "procedure",
-      "sortid": 348,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "night_vision_enchantement",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
             "type": "entity"
           }
         ]
@@ -6297,650 +5955,6 @@
       "path": "~/armor/mithril"
     },
     {
-      "name": "Thermalgenerator",
-      "type": "block",
-      "sortid": 643,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thermalgenerator",
-      "path": "~/machine/energie/Thermal Generator"
-    },
-    {
-      "name": "EnergySettingDevice",
-      "type": "item",
-      "sortid": 644,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "energy_setting_device",
-      "path": "~/machine/tool"
-    },
-    {
-      "name": "EnergySettingDevice0",
-      "type": "item",
-      "sortid": 644,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "energy_setting_device_0",
-      "path": "~/machine/tool"
-    },
-    {
-      "name": "EnergySettingDeviceRightClickedInAir",
-      "type": "procedure",
-      "sortid": 645,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "energy_setting_device_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/machine/tool"
-    },
-    {
-      "name": "EnergySettingDevice0RightClickedInAir",
-      "type": "procedure",
-      "sortid": 646,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "energy_setting_device_0_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/machine/tool"
-    },
-    {
-      "name": "VariableEnergyBlocks",
-      "type": "tag",
-      "sortid": 647,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "variable_energy_blocks",
-      "path": "~/machine"
-    },
-    {
-      "name": "SolarPanel",
-      "type": "block",
-      "sortid": 647,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel",
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelLow",
-      "type": "block",
-      "sortid": 648,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_low",
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelMedium",
-      "type": "block",
-      "sortid": 649,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_medium",
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelHigh",
-      "type": "block",
-      "sortid": 650,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_high",
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelNight",
-      "type": "block",
-      "sortid": 651,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_night",
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 652,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelBlockAdded",
-      "type": "procedure",
-      "sortid": 653,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "SolarPanelUpdateTick",
-      "type": "procedure",
-      "sortid": 654,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solar_panel_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
-      "name": "ThermalGeneratorGUI",
-      "type": "gui",
-      "sortid": 655,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thermal_generator_gui",
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar0",
-      "type": "procedure",
-      "sortid": 656,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_0",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar1",
-      "type": "procedure",
-      "sortid": 657,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_1",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar2",
-      "type": "procedure",
-      "sortid": 658,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_2",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar3",
-      "type": "procedure",
-      "sortid": 659,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_3",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar4",
-      "type": "procedure",
-      "sortid": 660,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_4",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar5",
-      "type": "procedure",
-      "sortid": 660,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_5",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar6",
-      "type": "procedure",
-      "sortid": 661,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_6",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar7",
-      "type": "procedure",
-      "sortid": 662,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_7",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar8",
-      "type": "procedure",
-      "sortid": 663,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_8",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "CoalGeneratorFuelBar9",
-      "type": "procedure",
-      "sortid": 664,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coal_generator_fuel_bar_9",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator/gui"
-    },
-    {
-      "name": "ThermalgeneratorOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 665,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thermalgenerator_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator"
-    },
-    {
-      "name": "ThermalgeneratorBlockAdded",
-      "type": "procedure",
-      "sortid": 666,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thermalgenerator_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator"
-    },
-    {
-      "name": "ThermalgeneratorUpdateTick",
-      "type": "procedure",
-      "sortid": 667,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "thermalgenerator_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie/Thermal Generator"
-    },
-    {
-      "name": "Solarpannelcraft",
-      "type": "recipe",
-      "sortid": 668,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "solarpannelcraft",
-      "path": "~/machine/energie/solarpannel"
-    },
-    {
       "name": "AlluminiumSnaffle",
       "type": "tool",
       "sortid": 669,
@@ -7059,134 +6073,6 @@
       "ids": {},
       "registry_name": "rubbercraft_5",
       "path": "~/item"
-    },
-    {
-      "name": "ElectriqueFurnaceOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 681,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "electrique_furnace_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/furnace"
-    },
-    {
-      "name": "ElectriqueFurnaceBlockAdded",
-      "type": "procedure",
-      "sortid": 682,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "electrique_furnace_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/furnace"
-    },
-    {
-      "name": "CopperCableJunctionOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 683,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_cable_junction_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie"
-    },
-    {
-      "name": "CopperCableJunctionBlockAdded",
-      "type": "procedure",
-      "sortid": 684,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_cable_junction_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/machine/energie"
     },
     {
       "name": "UrukPickaxe",
@@ -8339,6 +7225,272 @@
       "ids": {},
       "registry_name": "obtaine_edhelvir_particule",
       "path": "~/achivement"
+    },
+    {
+      "name": "DynamiteCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 810,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_can_use_ranged_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigDynamiteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 811,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_dynamite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAikigiteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 812,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_aikigite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigDynamiteAikigiteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 813,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_dynamite_aikigite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteBauheriteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 814,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_bauherite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteBauheriteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 815,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_bauherite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteAvenroniteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 816,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_avenronite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteAvenroniteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 817,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_avenronite_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "DynamiteOxysRangedItemUsed",
+      "type": "procedure",
+      "sortid": 818,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dynamite_oxys_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "BigdynamiteOxysRangedItemUsed",
+      "type": "procedure",
+      "sortid": 819,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bigdynamite_oxys_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools/explosive"
+    },
+    {
+      "name": "EdrueliumIngot",
+      "type": "item",
+      "sortid": 820,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edruelium_ingot",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "EdrueliumOre",
+      "type": "block",
+      "sortid": 821,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edruelium_ore",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "EdrueliumBlock",
+      "type": "block",
+      "sortid": 822,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edruelium_block",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "EdrueliumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 823,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edruelium_ore_block_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "EdrueliumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 824,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edruelium_block_ore_recipe",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "EdrueliumOreSmelting",
+      "type": "recipe",
+      "sortid": 825,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edruelium_ore_smelting",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "RawEdruelium",
+      "type": "item",
+      "sortid": 826,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_edruelium",
+      "path": "~/block/ore"
+    },
+    {
+      "name": "Edrueliumarmor",
+      "type": "armor",
+      "sortid": 827,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edrueliumarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
     }
   ],
   "variable_elements": [
@@ -8352,234 +7504,86 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
-      "enchantment.orderofobsidian.wither": "Wither",
-      "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
-      "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
-      "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
-      "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
-      "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
-      "item.orderofobsidian.diamond_snaffle": "diamond Snaffle",
-      "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
-      "item.orderofobsidian.steel_dust": "Steel Dust",
-      "item.spiritforge.oxys_shovel": "Oxys Shovel",
-      "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
-      "item.orderofobsidian.galvorn_boots": "Galvorn Boots",
-      "block.orderofobsidian.oculus_tnt": "Oculus TNT",
-      "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
-      "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "block.orderofobsidian.bauherite_block": "Block of Bauherite",
-      "item.orderofobsidian.wood_hammer": "Wood Hammer",
-      "item.orderofobsidian.uruck_metal_powder": "Uruck Metal Powder",
-      "item.orderofobsidian.ithilien_armor_boots": "Ithilien Boots",
-      "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
-      "advancements.dubious_ore.title": "Dubious Ore",
-      "item.orderofobsidian.angmar_pickaxe": "Angmar Pickaxe",
-      "advancements.obtaine_edhelvir_particule.descr": "Edhelvir ",
-      "block.spiritforge.oxys_block": "Block of Oxys",
-      "advancements.areyousureyouwanttogrowwiththis.title": "Are you sure you want to grow with this",
-      "enchantment.spiritforge.propelling": "Propelling",
-      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
-      "item.orderofobsidian.stone_armor_armor_chestplate": "Stone_armor Chestplate",
-      "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
-      "item.orderofobsidian.aikigitehammer": "Aikigite Hammer",
-      "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
-      "item.orderofobsidian.flour": "Flour",
-      "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
-      "block.orderofobsidian.xpbush_1": "Xp Bush",
-      "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
-      "item.orderofobsidian.particle_gold": "Particle Gold",
-      "item.orderofobsidian.blak_uruk_chestplate": "Blak Uruk Body",
-      "block.orderofobsidian.oxys_block": "Block of Oxys",
-      "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
-      "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
-      "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
-      "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
-      "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
-      "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
-      "item.orderofobsidian.aikigite_ingot": "Aikigite",
-      "item.orderofobsidian.blak_uruk_leggings": "Blak Uruk Leggings",
-      "block.orderofobsidian.nylium_slab": "Nylium Slab",
-      "advancements.obtaine_ironparticule.title": "Obtaine Iron Particule",
-      "item.orderofobsidian.mitril_armor_helmet": "Mitril Helmet",
-      "item.orderofobsidian.stone_stove": "Stone Stove",
-      "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
-      "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
-      "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
-      "item.orderofobsidian.galvorn_chestplate": "Galvorn Body",
-      "enchantment.orderofobsidian.fireresistance": "Fire Resistance",
-      "item.orderofobsidian.ranger_armor_leggings": "Ranger Leggings",
-      "item.orderofobsidian.avenronite_shovel": "Avenronite Shovel",
-      "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
-      "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
-      "item.spiritforge.oxys_bow": "Oxys Bow",
-      "item.orderofobsidian.bigdynamite_bauherite": "Big Dynamite",
-      "item.orderofobsidian.uruk_axe": "Uruk Axe",
-      "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
-      "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
-      "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
-      "item.orderofobsidian.plastique": "Plastique",
-      "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
-      "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
-      "block.orderofobsidian.solar_panel_medium": "Solar Panel",
-      "block.orderofobsidian.graphite_ore": "Graphite Ore",
-      "item.orderofobsidian.diamond_katana": "Diamond Katana",
-      "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
-      "item.orderofobsidian.goldenchield": "Goldenchield",
-      "item.spiritforge.oxys_armor_leggings": "Oxys Leggings",
-      "item.spiritforge.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
-      "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
-      "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
-      "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
-      "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
-      "item.orderofobsidian.steel_snaffle": "Steel Snaffle",
-      "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
-      "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
-      "item.orderofobsidian.netheritestove": "netherit Stove",
-      "block.orderofobsidian.oxys_ore": "Oxys Ore",
-      "item.orderofobsidian.particle_mithril": "Particle Mithril",
-      "item.orderofobsidian.diamond_shard": "Diamond Shard",
-      "advancements.obtaine_bauherite_particule.descr": "Bauherite particule",
-      "item.orderofobsidian.galvorn_ingot": "Galvorn Ingot",
-      "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
-      "item.orderofobsidian.ranger_armor_helmet": "Ranger Helmet",
-      "block.orderofobsidian.batterie_1": "Batterie tier I",
-      "item.orderofobsidian.diamond_spear": "Diamond Spear",
-      "item.orderofobsidian.obsidian_snaffle": "obsidian Snaffle",
-      "item.orderofobsidian.aikigite_armor_boots": "Aikigite Boots",
-      "block.spiritforge.oxys_ore": "Oxys Ore",
-      "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
-      "enchantment.orderofobsidian.ice_aspect": "Ice Aspect",
-      "item.orderofobsidian.oxysapple": "Oxysapple",
-      "item.orderofobsidian.wood_katana": "Wood Katana",
-      "item.orderofobsidian.aikigite_armor_chestplate": "Aikigite Chestplate",
-      "item.spiritforge.oxys": "Oxys",
-      "block.orderofobsidian.nylium_log": "Nylium Log",
-      "block.orderofobsidian.forge": "Forge",
-      "biome.spiritforge.volcan": "Volcan",
-      "item.orderofobsidian.uruk_hoe": "Uruk Hoe",
-      "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
-      "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
-      "block.orderofobsidian.avenronite_block": "Block of Avenronite",
-      "block.orderofobsidian.electrique_furnace": "Electrique Furnace",
-      "item.orderofobsidian.angmar_armor_leggings": "Angmar Leggings",
-      "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
-      "itemGroup.tabtools": "Tools",
-      "item.orderofobsidian.stone_katana": "Stone Katana",
-      "item.spiritforge.oxys_pickaxe": "Oxys Pickaxe",
-      "item.orderofobsidian.avenronite_armor_boots": "Avenronite Boots",
-      "item.orderofobsidian.uruk_pickaxe": "Uruk Pickaxe",
-      "item.orderofobsidian.angma_hammer": "Angmar Hammer",
-      "item.orderofobsidian.ranger_armor_boots": "Ranger Boots",
-      "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
-      "block.orderofobsidian.ironbookshelf": "Iron book shelf",
-      "item.orderofobsidian.wood_elven_chestplate": "Wood Elven Body",
-      "item.orderofobsidian.rice": "Rice Seed",
-      "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
-      "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
-      "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
-      "item.spiritforge.oxys_armor_boots": "Oxys Boots",
-      "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
-      "item.orderofobsidian.angmar_spear": "Angmar Spear",
-      "item.orderofobsidian.silver_plate": "Silver Plate",
-      "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
-      "itemGroup.tabspirit": "Weapon ",
-      "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
-      "advancements.obtaine_goldparticule.title": "Obtaine Gold Particule",
-      "item.orderofobsidian.iron_battle_axe": "Iron Battle Axe",
-      "entity.orderofobsidian.netheritegolem": "netherite Golem",
-      "item.orderofobsidian.rubber": "Rubber",
-      "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
-      "advancements.obtaine_mitril_particule.title": "Obtaine Mitril Particule",
-      "item.orderofobsidian.electronique_circuit": "Electronique Circuit",
-      "item.orderofobsidian.angmar_battle_axe": "Angmar Battle Axe",
-      "block.orderofobsidian.fan": "Fan",
-      "advancements.obtaine_aikigiteparticule.descr": "Aikigite particule",
-      "block.orderofobsidian.graphite_glass": "Graphite Glass",
-      "block.orderofobsidian.nylium_button": "Nylium Button",
-      "item.orderofobsidian.x_pberry": "XP berry",
-      "item.orderofobsidian.alluminium_snaffle": "Alluminium Snaffle",
-      "item.orderofobsidian.dynamite_oxys": "Dynamite",
-      "item.orderofobsidian.hueersite": "Hueersite",
-      "item.orderofobsidian.avenronite_mixed_coal": "Avenronite Mixed Coal",
-      "item.orderofobsidian.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "item.orderofobsidian.netheritegolem_spawn_egg": "netherite Golem Spawn Egg",
-      "item.orderofobsidian.oxys_bow": "Oxys Bow",
-      "item.orderofobsidian.wooden_armor_armor_boots": "Wooden_armor Boots",
-      "item.orderofobsidian.steel_ingot": "Steel Ingot",
-      "advancements.a_back_steel.descr": "uruk steel",
-      "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
-      "item.orderofobsidian.stone_battle_axe": "Stone Battle Axe",
-      "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
-      "item.orderofobsidian.gold_katana": "Gold Katana",
-      "enchantment.orderofobsidian.night_vision": "Nigh Vision",
-      "item.orderofobsidian.steel_armor_helmet": "Steel Helmet",
-      "block.orderofobsidian.rice_stage_3": "Rice Stage",
-      "block.orderofobsidian.rice_stage_2": "Rice Stage",
-      "block.orderofobsidian.rice_stage_1": "Rice Stage",
-      "block.orderofobsidian.rice_stage_0": "Rice Stage",
-      "block.orderofobsidian.rice_stage_7": "Rice Stage",
-      "block.orderofobsidian.rice_stage_6": "Rice Stage",
-      "block.orderofobsidian.rice_stage_5": "Rice Stage",
-      "block.orderofobsidian.rice_stage_4": "Rice Stage",
-      "item.orderofobsidian.bauherite_armor_helmet": "Bauherite Helmet",
-      "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
-      "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
-      "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
-      "item.orderofobsidian.ithilien_armor_leggings": "Ithilien Leggings",
-      "item.orderofobsidian.bauheritehammer": "Bauherite Hammer",
-      "item.orderofobsidian.oxys_sword": "Oxys Sword",
-      "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
-      "item.orderofobsidian.ironplate": "Ironplate",
-      "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
-      "item.orderofobsidian.angmar_armor_boots": "Angmar Boots",
       "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
       "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
-      "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
+      "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
       "advancements.obtaine_ironparticule.descr": "Iron particule",
+      "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
       "item.orderofobsidian.stone_hammer": "Stone Hammer",
       "item.spiritforge.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.lead_ingot": "Lead Ingot",
+      "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
       "item.orderofobsidian.rice_seed": "Rice Seed",
+      "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
+      "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
       "item.orderofobsidian.edhelvir": "Edhelvir",
+      "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
       "advancements.obtaine_aikigiteparticule.title": "Obtaine Aikigite Particule",
+      "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
+      "item.orderofobsidian.diamond_snaffle": "diamond Snaffle",
       "block.orderofobsidian.xp_bush_2": "Xp Bush",
       "item.orderofobsidian.silver_ingot": "Silver Ingot",
+      "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
+      "item.orderofobsidian.steel_dust": "Steel Dust",
       "block.orderofobsidian.nylium_wood": "Nylium Wood",
       "item.orderofobsidian.uruck_dagger": "Uruk Dagger",
+      "item.spiritforge.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
       "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "advancements.obtaine_goldparticule.descr": "Gold particule",
+      "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
+      "item.orderofobsidian.galvorn_boots": "Galvorn Boots",
       "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
       "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
       "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
+      "item.orderofobsidian.raw_edruelium": "Raw Edruelium",
+      "block.orderofobsidian.oculus_tnt": "Oculus TNT",
+      "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
+      "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
       "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
       "block.orderofobsidian.forgeon": "Forge",
+      "block.orderofobsidian.bauherite_block": "Block of Bauherite",
       "item.orderofobsidian.oxysstove": "Oxis Stove",
+      "item.orderofobsidian.wood_hammer": "Wood Hammer",
+      "item.orderofobsidian.uruck_metal_powder": "Uruck Metal Powder",
       "item.orderofobsidian.black_uruk_spear": "Uruk Spear",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
       "item.orderofobsidian.particle_aikigite": "Particle Aikigite",
       "item.orderofobsidian.diamondstove": "diamond Stove",
+      "item.orderofobsidian.ithilien_armor_boots": "Ithilien Boots",
+      "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
+      "advancements.dubious_ore.title": "Dubious Ore",
       "item.orderofobsidian.avenronitehammer": "Avenronite Hammer",
       "enchantment.orderofobsidian.ignition": "Ignition",
+      "item.orderofobsidian.angmar_pickaxe": "Angmar Pickaxe",
       "item.orderofobsidian.steel_hoe": "Steel Hoe",
+      "advancements.obtaine_edhelvir_particule.descr": "Edhelvir ",
       "item.orderofobsidian.big_dynamite": "Big Dynamite",
       "advancements.obtaine_edhelvir_particule.title": "Obtaine Edhelvir",
+      "block.spiritforge.oxys_block": "Block of Oxys",
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
       "advancements.dubious_ore.descr": "but what is this dubious mineral",
+      "advancements.areyousureyouwanttogrowwiththis.title": "Are you sure you want to grow with this",
       "item.orderofobsidian.ithilien_armor_helmet": "Ithilien Helmet",
+      "enchantment.spiritforge.propelling": "Propelling",
+      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.spiritforge.oxys_sword": "Oxys Sword",
+      "item.orderofobsidian.stone_armor_armor_chestplate": "Stone_armor Chestplate",
       "item.orderofobsidian.blak_uruk_boots": "Blak Uruk Boots",
+      "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.bauherite_shovel": "Bauherite Shovel",
       "block.orderofobsidian.burnedtree_leaves": "Burnedtree",
       "item.orderofobsidian.oxys_stick": "Oxys Stick",
       "item.orderofobsidian.gold_hammer": "Gold Hammer",
+      "item.orderofobsidian.aikigitehammer": "Aikigite Hammer",
       "block.orderofobsidian.silver_ore": "Silver Ore",
       "item.orderofobsidian.bauherite_ingot": "Bauherite",
+      "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
+      "item.orderofobsidian.flour": "Flour",
       "block.orderofobsidian.burnedtree_log": "Burnedtree Log",
       "enchantment.orderofobsidian.auto_smelt": "Auto Smelt",
       "item.orderofobsidian.bauherite_snaffle": "Bauherite Snaffle",
@@ -8588,100 +7592,187 @@
       "item.orderofobsidian.graphite_dust": "Graphite Dust",
       "item.orderofobsidian.mitril_armor_leggings": "Mitril Leggings",
       "block.orderofobsidian.copperbookshelf": "Copper Book Shelf",
-      "block.orderofobsidian.solar_panel_high": "Solar Panel",
+      "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
+      "item.orderofobsidian.particle_gold": "Particle Gold",
+      "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
+      "block.orderofobsidian.xpbush_1": "Xp Bush",
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
+      "item.orderofobsidian.blak_uruk_chestplate": "Blak Uruk Body",
       "item.orderofobsidian.angmar_axe": "Angmar Axe",
       "block.orderofobsidian.mitril_block": "Block of Mitril",
+      "block.orderofobsidian.oxys_block": "Block of Oxys",
+      "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
+      "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
+      "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
+      "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
+      "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
+      "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
       "block.orderofobsidian.obsidianbookshelf": "Obsidian Book Shelf",
+      "item.orderofobsidian.aikigite_ingot": "Aikigite",
+      "item.orderofobsidian.blak_uruk_leggings": "Blak Uruk Leggings",
+      "block.orderofobsidian.nylium_slab": "Nylium Slab",
       "item.orderofobsidian.uruk_ingot": "Uruk Ingot",
-      "block.orderofobsidian.thermalgenerator": "Thermal Generator",
       "item.orderofobsidian.ranger_armor_chestplate": "Ranger Chestplate",
+      "advancements.obtaine_ironparticule.title": "Obtaine Iron Particule",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
+      "item.orderofobsidian.edrueliumarmor_leggings": "Edruelium Leggings",
       "item.orderofobsidian.oxys": "Oxys",
+      "item.orderofobsidian.edrueliumarmor_chestplate": "Edruelium Chestplate",
       "item.orderofobsidian.sushi": "Sushi",
+      "item.orderofobsidian.mitril_armor_helmet": "Mitril Helmet",
       "item.orderofobsidian.uruk_sword": "Uruk Sword",
+      "item.orderofobsidian.stone_stove": "Stone Stove",
       "item.orderofobsidian.steel_sword": "Steel Sword",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
       "item.orderofobsidian.mitril_ingot": "Mitril",
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
       "block.orderofobsidian.goldbookshelf": "Gold Book Shelf",
+      "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
+      "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
+      "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
+      "item.orderofobsidian.galvorn_chestplate": "Galvorn Body",
       "item.orderofobsidian.particle_avenronite": "Particle Avenronite",
       "item.orderofobsidian.mitril_armor_chestplate": "Mitril Chestplate",
+      "item.orderofobsidian.ranger_armor_leggings": "Ranger Leggings",
       "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
       "item.orderofobsidian.avenronite_ingot": "Avenronite",
+      "item.orderofobsidian.avenronite_shovel": "Avenronite Shovel",
+      "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
       "item.orderofobsidian.blak_uruk_helmet": "Blak Uruk Helmet",
+      "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
       "block.orderofobsidian.diamond_glass": "Diamond Glass",
+      "item.spiritforge.oxys_bow": "Oxys Bow",
       "item.orderofobsidian.compresed_xp_berry": "compresed XP berry",
+      "item.orderofobsidian.bigdynamite_bauherite": "Big Dynamite",
       "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.angmar_shovel": "Angmar Shovel",
+      "item.orderofobsidian.uruk_axe": "Uruk Axe",
+      "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
+      "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
       "advancements.obtaine_avenronitr_particule.title": "Obtaine Avenronite Particule",
+      "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
       "item.orderofobsidian.netherackarmor_armor_helmet": "Netherackarmor Helmet",
+      "item.orderofobsidian.plastique": "Plastique",
       "item.orderofobsidian.dynamite_bauherite": "Dynamite",
+      "block.orderofobsidian.edruelium_block": "Block of Edruelium",
       "item.orderofobsidian.steel_shovel": "Steel Shovel",
-      "block.orderofobsidian.solar_panel_night": "Solar Panel",
       "block.orderofobsidian.materialbreaker": "Material Breaker",
+      "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
       "advancements.a_back_steel.title": "A Back Steel",
+      "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
+      "block.orderofobsidian.graphite_ore": "Graphite Ore",
+      "item.orderofobsidian.diamond_katana": "Diamond Katana",
       "item.orderofobsidian.gold_spear": "Gold Spear",
       "item.orderofobsidian.black_uruk_dagger": "Uruk Sword",
       "item.orderofobsidian.galvorn_helmet": "Galvorn Helmet",
       "item.orderofobsidian.wood_elven_helmet": "Wood Elven Helmet",
+      "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
       "block.orderofobsidian.infamy_tnt": "Infamy TNT",
       "itemGroup.tabarmor": "Armor",
       "item.orderofobsidian.particleiron": "Particle Iron",
       "advancements.areyousureyouwanttogrowwiththis.descr": "you are really useful",
       "item.orderofobsidian.bauherite_mixed_coal": "Bauherite Mixed Coal",
+      "item.orderofobsidian.goldenchield": "Goldenchield",
       "block.orderofobsidian.avenronite_ore": "Avenronite Ore",
       "biome.orderofobsidian.nylium_forest": "Nylium Forest",
+      "item.spiritforge.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
+      "item.spiritforge.oxys_armor_leggings": "Oxys Leggings",
+      "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
       "item.orderofobsidian.aikigite_armor_helmet": "Aikigite Helmet",
+      "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.orderofobsidian.iron_katana": "Iron Katana",
+      "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
       "block.orderofobsidian.obsidian_golemhead": "Obsidian Golem head",
       "item.spiritforge.diamond_apple": "Diamond Apple",
-      "enchantment.orderofobsidian.speed": "Speed",
-      "itemGroup.tabmachine": "Machine",
+      "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
+      "item.orderofobsidian.steel_snaffle": "Steel Snaffle",
+      "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
+      "item.orderofobsidian.netheritestove": "netherit Stove",
+      "item.orderofobsidian.edrueliumarmor_boots": "Edruelium Boots",
+      "block.orderofobsidian.oxys_ore": "Oxys Ore",
+      "item.orderofobsidian.particle_mithril": "Particle Mithril",
       "item.orderofobsidian.goldstove": "gold Stove",
+      "item.orderofobsidian.diamond_shard": "Diamond Shard",
+      "advancements.obtaine_bauherite_particule.descr": "Bauherite particule",
+      "item.orderofobsidian.galvorn_ingot": "Galvorn Ingot",
+      "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
       "item.orderofobsidian.particle_bauherite": "Particle Bauherite",
+      "item.orderofobsidian.ranger_armor_helmet": "Ranger Helmet",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
+      "block.orderofobsidian.edruelium_ore": "Edruelium Ore",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
       "item.orderofobsidian.dynamite": "Dynamite",
       "item.orderofobsidian.avenronite_armor_helmet": "Avenronite Helmet",
       "advancements.its_a_breaker.title": "Its A Breaker?",
       "item.orderofobsidian.steel_pickaxe": "Steel Pickaxe",
+      "item.orderofobsidian.diamond_spear": "Diamond Spear",
       "item.orderofobsidian.oxys_armor_helmet": "Oxys Helmet",
       "biome.orderofobsidian.volcan": "Volcan",
+      "item.orderofobsidian.obsidian_snaffle": "obsidian Snaffle",
       "item.orderofobsidian.steel_axe": "Steel Axe",
       "block.orderofobsidian.emeraldbookshelf": "Emerald Book Shelf",
+      "item.orderofobsidian.aikigite_armor_boots": "Aikigite Boots",
       "advancements.obtaine_mitril_particule.descr": "Mitril particule",
+      "block.spiritforge.oxys_ore": "Oxys Ore",
       "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
+      "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
+      "item.orderofobsidian.edrueliumarmor_helmet": "Edruelium Helmet",
+      "item.orderofobsidian.oxysapple": "Oxysapple",
       "item.orderofobsidian.faraday_armor_leggings": "Faraday Leggings",
       "item.orderofobsidian.aikigite_shovel": "Aikigite Shovel",
+      "item.orderofobsidian.wood_katana": "Wood Katana",
+      "item.orderofobsidian.aikigite_armor_chestplate": "Aikigite Chestplate",
       "item.orderofobsidian.oxys_pickaxe": "Oxys Pickaxe",
       "item.orderofobsidian.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
       "item.orderofobsidian.chips": "Chips",
       "item.orderofobsidian.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
+      "item.orderofobsidian.edruelium_ingot": "Edruelium_ingot",
+      "item.spiritforge.oxys": "Oxys",
       "item.orderofobsidian.ultimatesword": "Ultimatesword",
+      "block.orderofobsidian.nylium_log": "Nylium Log",
       "item.orderofobsidian.dynamite_aikigite": "Dynamite",
       "item.orderofobsidian.steel_armor_chestplate": "Steel Chestplate",
       "block.orderofobsidian.diamondbookshelf": "Diamond Book Shelf",
+      "block.orderofobsidian.forge": "Forge Tier I",
       "itemGroup.tabbloc_k": "Block",
+      "biome.spiritforge.volcan": "Volcan",
+      "item.orderofobsidian.uruk_hoe": "Uruk Hoe",
+      "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
+      "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.aikigite_sword": "Aikigite Sword",
+      "block.orderofobsidian.avenronite_block": "Block of Avenronite",
       "item.orderofobsidian.uruk_shovel": "Uruk Shovel",
       "item.orderofobsidian.copper_plate": "Copper Plate",
+      "item.orderofobsidian.angmar_armor_leggings": "Angmar Leggings",
+      "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "itemGroup.tabtools": "Tools",
+      "item.orderofobsidian.stone_katana": "Stone Katana",
       "item.orderofobsidian.ironbarre": "Iron Barre",
+      "item.spiritforge.oxys_pickaxe": "Oxys Pickaxe",
       "block.orderofobsidian.burnedtree_planks": "Burnedtree Planks",
+      "item.orderofobsidian.avenronite_armor_boots": "Avenronite Boots",
       "item.orderofobsidian.copper_gear": "Copper Gear",
       "item.orderofobsidian.uruk_battleaxe": "Uruk Battle Axe",
       "item.orderofobsidian.angmar_armor_chestplate": "Angmar Chestplate",
+      "item.orderofobsidian.uruk_pickaxe": "Uruk Pickaxe",
+      "item.orderofobsidian.angma_hammer": "Angmar Hammer",
+      "item.orderofobsidian.ranger_armor_boots": "Ranger Boots",
       "item.orderofobsidian.obsidian_golem_spawn_egg": "Obsidian Golem Spawn Egg",
+      "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
+      "block.orderofobsidian.ironbookshelf": "Iron book shelf",
       "block.orderofobsidian.x_pbush_ore": "XPbush",
-      "block.orderofobsidian.solar_panel_low": "Solar Panel",
+      "item.orderofobsidian.wood_elven_chestplate": "Wood Elven Body",
+      "item.orderofobsidian.rice": "Rice Seed",
       "item.orderofobsidian.uruk_spear": "Uruk Spear",
       "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.chickenwing": "Chickenwing",
       "item.orderofobsidian.iron_spear": "Iron Spear",
+      "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
       "item.spiritforge.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
-      "item.orderofobsidian.energy_setting_device_0": "Energy Setting Device ",
+      "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
       "item.orderofobsidian.wooden_armor_armor_helmet": "Wooden_armor Helmet",
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
       "block.orderofobsidian.mitril_ore": "Mitril Ore",
@@ -8689,53 +7780,104 @@
       "item.orderofobsidian.melstone": "Melstone",
       "item.orderofobsidian.galvorn_leggings": "Galvorn Leggings",
       "item.orderofobsidian.dynamite_avenronite": "Dynamite",
+      "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
       "item.orderofobsidian.uruck_hammer": "Uruk Hammer",
+      "item.spiritforge.oxys_armor_boots": "Oxys Boots",
+      "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
       "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
       "item.orderofobsidian.angmar_armor_helmet": "Angmar Helmet",
+      "item.orderofobsidian.angmar_spear": "Angmar Spear",
+      "item.orderofobsidian.silver_plate": "Silver Plate",
+      "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
       "block.orderofobsidian.caveblock": "Caveblock",
+      "itemGroup.tabspirit": "Weapon ",
+      "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
       "item.spiritforge.oxysapple": "Oxysapple",
+      "advancements.obtaine_goldparticule.title": "Obtaine Gold Particule",
+      "item.orderofobsidian.iron_battle_axe": "Iron Battle Axe",
       "item.orderofobsidian.diamond_apple": "Diamond Apple",
       "biome.spiritforge.pikeperchhill": "Pikeperchhill",
+      "entity.orderofobsidian.netheritegolem": "netherite Golem",
+      "item.orderofobsidian.rubber": "Rubber",
+      "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
+      "advancements.obtaine_mitril_particule.title": "Obtaine Mitril Particule",
+      "item.orderofobsidian.electronique_circuit": "Electronique Circuit",
+      "item.orderofobsidian.angmar_battle_axe": "Angmar Battle Axe",
       "advancements.obtaine_bauherite_particule.title": "Obtaine Bauherite Particule",
       "item.orderofobsidian.uruk_armor_helmet": "Uruk Helmet",
       "advancements.its_a_breaker.descr": "material breaker",
       "block.orderofobsidian.nylium_planks": "Nylium Planks",
       "item.orderofobsidian.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
       "item.orderofobsidian.diamondhammer": "Diamond Hammer",
+      "advancements.obtaine_aikigiteparticule.descr": "Aikigite particule",
+      "block.orderofobsidian.graphite_glass": "Graphite Glass",
+      "block.orderofobsidian.nylium_button": "Nylium Button",
       "item.orderofobsidian.oxys_armor_boots": "Oxys Boots",
       "item.spiritforge.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.angmar_sword": "Angmar Sword",
-      "block.orderofobsidian.solar_panel": "Solar Panel",
+      "item.orderofobsidian.x_pberry": "XP berry",
       "item.orderofobsidian.oxys_armor_leggings": "Oxys Leggings",
+      "item.orderofobsidian.alluminium_snaffle": "Alluminium Snaffle",
       "item.orderofobsidian.bauherite_axe": "Bauherite Axe",
       "item.orderofobsidian.avenronite_armor_chestplate": "Avenronite Chestplate",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",
+      "item.orderofobsidian.dynamite_oxys": "Dynamite",
+      "item.orderofobsidian.hueersite": "Hueersite",
       "item.orderofobsidian.lead_plate": "Lead Plate",
       "block.orderofobsidian.aikigite_block": "Block of Aikigite",
       "item.orderofobsidian.oxys_hammer": "Oxys Hammer",
+      "item.orderofobsidian.avenronite_mixed_coal": "Avenronite Mixed Coal",
       "item.orderofobsidian.aikigite_mixed_coal": "Aikigite Mixed Coal",
+      "item.orderofobsidian.obsidian_tool_shovel": "Obsidian_tool Shovel",
+      "item.orderofobsidian.netheritegolem_spawn_egg": "netherite Golem Spawn Egg",
+      "item.orderofobsidian.oxys_bow": "Oxys Bow",
       "item.orderofobsidian.obsidian_tool_axe": "Obsidian_tool Axe",
-      "item.orderofobsidian.energy_setting_device": "Energy Setting Device",
+      "item.orderofobsidian.wooden_armor_armor_boots": "Wooden_armor Boots",
+      "item.orderofobsidian.steel_ingot": "Steel Ingot",
+      "advancements.a_back_steel.descr": "uruk steel",
+      "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.orderofobsidian.big_dynamite_aikigite": "Big Dynamite",
       "item.orderofobsidian.fried_egg": "Fried Egg",
       "item.orderofobsidian.mitril_armor_boots": "Mitril Boots",
+      "item.orderofobsidian.stone_battle_axe": "Stone Battle Axe",
+      "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
       "item.orderofobsidian.steel_armor_leggings": "Steel Leggings",
+      "item.orderofobsidian.gold_katana": "Gold Katana",
+      "item.orderofobsidian.steel_armor_helmet": "Steel Helmet",
       "itemGroup.tabitems": "Items",
+      "block.orderofobsidian.rice_stage_3": "Rice Stage",
+      "block.orderofobsidian.rice_stage_2": "Rice Stage",
       "item.orderofobsidian.lead_dust": "Lead Dust",
-      "enchantment.orderofobsidian.life_steal": "Life Steal",
+      "block.orderofobsidian.rice_stage_1": "Rice Stage",
+      "block.orderofobsidian.rice_stage_0": "Rice Stage",
       "item.orderofobsidian.wood_elven_boots": "Wood Elven Boots",
+      "block.orderofobsidian.rice_stage_7": "Rice Stage",
+      "block.orderofobsidian.rice_stage_6": "Rice Stage",
       "item.orderofobsidian.oxys_spear": "Oxys Spear",
+      "block.orderofobsidian.rice_stage_5": "Rice Stage",
+      "block.orderofobsidian.rice_stage_4": "Rice Stage",
+      "item.orderofobsidian.bauherite_armor_helmet": "Bauherite Helmet",
       "item.orderofobsidian.cooked_rice": "Cooked Rice",
       "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
+      "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
       "item.orderofobsidian.sticksword": "Stick_sword",
       "item.orderofobsidian.ithilien_armor_chestplate": "Ithilien Chestplate",
       "item.spiritforge.oxys_stick": "Oxys Stick",
+      "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
+      "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
+      "item.orderofobsidian.ithilien_armor_leggings": "Ithilien Leggings",
+      "item.orderofobsidian.bauheritehammer": "Bauherite Hammer",
       "item.orderofobsidian.aikigite_axe": "Aikigite Axe",
+      "item.orderofobsidian.oxys_sword": "Oxys Sword",
+      "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
       "advancements.obtaine_avenronitr_particule.descr": "Avenronite particule",
+      "item.orderofobsidian.ironplate": "Ironplate",
       "item.orderofobsidian.steel_plate": "Steel Plate",
       "item.orderofobsidian.wood_elven_leggings": "Wood Elven Leggings",
+      "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
       "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
+      "item.orderofobsidian.angmar_armor_boots": "Angmar Boots",
       "item.spiritforge.oxys_axe": "Oxys Axe"
     }
   },
@@ -8780,28 +7922,6 @@
         "children": [
           {
             "name": "furnace",
-            "children": []
-          },
-          {
-            "name": "energie",
-            "children": [
-              {
-                "name": "solarpannel",
-                "children": []
-              },
-              {
-                "name": "Thermal Generator",
-                "children": [
-                  {
-                    "name": "gui",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "tool",
             "children": []
           }
         ]
@@ -8999,7 +8119,7 @@
   "workspaceSettings": {
     "modid": "orderofobsidian",
     "modName": "OrderofObsidian",
-    "version": "0.3.1",
+    "version": "0.3.4",
     "author": "Klaivert,Metalex",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/order-of-obsidian",
     "license": "Order Of Obsidian",

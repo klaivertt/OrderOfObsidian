@@ -21,7 +21,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 100;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 700;
 			}
 
 			@Override
@@ -31,7 +31,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 45;
+				return 50;
 			}
 
 			@Override
@@ -51,7 +51,7 @@ public abstract class OxysArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 2.7f;
+				return 5.5f;
 			}
 
 			@Override

@@ -141,7 +141,7 @@ public class ForgeBlock extends Block
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Forge");
+					return new TextComponent("Forge Tier I");
 				}
 
 				@Override

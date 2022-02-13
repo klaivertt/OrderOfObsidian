@@ -582,6 +582,20 @@ public class MaterialbreakerUpdateTickProcedure {
 				return _retval.get();
 			}
 		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 6) <= 63) {
+			{
+				BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (_ent != null) {
+					final int _sltid = 0;
+					final int _amount = 1;
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						if (capability instanceof IItemHandlerModifiable) {
+							ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+							_stk.shrink(_amount);
+							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+						}
+					});
+				}
+			}
 			if (Math.random() > 0.5) {
 				{
 					BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));

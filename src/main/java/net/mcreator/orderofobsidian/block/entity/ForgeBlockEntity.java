@@ -102,7 +102,7 @@ public class ForgeBlockEntity extends RandomizableContainerBlockEntity implement
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Forge");
+		return new TextComponent("Forge Tier I");
 	}
 
 	@Override

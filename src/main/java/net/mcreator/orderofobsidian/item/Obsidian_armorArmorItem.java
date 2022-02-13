@@ -21,7 +21,7 @@ public abstract class Obsidian_armorArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 750;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 100;
 			}
 
 			@Override

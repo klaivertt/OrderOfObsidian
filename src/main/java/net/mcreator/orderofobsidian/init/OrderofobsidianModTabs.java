@@ -14,7 +14,6 @@ public class OrderofobsidianModTabs {
 	public static CreativeModeTab TAB_SPIRIT;
 	public static CreativeModeTab TAB_TOOLS;
 	public static CreativeModeTab TAB_ITEMS;
-	public static CreativeModeTab TAB_MACHINE;
 	public static CreativeModeTab TAB_BLOC_K;
 	public static CreativeModeTab TAB_ARMOR;
 
@@ -45,17 +44,6 @@ public class OrderofobsidianModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(OrderofobsidianModItems.OXYS_STICK);
-			}
-
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
-		TAB_MACHINE = new CreativeModeTab("tabmachine") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(OrderofobsidianModBlocks.ELECTRIQUE_FURNACE);
 			}
 
 			@OnlyIn(Dist.CLIENT)

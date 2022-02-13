@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Forge",
+    "name": "Forge Tier I",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Machine"
+      "value": "CUSTOM:BlocK"
     },
     "destroyTool": "Not specified",
     "customDrop": {

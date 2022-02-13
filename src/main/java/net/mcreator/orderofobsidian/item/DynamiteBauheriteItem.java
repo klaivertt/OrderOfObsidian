@@ -13,6 +13,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.mcreator.orderofobsidian.procedures.DynamiteBauheriteRangedItemUsedProcedure;
 import net.mcreator.orderofobsidian.init.OrderofobsidianModTabs;
 import net.mcreator.orderofobsidian.entity.DynamiteBauheriteEntity;
 
@@ -48,6 +49,8 @@ public class DynamiteBauheriteItem extends Item {
 				DynamiteBauheriteEntity entityarrow = DynamiteBauheriteEntity.shoot(world, entity, world.getRandom(), 0.5f, 1, 1);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
+
+				DynamiteBauheriteRangedItemUsedProcedure.execute(entity);
 			}
 		}
 	}

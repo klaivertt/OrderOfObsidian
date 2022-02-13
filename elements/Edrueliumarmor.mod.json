@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "helmetedruelium",
+    "enableBody": true,
+    "textureBody": "edrueliummoredain",
+    "enableLeggings": true,
+    "textureLeggings": "legsedruelium",
+    "enableBoots": true,
+    "textureBoots": "bootsedruelium",
+    "creativeTab": {
+      "value": "CUSTOM:Armor"
+    },
+    "armorTextureFile": "edruelium_layer_1",
+    "helmetName": "Edruelium Helmet",
+    "bodyName": "Edruelium Chestplate",
+    "leggingsName": "Edruelium Leggings",
+    "bootsName": "Edruelium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 200,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 5,
+    "enchantability": 15,
+    "toughness": 2.3,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EdrueliumIngot"
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "orderofobsidian:blocks/edruelium_ore",
-    "particle": "orderofobsidian:blocks/edruelium_ore"
+    "all": "orderofobsidian:blocks/edrueliumore",
+    "particle": "orderofobsidian:blocks/edrueliumore"
   }
 }

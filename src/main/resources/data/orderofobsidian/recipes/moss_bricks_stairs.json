@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "orderofobsidian:moss_bricks"
+    },
+    "3": {
+      "item": "orderofobsidian:moss_bricks"
+    },
+    "4": {
+      "item": "orderofobsidian:moss_bricks"
+    },
+    "6": {
+      "item": "orderofobsidian:moss_bricks"
+    },
+    "7": {
+      "item": "orderofobsidian:moss_bricks"
+    },
+    "8": {
+      "item": "orderofobsidian:moss_bricks"
+    }
+  },
+  "result": {
+    "item": "cftlc:moss_bricks_stairs",
+    "count": 1
+  }
+}

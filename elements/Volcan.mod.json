@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "biome",
   "definition": {
     "name": "Volcan",
@@ -48,15 +48,14 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
-    "parent": {
-      "value": "No parent"
-    },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.4,
     "biomeType": "DESERT",
     "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
     "biomeWeight": 15,
     "biomeDictionaryTypes": [
       "MOUNTAIN"

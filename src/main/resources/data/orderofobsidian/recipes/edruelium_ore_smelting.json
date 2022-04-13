@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:raw_edruelium"
   },
-  "result": {
-    "item": "orderofobsidian:edruelium_ingot"
-  }
+  "result": "orderofobsidian:edruelium_ingot"
 }

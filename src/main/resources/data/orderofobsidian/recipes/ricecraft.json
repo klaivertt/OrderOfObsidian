@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:rice"
   },
-  "result": {
-    "item": "orderofobsidian:cooked_rice"
-  }
+  "result": "orderofobsidian:cooked_rice"
 }

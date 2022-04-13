@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 27,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -43,10 +43,10 @@
     "leggingsImmuneToFire": true,
     "bootsImmuneToFire": true,
     "maxDamage": 700,
-    "damageValueHelmet": 6,
-    "damageValueBody": 11,
-    "damageValueLeggings": 11,
-    "damageValueBoots": 6,
+    "damageValueHelmet": 7,
+    "damageValueBody": 12,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 7,
     "enchantability": 50,
     "toughness": 5.5,
     "knockbackResistance": 0.30000000000000004,

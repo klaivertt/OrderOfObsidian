@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:aikigite_ore"
   },
-  "result": {
-    "item": "orderofobsidian:aikigite_ingot"
-  }
+  "result": "orderofobsidian:aikigite_ingot"
 }

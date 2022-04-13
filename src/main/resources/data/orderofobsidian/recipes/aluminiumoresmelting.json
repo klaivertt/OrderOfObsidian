@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:aluminium_ore"
   },
-  "result": {
-    "item": "orderofobsidian:aluminium_ingot"
-  }
+  "result": "orderofobsidian:aluminium_ingot"
 }

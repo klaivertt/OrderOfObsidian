@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:uruck_metal_powder"
   },
-  "result": {
-    "item": "orderofobsidian:uruk_ingot"
-  }
+  "result": "orderofobsidian:uruk_ingot"
 }

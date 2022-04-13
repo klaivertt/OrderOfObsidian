@@ -1,22 +1,31 @@
 modLoader="javafml"
-loaderVersion="[37,)"
-license="Order Of Obsidian"
+loaderVersion="[40,)"
+license="GNU General Public License v3.0"
 
 [[mods]]
 modId="orderofobsidian"
-version="0.3.4"
-displayName="OrderofObsidian"
-credits="Klaivert,Metalex"
+version="0.0.1"
+displayName="Order Of Obsidian"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/order-of-obsidian"
-logoFile="logo.png"
-authors="Klaivert,Metalex"
+logoFile= "logo.png"
+#credits=""
+authors="Klaivert"
+description='''
+mod that adds any object, armor and tool
+'''
 
 [[dependencies.orderofobsidian]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.17.1]"
-    ordering="NONE"
-    side="BOTH"
+modId="forge"
+mandatory=true
+versionRange="[40.0.2,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.orderofobsidian]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19]"
+ordering="NONE"
+side="BOTH"
 
 
 

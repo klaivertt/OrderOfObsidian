@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:silver_ore"
   },
-  "result": {
-    "item": "orderofobsidian:silver_ingot"
-  }
+  "result": "orderofobsidian:silver_ingot"
 }

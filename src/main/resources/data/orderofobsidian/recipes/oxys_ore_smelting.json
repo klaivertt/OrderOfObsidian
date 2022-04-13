@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:oxys_ore"
   },
-  "result": {
-    "item": "orderofobsidian:oxys"
-  }
+  "result": "orderofobsidian:oxys"
 }

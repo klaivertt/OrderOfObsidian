@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:mitril_ore"
   },
-  "result": {
-    "item": "orderofobsidian:mitril_ingot"
-  }
+  "result": "orderofobsidian:mitril_ingot"
 }

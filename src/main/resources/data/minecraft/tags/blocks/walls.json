@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "orderofobsidian:moss_bricks_wall",
+    "orderofobsidian:moss_bricks",
+    "orderofobsidian:moss_bricks_slab",
+    "orderofobsidian:moss_bricks_stairs",
+    "orderofobsidian:moss_block_wall",
+    "minecraft:moss_block",
+    "orderofobsidian:moss_block_slab",
+    "orderofobsidian:moss_block_stairs"
+  ]
+}

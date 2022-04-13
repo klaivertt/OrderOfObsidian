@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "minecraft:egg"
   },
-  "result": {
-    "item": "orderofobsidian:fried_egg"
-  }
+  "result": "orderofobsidian:fried_egg"
 }

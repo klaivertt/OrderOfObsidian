@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Oxysapple",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxysapple",
       "path": "~/oxys"
     },
@@ -17,7 +15,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxysapple_food_eaten",
       "metadata": {
         "dependencies": [
@@ -35,7 +32,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "saddle",
       "path": "~/craft_vanilla"
     },
@@ -45,7 +41,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherackarmor_armor",
       "metadata": {
         "eh": true,
@@ -61,7 +56,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherackarmor_armor_helmet_recipe",
       "path": "~/armor/netherack"
     },
@@ -71,7 +65,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherackarmor_armor_body_recipe",
       "path": "~/armor/netherack"
     },
@@ -81,7 +74,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherackarmor_armor_leggings_recipe",
       "path": "~/armor/netherack"
     },
@@ -91,7 +83,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherackarmor_armor_boots_recipe",
       "path": "~/armor/netherack"
     },
@@ -101,7 +92,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "spirit",
       "path": "~/CreativeInventorieTab"
     },
@@ -111,7 +101,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_armor_armor",
       "metadata": {
         "eh": true,
@@ -127,7 +116,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_armor_armor_helmet_recipe",
       "path": "~/obsidian"
     },
@@ -137,7 +125,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_armor_armor_body_recipe",
       "path": "~/obsidian"
     },
@@ -147,7 +134,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_armor_armor_leggings_recipe",
       "path": "~/obsidian"
     },
@@ -157,7 +143,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_armor_armor_boots_recipe",
       "path": "~/obsidian"
     },
@@ -167,7 +152,6 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_pickaxe_recipe",
       "path": "~/obsidian"
     },
@@ -177,7 +161,6 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_axe_recipe",
       "path": "~/obsidian"
     },
@@ -187,7 +170,6 @@
       "sortid": 125,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_sword_recipe",
       "path": "~/obsidian"
     },
@@ -197,7 +179,6 @@
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_shovel_recipe",
       "path": "~/obsidian"
     },
@@ -207,7 +188,6 @@
       "sortid": 127,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_hoe_recipe",
       "path": "~/obsidian"
     },
@@ -217,7 +197,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_apple",
       "path": "~/food"
     },
@@ -227,7 +206,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_apple_food_eaten",
       "metadata": {
         "dependencies": [
@@ -245,7 +223,6 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dimond_apple",
       "path": "~/food"
     },
@@ -255,7 +232,6 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_apples",
       "path": "~/oxys"
     },
@@ -265,7 +241,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ignition_procedure",
       "metadata": {
         "dependencies": [
@@ -299,7 +274,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ignition",
       "path": "~/enchantement"
     },
@@ -309,7 +283,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys",
       "path": "~/oxys"
     },
@@ -319,7 +292,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_ore",
       "path": "~/oxys"
     },
@@ -329,7 +301,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_block",
       "path": "~/oxys"
     },
@@ -339,7 +310,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_ore_block_recipe",
       "path": "~/oxys"
     },
@@ -349,7 +319,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_block_ore_recipe",
       "path": "~/oxys"
     },
@@ -359,7 +328,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_ore_smelting",
       "path": "~/oxys"
     },
@@ -369,7 +337,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_pickaxe",
       "path": "~/oxys"
     },
@@ -379,7 +346,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_axe",
       "path": "~/oxys"
     },
@@ -389,7 +355,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_sword",
       "path": "~/oxys"
     },
@@ -399,7 +364,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_shovel",
       "path": "~/oxys"
     },
@@ -409,7 +373,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_hoe",
       "path": "~/oxys"
     },
@@ -419,7 +382,6 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_pickaxe_recipe",
       "path": "~/oxys"
     },
@@ -429,7 +391,6 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_axe_recipe",
       "path": "~/oxys"
     },
@@ -439,7 +400,6 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_sword_recipe",
       "path": "~/oxys"
     },
@@ -449,7 +409,6 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_shovel_recipe",
       "path": "~/oxys"
     },
@@ -459,7 +418,6 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_hoe_recipe",
       "path": "~/oxys"
     },
@@ -469,7 +427,6 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_armor",
       "metadata": {
         "eh": true,
@@ -485,7 +442,6 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_armor_helmet_recipe",
       "path": "~/oxys"
     },
@@ -495,7 +451,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_armor_body_recipe",
       "path": "~/oxys"
     },
@@ -505,7 +460,6 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_armor_leggings_recipe",
       "path": "~/oxys"
     },
@@ -515,7 +469,6 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_armor_boots_recipe",
       "path": "~/oxys"
     },
@@ -525,7 +478,6 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_stick",
       "path": "~/oxys"
     },
@@ -535,7 +487,6 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_stickcraft",
       "path": "~/oxys"
     },
@@ -545,7 +496,6 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_bow",
       "path": "~/oxys"
     },
@@ -555,7 +505,6 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_bow_craft",
       "path": "~/oxys"
     },
@@ -565,7 +514,6 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "volcan",
       "path": "~/biome"
     },
@@ -575,7 +523,6 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pikeperchhill",
       "path": "~/biome"
     },
@@ -585,7 +532,6 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidianlavalake",
       "path": "~/structure"
     },
@@ -595,7 +541,6 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_wood",
       "path": "~/block/wood"
     },
@@ -605,7 +550,6 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_log",
       "path": "~/block/wood"
     },
@@ -615,7 +559,6 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_planks",
       "path": "~/block/wood"
     },
@@ -625,7 +568,6 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_leaves",
       "path": "~/block/wood"
     },
@@ -635,7 +577,6 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_stairs",
       "path": "~/block/wood"
     },
@@ -645,7 +586,6 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_slab",
       "path": "~/block/wood"
     },
@@ -655,7 +595,6 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_fence",
       "path": "~/block/wood"
     },
@@ -665,7 +604,6 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_fence_gate",
       "path": "~/block/wood"
     },
@@ -675,7 +613,6 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_pressure_plate",
       "path": "~/block/wood"
     },
@@ -685,7 +622,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_button",
       "path": "~/block/wood"
     },
@@ -695,7 +631,6 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_items_tag",
       "path": "~/block/wood"
     },
@@ -705,7 +640,6 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_wood_recipe",
       "path": "~/block/wood"
     },
@@ -715,7 +649,6 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_planks_recipe",
       "path": "~/block/wood"
     },
@@ -725,7 +658,6 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_stairs_recipe",
       "path": "~/block/wood"
     },
@@ -735,7 +667,6 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_slab_recipe",
       "path": "~/block/wood"
     },
@@ -745,7 +676,6 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_fence_recipe",
       "path": "~/block/wood"
     },
@@ -755,7 +685,6 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_fence_gate_recipe",
       "path": "~/block/wood"
     },
@@ -765,7 +694,6 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_pressure_plate_recipe",
       "path": "~/block/wood"
     },
@@ -775,7 +703,6 @@
       "sortid": 111,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_button_recipe",
       "path": "~/block/wood"
     },
@@ -785,7 +712,6 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "burnedtree_stick_recipe",
       "path": "~/block/wood"
     },
@@ -795,7 +721,6 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wooden_armor_armor",
       "metadata": {
         "eh": true,
@@ -811,7 +736,6 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wooden_armor_armor_helmet_recipe",
       "path": "~/armor/wooden"
     },
@@ -821,7 +745,6 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wooden_armor_armor_body_recipe",
       "path": "~/armor/wooden"
     },
@@ -831,7 +754,6 @@
       "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wooden_armor_armor_leggings_recipe",
       "path": "~/armor/wooden"
     },
@@ -841,7 +763,6 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wooden_armor_armor_boots_recipe",
       "path": "~/armor/wooden"
     },
@@ -851,7 +772,6 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_pickaxe",
       "path": "~/obsidian"
     },
@@ -861,7 +781,6 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_axe",
       "path": "~/obsidian"
     },
@@ -871,7 +790,6 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_sword",
       "path": "~/obsidian"
     },
@@ -881,7 +799,6 @@
       "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_shovel",
       "path": "~/obsidian"
     },
@@ -891,7 +808,6 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_tool_hoe",
       "path": "~/obsidian"
     },
@@ -901,7 +817,6 @@
       "sortid": 128,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lighthouse_medieval",
       "path": "~/structure"
     },
@@ -911,7 +826,6 @@
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "medieval_tent",
       "path": "~/structure"
     },
@@ -921,7 +835,6 @@
       "sortid": 132,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "smallchaletwithgarden",
       "path": "~/structure"
     },
@@ -931,7 +844,6 @@
       "sortid": 135,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "medievaltent_1",
       "path": "~/structure"
     },
@@ -941,7 +853,6 @@
       "sortid": 136,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "medievaltent_2",
       "path": "~/structure"
     },
@@ -951,7 +862,6 @@
       "sortid": 137,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "medievaltent_3",
       "path": "~/structure"
     },
@@ -961,7 +871,6 @@
       "sortid": 138,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ultimatesword",
       "path": "~/tools/other"
     },
@@ -971,7 +880,6 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_golem",
       "path": "~/mob"
     },
@@ -981,7 +889,6 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netheritegolem",
       "path": "~/mob"
     },
@@ -991,7 +898,6 @@
       "sortid": 143,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_golemhead_update_tick",
       "metadata": {
         "dependencies": [
@@ -1021,7 +927,6 @@
       "sortid": 143,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_golemhead",
       "path": "~/mob"
     },
@@ -1031,7 +936,6 @@
       "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidiangolemheadcraft",
       "path": "~/mob"
     },
@@ -1041,7 +945,6 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherite_golem_head",
       "path": "~/mob"
     },
@@ -1051,7 +954,6 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherite_golem_head_update_tick",
       "metadata": {
         "dependencies": [
@@ -1081,7 +983,6 @@
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netheritegolemheadcraft",
       "path": "~/mob"
     },
@@ -1091,7 +992,6 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dubious_ore",
       "path": "~/achivement"
     },
@@ -1101,7 +1001,6 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondhammer",
       "path": "~/tools/hammer"
     },
@@ -1111,7 +1010,6 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tools",
       "path": "~/CreativeInventorieTab"
     },
@@ -1121,7 +1019,6 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dimondhammer_block_destroyed_with_tool",
       "metadata": {
         "dependencies": [
@@ -1155,7 +1052,6 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_hammer",
       "path": "~/tools/hammer"
     },
@@ -1165,7 +1061,6 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gold_hammer",
       "path": "~/tools/hammer"
     },
@@ -1175,7 +1070,6 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherite_hammer",
       "path": "~/tools/hammer"
     },
@@ -1185,7 +1079,6 @@
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_hammer",
       "path": "~/tools/hammer"
     },
@@ -1195,7 +1088,6 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wood_hammer",
       "path": "~/tools/hammer"
     },
@@ -1205,7 +1097,6 @@
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dimondhammercraft",
       "path": "~/tools/hammer"
     },
@@ -1215,7 +1106,6 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironhammercraft",
       "path": "~/tools/hammer"
     },
@@ -1225,7 +1115,6 @@
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netheritehammercraft",
       "path": "~/tools/hammer"
     },
@@ -1235,7 +1124,6 @@
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldhammercraft",
       "path": "~/tools/hammer"
     },
@@ -1245,7 +1133,6 @@
       "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stoneshammercraft",
       "path": "~/tools/hammer"
     },
@@ -1255,7 +1142,6 @@
       "sortid": 164,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "woodhammercraft",
       "path": "~/tools/hammer"
     },
@@ -1265,7 +1151,6 @@
       "sortid": 165,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "items",
       "path": "~/CreativeInventorieTab"
     },
@@ -1275,7 +1160,6 @@
       "sortid": 168,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forge",
       "path": "~/machine/furnace"
     },
@@ -1285,7 +1169,6 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forgegui",
       "path": "~/machine/furnace"
     },
@@ -1295,7 +1178,6 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forge_update_tick",
       "metadata": {
         "dependencies": [
@@ -1325,7 +1207,6 @@
       "sortid": 171,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forgefurnace",
       "metadata": {
         "dependencies": [
@@ -1355,7 +1236,6 @@
       "sortid": 172,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copper_gear",
       "path": "~/item"
     },
@@ -1365,7 +1245,6 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "coppergearcraft",
       "path": "~/item"
     },
@@ -1375,7 +1254,6 @@
       "sortid": 174,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forgecraft",
       "path": "~/machine/furnace"
     },
@@ -1385,7 +1263,6 @@
       "sortid": 176,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forgeon",
       "path": "~/machine/furnace"
     },
@@ -1395,7 +1272,6 @@
       "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldenchield",
       "path": "~/tools/chield"
     },
@@ -1405,7 +1281,6 @@
       "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldenchielbloking_tool_in_inventory_tick",
       "metadata": {
         "dependencies": [
@@ -1427,7 +1302,6 @@
       "sortid": 186,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldenchield_right_clicked_in_air",
       "metadata": {
         "dependencies": [
@@ -1449,7 +1323,6 @@
       "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldenchielbloking",
       "path": "~/tools/chield"
     },
@@ -1459,7 +1332,6 @@
       "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "whenplayerattackedholdingshield",
       "metadata": {
         "dependencies": [
@@ -1477,7 +1349,6 @@
       "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "shieldonplayertickupdate",
       "metadata": {
         "dependencies": [
@@ -1495,7 +1366,6 @@
       "sortid": 189,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldenchieldcraft",
       "path": "~/tools/chield"
     },
@@ -1505,7 +1375,6 @@
       "sortid": 190,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lead_dust",
       "path": "~/item/metal and gem"
     },
@@ -1515,7 +1384,6 @@
       "sortid": 191,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lead_ingot",
       "path": "~/item/metal and gem"
     },
@@ -1525,7 +1393,6 @@
       "sortid": 192,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lead_plate",
       "path": "~/item/metal and gem"
     },
@@ -1535,7 +1402,6 @@
       "sortid": 193,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wirecoil_copper",
       "path": "~/item"
     },
@@ -1545,7 +1411,6 @@
       "sortid": 194,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "batterie_cell",
       "path": "~/item/metal and gem"
     },
@@ -1555,7 +1420,6 @@
       "sortid": 195,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironplate",
       "path": "~/item/metal and gem"
     },
@@ -1565,7 +1429,6 @@
       "sortid": 196,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "leaddustcraft",
       "path": "~/item/metal and gem"
     },
@@ -1575,7 +1438,6 @@
       "sortid": 197,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "leadingotcraft",
       "path": "~/item/metal and gem"
     },
@@ -1585,7 +1447,6 @@
       "sortid": 198,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "leadplatecraft",
       "path": "~/item/metal and gem"
     },
@@ -1595,7 +1456,6 @@
       "sortid": 199,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironplatecraft",
       "path": "~/item/metal and gem"
     },
@@ -1605,7 +1465,6 @@
       "sortid": 200,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wirecoilcoppercraft",
       "path": "~/item"
     },
@@ -1615,7 +1474,6 @@
       "sortid": 201,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "batteriecellcraft",
       "path": "~/item"
     },
@@ -1625,7 +1483,6 @@
       "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_dust",
       "path": "~/item/metal and gem"
     },
@@ -1635,7 +1492,6 @@
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_ingot",
       "path": "~/item/metal and gem"
     },
@@ -1645,7 +1501,6 @@
       "sortid": 210,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_plate",
       "path": "~/item/metal and gem"
     },
@@ -1655,7 +1510,6 @@
       "sortid": 211,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copper_plate",
       "path": "~/item/metal and gem"
     },
@@ -1665,7 +1519,6 @@
       "sortid": 212,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "processeur_tier_i",
       "path": "~/item"
     },
@@ -1675,7 +1528,6 @@
       "sortid": 213,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "processeur_tier_ii",
       "path": "~/item"
     },
@@ -1685,7 +1537,6 @@
       "sortid": 214,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aluminium_ingot",
       "path": "~/item/metal and gem"
     },
@@ -1695,7 +1546,6 @@
       "sortid": 215,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aluminium_plate",
       "path": "~/item/metal and gem"
     },
@@ -1705,7 +1555,6 @@
       "sortid": 216,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_dust_craft",
       "path": "~/item/metal and gem"
     },
@@ -1715,7 +1564,6 @@
       "sortid": 217,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "smelting_steel_dust",
       "path": "~/item/metal and gem"
     },
@@ -1725,7 +1573,6 @@
       "sortid": 218,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_platecraft",
       "path": "~/item/metal and gem"
     },
@@ -1735,7 +1582,6 @@
       "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aluminium_platecraft",
       "path": "~/item/metal and gem"
     },
@@ -1745,7 +1591,6 @@
       "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor",
       "metadata": {
         "eh": true,
@@ -1761,7 +1606,6 @@
       "sortid": 221,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_helmet_recipe",
       "path": "~/armor/steel"
     },
@@ -1771,7 +1615,6 @@
       "sortid": 222,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_body_recipe",
       "path": "~/armor/steel"
     },
@@ -1781,7 +1624,6 @@
       "sortid": 223,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_leggings_recipe",
       "path": "~/armor/steel"
     },
@@ -1791,7 +1633,6 @@
       "sortid": 224,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_boots_recipe",
       "path": "~/armor/steel"
     },
@@ -1801,7 +1642,6 @@
       "sortid": 225,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_pickaxe",
       "path": "~/tools/steel"
     },
@@ -1811,7 +1651,6 @@
       "sortid": 226,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_axe",
       "path": "~/tools/steel"
     },
@@ -1821,7 +1660,6 @@
       "sortid": 227,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_sword",
       "path": "~/tools/steel"
     },
@@ -1831,7 +1669,6 @@
       "sortid": 228,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_shovel",
       "path": "~/tools/steel"
     },
@@ -1841,7 +1678,6 @@
       "sortid": 229,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_hoe",
       "path": "~/tools/steel"
     },
@@ -1851,7 +1687,6 @@
       "sortid": 230,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_pickaxe_recipe",
       "path": "~/tools/steel"
     },
@@ -1861,7 +1696,6 @@
       "sortid": 231,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_axe_recipe",
       "path": "~/tools/steel"
     },
@@ -1871,7 +1705,6 @@
       "sortid": 232,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_sword_recipe",
       "path": "~/tools/steel"
     },
@@ -1881,7 +1714,6 @@
       "sortid": 233,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_shovel_recipe",
       "path": "~/tools/steel"
     },
@@ -1891,7 +1723,6 @@
       "sortid": 234,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_hoe_recipe",
       "path": "~/tools/steel"
     },
@@ -1901,7 +1732,6 @@
       "sortid": 235,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aluminium_ore",
       "path": "~/block/ore"
     },
@@ -1911,7 +1741,6 @@
       "sortid": 236,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aluminiumoresmelting",
       "path": "~/block/ore"
     },
@@ -1921,7 +1750,6 @@
       "sortid": 237,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "processeur_tier_icraft",
       "path": "~/item"
     },
@@ -1931,7 +1759,6 @@
       "sortid": 238,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "processeur_tier_i_icraft",
       "path": "~/item"
     },
@@ -1941,7 +1768,6 @@
       "sortid": 240,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "faraday_armor",
       "metadata": {
         "eh": true,
@@ -1957,7 +1783,6 @@
       "sortid": 241,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "faraday_armor_helmet_recipe",
       "path": "~/armor/farday"
     },
@@ -1967,7 +1792,6 @@
       "sortid": 242,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "faraday_armor_body_recipe",
       "path": "~/armor/farday"
     },
@@ -1977,7 +1801,6 @@
       "sortid": 243,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "faraday_armor_leggings_recipe",
       "path": "~/armor/farday"
     },
@@ -1987,7 +1810,6 @@
       "sortid": 244,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "faraday_armor_boots_recipe",
       "path": "~/armor/farday"
     },
@@ -1997,7 +1819,6 @@
       "sortid": 246,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bloc_k",
       "path": "~/CreativeInventorieTab"
     },
@@ -2007,7 +1828,6 @@
       "sortid": 248,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_wood",
       "path": "~/block/wood"
     },
@@ -2017,7 +1837,6 @@
       "sortid": 249,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_log",
       "path": "~/block/wood"
     },
@@ -2027,7 +1846,6 @@
       "sortid": 250,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_planks",
       "path": "~/block/wood"
     },
@@ -2037,7 +1855,6 @@
       "sortid": 251,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_leaves",
       "path": "~/block/wood"
     },
@@ -2047,7 +1864,6 @@
       "sortid": 252,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_stairs",
       "path": "~/block/wood"
     },
@@ -2057,7 +1873,6 @@
       "sortid": 253,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_slab",
       "path": "~/block/wood"
     },
@@ -2067,7 +1882,6 @@
       "sortid": 254,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_fence",
       "path": "~/block/wood"
     },
@@ -2077,7 +1891,6 @@
       "sortid": 255,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_fence_gate",
       "path": "~/block/wood"
     },
@@ -2087,7 +1900,6 @@
       "sortid": 256,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_pressure_plate",
       "path": "~/block/wood"
     },
@@ -2097,7 +1909,6 @@
       "sortid": 257,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_button",
       "path": "~/block/wood"
     },
@@ -2107,7 +1918,6 @@
       "sortid": 258,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_items_tag",
       "path": "~/block/wood"
     },
@@ -2117,7 +1927,6 @@
       "sortid": 259,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_wood_recipe",
       "path": "~/block/wood"
     },
@@ -2127,7 +1936,6 @@
       "sortid": 260,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_planks_recipe",
       "path": "~/block/wood"
     },
@@ -2137,7 +1945,6 @@
       "sortid": 261,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_stairs_recipe",
       "path": "~/block/wood"
     },
@@ -2147,7 +1954,6 @@
       "sortid": 262,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_slab_recipe",
       "path": "~/block/wood"
     },
@@ -2157,7 +1963,6 @@
       "sortid": 263,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_fence_recipe",
       "path": "~/block/wood"
     },
@@ -2167,7 +1972,6 @@
       "sortid": 264,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_fence_gate_recipe",
       "path": "~/block/wood"
     },
@@ -2177,7 +1981,6 @@
       "sortid": 265,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_pressure_plate_recipe",
       "path": "~/block/wood"
     },
@@ -2187,7 +1990,6 @@
       "sortid": 266,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_button_recipe",
       "path": "~/block/wood"
     },
@@ -2197,7 +1999,6 @@
       "sortid": 267,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_stick_recipe",
       "path": "~/block/wood"
     },
@@ -2207,7 +2008,6 @@
       "sortid": 268,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "nylium_forest",
       "path": "~/biome"
     },
@@ -2217,7 +2017,6 @@
       "sortid": 270,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gold_spear",
       "path": "~/tools/spear"
     },
@@ -2227,7 +2026,6 @@
       "sortid": 271,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_spear",
       "path": "~/tools/spear"
     },
@@ -2237,7 +2035,6 @@
       "sortid": 272,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_spear",
       "path": "~/tools/spear"
     },
@@ -2247,7 +2044,6 @@
       "sortid": 273,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidianspearcraft",
       "path": "~/tools/spear"
     },
@@ -2257,7 +2053,6 @@
       "sortid": 274,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_spear",
       "path": "~/oxys"
     },
@@ -2267,7 +2062,6 @@
       "sortid": 275,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondspearcraft",
       "path": "~/tools/spear"
     },
@@ -2277,7 +2071,6 @@
       "sortid": 276,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_spear_craft",
       "path": "~/tools/spear"
     },
@@ -2287,7 +2080,6 @@
       "sortid": 277,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldspearcraft",
       "path": "~/tools/spear"
     },
@@ -2297,7 +2089,6 @@
       "sortid": 278,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_spearcraft",
       "path": "~/oxys"
     },
@@ -2307,7 +2098,6 @@
       "sortid": 279,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_battle_axe",
       "path": "~/tools/battle axe"
     },
@@ -2317,7 +2107,6 @@
       "sortid": 280,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gold_battle_axe",
       "path": "~/tools/battle axe"
     },
@@ -2327,7 +2116,6 @@
       "sortid": 281,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_battle_axe",
       "path": "~/tools/battle axe"
     },
@@ -2337,7 +2125,6 @@
       "sortid": 282,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_battle_axe",
       "path": "~/tools/battle axe"
     },
@@ -2347,7 +2134,6 @@
       "sortid": 283,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wood_battle_axe",
       "path": "~/tools/battle axe"
     },
@@ -2357,7 +2143,6 @@
       "sortid": 284,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dimond_battleaxecraft",
       "path": "~/tools/battle axe"
     },
@@ -2367,7 +2152,6 @@
       "sortid": 285,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldbattleaxecraft",
       "path": "~/tools/battle axe"
     },
@@ -2377,7 +2161,6 @@
       "sortid": 286,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_battleaxecraft",
       "path": "~/tools/battle axe"
     },
@@ -2387,7 +2170,6 @@
       "sortid": 287,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_battle_axe_craft",
       "path": "~/tools/battle axe"
     },
@@ -2397,7 +2179,6 @@
       "sortid": 288,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wood_battle_axe_craft",
       "path": "~/tools/battle axe"
     },
@@ -2407,7 +2188,6 @@
       "sortid": 289,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_katana",
       "path": "~/tools/katana"
     },
@@ -2417,7 +2197,6 @@
       "sortid": 290,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gold_katana",
       "path": "~/tools/katana"
     },
@@ -2427,7 +2206,6 @@
       "sortid": 291,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_katana",
       "path": "~/tools/katana"
     },
@@ -2437,7 +2215,6 @@
       "sortid": 292,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_katana",
       "path": "~/tools/katana"
     },
@@ -2447,7 +2224,6 @@
       "sortid": 293,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wood_katana",
       "path": "~/tools/katana"
     },
@@ -2457,7 +2233,6 @@
       "sortid": 294,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondkatanacraft",
       "path": "~/tools/katana"
     },
@@ -2467,7 +2242,6 @@
       "sortid": 295,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gold_katanacraft",
       "path": "~/tools/katana"
     },
@@ -2477,7 +2251,6 @@
       "sortid": 296,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_katanacraft",
       "path": "~/tools/katana"
     },
@@ -2487,7 +2260,6 @@
       "sortid": 297,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironbarre",
       "path": "~/item/metal and gem"
     },
@@ -2497,7 +2269,6 @@
       "sortid": 298,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_barrecraft",
       "path": "~/item/metal and gem"
     },
@@ -2507,7 +2278,6 @@
       "sortid": 299,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_katanacraft",
       "path": "~/tools/katana"
     },
@@ -2517,7 +2287,6 @@
       "sortid": 300,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wood_katanaraft",
       "path": "~/tools/katana"
     },
@@ -2527,7 +2296,6 @@
       "sortid": 327,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chainmailhelmet",
       "path": "~/craft_vanilla"
     },
@@ -2537,7 +2305,6 @@
       "sortid": 328,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chainmailchestplate",
       "path": "~/craft_vanilla"
     },
@@ -2547,7 +2314,6 @@
       "sortid": 329,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chainmailboots",
       "path": "~/craft_vanilla"
     },
@@ -2557,7 +2323,6 @@
       "sortid": 330,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chainmailleggings",
       "path": "~/craft_vanilla"
     },
@@ -2567,7 +2332,6 @@
       "sortid": 336,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "autosmeltprocedure",
       "metadata": {
         "dependencies": [
@@ -2601,7 +2365,6 @@
       "sortid": 337,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "auto_smelt",
       "path": "~/enchantement"
     },
@@ -2611,7 +2374,6 @@
       "sortid": 340,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "curse_of_backfire",
       "path": "~/enchantement"
     },
@@ -2621,7 +2383,6 @@
       "sortid": 341,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "curse_of_backfire_enchantementprocedure",
       "metadata": {
         "dependencies": [
@@ -2639,7 +2400,6 @@
       "sortid": 349,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chips",
       "path": "~/food"
     },
@@ -2649,7 +2409,6 @@
       "sortid": 350,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sushi",
       "path": "~/food"
     },
@@ -2659,7 +2418,6 @@
       "sortid": 351,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chips_craft",
       "path": "~/food"
     },
@@ -2669,7 +2427,6 @@
       "sortid": 352,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_seed",
       "path": "~/item"
     },
@@ -2679,7 +2436,6 @@
       "sortid": 362,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_0",
       "path": "~/culture"
     },
@@ -2689,7 +2445,6 @@
       "sortid": 363,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_1",
       "path": "~/culture"
     },
@@ -2699,7 +2454,6 @@
       "sortid": 364,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_2",
       "path": "~/culture"
     },
@@ -2709,7 +2463,6 @@
       "sortid": 365,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_3",
       "path": "~/culture"
     },
@@ -2719,7 +2472,6 @@
       "sortid": 366,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_4",
       "path": "~/culture"
     },
@@ -2729,7 +2481,6 @@
       "sortid": 367,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_5",
       "path": "~/culture"
     },
@@ -2739,7 +2490,6 @@
       "sortid": 368,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_6",
       "path": "~/culture"
     },
@@ -2749,7 +2499,6 @@
       "sortid": 369,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_7",
       "path": "~/culture"
     },
@@ -2759,7 +2508,6 @@
       "sortid": 370,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_seed_right_clicked_on_block",
       "metadata": {
         "dependencies": [
@@ -2793,7 +2541,6 @@
       "sortid": 371,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_0_update_tick",
       "metadata": {
         "dependencies": [
@@ -2823,7 +2570,6 @@
       "sortid": 372,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_0_neighbour_block_changes",
       "metadata": {
         "dependencies": [
@@ -2853,7 +2599,6 @@
       "sortid": 373,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_1_update_tick",
       "metadata": {
         "dependencies": [
@@ -2883,7 +2628,6 @@
       "sortid": 374,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_2_update_tick",
       "metadata": {
         "dependencies": [
@@ -2913,7 +2657,6 @@
       "sortid": 375,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_3_update_tick",
       "metadata": {
         "dependencies": [
@@ -2943,7 +2686,6 @@
       "sortid": 376,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_4_update_tick",
       "metadata": {
         "dependencies": [
@@ -2973,7 +2715,6 @@
       "sortid": 377,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_5_update_tick",
       "metadata": {
         "dependencies": [
@@ -3003,7 +2744,6 @@
       "sortid": 378,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_6_update_tick",
       "metadata": {
         "dependencies": [
@@ -3033,7 +2773,6 @@
       "sortid": 379,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice",
       "path": "~/item"
     },
@@ -3043,7 +2782,6 @@
       "sortid": 380,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rice_stage_7loot",
       "path": "~/Loottable"
     },
@@ -3053,7 +2791,6 @@
       "sortid": 382,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "silver_ore",
       "path": "~/block/ore"
     },
@@ -3063,7 +2800,6 @@
       "sortid": 383,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "silver_ingot",
       "path": "~/item/metal and gem"
     },
@@ -3073,7 +2809,6 @@
       "sortid": 384,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "silver_ingot_craft",
       "path": "~/item/metal and gem"
     },
@@ -3083,7 +2818,6 @@
       "sortid": 385,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "silver_plate",
       "path": "~/item/metal and gem"
     },
@@ -3093,7 +2827,6 @@
       "sortid": 386,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "silvert_plate_craft",
       "path": "~/item/metal and gem"
     },
@@ -3103,7 +2836,6 @@
       "sortid": 387,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_dust",
       "path": "~/item/metal and gem"
     },
@@ -3113,7 +2845,6 @@
       "sortid": 388,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_ingot",
       "path": "~/item/metal and gem"
     },
@@ -3123,7 +2854,6 @@
       "sortid": 389,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_ingot_craft",
       "path": "~/item/metal and gem"
     },
@@ -3133,7 +2863,6 @@
       "sortid": 390,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_ore",
       "path": "~/block/ore"
     },
@@ -3143,7 +2872,6 @@
       "sortid": 391,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_loot",
       "path": "~/block/ore"
     },
@@ -3153,7 +2881,6 @@
       "sortid": 392,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_shard",
       "path": "~/item/metal and gem/particule"
     },
@@ -3163,7 +2890,6 @@
       "sortid": 393,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_shard_craft",
       "path": "~/item/metal and gem/particule"
     },
@@ -3173,7 +2899,6 @@
       "sortid": 394,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_shard_invers",
       "path": "~/item/metal and gem"
     },
@@ -3183,7 +2908,6 @@
       "sortid": 395,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "electronique_circuit",
       "path": "~/item"
     },
@@ -3193,7 +2917,6 @@
       "sortid": 396,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tiny_rubber",
       "path": "~/item"
     },
@@ -3203,7 +2926,6 @@
       "sortid": 397,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubber",
       "path": "~/item"
     },
@@ -3213,7 +2935,6 @@
       "sortid": 398,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastique",
       "path": "~/item"
     },
@@ -3223,7 +2944,6 @@
       "sortid": 399,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubber_craft",
       "path": "~/item"
     },
@@ -3233,7 +2953,6 @@
       "sortid": 400,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastique_craft",
       "path": "~/item"
     },
@@ -3243,7 +2962,6 @@
       "sortid": 401,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "electroniquecircuitcraft",
       "path": "~/item"
     },
@@ -3253,7 +2971,6 @@
       "sortid": 402,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cooked_rice",
       "path": "~/food"
     },
@@ -3263,7 +2980,6 @@
       "sortid": 402,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ricecraft",
       "path": "~/food"
     },
@@ -3273,7 +2989,6 @@
       "sortid": 403,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "suchi_craft",
       "path": "~/food"
     },
@@ -3283,7 +2998,6 @@
       "sortid": 404,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_glass",
       "path": "~/block/glass"
     },
@@ -3293,7 +3007,6 @@
       "sortid": 405,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_glass_craft",
       "path": "~/block/glass"
     },
@@ -3303,7 +3016,6 @@
       "sortid": 409,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_glass",
       "path": "~/block/glass"
     },
@@ -3313,7 +3025,6 @@
       "sortid": 410,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "graphite_glass_craft",
       "path": "~/block/glass"
     },
@@ -3323,7 +3034,6 @@
       "sortid": 411,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "fried_egg",
       "path": "~/food"
     },
@@ -3333,7 +3043,6 @@
       "sortid": 412,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "fried_eggcraft",
       "path": "~/food"
     },
@@ -3343,7 +3052,6 @@
       "sortid": 413,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "flour",
       "path": "~/food"
     },
@@ -3353,7 +3061,6 @@
       "sortid": 414,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "flourcraft",
       "path": "~/food"
     },
@@ -3363,7 +3070,6 @@
       "sortid": 415,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chickenwing",
       "path": "~/food"
     },
@@ -3373,7 +3079,6 @@
       "sortid": 416,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chiken_whith_breadcrumbs",
       "path": "~/food"
     },
@@ -3383,7 +3088,6 @@
       "sortid": 417,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chiken_whith_breadcrumbs_craft",
       "path": "~/food"
     },
@@ -3393,7 +3097,6 @@
       "sortid": 418,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chikenwings_craft",
       "path": "~/food"
     },
@@ -3403,7 +3106,6 @@
       "sortid": 431,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_stove_craft",
       "path": "~/tools/stove"
     },
@@ -3413,7 +3115,6 @@
       "sortid": 423,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironstove",
       "path": "~/tools/stove"
     },
@@ -3423,7 +3124,6 @@
       "sortid": 426,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netheritestove",
       "path": "~/tools/stove"
     },
@@ -3433,7 +3133,6 @@
       "sortid": 421,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "craftsticksword",
       "path": "~/tools/other"
     },
@@ -3443,7 +3142,6 @@
       "sortid": 418,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "armurediamshorse",
       "path": "~/craft_vanilla"
     },
@@ -3453,7 +3151,6 @@
       "sortid": 416,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "horsearmor",
       "path": "~/craft_vanilla"
     },
@@ -3463,7 +3160,6 @@
       "sortid": 433,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_stone_craft",
       "path": "~/tools/stove"
     },
@@ -3473,7 +3169,6 @@
       "sortid": 430,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gold_stove_craft",
       "path": "~/tools/stove"
     },
@@ -3483,7 +3178,6 @@
       "sortid": 424,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldstove",
       "path": "~/tools/stove"
     },
@@ -3493,7 +3187,6 @@
       "sortid": 420,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sticksword",
       "path": "~/tools/other"
     },
@@ -3503,7 +3196,6 @@
       "sortid": 419,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cuirearmurehorse",
       "path": "~/craft_vanilla"
     },
@@ -3513,7 +3205,6 @@
       "sortid": 425,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondstove",
       "path": "~/tools/stove"
     },
@@ -3523,7 +3214,6 @@
       "sortid": 417,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "amureorhorse",
       "path": "~/craft_vanilla"
     },
@@ -3533,7 +3223,6 @@
       "sortid": 422,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_stove",
       "path": "~/tools/stove"
     },
@@ -3543,7 +3232,6 @@
       "sortid": 432,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netherit_stove_craft",
       "path": "~/tools/stove"
     },
@@ -3553,7 +3241,6 @@
       "sortid": 428,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_stove_craft",
       "path": "~/tools/stove"
     },
@@ -3563,7 +3250,6 @@
       "sortid": 429,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_stove_craft",
       "path": "~/tools/stove"
     },
@@ -3573,7 +3259,6 @@
       "sortid": 427,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxysstove",
       "path": "~/tools/stove"
     },
@@ -3583,7 +3268,6 @@
       "sortid": 426,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "xpbery_full_on_block_right_clicked",
       "metadata": {
         "dependencies": [
@@ -3613,7 +3297,6 @@
       "sortid": 420,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "x_pberry",
       "path": "~/item"
     },
@@ -3623,7 +3306,6 @@
       "sortid": 423,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "x_pberry_stage_0_neighbour_block_changes",
       "metadata": {
         "dependencies": []
@@ -3636,7 +3318,6 @@
       "sortid": 428,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "x_pberry_stage_0_entity_collides_in_the_block",
       "metadata": {
         "dependencies": [
@@ -3654,7 +3335,6 @@
       "sortid": 425,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "xp_bush_1_update_tick",
       "metadata": {
         "dependencies": [
@@ -3684,7 +3364,6 @@
       "sortid": 427,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "x_pberry_right_clicked_in_air",
       "metadata": {
         "dependencies": [
@@ -3718,7 +3397,6 @@
       "sortid": 424,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "x_pberry_stage_0_update_tick",
       "metadata": {
         "dependencies": [
@@ -3748,7 +3426,6 @@
       "sortid": 434,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_netherit",
       "path": "~/craft_vanilla"
     },
@@ -3758,7 +3435,6 @@
       "sortid": 435,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ntehrit_apple",
       "path": "~/food"
     },
@@ -3768,7 +3444,6 @@
       "sortid": 436,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ntehrit_apple_food",
       "metadata": {
         "dependencies": [
@@ -3786,7 +3461,6 @@
       "sortid": 438,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_armor_armor_helmet_recipe",
       "path": "~/armor/Stone"
     },
@@ -3796,7 +3470,6 @@
       "sortid": 440,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_armor_armor_leggings_recipe",
       "path": "~/armor/Stone"
     },
@@ -3806,7 +3479,6 @@
       "sortid": 441,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_armor_armor_boots_recipe",
       "path": "~/armor/Stone"
     },
@@ -3816,7 +3488,6 @@
       "sortid": 439,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_armor_armor_body_recipe",
       "path": "~/armor/Stone"
     },
@@ -3826,7 +3497,6 @@
       "sortid": 437,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "stone_armor_armor",
       "metadata": {
         "eh": true,
@@ -3842,7 +3512,6 @@
       "sortid": 558,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_ingot",
       "path": "~/item/metal and gem"
     },
@@ -3852,7 +3521,6 @@
       "sortid": 448,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_pickaxe",
       "path": "~/tools/Bauherite"
     },
@@ -3862,7 +3530,6 @@
       "sortid": 449,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_axe",
       "path": "~/tools/Bauherite"
     },
@@ -3872,7 +3539,6 @@
       "sortid": 450,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_sword",
       "path": "~/tools/Bauherite"
     },
@@ -3882,7 +3548,6 @@
       "sortid": 451,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_shovel",
       "path": "~/tools/Bauherite"
     },
@@ -3892,7 +3557,6 @@
       "sortid": 453,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_pickaxe_recipe",
       "path": "~/tools/Bauherite"
     },
@@ -3902,7 +3566,6 @@
       "sortid": 454,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_axe_recipe",
       "path": "~/tools/Bauherite"
     },
@@ -3912,7 +3575,6 @@
       "sortid": 455,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_sword_recipe",
       "path": "~/tools/Bauherite"
     },
@@ -3922,7 +3584,6 @@
       "sortid": 456,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_shovel_recipe",
       "path": "~/tools/Bauherite"
     },
@@ -3932,7 +3593,6 @@
       "sortid": 458,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_armor",
       "metadata": {
         "eh": true,
@@ -3948,7 +3608,6 @@
       "sortid": 459,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_armor_helmet_recipe",
       "path": "~/armor/Bauherite"
     },
@@ -3958,7 +3617,6 @@
       "sortid": 460,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_armor_body_recipe",
       "path": "~/armor/Bauherite"
     },
@@ -3968,7 +3626,6 @@
       "sortid": 461,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_armor_leggings_recipe",
       "path": "~/armor/Bauherite"
     },
@@ -3978,7 +3635,6 @@
       "sortid": 462,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_armor_boots_recipe",
       "path": "~/armor/Bauherite"
     },
@@ -3988,7 +3644,6 @@
       "sortid": 463,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_mixed_coal",
       "path": "~/item"
     },
@@ -3998,7 +3653,6 @@
       "sortid": 464,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_mixed_coal_fuel",
       "path": "~/item"
     },
@@ -4008,7 +3662,6 @@
       "sortid": 465,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_mixed_coal_craft",
       "path": "~/item"
     },
@@ -4018,7 +3671,6 @@
       "sortid": 564,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_ingot",
       "path": "~/item/metal and gem"
     },
@@ -4028,7 +3680,6 @@
       "sortid": 487,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_pickaxe_recipe",
       "path": "~/tools/Avenronite"
     },
@@ -4038,7 +3689,6 @@
       "sortid": 488,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_axe_recipe",
       "path": "~/tools/Avenronite"
     },
@@ -4048,7 +3698,6 @@
       "sortid": 489,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_sword_recipe",
       "path": "~/tools/Avenronite"
     },
@@ -4058,7 +3707,6 @@
       "sortid": 490,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_shovel_recipe",
       "path": "~/tools/Avenronite"
     },
@@ -4068,7 +3716,6 @@
       "sortid": 491,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_hoe_recipe",
       "path": "~/tools/Avenronite"
     },
@@ -4078,7 +3725,6 @@
       "sortid": 482,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_pickaxe",
       "path": "~/tools/Avenronite"
     },
@@ -4088,7 +3734,6 @@
       "sortid": 483,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_axe",
       "path": "~/tools/Avenronite"
     },
@@ -4098,7 +3743,6 @@
       "sortid": 484,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_sword",
       "path": "~/tools/Avenronite"
     },
@@ -4108,7 +3752,6 @@
       "sortid": 485,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_shovel",
       "path": "~/tools/Avenronite"
     },
@@ -4118,7 +3761,6 @@
       "sortid": 492,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_armor",
       "metadata": {
         "eh": true,
@@ -4134,7 +3776,6 @@
       "sortid": 493,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_armor_helmet_recipe",
       "path": "~/armor/Avenronite"
     },
@@ -4144,7 +3785,6 @@
       "sortid": 494,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_armor_body_recipe",
       "path": "~/armor/Avenronite"
     },
@@ -4154,7 +3794,6 @@
       "sortid": 495,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_armor_leggings_recipe",
       "path": "~/armor/Avenronite"
     },
@@ -4164,7 +3803,6 @@
       "sortid": 496,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_armor_boots_recipe",
       "path": "~/armor/Avenronite"
     },
@@ -4174,7 +3812,6 @@
       "sortid": 497,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_mixed_coal",
       "path": "~/item"
     },
@@ -4184,7 +3821,6 @@
       "sortid": 498,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_mixed_coalfuel",
       "path": "~/item"
     },
@@ -4194,7 +3830,6 @@
       "sortid": 499,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_ingot",
       "path": "~/item/metal and gem"
     },
@@ -4204,7 +3839,6 @@
       "sortid": 500,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_ore",
       "path": "~/block/ore"
     },
@@ -4214,7 +3848,6 @@
       "sortid": 501,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_block",
       "path": "~/block/ore"
     },
@@ -4224,7 +3857,6 @@
       "sortid": 502,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_ore_block_recipe",
       "path": "~/block/ore"
     },
@@ -4234,7 +3866,6 @@
       "sortid": 503,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_block_ore_recipe",
       "path": "~/block/ore"
     },
@@ -4244,7 +3875,6 @@
       "sortid": 504,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_ore_smelting",
       "path": "~/block/ore"
     },
@@ -4254,7 +3884,6 @@
       "sortid": 505,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_armor",
       "metadata": {
         "eh": true,
@@ -4270,7 +3899,6 @@
       "sortid": 506,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_armor_helmet_recipe",
       "path": "~/armor/Aikigite"
     },
@@ -4280,7 +3908,6 @@
       "sortid": 507,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_armor_body_recipe",
       "path": "~/armor/Aikigite"
     },
@@ -4290,7 +3917,6 @@
       "sortid": 508,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_armor_leggings_recipe",
       "path": "~/armor/Aikigite"
     },
@@ -4300,7 +3926,6 @@
       "sortid": 509,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_armor_boots_recipe",
       "path": "~/armor/Aikigite"
     },
@@ -4310,7 +3935,6 @@
       "sortid": 510,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_pickaxe",
       "path": "~/tools/Aikigite"
     },
@@ -4320,7 +3944,6 @@
       "sortid": 511,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_axe",
       "path": "~/tools/Aikigite"
     },
@@ -4330,7 +3953,6 @@
       "sortid": 512,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_sword",
       "path": "~/tools/Aikigite"
     },
@@ -4340,7 +3962,6 @@
       "sortid": 513,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_shovel",
       "path": "~/tools/Aikigite"
     },
@@ -4350,7 +3971,6 @@
       "sortid": 515,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_pickaxe_recipe",
       "path": "~/tools/Aikigite"
     },
@@ -4360,7 +3980,6 @@
       "sortid": 516,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_axe_recipe",
       "path": "~/tools/Aikigite"
     },
@@ -4370,7 +3989,6 @@
       "sortid": 517,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_sword_recipe",
       "path": "~/tools/Aikigite"
     },
@@ -4380,7 +3998,6 @@
       "sortid": 518,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_shovel_recipe",
       "path": "~/tools/Aikigite"
     },
@@ -4390,7 +4007,6 @@
       "sortid": 519,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_mixed_coal",
       "path": "~/item"
     },
@@ -4400,7 +4016,6 @@
       "sortid": 520,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_mixed_coal_craft",
       "path": "~/item"
     },
@@ -4410,7 +4025,6 @@
       "sortid": 521,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigite_mixed_coal_fuel",
       "path": "~/item"
     },
@@ -4420,7 +4034,6 @@
       "sortid": 522,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_mixed_coalcraft",
       "path": "~/item"
     },
@@ -4430,7 +4043,6 @@
       "sortid": 523,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "caveblock",
       "path": "~/block/glass"
     },
@@ -4440,7 +4052,6 @@
       "sortid": 524,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "caveblockcraft",
       "path": "~/block/glass"
     },
@@ -4450,7 +4061,6 @@
       "sortid": 525,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "compresed_xp_berry",
       "path": "~/item"
     },
@@ -4460,7 +4070,6 @@
       "sortid": 526,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "compresedwpberry",
       "metadata": {
         "dependencies": [
@@ -4494,7 +4103,6 @@
       "sortid": 527,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "compacted_x_pberry",
       "path": "~/item"
     },
@@ -4504,7 +4112,6 @@
       "sortid": 528,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "compactedxpberryprocedure",
       "metadata": {
         "dependencies": [
@@ -4538,7 +4145,6 @@
       "sortid": 529,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "compresed_x_pbery",
       "path": "~/item"
     },
@@ -4548,7 +4154,6 @@
       "sortid": 530,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "compacted_x_pbery",
       "path": "~/item"
     },
@@ -4558,7 +4163,6 @@
       "sortid": 531,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_snaffle",
       "path": "~/tools/steel"
     },
@@ -4568,7 +4172,6 @@
       "sortid": 531,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubbertinicraft",
       "path": "~/item"
     },
@@ -4578,7 +4181,6 @@
       "sortid": 532,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steelsnafflecraft",
       "path": "~/tools/steel"
     },
@@ -4588,7 +4190,6 @@
       "sortid": 534,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "xpbush_1",
       "path": "~/culture"
     },
@@ -4598,7 +4199,6 @@
       "sortid": 535,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "xp_bush_2",
       "path": "~/culture"
     },
@@ -4608,7 +4208,6 @@
       "sortid": 536,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironbookshelf",
       "path": "~/block/BooksShelfs"
     },
@@ -4618,7 +4217,6 @@
       "sortid": 537,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copperbookshelf",
       "path": "~/block/BooksShelfs"
     },
@@ -4628,7 +4226,6 @@
       "sortid": 538,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldbookshelf",
       "path": "~/block/BooksShelfs"
     },
@@ -4638,7 +4235,6 @@
       "sortid": 539,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidianbookshelf",
       "path": "~/block/BooksShelfs"
     },
@@ -4648,7 +4244,6 @@
       "sortid": 540,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondbookshelf",
       "path": "~/block/BooksShelfs"
     },
@@ -4658,7 +4253,6 @@
       "sortid": 541,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emeraldbookshelf",
       "path": "~/block/BooksShelfs"
     },
@@ -4668,7 +4262,6 @@
       "sortid": 542,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ironbookshelfcraft",
       "path": "~/block/BooksShelfs"
     },
@@ -4678,7 +4271,6 @@
       "sortid": 543,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copperbookshelfcraft",
       "path": "~/block/BooksShelfs"
     },
@@ -4688,7 +4280,6 @@
       "sortid": 544,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldbookshelfcraft",
       "path": "~/block/BooksShelfs"
     },
@@ -4698,7 +4289,6 @@
       "sortid": 545,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "odsidianbookshelfcraft",
       "path": "~/block/BooksShelfs"
     },
@@ -4708,7 +4298,6 @@
       "sortid": 546,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondbookshelfcraft",
       "path": "~/block/BooksShelfs"
     },
@@ -4718,7 +4307,6 @@
       "sortid": 547,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emeraldbookshelfcraft",
       "path": "~/block/BooksShelfs"
     },
@@ -4728,7 +4316,6 @@
       "sortid": 548,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_hammer",
       "path": "~/oxys"
     },
@@ -4738,7 +4325,6 @@
       "sortid": 549,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oxys_hammer_craft",
       "path": "~/oxys"
     },
@@ -4748,7 +4334,6 @@
       "sortid": 550,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidianhammer",
       "path": "~/tools/hammer"
     },
@@ -4758,7 +4343,6 @@
       "sortid": 551,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidianhammercraft",
       "path": "~/tools/hammer"
     },
@@ -4768,7 +4352,6 @@
       "sortid": 552,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigitehammer",
       "path": "~/tools/hammer"
     },
@@ -4778,7 +4361,6 @@
       "sortid": 553,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aikigitehammercraft",
       "path": "~/tools/hammer"
     },
@@ -4788,7 +4370,6 @@
       "sortid": 554,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauheritehammer",
       "path": "~/tools/hammer"
     },
@@ -4798,7 +4379,6 @@
       "sortid": 555,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauheritehammercraft",
       "path": "~/tools/hammer"
     },
@@ -4808,7 +4388,6 @@
       "sortid": 556,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronitehammer",
       "path": "~/tools/hammer"
     },
@@ -4818,7 +4397,6 @@
       "sortid": 557,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronitehammercraft",
       "path": "~/tools/hammer"
     },
@@ -4828,7 +4406,6 @@
       "sortid": 559,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_ore",
       "path": "~/block/ore"
     },
@@ -4838,7 +4415,6 @@
       "sortid": 560,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_block",
       "path": "~/block/ore"
     },
@@ -4848,7 +4424,6 @@
       "sortid": 561,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_ore_block_recipe",
       "path": "~/block/ore"
     },
@@ -4858,7 +4433,6 @@
       "sortid": 562,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_block_ore_recipe",
       "path": "~/block/ore"
     },
@@ -4868,7 +4442,6 @@
       "sortid": 563,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_ore_smelting",
       "path": "~/block/ore"
     },
@@ -4878,7 +4451,6 @@
       "sortid": 565,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_ore",
       "path": "~/block/ore"
     },
@@ -4888,7 +4460,6 @@
       "sortid": 566,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_block",
       "path": "~/block/ore"
     },
@@ -4898,7 +4469,6 @@
       "sortid": 567,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_ore_block_recipe",
       "path": "~/block/ore"
     },
@@ -4908,7 +4478,6 @@
       "sortid": 568,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_block_ore_recipe",
       "path": "~/block/ore"
     },
@@ -4918,7 +4487,6 @@
       "sortid": 569,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "avenronite_ore_smelting",
       "path": "~/block/ore"
     },
@@ -4928,7 +4496,6 @@
       "sortid": 570,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "iron_spear",
       "path": "~/tools/spear"
     },
@@ -4938,7 +4505,6 @@
       "sortid": 571,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -4968,7 +4534,6 @@
       "sortid": 570,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite",
       "path": "~/tools/explosive"
     },
@@ -4978,7 +4543,6 @@
       "sortid": 572,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_craft",
       "path": "~/tools/explosive"
     },
@@ -4988,7 +4552,6 @@
       "sortid": 573,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "big_dynamite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5018,7 +4581,6 @@
       "sortid": 573,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "big_dynamite",
       "path": "~/tools/explosive"
     },
@@ -5028,7 +4590,6 @@
       "sortid": 574,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamitecraft",
       "path": "~/tools/explosive"
     },
@@ -5038,7 +4599,6 @@
       "sortid": 575,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_aikigite",
       "path": "~/tools/explosive"
     },
@@ -5048,7 +4608,6 @@
       "sortid": 576,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_aikigite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5078,7 +4637,6 @@
       "sortid": 577,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_aikigite_craft",
       "path": "~/tools/explosive"
     },
@@ -5088,7 +4646,6 @@
       "sortid": 578,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "big_dynamite_aikigite",
       "path": "~/tools/explosive"
     },
@@ -5098,7 +4655,6 @@
       "sortid": 579,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "big_dynamite_aikigite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5128,7 +4684,6 @@
       "sortid": 580,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_bauherite",
       "path": "~/tools/explosive"
     },
@@ -5138,7 +4693,6 @@
       "sortid": 581,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_bauherite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5168,7 +4722,6 @@
       "sortid": 582,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_bauherite",
       "path": "~/tools/explosive"
     },
@@ -5178,7 +4731,6 @@
       "sortid": 583,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_bauherite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5208,7 +4760,6 @@
       "sortid": 584,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_avenronite",
       "path": "~/tools/explosive"
     },
@@ -5218,7 +4769,6 @@
       "sortid": 585,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_avenronite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5248,7 +4798,6 @@
       "sortid": 586,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_avenronite",
       "path": "~/tools/explosive"
     },
@@ -5258,7 +4807,6 @@
       "sortid": 587,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_avenronite_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5288,7 +4836,6 @@
       "sortid": 588,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_oxys",
       "path": "~/tools/explosive"
     },
@@ -5298,7 +4845,6 @@
       "sortid": 589,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_oxys_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5328,7 +4874,6 @@
       "sortid": 590,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_oxys",
       "path": "~/tools/explosive"
     },
@@ -5338,7 +4883,6 @@
       "sortid": 591,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_oxys_projectile_hits_block",
       "metadata": {
         "dependencies": [
@@ -5368,7 +4912,6 @@
       "sortid": 592,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamitebig_aikigite",
       "path": "~/tools/explosive"
     },
@@ -5378,7 +4921,6 @@
       "sortid": 593,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_bauheritecraft",
       "path": "~/tools/explosive"
     },
@@ -5388,7 +4930,6 @@
       "sortid": 594,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamitebig_bauherite",
       "path": "~/tools/explosive"
     },
@@ -5398,7 +4939,6 @@
       "sortid": 595,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_avenronitecraft",
       "path": "~/tools/explosive"
     },
@@ -5408,7 +4948,6 @@
       "sortid": 596,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_big_avenronite",
       "path": "~/tools/explosive"
     },
@@ -5418,7 +4957,6 @@
       "sortid": 597,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_oxyscraft",
       "path": "~/tools/explosive"
     },
@@ -5428,7 +4966,6 @@
       "sortid": 598,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_bigoxys",
       "path": "~/tools/explosive"
     },
@@ -5438,7 +4975,6 @@
       "sortid": 600,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "x_pbush_ore",
       "path": "~/culture"
     },
@@ -5448,7 +4984,6 @@
       "sortid": 601,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lazarus_tnt",
       "path": "~/block/tnt"
     },
@@ -5458,7 +4993,6 @@
       "sortid": 602,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lazarus_tnt_on_block_right_clicked",
       "metadata": {
         "dependencies": [
@@ -5492,7 +5026,6 @@
       "sortid": 603,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lazarus_tnt_block_destroyed_by_explosion",
       "metadata": {
         "dependencies": [
@@ -5522,7 +5055,6 @@
       "sortid": 604,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oculus_tnt",
       "path": "~/block/tnt"
     },
@@ -5532,7 +5064,6 @@
       "sortid": 605,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oculus_tnt_on_block_right_clicked",
       "metadata": {
         "dependencies": [
@@ -5566,7 +5097,6 @@
       "sortid": 606,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oculus_tnt_block_destroyed_by_explosion",
       "metadata": {
         "dependencies": [
@@ -5596,7 +5126,6 @@
       "sortid": 607,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "infamy_tnt",
       "path": "~/block/tnt"
     },
@@ -5606,7 +5135,6 @@
       "sortid": 608,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "infamy_tnt_on_block_right_clicked",
       "metadata": {
         "dependencies": [
@@ -5640,7 +5168,6 @@
       "sortid": 609,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "infamy_tnt_block_destroyed_by_explosion",
       "metadata": {
         "dependencies": [
@@ -5670,7 +5197,6 @@
       "sortid": 610,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lazarustnt_craft",
       "path": "~/block/tnt"
     },
@@ -5680,7 +5206,6 @@
       "sortid": 611,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "epilogue_tnt",
       "path": "~/block/tnt"
     },
@@ -5690,7 +5215,6 @@
       "sortid": 612,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "epilogue_tnt_on_block_right_clicked",
       "metadata": {
         "dependencies": [
@@ -5724,7 +5248,6 @@
       "sortid": 613,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "epilogue_tnt_block_destroyed_by_explosion",
       "metadata": {
         "dependencies": [
@@ -5754,7 +5277,6 @@
       "sortid": 614,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oculustntcraft",
       "path": "~/block/tnt"
     },
@@ -5764,7 +5286,6 @@
       "sortid": 615,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "epiloguetntcraft",
       "path": "~/block/tnt"
     },
@@ -5774,7 +5295,6 @@
       "sortid": 616,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "infamytntcraft",
       "path": "~/block/tnt"
     },
@@ -5784,7 +5304,6 @@
       "sortid": 617,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "netheritapple",
       "path": "~/food"
     },
@@ -5794,7 +5313,6 @@
       "sortid": 622,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_ingot",
       "path": "~/item/metal and gem"
     },
@@ -5804,7 +5322,6 @@
       "sortid": 623,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruck_metal_powder",
       "path": "~/item/metal and gem"
     },
@@ -5814,7 +5331,6 @@
       "sortid": 624,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruck_powder",
       "path": "~/item/metal and gem"
     },
@@ -5824,7 +5340,6 @@
       "sortid": 625,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "u_rucsteal_craft",
       "path": "~/item/metal and gem"
     },
@@ -5834,7 +5349,6 @@
       "sortid": 631,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "armor",
       "path": "~/CreativeInventorieTab"
     },
@@ -5844,7 +5358,6 @@
       "sortid": 632,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_ingot",
       "path": "~/item/metal and gem"
     },
@@ -5854,7 +5367,6 @@
       "sortid": 633,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_ore",
       "path": "~/block/ore"
     },
@@ -5864,7 +5376,6 @@
       "sortid": 634,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_block",
       "path": "~/block/ore"
     },
@@ -5874,7 +5385,6 @@
       "sortid": 635,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_ore_block_recipe",
       "path": "~/block/ore"
     },
@@ -5884,7 +5394,6 @@
       "sortid": 636,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_block_ore_recipe",
       "path": "~/block/ore"
     },
@@ -5894,7 +5403,6 @@
       "sortid": 637,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_ore_smelting",
       "path": "~/block/ore"
     },
@@ -5904,7 +5412,6 @@
       "sortid": 638,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_armor",
       "metadata": {
         "eh": true,
@@ -5920,7 +5427,6 @@
       "sortid": 639,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_armor_helmet_recipe",
       "path": "~/armor/mithril"
     },
@@ -5930,7 +5436,6 @@
       "sortid": 640,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_armor_body_recipe",
       "path": "~/armor/mithril"
     },
@@ -5940,7 +5445,6 @@
       "sortid": 641,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_armor_leggings_recipe",
       "path": "~/armor/mithril"
     },
@@ -5950,7 +5454,6 @@
       "sortid": 642,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mitril_armor_boots_recipe",
       "path": "~/armor/mithril"
     },
@@ -5960,7 +5463,6 @@
       "sortid": 669,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alluminium_snaffle",
       "path": "~/tools/Snaffle"
     },
@@ -5970,7 +5472,6 @@
       "sortid": 670,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alluminium_snafflecraft",
       "path": "~/tools/Snaffle"
     },
@@ -5980,7 +5481,6 @@
       "sortid": 671,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_snaffle",
       "path": "~/tools/Snaffle"
     },
@@ -5990,7 +5490,6 @@
       "sortid": 672,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamond_snafflecraft",
       "path": "~/tools/Snaffle"
     },
@@ -6000,7 +5499,6 @@
       "sortid": 673,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_snaffle",
       "path": "~/tools/Snaffle"
     },
@@ -6010,7 +5508,6 @@
       "sortid": 674,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_snaffle",
       "path": "~/tools/Snaffle"
     },
@@ -6020,7 +5517,6 @@
       "sortid": 675,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bauherite_snafflecraft",
       "path": "~/tools/Snaffle"
     },
@@ -6030,7 +5526,6 @@
       "sortid": 676,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obsidian_snafflecraft",
       "path": "~/tools/Snaffle"
     },
@@ -6040,7 +5535,6 @@
       "sortid": 677,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubbercraft_2",
       "path": "~/item"
     },
@@ -6050,7 +5544,6 @@
       "sortid": 678,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubbercraft_3",
       "path": "~/item"
     },
@@ -6060,7 +5553,6 @@
       "sortid": 679,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubbercraft_4",
       "path": "~/item"
     },
@@ -6070,7 +5562,6 @@
       "sortid": 680,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubbercraft_5",
       "path": "~/item"
     },
@@ -6080,7 +5571,6 @@
       "sortid": 707,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_pickaxe",
       "path": "~/tools/uruk"
     },
@@ -6090,7 +5580,6 @@
       "sortid": 708,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_axe",
       "path": "~/tools/uruk"
     },
@@ -6100,7 +5589,6 @@
       "sortid": 709,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_sword",
       "path": "~/tools/uruk"
     },
@@ -6110,7 +5598,6 @@
       "sortid": 710,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_shovel",
       "path": "~/tools/uruk"
     },
@@ -6120,7 +5607,6 @@
       "sortid": 711,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_hoe",
       "path": "~/tools/uruk"
     },
@@ -6130,7 +5616,6 @@
       "sortid": 712,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_pickaxe_recipe",
       "path": "~/tools/uruk"
     },
@@ -6140,7 +5625,6 @@
       "sortid": 713,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_axe_recipe",
       "path": "~/tools/uruk"
     },
@@ -6150,7 +5634,6 @@
       "sortid": 714,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_sword_recipe",
       "path": "~/tools/uruk"
     },
@@ -6160,7 +5643,6 @@
       "sortid": 715,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_shovel_recipe",
       "path": "~/tools/uruk"
     },
@@ -6170,7 +5652,6 @@
       "sortid": 716,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_hoe_recipe",
       "path": "~/tools/uruk"
     },
@@ -6180,7 +5661,6 @@
       "sortid": 695,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_battleaxe",
       "path": "~/tools/battle axe"
     },
@@ -6190,7 +5670,6 @@
       "sortid": 696,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "urukbattleaxecraft",
       "path": "~/tools/battle axe"
     },
@@ -6200,7 +5679,6 @@
       "sortid": 697,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_armor",
       "metadata": {
         "eh": true,
@@ -6216,7 +5694,6 @@
       "sortid": 698,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_armor_helmet_recipe",
       "path": "~/armor/Angmar"
     },
@@ -6226,7 +5703,6 @@
       "sortid": 699,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_armor_body_recipe",
       "path": "~/armor/Angmar"
     },
@@ -6236,7 +5712,6 @@
       "sortid": 700,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_armor_leggings_recipe",
       "path": "~/armor/Angmar"
     },
@@ -6246,7 +5721,6 @@
       "sortid": 701,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_armor_boots_recipe",
       "path": "~/armor/Angmar"
     },
@@ -6256,7 +5730,6 @@
       "sortid": 717,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_pickaxe",
       "path": "~/tools/Angmar"
     },
@@ -6266,7 +5739,6 @@
       "sortid": 718,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_axe",
       "path": "~/tools/Angmar"
     },
@@ -6276,7 +5748,6 @@
       "sortid": 719,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_sword",
       "path": "~/tools/Angmar"
     },
@@ -6286,7 +5757,6 @@
       "sortid": 720,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_shovel",
       "path": "~/tools/Angmar"
     },
@@ -6296,7 +5766,6 @@
       "sortid": 721,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_hoe",
       "path": "~/tools/Angmar"
     },
@@ -6306,7 +5775,6 @@
       "sortid": 722,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_pickaxe_recipe",
       "path": "~/tools/Angmar"
     },
@@ -6316,7 +5784,6 @@
       "sortid": 723,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_axe_recipe",
       "path": "~/tools/Angmar"
     },
@@ -6326,7 +5793,6 @@
       "sortid": 724,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_sword_recipe",
       "path": "~/tools/Angmar"
     },
@@ -6336,7 +5802,6 @@
       "sortid": 725,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_shovel_recipe",
       "path": "~/tools/Angmar"
     },
@@ -6346,7 +5811,6 @@
       "sortid": 726,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_hoe_recipe",
       "path": "~/tools/Angmar"
     },
@@ -6356,7 +5820,6 @@
       "sortid": 727,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_dagger",
       "path": "~/tools/uruk"
     },
@@ -6366,7 +5829,6 @@
       "sortid": 728,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_dagger_craft",
       "path": "~/tools/uruk"
     },
@@ -6376,7 +5838,6 @@
       "sortid": 729,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruck_dagger",
       "path": "~/tools/uruk"
     },
@@ -6386,7 +5847,6 @@
       "sortid": 730,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_dagger_craft",
       "path": "~/tools/uruk"
     },
@@ -6396,7 +5856,6 @@
       "sortid": 731,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruck_hammer",
       "path": "~/tools/hammer"
     },
@@ -6406,7 +5865,6 @@
       "sortid": 732,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_hamercraft",
       "path": "~/tools/hammer"
     },
@@ -6416,7 +5874,6 @@
       "sortid": 733,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_armor",
       "metadata": {
         "eh": true,
@@ -6432,7 +5889,6 @@
       "sortid": 734,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_armor_helmet_recipe",
       "path": "~/armor/uruk"
     },
@@ -6442,7 +5898,6 @@
       "sortid": 735,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_armor_body_recipe",
       "path": "~/armor/uruk"
     },
@@ -6452,7 +5907,6 @@
       "sortid": 736,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_armor_leggings_recipe",
       "path": "~/armor/uruk"
     },
@@ -6462,7 +5916,6 @@
       "sortid": 737,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_armor_boots_recipe",
       "path": "~/armor/uruk"
     },
@@ -6472,7 +5925,6 @@
       "sortid": 739,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_armor_helmet_recipe",
       "path": "~/armor/black_uruk"
     },
@@ -6482,7 +5934,6 @@
       "sortid": 740,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_armor_body_recipe",
       "path": "~/armor/black_uruk"
     },
@@ -6492,7 +5943,6 @@
       "sortid": 741,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_armor_leggings_recipe",
       "path": "~/armor/black_uruk"
     },
@@ -6502,7 +5952,6 @@
       "sortid": 742,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_armor_boots_recipe",
       "path": "~/armor/black_uruk"
     },
@@ -6512,7 +5961,6 @@
       "sortid": 743,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blak_uruk",
       "metadata": {
         "eh": true,
@@ -6528,7 +5976,6 @@
       "sortid": 744,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angma_hammer",
       "path": "~/tools/hammer"
     },
@@ -6538,7 +5985,6 @@
       "sortid": 745,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_hammercraft",
       "path": "~/tools/hammer"
     },
@@ -6548,7 +5994,6 @@
       "sortid": 746,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_battle_axe",
       "path": "~/tools/battle axe"
     },
@@ -6558,7 +6003,6 @@
       "sortid": 747,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_battleaxecraft",
       "path": "~/tools/battle axe"
     },
@@ -6568,7 +6012,6 @@
       "sortid": 748,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ranger_armor",
       "metadata": {
         "eh": true,
@@ -6584,7 +6027,6 @@
       "sortid": 749,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ranger_armor_helmet_recipe",
       "path": "~/armor/ranger"
     },
@@ -6594,7 +6036,6 @@
       "sortid": 750,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ranger_armor_body_recipe",
       "path": "~/armor/ranger"
     },
@@ -6604,7 +6045,6 @@
       "sortid": 751,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ranger_armor_leggings_recipe",
       "path": "~/armor/ranger"
     },
@@ -6614,7 +6054,6 @@
       "sortid": 752,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ranger_armor_boots_recipe",
       "path": "~/armor/ranger"
     },
@@ -6624,7 +6063,6 @@
       "sortid": 753,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "melstone",
       "path": "~/tools/other"
     },
@@ -6634,7 +6072,6 @@
       "sortid": 754,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "melstonecraft",
       "path": "~/tools/other"
     },
@@ -6644,7 +6081,6 @@
       "sortid": 755,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hueersite",
       "path": "~/tools/other"
     },
@@ -6654,7 +6090,6 @@
       "sortid": 756,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hueersitecraft",
       "path": "~/tools/other"
     },
@@ -6664,7 +6099,6 @@
       "sortid": 757,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "goldcraft",
       "path": "~/item"
     },
@@ -6674,7 +6108,6 @@
       "sortid": 758,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "diamondcraft",
       "path": "~/item"
     },
@@ -6684,7 +6117,6 @@
       "sortid": 759,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "uruk_spear",
       "path": "~/tools/spear"
     },
@@ -6694,7 +6126,6 @@
       "sortid": 760,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_uruk_spear",
       "path": "~/tools/spear"
     },
@@ -6704,7 +6135,6 @@
       "sortid": 761,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_spear",
       "path": "~/tools/spear"
     },
@@ -6714,7 +6144,6 @@
       "sortid": 762,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "urukspearcraft",
       "path": "~/tools/spear"
     },
@@ -6724,7 +6153,6 @@
       "sortid": 763,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_urukspearcraft",
       "path": "~/tools/spear"
     },
@@ -6734,7 +6162,6 @@
       "sortid": 764,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "angmar_spearcraft",
       "path": "~/tools/spear"
     },
@@ -6744,7 +6171,6 @@
       "sortid": 766,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn_armor_helmet_recipe",
       "path": "~/armor/Galvorn"
     },
@@ -6754,7 +6180,6 @@
       "sortid": 767,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn_armor_body_recipe",
       "path": "~/armor/Galvorn"
     },
@@ -6764,7 +6189,6 @@
       "sortid": 768,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn_armor_leggings_recipe",
       "path": "~/armor/Galvorn"
     },
@@ -6774,7 +6198,6 @@
       "sortid": 769,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn_armor_boots_recipe",
       "path": "~/armor/Galvorn"
     },
@@ -6784,7 +6207,6 @@
       "sortid": 770,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn",
       "metadata": {
         "eh": true,
@@ -6800,7 +6222,6 @@
       "sortid": 771,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "materialbreaker_update_tick",
       "metadata": {
         "dependencies": [
@@ -6830,7 +6251,6 @@
       "sortid": 771,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "materialbreaker",
       "path": "~/machine"
     },
@@ -6840,7 +6260,6 @@
       "sortid": 772,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "materialbreakergui",
       "path": "~/machine"
     },
@@ -6850,7 +6269,6 @@
       "sortid": 773,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particleiron",
       "path": "~/item/metal and gem/particule"
     },
@@ -6860,7 +6278,6 @@
       "sortid": 774,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_gold",
       "path": "~/item/metal and gem/particule"
     },
@@ -6870,7 +6287,6 @@
       "sortid": 775,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_aikigite",
       "path": "~/item/metal and gem/particule"
     },
@@ -6880,7 +6296,6 @@
       "sortid": 776,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_bauherite",
       "path": "~/item/metal and gem/particule"
     },
@@ -6890,7 +6305,6 @@
       "sortid": 777,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_avenronite",
       "path": "~/item/metal and gem/particule"
     },
@@ -6900,7 +6314,6 @@
       "sortid": 778,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particuleironcraft",
       "path": "~/item/metal and gem/particule"
     },
@@ -6910,7 +6323,6 @@
       "sortid": 779,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particlegoldcraft",
       "path": "~/item/metal and gem/particule"
     },
@@ -6920,7 +6332,6 @@
       "sortid": 780,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_aikigitecraft",
       "path": "~/item/metal and gem/particule"
     },
@@ -6930,7 +6341,6 @@
       "sortid": 781,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_bauheritecraft",
       "path": "~/item/metal and gem/particule"
     },
@@ -6940,7 +6350,6 @@
       "sortid": 782,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_avenronitecraft",
       "path": "~/item/metal and gem/particule"
     },
@@ -6950,7 +6359,6 @@
       "sortid": 783,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_mithril",
       "path": "~/item/metal and gem/particule"
     },
@@ -6960,7 +6368,6 @@
       "sortid": 784,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "particle_mithrilcraft",
       "path": "~/item/metal and gem/particule"
     },
@@ -6970,7 +6377,6 @@
       "sortid": 785,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "materialbreakercraft",
       "path": "~/machine"
     },
@@ -6980,7 +6386,6 @@
       "sortid": 786,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edhelvir",
       "path": "~/item/metal and gem/particule"
     },
@@ -6990,7 +6395,6 @@
       "sortid": 787,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn_ingot",
       "path": "~/item/metal and gem"
     },
@@ -7000,7 +6404,6 @@
       "sortid": 788,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "galvorn_ingotcraft",
       "path": "~/item/metal and gem"
     },
@@ -7010,7 +6413,6 @@
       "sortid": 789,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edhelvircraft",
       "path": "~/item/metal and gem"
     },
@@ -7020,7 +6422,6 @@
       "sortid": 790,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ithilien_armor",
       "metadata": {
         "eh": true,
@@ -7036,7 +6437,6 @@
       "sortid": 791,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ithilien_armor_helmet_recipe",
       "path": "~/armor/ithilien"
     },
@@ -7046,7 +6446,6 @@
       "sortid": 792,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ithilien_armor_body_recipe",
       "path": "~/armor/ithilien"
     },
@@ -7056,7 +6455,6 @@
       "sortid": 793,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ithilien_armor_leggings_recipe",
       "path": "~/armor/ithilien"
     },
@@ -7066,7 +6464,6 @@
       "sortid": 794,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ithilien_armor_boots_recipe",
       "path": "~/armor/ithilien"
     },
@@ -7076,7 +6473,6 @@
       "sortid": 795,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wood_elven",
       "metadata": {
         "eh": true,
@@ -7092,7 +6488,6 @@
       "sortid": 796,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "woodelven_helmetcraft",
       "path": "~/armor/wood_elven"
     },
@@ -7102,7 +6497,6 @@
       "sortid": 797,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "woodelvenbodycraft",
       "path": "~/armor/wood_elven"
     },
@@ -7112,7 +6506,6 @@
       "sortid": 798,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "woodelvenleggingscraft",
       "path": "~/armor/wood_elven"
     },
@@ -7122,7 +6515,6 @@
       "sortid": 799,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "woodelvenbootscraft",
       "path": "~/armor/wood_elven"
     },
@@ -7132,7 +6524,6 @@
       "sortid": 800,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "areyousureyouwanttogrowwiththis",
       "path": "~/achivement"
     },
@@ -7142,7 +6533,6 @@
       "sortid": 801,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "a_back_steel",
       "path": "~/achivement"
     },
@@ -7152,7 +6542,6 @@
       "sortid": 802,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "its_a_breaker",
       "path": "~/achivement"
     },
@@ -7162,7 +6551,6 @@
       "sortid": 803,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_ironparticule",
       "path": "~/achivement"
     },
@@ -7172,7 +6560,6 @@
       "sortid": 804,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_goldparticule",
       "path": "~/achivement"
     },
@@ -7182,7 +6569,6 @@
       "sortid": 805,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_aikigiteparticule",
       "path": "~/achivement"
     },
@@ -7192,7 +6578,6 @@
       "sortid": 806,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_bauherite_particule",
       "path": "~/achivement"
     },
@@ -7202,7 +6587,6 @@
       "sortid": 807,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_mitril_particule",
       "path": "~/achivement"
     },
@@ -7212,7 +6596,6 @@
       "sortid": 808,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_avenronitr_particule",
       "path": "~/achivement"
     },
@@ -7222,7 +6605,6 @@
       "sortid": 809,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtaine_edhelvir_particule",
       "path": "~/achivement"
     },
@@ -7232,7 +6614,6 @@
       "sortid": 810,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_can_use_ranged_item",
       "metadata": {
         "dependencies": [
@@ -7250,7 +6631,6 @@
       "sortid": 811,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "big_dynamite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7268,7 +6648,6 @@
       "sortid": 812,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_aikigite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7286,7 +6665,6 @@
       "sortid": 813,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "big_dynamite_aikigite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7304,7 +6682,6 @@
       "sortid": 814,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_bauherite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7322,7 +6699,6 @@
       "sortid": 815,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_bauherite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7340,7 +6716,6 @@
       "sortid": 816,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_avenronite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7358,7 +6733,6 @@
       "sortid": 817,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_avenronite_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7376,7 +6750,6 @@
       "sortid": 818,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dynamite_oxys_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7394,7 +6767,6 @@
       "sortid": 819,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bigdynamite_oxys_ranged_item_used",
       "metadata": {
         "dependencies": [
@@ -7412,7 +6784,6 @@
       "sortid": 820,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edruelium_ingot",
       "path": "~/block/ore"
     },
@@ -7422,7 +6793,6 @@
       "sortid": 821,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edruelium_ore",
       "path": "~/block/ore"
     },
@@ -7432,7 +6802,6 @@
       "sortid": 822,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edruelium_block",
       "path": "~/block/ore"
     },
@@ -7442,7 +6811,6 @@
       "sortid": 823,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edruelium_ore_block_recipe",
       "path": "~/block/ore"
     },
@@ -7452,7 +6820,6 @@
       "sortid": 824,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edruelium_block_ore_recipe",
       "path": "~/block/ore"
     },
@@ -7462,7 +6829,6 @@
       "sortid": 825,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edruelium_ore_smelting",
       "path": "~/block/ore"
     },
@@ -7472,7 +6838,6 @@
       "sortid": 826,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "raw_edruelium",
       "path": "~/block/ore"
     },
@@ -7482,7 +6847,6 @@
       "sortid": 827,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "edrueliumarmor",
       "metadata": {
         "eh": true,
@@ -7490,6 +6854,376 @@
         "eb": true,
         "ec": true
       },
+      "path": "~/armor"
+    },
+    {
+      "name": "HelmetEdruelium",
+      "type": "recipe",
+      "sortid": 828,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet_edruelium",
+      "path": "~/armor"
+    },
+    {
+      "name": "BootsEdruelium",
+      "type": "recipe",
+      "sortid": 829,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots_edruelium",
+      "path": "~/armor"
+    },
+    {
+      "name": "LegginsEdruelium",
+      "type": "recipe",
+      "sortid": 830,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggins_edruelium",
+      "path": "~/armor"
+    },
+    {
+      "name": "ChestEdruelium",
+      "type": "recipe",
+      "sortid": 831,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_edruelium",
+      "path": "~/armor"
+    },
+    {
+      "name": "Edrueliumparticule",
+      "type": "item",
+      "sortid": 832,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edrueliumparticule",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "Edrueliumcraftparticule",
+      "type": "recipe",
+      "sortid": 833,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edrueliumcraftparticule",
+      "path": "~/item/metal and gem/particule"
+    },
+    {
+      "name": "DrangonSteelIngot",
+      "type": "item",
+      "sortid": 834,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drangon_steel_ingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Dragonsteelcraft",
+      "type": "recipe",
+      "sortid": 835,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonsteelcraft",
+      "path": "~/item"
+    },
+    {
+      "name": "Dragonsteel",
+      "type": "armor",
+      "sortid": 836,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonsteel",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Helmetdragon",
+      "type": "recipe",
+      "sortid": 837,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmetdragon",
+      "path": "~/armor"
+    },
+    {
+      "name": "Bodydragon",
+      "type": "recipe",
+      "sortid": 838,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bodydragon",
+      "path": "~/armor"
+    },
+    {
+      "name": "Legsdragon",
+      "type": "recipe",
+      "sortid": 839,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legsdragon",
+      "path": "~/armor"
+    },
+    {
+      "name": "Bootsdragon",
+      "type": "recipe",
+      "sortid": 840,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bootsdragon",
+      "path": "~/armor"
+    },
+    {
+      "name": "Utumno",
+      "type": "armor",
+      "sortid": 841,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utumno",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "ForgetierII",
+      "type": "block",
+      "sortid": 842,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgetier_ii",
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgeTierIII",
+      "type": "block",
+      "sortid": 843,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_tier_iii",
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgTierIV",
+      "type": "block",
+      "sortid": 844,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forg_tier_iv",
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgetierIIon",
+      "type": "block",
+      "sortid": 845,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgetier_i_ion",
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgetierIIIon",
+      "type": "block",
+      "sortid": 846,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgetier_ii_ion",
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgetierIVon",
+      "type": "block",
+      "sortid": 847,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgetier_i_von",
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgeFurnaceTierII",
+      "type": "procedure",
+      "sortid": 848,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_furnace_tier_ii",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "ForgeFurnaceTierIII",
+      "type": "procedure",
+      "sortid": 849,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_furnace_tier_iii",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/furnace"
+    },
+    {
+      "name": "Bone",
+      "type": "armor",
+      "sortid": 850,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Bonnehelmetcraft",
+      "type": "recipe",
+      "sortid": 851,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonnehelmetcraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Bonnechestplatecraft",
+      "type": "recipe",
+      "sortid": 852,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonnechestplatecraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Bonneleggingscraft",
+      "type": "recipe",
+      "sortid": 853,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonneleggingscraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Bonnebootcraft",
+      "type": "recipe",
+      "sortid": 854,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonnebootcraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Blazingsteel",
+      "type": "item",
+      "sortid": 855,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazingsteel",
+      "path": "~/item"
+    },
+    {
+      "name": "BlazingsteelCraft",
+      "type": "recipe",
+      "sortid": 856,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazingsteel_craft",
+      "path": "~/item"
+    },
+    {
+      "name": "Fiery",
+      "type": "armor",
+      "sortid": 857,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiery",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Fieryhelmetcraft",
+      "type": "recipe",
+      "sortid": 858,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fieryhelmetcraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Fierychestplatecraft",
+      "type": "recipe",
+      "sortid": 859,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fierychestplatecraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Fieryleggingscraft",
+      "type": "recipe",
+      "sortid": 860,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fieryleggingscraft",
+      "path": "~/armor"
+    },
+    {
+      "name": "Fierybootcraft",
+      "type": "recipe",
+      "sortid": 861,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fierybootcraft",
       "path": "~/armor"
     }
   ],
@@ -7504,86 +7238,245 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
-      "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
+      "block.orderofobsidian.forgetier_ii_ion": "Forge Tier III",
       "item.orderofobsidian.ntehrit_apple": "Netherit Apple",
-      "advancements.obtaine_ironparticule.descr": "Iron particule",
-      "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
-      "item.orderofobsidian.stone_hammer": "Stone Hammer",
-      "item.spiritforge.oxys_hoe": "Oxys Hoe",
-      "item.orderofobsidian.lead_ingot": "Lead Ingot",
       "item.orderofobsidian.stone_armor_armor_leggings": "Stone_armor Leggings",
-      "item.orderofobsidian.rice_seed": "Rice Seed",
       "item.orderofobsidian.graphite_ingot": "Graphite Ingot",
       "block.orderofobsidian.burnedtree_pressure_plate": "Burnedtree Pressure Plate",
-      "item.orderofobsidian.edhelvir": "Edhelvir",
       "item.orderofobsidian.uruk_armor_boots": "Uruk Boots",
-      "advancements.obtaine_aikigiteparticule.title": "Obtaine Aikigite Particule",
       "item.orderofobsidian.bauherite_pickaxe": "Bauherite Pickaxe",
       "item.orderofobsidian.diamond_snaffle": "diamond Snaffle",
-      "block.orderofobsidian.xp_bush_2": "Xp Bush",
-      "item.orderofobsidian.silver_ingot": "Silver Ingot",
       "item.orderofobsidian.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.orderofobsidian.steel_dust": "Steel Dust",
-      "block.orderofobsidian.nylium_wood": "Nylium Wood",
-      "item.orderofobsidian.uruck_dagger": "Uruk Dagger",
+      "item.orderofobsidian.utumno_leggings": "Utumno Leggings",
       "item.spiritforge.oxys_shovel": "Oxys Shovel",
-      "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
-      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
-      "advancements.obtaine_goldparticule.descr": "Gold particule",
       "item.spiritforge.wooden_armor_armor_leggings": "WoodenArmor Leggings",
       "item.orderofobsidian.galvorn_boots": "Galvorn Boots",
-      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
-      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
-      "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
       "item.orderofobsidian.raw_edruelium": "Raw Edruelium",
       "block.orderofobsidian.oculus_tnt": "Oculus TNT",
       "item.spiritforge.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
-      "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
       "item.spiritforge.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
-      "block.orderofobsidian.forgeon": "Forge",
       "block.orderofobsidian.bauherite_block": "Block of Bauherite",
-      "item.orderofobsidian.oxysstove": "Oxis Stove",
       "item.orderofobsidian.wood_hammer": "Wood Hammer",
       "item.orderofobsidian.uruck_metal_powder": "Uruck Metal Powder",
+      "item.orderofobsidian.ithilien_armor_boots": "Ithilien Boots",
+      "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
+      "advancements.dubious_ore.title": "Dubious Ore",
+      "item.orderofobsidian.angmar_pickaxe": "Angmar Pickaxe",
+      "advancements.obtaine_edhelvir_particule.descr": "Edhelvir ",
+      "block.spiritforge.oxys_block": "Block of Oxys",
+      "advancements.areyousureyouwanttogrowwiththis.title": "Are you sure you want to grow with this",
+      "enchantment.spiritforge.propelling": "Propelling",
+      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
+      "item.orderofobsidian.edrueliumparticule": "Particle Edruelium",
+      "item.orderofobsidian.stone_armor_armor_chestplate": "Stone_armor Chestplate",
+      "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
+      "item.orderofobsidian.aikigitehammer": "Aikigite Hammer",
+      "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
+      "item.orderofobsidian.flour": "Flour",
+      "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
+      "block.orderofobsidian.xpbush_1": "Xp Bush",
+      "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
+      "item.orderofobsidian.particle_gold": "Particle Gold",
+      "item.orderofobsidian.blak_uruk_chestplate": "Blak Uruk Body",
+      "item.orderofobsidian.bone_helmet": "Bone Helmet",
+      "block.orderofobsidian.oxys_block": "Block of Oxys",
+      "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
+      "block.orderofobsidian.forgetier_i_ion": "Forge Tier II",
+      "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
+      "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
+      "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
+      "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
+      "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
+      "item.orderofobsidian.aikigite_ingot": "Aikigite",
+      "item.orderofobsidian.blak_uruk_leggings": "Blak Uruk Leggings",
+      "block.orderofobsidian.nylium_slab": "Nylium Slab",
+      "advancements.obtaine_ironparticule.title": "Obtaine Iron Particule",
+      "item.orderofobsidian.edrueliumarmor_leggings": "Edruelium Leggings",
+      "item.orderofobsidian.mitril_armor_helmet": "Mitril Helmet",
+      "item.orderofobsidian.stone_stove": "Stone Stove",
+      "block.orderofobsidian.forgetier_ii": "Forge Tier II",
+      "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
+      "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
+      "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
+      "item.orderofobsidian.galvorn_chestplate": "Galvorn Body",
+      "item.orderofobsidian.ranger_armor_leggings": "Ranger Leggings",
+      "item.orderofobsidian.avenronite_shovel": "Avenronite Shovel",
+      "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
+      "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
+      "item.spiritforge.oxys_bow": "Oxys Bow",
+      "item.orderofobsidian.bigdynamite_bauherite": "Big Dynamite",
+      "item.orderofobsidian.uruk_axe": "Uruk Axe",
+      "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
+      "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
+      "item.orderofobsidian.bone_chestplate": "Bone Body",
+      "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
+      "item.orderofobsidian.plastique": "Plastique",
+      "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
+      "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
+      "block.orderofobsidian.graphite_ore": "Graphite Ore",
+      "item.orderofobsidian.diamond_katana": "Diamond Katana",
+      "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
+      "item.orderofobsidian.goldenchield": "Goldenchield",
+      "item.spiritforge.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
+      "item.spiritforge.oxys_armor_leggings": "Oxys Leggings",
+      "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
+      "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
+      "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
+      "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
+      "item.orderofobsidian.steel_snaffle": "Steel Snaffle",
+      "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
+      "item.orderofobsidian.netheritestove": "netherit Stove",
+      "item.orderofobsidian.edrueliumarmor_boots": "Edruelium Boots",
+      "block.orderofobsidian.oxys_ore": "Oxys Ore",
+      "item.orderofobsidian.particle_mithril": "Particle Mithril",
+      "item.orderofobsidian.diamond_shard": "Diamond Shard",
+      "advancements.obtaine_bauherite_particule.descr": "Bauherite particule",
+      "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
+      "item.orderofobsidian.galvorn_ingot": "Galvorn Ingot",
+      "item.orderofobsidian.ranger_armor_helmet": "Ranger Helmet",
+      "block.orderofobsidian.edruelium_ore": "Edruelium Ore",
+      "item.orderofobsidian.diamond_spear": "Diamond Spear",
+      "item.orderofobsidian.obsidian_snaffle": "obsidian Snaffle",
+      "item.orderofobsidian.aikigite_armor_boots": "Aikigite Boots",
+      "block.spiritforge.oxys_ore": "Oxys Ore",
+      "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
+      "item.orderofobsidian.edrueliumarmor_helmet": "Edruelium Helmet",
+      "item.orderofobsidian.oxysapple": "Oxysapple",
+      "item.orderofobsidian.wood_katana": "Wood Katana",
+      "item.orderofobsidian.aikigite_armor_chestplate": "Aikigite Chestplate",
+      "block.orderofobsidian.forgetier_i_von": "Forge Tier IV",
+      "item.spiritforge.oxys": "Oxys",
+      "block.orderofobsidian.nylium_log": "Nylium Log",
+      "block.orderofobsidian.forge": "Forge Tier I",
+      "biome.spiritforge.volcan": "Volcan",
+      "item.orderofobsidian.uruk_hoe": "Uruk Hoe",
+      "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
+      "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
+      "block.orderofobsidian.avenronite_block": "Block of Avenronite",
+      "item.orderofobsidian.angmar_armor_leggings": "Angmar Leggings",
+      "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
+      "itemGroup.tabtools": "Tools",
+      "item.orderofobsidian.stone_katana": "Stone Katana",
+      "item.spiritforge.oxys_pickaxe": "Oxys Pickaxe",
+      "item.orderofobsidian.avenronite_armor_boots": "Avenronite Boots",
+      "item.orderofobsidian.uruk_pickaxe": "Uruk Pickaxe",
+      "item.orderofobsidian.angma_hammer": "Angmar Hammer",
+      "item.orderofobsidian.ranger_armor_boots": "Ranger Boots",
+      "block.orderofobsidian.ironbookshelf": "Iron book shelf",
+      "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
+      "item.orderofobsidian.rice": "Rice Seed",
+      "item.orderofobsidian.wood_elven_chestplate": "Wood Elven Body",
+      "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
+      "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
+      "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
+      "item.spiritforge.oxys_armor_boots": "Oxys Boots",
+      "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
+      "item.orderofobsidian.angmar_spear": "Angmar Spear",
+      "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
+      "item.orderofobsidian.silver_plate": "Silver Plate",
+      "itemGroup.tabspirit": "Weapon ",
+      "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
+      "advancements.obtaine_goldparticule.title": "Obtaine Gold Particule",
+      "item.orderofobsidian.iron_battle_axe": "Iron Battle Axe",
+      "entity.orderofobsidian.netheritegolem": "netherite Golem",
+      "item.orderofobsidian.rubber": "Rubber",
+      "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
+      "item.orderofobsidian.angmar_battle_axe": "Angmar Battle Axe",
+      "item.orderofobsidian.electronique_circuit": "Electronique Circuit",
+      "advancements.obtaine_mitril_particule.title": "Obtaine Mitril Particule",
+      "advancements.obtaine_aikigiteparticule.descr": "Aikigite particule",
+      "block.orderofobsidian.nylium_button": "Nylium Button",
+      "block.orderofobsidian.graphite_glass": "Graphite Glass",
+      "item.orderofobsidian.dragonsteel_helmet": "Dragon Steal Helmet",
+      "item.orderofobsidian.x_pberry": "XP berry",
+      "item.orderofobsidian.alluminium_snaffle": "Alluminium Snaffle",
+      "item.orderofobsidian.dynamite_oxys": "Dynamite",
+      "item.orderofobsidian.hueersite": "Hueersite",
+      "item.orderofobsidian.avenronite_mixed_coal": "Avenronite Mixed Coal",
+      "item.orderofobsidian.obsidian_tool_shovel": "Obsidian_tool Shovel",
+      "item.orderofobsidian.netheritegolem_spawn_egg": "netherite Golem Spawn Egg",
+      "item.orderofobsidian.oxys_bow": "Oxys Bow",
+      "item.orderofobsidian.wooden_armor_armor_boots": "Wooden_armor Boots",
+      "item.orderofobsidian.steel_ingot": "Steel Ingot",
+      "advancements.a_back_steel.descr": "uruk steel",
+      "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
+      "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
+      "item.orderofobsidian.stone_battle_axe": "Stone Battle Axe",
+      "item.orderofobsidian.gold_katana": "Gold Katana",
+      "item.orderofobsidian.steel_armor_helmet": "Steel Helmet",
+      "block.orderofobsidian.rice_stage_3": "Rice Stage",
+      "block.orderofobsidian.rice_stage_2": "Rice Stage",
+      "block.orderofobsidian.rice_stage_1": "Rice Stage",
+      "block.orderofobsidian.rice_stage_0": "Rice Stage",
+      "block.orderofobsidian.rice_stage_7": "Rice Stage",
+      "block.orderofobsidian.rice_stage_6": "Rice Stage",
+      "block.orderofobsidian.rice_stage_5": "Rice Stage",
+      "item.orderofobsidian.bauherite_armor_helmet": "Bauherite Helmet",
+      "block.orderofobsidian.rice_stage_4": "Rice Stage",
+      "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
+      "item.orderofobsidian.fiery_helmet": "Fiery Helmet",
+      "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
+      "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
+      "item.orderofobsidian.ithilien_armor_leggings": "Ithilien Leggings",
+      "item.orderofobsidian.bauheritehammer": "Bauherite Hammer",
+      "item.orderofobsidian.oxys_sword": "Oxys Sword",
+      "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
+      "item.orderofobsidian.ironplate": "Ironplate",
+      "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
+      "item.orderofobsidian.angmar_armor_boots": "Angmar Boots",
+      "item.orderofobsidian.bauherite_sword": "Bauherite Sword",
+      "item.orderofobsidian.obsidianhammer": "Obsidian Hammer",
+      "block.orderofobsidian.burnedtree_fence_gate": "Burnedtree Fence Gate",
+      "advancements.obtaine_ironparticule.descr": "Iron particule",
+      "item.orderofobsidian.utumno_chestplate": "Utumno Chestplate",
+      "item.orderofobsidian.stone_hammer": "Stone Hammer",
+      "item.spiritforge.oxys_hoe": "Oxys Hoe",
+      "item.orderofobsidian.lead_ingot": "Lead Ingot",
+      "item.orderofobsidian.rice_seed": "Rice Seed",
+      "item.orderofobsidian.utumno_helmet": "Utumno Helmet",
+      "item.orderofobsidian.edhelvir": "Edhelvir",
+      "advancements.obtaine_aikigiteparticule.title": "Obtaine Aikigite Particule",
+      "block.orderofobsidian.xp_bush_2": "Xp Bush",
+      "item.orderofobsidian.silver_ingot": "Silver Ingot",
+      "block.orderofobsidian.nylium_wood": "Nylium Wood",
+      "item.orderofobsidian.uruck_dagger": "Uruk Dagger",
+      "item.orderofobsidian.bauherite_armor_chestplate": "Bauherite Chestplate",
+      "item.orderofobsidian.netherackarmor_armor_leggings": "Netherackarmor Leggings",
+      "item.orderofobsidian.dragonsteel_leggings": "Dragon Steal Leggings",
+      "advancements.obtaine_goldparticule.descr": "Gold particule",
+      "item.orderofobsidian.oxys_armor_chestplate": "Oxys Chestplate",
+      "block.orderofobsidian.nylium_leaves": "Nylium Leaves",
+      "item.orderofobsidian.stone_armor_armor_helmet": "Stone_armor Helmet",
+      "item.spiritforge.obsidian_armor_armor_boots": "Obsidian_armor Boots",
+      "item.orderofobsidian.wooden_armor_armor_leggings": "Wooden_armor Leggings",
+      "block.orderofobsidian.forgeon": "Forge",
+      "item.orderofobsidian.oxysstove": "Oxis Stove",
       "item.orderofobsidian.black_uruk_spear": "Uruk Spear",
       "item.orderofobsidian.batterie_cell": "Batterie Cell",
       "item.orderofobsidian.steel_armor_boots": "Steel Boots",
       "item.orderofobsidian.particle_aikigite": "Particle Aikigite",
       "item.orderofobsidian.diamondstove": "diamond Stove",
-      "item.orderofobsidian.ithilien_armor_boots": "Ithilien Boots",
-      "item.spiritforge.wooden_armor_armor_helmet": "WoodenArmor Helmet",
-      "advancements.dubious_ore.title": "Dubious Ore",
       "item.orderofobsidian.avenronitehammer": "Avenronite Hammer",
       "enchantment.orderofobsidian.ignition": "Ignition",
-      "item.orderofobsidian.angmar_pickaxe": "Angmar Pickaxe",
       "item.orderofobsidian.steel_hoe": "Steel Hoe",
-      "advancements.obtaine_edhelvir_particule.descr": "Edhelvir ",
       "item.orderofobsidian.big_dynamite": "Big Dynamite",
       "advancements.obtaine_edhelvir_particule.title": "Obtaine Edhelvir",
-      "block.spiritforge.oxys_block": "Block of Oxys",
       "item.orderofobsidian.iron_hammer": "Iron Hammer",
       "advancements.dubious_ore.descr": "but what is this dubious mineral",
-      "advancements.areyousureyouwanttogrowwiththis.title": "Are you sure you want to grow with this",
       "item.orderofobsidian.ithilien_armor_helmet": "Ithilien Helmet",
-      "enchantment.spiritforge.propelling": "Propelling",
-      "item.spiritforge.netherackarmor_armor_leggings": "Netherackarmor Leggings",
       "item.spiritforge.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.spiritforge.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.spiritforge.oxys_sword": "Oxys Sword",
-      "item.orderofobsidian.stone_armor_armor_chestplate": "Stone_armor Chestplate",
       "item.orderofobsidian.blak_uruk_boots": "Blak Uruk Boots",
-      "item.orderofobsidian.oxys_hoe": "Oxys Hoe",
       "item.orderofobsidian.bauherite_shovel": "Bauherite Shovel",
       "block.orderofobsidian.burnedtree_leaves": "Burnedtree",
+      "item.orderofobsidian.fiery_chestplate": "Fiery Body",
       "item.orderofobsidian.oxys_stick": "Oxys Stick",
       "item.orderofobsidian.gold_hammer": "Gold Hammer",
-      "item.orderofobsidian.aikigitehammer": "Aikigite Hammer",
       "block.orderofobsidian.silver_ore": "Silver Ore",
       "item.orderofobsidian.bauherite_ingot": "Bauherite",
-      "item.orderofobsidian.wooden_armor_armor_chestplate": "Wooden_armor Chestplate",
-      "item.orderofobsidian.flour": "Flour",
       "block.orderofobsidian.burnedtree_log": "Burnedtree Log",
       "enchantment.orderofobsidian.auto_smelt": "Auto Smelt",
       "item.orderofobsidian.bauherite_snaffle": "Bauherite Snaffle",
@@ -7592,187 +7485,104 @@
       "item.orderofobsidian.graphite_dust": "Graphite Dust",
       "item.orderofobsidian.mitril_armor_leggings": "Mitril Leggings",
       "block.orderofobsidian.copperbookshelf": "Copper Book Shelf",
-      "block.orderofobsidian.aluminium_ore": "Aluminium Ore",
-      "item.orderofobsidian.particle_gold": "Particle Gold",
-      "item.orderofobsidian.bigdynamite_oxys": "Big Dynamite",
-      "block.orderofobsidian.xpbush_1": "Xp Bush",
       "block.orderofobsidian.burnedtree_wood": "Burnedtree Wood",
-      "item.orderofobsidian.blak_uruk_chestplate": "Blak Uruk Body",
+      "item.orderofobsidian.drangon_steel_ingot": "Drangon Steel Ingot",
       "item.orderofobsidian.angmar_axe": "Angmar Axe",
       "block.orderofobsidian.mitril_block": "Block of Mitril",
-      "block.orderofobsidian.oxys_block": "Block of Oxys",
-      "item.orderofobsidian.avenronite_pickaxe": "Avenronite Pickaxe",
-      "block.orderofobsidian.netherite_golem_head": "Obsidian Golem head",
-      "item.orderofobsidian.aluminium_plate": "Aluminium Plate",
-      "item.orderofobsidian.chiken_whith_breadcrumbs": "Chiken Whith Breadcrumbs",
+      "item.orderofobsidian.fiery_leggings": "Fiery Leggings",
       "item.orderofobsidian.obsidian_tool_sword": "Obsidian_tool Sword",
-      "item.orderofobsidian.aikigite_pickaxe": "Aikigite Pickaxe",
-      "block.orderofobsidian.epilogue_tnt": "Epilogue TNT",
       "block.orderofobsidian.obsidianbookshelf": "Obsidian Book Shelf",
-      "item.orderofobsidian.aikigite_ingot": "Aikigite",
-      "item.orderofobsidian.blak_uruk_leggings": "Blak Uruk Leggings",
-      "block.orderofobsidian.nylium_slab": "Nylium Slab",
       "item.orderofobsidian.uruk_ingot": "Uruk Ingot",
       "item.orderofobsidian.ranger_armor_chestplate": "Ranger Chestplate",
-      "advancements.obtaine_ironparticule.title": "Obtaine Iron Particule",
       "item.orderofobsidian.faraday_armor_boots": "Faraday Boots",
-      "item.orderofobsidian.edrueliumarmor_leggings": "Edruelium Leggings",
       "item.orderofobsidian.oxys": "Oxys",
       "item.orderofobsidian.edrueliumarmor_chestplate": "Edruelium Chestplate",
       "item.orderofobsidian.sushi": "Sushi",
-      "item.orderofobsidian.mitril_armor_helmet": "Mitril Helmet",
       "item.orderofobsidian.uruk_sword": "Uruk Sword",
-      "item.orderofobsidian.stone_stove": "Stone Stove",
       "item.orderofobsidian.steel_sword": "Steel Sword",
       "entity.orderofobsidian.obsidian_golem": "Obsidian Golem",
       "item.orderofobsidian.mitril_ingot": "Mitril",
       "item.orderofobsidian.processeur_tier_ii": "Processeur Tier II",
       "block.orderofobsidian.goldbookshelf": "Gold Book Shelf",
-      "item.orderofobsidian.bauherite_armor_leggings": "Bauherite Leggings",
-      "block.orderofobsidian.lazarus_tnt": "Lazarus TNT",
-      "item.orderofobsidian.angmar_hoe": "Angmar Hoe",
-      "item.orderofobsidian.galvorn_chestplate": "Galvorn Body",
       "item.orderofobsidian.particle_avenronite": "Particle Avenronite",
+      "block.orderofobsidian.forge_tier_iii": "Forge Tier III",
       "item.orderofobsidian.mitril_armor_chestplate": "Mitril Chestplate",
-      "item.orderofobsidian.ranger_armor_leggings": "Ranger Leggings",
       "item.spiritforge.oxys_armor_helmet": "Oxys Helmet",
       "item.orderofobsidian.avenronite_ingot": "Avenronite",
-      "item.orderofobsidian.avenronite_shovel": "Avenronite Shovel",
-      "item.orderofobsidian.obsidian_spear": "Obsidian Spear",
       "item.orderofobsidian.blak_uruk_helmet": "Blak Uruk Helmet",
-      "item.orderofobsidian.processeur_tier_i": "Processeur Tier I",
       "block.orderofobsidian.diamond_glass": "Diamond Glass",
-      "item.spiritforge.oxys_bow": "Oxys Bow",
+      "block.orderofobsidian.forg_tier_iv": "Forge Tier IV",
+      "item.orderofobsidian.utumno_boots": "Utumno Boots",
       "item.orderofobsidian.compresed_xp_berry": "compresed XP berry",
-      "item.orderofobsidian.bigdynamite_bauherite": "Big Dynamite",
       "item.orderofobsidian.oxys_shovel": "Oxys Shovel",
       "item.orderofobsidian.angmar_shovel": "Angmar Shovel",
-      "item.orderofobsidian.uruk_axe": "Uruk Axe",
-      "item.orderofobsidian.stone_armor_armor_boots": "Stone_armor Boots",
-      "item.orderofobsidian.bauherite_armor_boots": "Bauherite Boots",
       "advancements.obtaine_avenronitr_particule.title": "Obtaine Avenronite Particule",
-      "item.orderofobsidian.gold_battle_axe": "Gold Battle Axe",
+      "item.orderofobsidian.fiery_boots": "Fiery Boots",
       "item.orderofobsidian.netherackarmor_armor_helmet": "Netherackarmor Helmet",
-      "item.orderofobsidian.plastique": "Plastique",
       "item.orderofobsidian.dynamite_bauherite": "Dynamite",
       "block.orderofobsidian.edruelium_block": "Block of Edruelium",
       "item.orderofobsidian.steel_shovel": "Steel Shovel",
       "block.orderofobsidian.materialbreaker": "Material Breaker",
-      "item.orderofobsidian.bigdynamite_avenronite": "Big Dynamite",
       "advancements.a_back_steel.title": "A Back Steel",
-      "block.orderofobsidian.bauherite_ore": "Bauherite Ore",
-      "block.orderofobsidian.graphite_ore": "Graphite Ore",
-      "item.orderofobsidian.diamond_katana": "Diamond Katana",
       "item.orderofobsidian.gold_spear": "Gold Spear",
       "item.orderofobsidian.black_uruk_dagger": "Uruk Sword",
       "item.orderofobsidian.galvorn_helmet": "Galvorn Helmet",
       "item.orderofobsidian.wood_elven_helmet": "Wood Elven Helmet",
-      "item.orderofobsidian.tiny_rubber": "Tiny Rubber",
       "item.orderofobsidian.goldenchielbloking": "Golden Shield",
       "block.orderofobsidian.infamy_tnt": "Infamy TNT",
       "itemGroup.tabarmor": "Armor",
       "item.orderofobsidian.particleiron": "Particle Iron",
       "advancements.areyousureyouwanttogrowwiththis.descr": "you are really useful",
       "item.orderofobsidian.bauherite_mixed_coal": "Bauherite Mixed Coal",
-      "item.orderofobsidian.goldenchield": "Goldenchield",
       "block.orderofobsidian.avenronite_ore": "Avenronite Ore",
       "biome.orderofobsidian.nylium_forest": "Nylium Forest",
-      "item.spiritforge.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
-      "item.spiritforge.oxys_armor_leggings": "Oxys Leggings",
-      "block.orderofobsidian.burnedtree_button": "Burnedtree Button",
       "item.orderofobsidian.aikigite_armor_helmet": "Aikigite Helmet",
-      "item.orderofobsidian.obsidian_tool_hoe": "Obsidian_tool Hoe",
-      "item.orderofobsidian.obsidian_armor_armor_helmet": "Obsidian_armor Helmet",
       "item.orderofobsidian.iron_katana": "Iron Katana",
-      "item.spiritforge.oxys_armor_chestplate": "Oxys Chestplate",
       "block.orderofobsidian.obsidian_golemhead": "Obsidian Golem head",
       "item.spiritforge.diamond_apple": "Diamond Apple",
-      "item.orderofobsidian.faraday_armor_chestplate": "Faraday Chestplate",
-      "item.orderofobsidian.steel_snaffle": "Steel Snaffle",
-      "enchantment.orderofobsidian.curse_of_backfire": "Curse Of Backfire",
-      "item.orderofobsidian.netheritestove": "netherit Stove",
-      "item.orderofobsidian.edrueliumarmor_boots": "Edruelium Boots",
-      "block.orderofobsidian.oxys_ore": "Oxys Ore",
-      "item.orderofobsidian.particle_mithril": "Particle Mithril",
+      "item.orderofobsidian.bone_leggings": "Bone Leggings",
       "item.orderofobsidian.goldstove": "gold Stove",
-      "item.orderofobsidian.diamond_shard": "Diamond Shard",
-      "advancements.obtaine_bauherite_particule.descr": "Bauherite particule",
-      "item.orderofobsidian.galvorn_ingot": "Galvorn Ingot",
-      "block.orderofobsidian.burnedtree_stairs": "Burnedtree Stairs",
       "item.orderofobsidian.particle_bauherite": "Particle Bauherite",
-      "item.orderofobsidian.ranger_armor_helmet": "Ranger Helmet",
       "item.spiritforge.netherackarmor_armor_helmet": "Netherackarmor Helmet",
-      "block.orderofobsidian.edruelium_ore": "Edruelium Ore",
       "item.orderofobsidian.oxys_axe": "Oxys Axe",
       "item.orderofobsidian.dynamite": "Dynamite",
       "item.orderofobsidian.avenronite_armor_helmet": "Avenronite Helmet",
       "advancements.its_a_breaker.title": "Its A Breaker?",
       "item.orderofobsidian.steel_pickaxe": "Steel Pickaxe",
-      "item.orderofobsidian.diamond_spear": "Diamond Spear",
       "item.orderofobsidian.oxys_armor_helmet": "Oxys Helmet",
       "biome.orderofobsidian.volcan": "Volcan",
-      "item.orderofobsidian.obsidian_snaffle": "obsidian Snaffle",
       "item.orderofobsidian.steel_axe": "Steel Axe",
       "block.orderofobsidian.emeraldbookshelf": "Emerald Book Shelf",
-      "item.orderofobsidian.aikigite_armor_boots": "Aikigite Boots",
       "advancements.obtaine_mitril_particule.descr": "Mitril particule",
-      "block.spiritforge.oxys_ore": "Oxys Ore",
       "item.orderofobsidian.aluminium_ingot": "Aluminium Ingot",
-      "item.orderofobsidian.avenronite_axe": "Avenronite Axe",
-      "item.orderofobsidian.edrueliumarmor_helmet": "Edruelium Helmet",
-      "item.orderofobsidian.oxysapple": "Oxysapple",
       "item.orderofobsidian.faraday_armor_leggings": "Faraday Leggings",
       "item.orderofobsidian.aikigite_shovel": "Aikigite Shovel",
-      "item.orderofobsidian.wood_katana": "Wood Katana",
-      "item.orderofobsidian.aikigite_armor_chestplate": "Aikigite Chestplate",
+      "item.orderofobsidian.bone_boots": "Bone Boots",
       "item.orderofobsidian.oxys_pickaxe": "Oxys Pickaxe",
       "item.orderofobsidian.obsidian_armor_armor_leggings": "Obsidian_armor Leggings",
       "item.orderofobsidian.chips": "Chips",
       "item.orderofobsidian.netherackarmor_armor_chestplate": "Netherackarmor Chestplate",
       "item.orderofobsidian.edruelium_ingot": "Edruelium_ingot",
-      "item.spiritforge.oxys": "Oxys",
       "item.orderofobsidian.ultimatesword": "Ultimatesword",
-      "block.orderofobsidian.nylium_log": "Nylium Log",
       "item.orderofobsidian.dynamite_aikigite": "Dynamite",
       "item.orderofobsidian.steel_armor_chestplate": "Steel Chestplate",
       "block.orderofobsidian.diamondbookshelf": "Diamond Book Shelf",
-      "block.orderofobsidian.forge": "Forge Tier I",
       "itemGroup.tabbloc_k": "Block",
-      "biome.spiritforge.volcan": "Volcan",
-      "item.orderofobsidian.uruk_hoe": "Uruk Hoe",
-      "block.orderofobsidian.nylium_stairs": "Nylium Stairs",
-      "item.orderofobsidian.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.aikigite_sword": "Aikigite Sword",
-      "block.orderofobsidian.avenronite_block": "Block of Avenronite",
       "item.orderofobsidian.uruk_shovel": "Uruk Shovel",
       "item.orderofobsidian.copper_plate": "Copper Plate",
-      "item.orderofobsidian.angmar_armor_leggings": "Angmar Leggings",
-      "item.spiritforge.obsidian_tool_hoe": "Obsidian_tool Hoe",
-      "itemGroup.tabtools": "Tools",
-      "item.orderofobsidian.stone_katana": "Stone Katana",
       "item.orderofobsidian.ironbarre": "Iron Barre",
-      "item.spiritforge.oxys_pickaxe": "Oxys Pickaxe",
       "block.orderofobsidian.burnedtree_planks": "Burnedtree Planks",
-      "item.orderofobsidian.avenronite_armor_boots": "Avenronite Boots",
       "item.orderofobsidian.copper_gear": "Copper Gear",
       "item.orderofobsidian.uruk_battleaxe": "Uruk Battle Axe",
       "item.orderofobsidian.angmar_armor_chestplate": "Angmar Chestplate",
-      "item.orderofobsidian.uruk_pickaxe": "Uruk Pickaxe",
-      "item.orderofobsidian.angma_hammer": "Angmar Hammer",
-      "item.orderofobsidian.ranger_armor_boots": "Ranger Boots",
       "item.orderofobsidian.obsidian_golem_spawn_egg": "Obsidian Golem Spawn Egg",
-      "item.orderofobsidian.avenronite_sword": "Avenronite Sword",
-      "block.orderofobsidian.ironbookshelf": "Iron book shelf",
       "block.orderofobsidian.x_pbush_ore": "XPbush",
-      "item.orderofobsidian.wood_elven_chestplate": "Wood Elven Body",
-      "item.orderofobsidian.rice": "Rice Seed",
       "item.orderofobsidian.uruk_spear": "Uruk Spear",
       "item.spiritforge.netherackarmor_armor_boots": "Netherackarmor Boots",
       "item.orderofobsidian.chickenwing": "Chickenwing",
       "item.orderofobsidian.iron_spear": "Iron Spear",
-      "block.orderofobsidian.nylium_fence_gate": "Nylium Fence Gate",
       "item.spiritforge.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
-      "block.orderofobsidian.burnedtree_fence": "Burnedtree Fence",
       "item.orderofobsidian.wooden_armor_armor_helmet": "Wooden_armor Helmet",
       "item.spiritforge.wooden_armor_armor_boots": "WoodenArmor Boots",
       "block.orderofobsidian.mitril_ore": "Mitril Ore",
@@ -7780,104 +7590,53 @@
       "item.orderofobsidian.melstone": "Melstone",
       "item.orderofobsidian.galvorn_leggings": "Galvorn Leggings",
       "item.orderofobsidian.dynamite_avenronite": "Dynamite",
-      "item.orderofobsidian.netherite_hammer": "Netherite Hammer",
       "item.orderofobsidian.aikigite_armor_leggings": "Aikigite Leggings",
       "item.orderofobsidian.uruck_hammer": "Uruk Hammer",
-      "item.spiritforge.oxys_armor_boots": "Oxys Boots",
-      "biome.orderofobsidian.pikeperchhill": "Pikeperchhill",
       "item.spiritforge.obsidian_tool_axe": "Obsidian_tool Axe",
       "item.orderofobsidian.angmar_armor_helmet": "Angmar Helmet",
-      "item.orderofobsidian.angmar_spear": "Angmar Spear",
-      "item.orderofobsidian.silver_plate": "Silver Plate",
-      "item.orderofobsidian.avenronite_armor_leggings": "Avenronite Leggings",
       "block.orderofobsidian.caveblock": "Caveblock",
-      "itemGroup.tabspirit": "Weapon ",
-      "item.orderofobsidian.faraday_armor_helmet": "Faraday Helmet",
       "item.spiritforge.oxysapple": "Oxysapple",
-      "advancements.obtaine_goldparticule.title": "Obtaine Gold Particule",
-      "item.orderofobsidian.iron_battle_axe": "Iron Battle Axe",
       "item.orderofobsidian.diamond_apple": "Diamond Apple",
       "biome.spiritforge.pikeperchhill": "Pikeperchhill",
-      "entity.orderofobsidian.netheritegolem": "netherite Golem",
-      "item.orderofobsidian.rubber": "Rubber",
-      "item.orderofobsidian.wirecoil_copper": "Wirecoil Copper",
-      "advancements.obtaine_mitril_particule.title": "Obtaine Mitril Particule",
-      "item.orderofobsidian.electronique_circuit": "Electronique Circuit",
-      "item.orderofobsidian.angmar_battle_axe": "Angmar Battle Axe",
       "advancements.obtaine_bauherite_particule.title": "Obtaine Bauherite Particule",
       "item.orderofobsidian.uruk_armor_helmet": "Uruk Helmet",
       "advancements.its_a_breaker.descr": "material breaker",
       "block.orderofobsidian.nylium_planks": "Nylium Planks",
       "item.orderofobsidian.obsidian_tool_pickaxe": "Obsidian_tool Pickaxe",
       "item.orderofobsidian.diamondhammer": "Diamond Hammer",
-      "advancements.obtaine_aikigiteparticule.descr": "Aikigite particule",
-      "block.orderofobsidian.graphite_glass": "Graphite Glass",
-      "block.orderofobsidian.nylium_button": "Nylium Button",
       "item.orderofobsidian.oxys_armor_boots": "Oxys Boots",
+      "item.orderofobsidian.dragonsteel_chestplate": "Dragon Steal Body",
       "item.spiritforge.obsidian_tool_sword": "Obsidian_tool Sword",
       "item.orderofobsidian.angmar_sword": "Angmar Sword",
-      "item.orderofobsidian.x_pberry": "XP berry",
+      "item.orderofobsidian.dragonsteel_boots": "Dragon steal Boots",
       "item.orderofobsidian.oxys_armor_leggings": "Oxys Leggings",
-      "item.orderofobsidian.alluminium_snaffle": "Alluminium Snaffle",
       "item.orderofobsidian.bauherite_axe": "Bauherite Axe",
       "item.orderofobsidian.avenronite_armor_chestplate": "Avenronite Chestplate",
       "block.orderofobsidian.nylium_fence": "Nylium Fence",
-      "item.orderofobsidian.dynamite_oxys": "Dynamite",
-      "item.orderofobsidian.hueersite": "Hueersite",
       "item.orderofobsidian.lead_plate": "Lead Plate",
       "block.orderofobsidian.aikigite_block": "Block of Aikigite",
       "item.orderofobsidian.oxys_hammer": "Oxys Hammer",
-      "item.orderofobsidian.avenronite_mixed_coal": "Avenronite Mixed Coal",
       "item.orderofobsidian.aikigite_mixed_coal": "Aikigite Mixed Coal",
-      "item.orderofobsidian.obsidian_tool_shovel": "Obsidian_tool Shovel",
-      "item.orderofobsidian.netheritegolem_spawn_egg": "netherite Golem Spawn Egg",
-      "item.orderofobsidian.oxys_bow": "Oxys Bow",
       "item.orderofobsidian.obsidian_tool_axe": "Obsidian_tool Axe",
-      "item.orderofobsidian.wooden_armor_armor_boots": "Wooden_armor Boots",
-      "item.orderofobsidian.steel_ingot": "Steel Ingot",
-      "advancements.a_back_steel.descr": "uruk steel",
-      "item.orderofobsidian.obsidian_armor_armor_chestplate": "Obsidian_armor Chestplate",
       "item.orderofobsidian.big_dynamite_aikigite": "Big Dynamite",
       "item.orderofobsidian.fried_egg": "Fried Egg",
       "item.orderofobsidian.mitril_armor_boots": "Mitril Boots",
-      "item.orderofobsidian.stone_battle_axe": "Stone Battle Axe",
-      "block.orderofobsidian.nylium_pressure_plate": "Nylium Pressure Plate",
       "item.orderofobsidian.steel_armor_leggings": "Steel Leggings",
-      "item.orderofobsidian.gold_katana": "Gold Katana",
-      "item.orderofobsidian.steel_armor_helmet": "Steel Helmet",
       "itemGroup.tabitems": "Items",
-      "block.orderofobsidian.rice_stage_3": "Rice Stage",
-      "block.orderofobsidian.rice_stage_2": "Rice Stage",
       "item.orderofobsidian.lead_dust": "Lead Dust",
-      "block.orderofobsidian.rice_stage_1": "Rice Stage",
-      "block.orderofobsidian.rice_stage_0": "Rice Stage",
       "item.orderofobsidian.wood_elven_boots": "Wood Elven Boots",
-      "block.orderofobsidian.rice_stage_7": "Rice Stage",
-      "block.orderofobsidian.rice_stage_6": "Rice Stage",
+      "item.orderofobsidian.blazingsteel": "Blazingsteel",
       "item.orderofobsidian.oxys_spear": "Oxys Spear",
-      "block.orderofobsidian.rice_stage_5": "Rice Stage",
-      "block.orderofobsidian.rice_stage_4": "Rice Stage",
-      "item.orderofobsidian.bauherite_armor_helmet": "Bauherite Helmet",
       "item.orderofobsidian.cooked_rice": "Cooked Rice",
       "block.orderofobsidian.aikigite_ore": "Aikigite Ore",
-      "item.orderofobsidian.uruk_armor_leggings": "Uruk Leggings",
       "item.orderofobsidian.sticksword": "Stick_sword",
       "item.orderofobsidian.ithilien_armor_chestplate": "Ithilien Chestplate",
       "item.spiritforge.oxys_stick": "Oxys Stick",
-      "item.spiritforge.wooden_armor_armor_chestplate": "WoodenArmor Chestplate",
-      "item.orderofobsidian.wood_battle_axe": "Wood Battle Axe",
-      "item.orderofobsidian.ithilien_armor_leggings": "Ithilien Leggings",
-      "item.orderofobsidian.bauheritehammer": "Bauherite Hammer",
       "item.orderofobsidian.aikigite_axe": "Aikigite Axe",
-      "item.orderofobsidian.oxys_sword": "Oxys Sword",
-      "item.orderofobsidian.compacted_x_pberry": "Compacted XP berry",
       "advancements.obtaine_avenronitr_particule.descr": "Avenronite particule",
-      "item.orderofobsidian.ironplate": "Ironplate",
       "item.orderofobsidian.steel_plate": "Steel Plate",
       "item.orderofobsidian.wood_elven_leggings": "Wood Elven Leggings",
-      "block.orderofobsidian.burnedtree_slab": "Burnedtree Slab",
       "item.orderofobsidian.diamond_battle_axe": "Diamond Battle Axe",
-      "item.orderofobsidian.angmar_armor_boots": "Angmar Boots",
       "item.spiritforge.oxys_axe": "Oxys Axe"
     }
   },
@@ -8119,7 +7878,7 @@
   "workspaceSettings": {
     "modid": "orderofobsidian",
     "modName": "OrderofObsidian",
-    "version": "0.3.4",
+    "version": "0.3.45",
     "author": "Klaivert,Metalex",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/order-of-obsidian",
     "license": "Order Of Obsidian",
@@ -8130,10 +7889,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Klaivert,Metalex",
-    "modElementsPackage": "net.mcreator.orderofobsidian",
+    "modElementsPackage": "fr.klaivert.orderofobsidian",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100351219
+  "mcreatorVersion": 202200115515
 }

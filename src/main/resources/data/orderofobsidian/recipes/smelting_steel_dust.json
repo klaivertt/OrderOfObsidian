@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "orderofobsidian:steel_dust"
   },
-  "result": {
-    "item": "orderofobsidian:steel_ingot"
-  }
+  "result": "orderofobsidian:steel_ingot"
 }
